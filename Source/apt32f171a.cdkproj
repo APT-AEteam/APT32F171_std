@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project Name="apt32f171a" Version="1" Language="C">
+  <Description/>
+  <Dependencies Name="Debug"/>
+  <VirtualDirectory Name="arch">
+    <File Name="arch/mem_init.c">
+      <FileOption/>
+    </File>
+    <File Name="arch/crt0.S">
+      <FileOption/>
+    </File>
+    <File Name="arch/apt32f171_iostring.c">
+      <FileOption/>
+    </File>
+  </VirtualDirectory>
+  <VirtualDirectory Name="drivers">
+    <File Name="drivers/apt32f171.c">
+      <FileOption/>
+    </File>
+    <File Name="drivers/apt32f171_ck802.c">
+      <FileOption/>
+    </File>
+  </VirtualDirectory>
+  <VirtualDirectory Name="FWlib">
+    <File Name="FWlib/apt32f171_ept.c">
+      <FileOption/>
+    </File>
+    <File Name="FWlib/apt32f171_gpt.c">
+      <FileOption/>
+    </File>
+    <File Name="FWlib/apt32f171_hwdiv.c">
+      <FileOption/>
+    </File>
+    <File Name="FWlib/apt32f171_bt.c">
+      <FileOption/>
+    </File>
+    <File Name="FWlib/apt32f171_crc.c">
+      <FileOption/>
+    </File>
+    <File Name="FWlib/apt32f171_etcb.c">
+      <FileOption/>
+    </File>
+    <File Name="FWlib/apt32f171_wwdt.c">
+      <FileOption/>
+    </File>
+    <File Name="FWlib/apt32f171_syscon.c">
+      <FileOption/>
+    </File>
+    <File Name="FWlib/apt32f171_usart.c">
+      <FileOption/>
+    </File>
+    <File Name="FWlib/apt32f171_cmp.c">
+      <FileOption/>
+    </File>
+    <File Name="FWlib/apt32f171_coret.c">
+      <FileOption/>
+    </File>
+    <File Name="FWlib/apt32f171_gpio.c">
+      <FileOption/>
+    </File>
+    <File Name="FWlib/apt32f171_oamp.c">
+      <FileOption/>
+    </File>
+    <File Name="FWlib/apt32f171_ifc.c">
+      <FileOption/>
+    </File>
+    <File Name="FWlib/apt32f171_adc.c">
+      <FileOption/>
+    </File>
+    <File Name="FWlib/apt32f171_uart.c">
+      <FileOption/>
+    </File>
+    <File Name="FWlib/apt32f171_epwm.c">
+      <FileOption/>
+    </File>
+    <File Name="FWlib/apt32f171_tc0.c">
+      <FileOption/>
+    </File>
+    <File Name="FWlib/apt32f171_tc1.c">
+      <FileOption/>
+    </File>
+    <File Name="FWlib/apt32f171_tc2.c">
+      <FileOption/>
+    </File>
+  </VirtualDirectory>
+  <VirtualDirectory Name="source">
+    <File Name="main.c">
+      <FileOption/>
+    </File>
+    <File Name="apt32f171_interrupt.c">
+      <FileOption/>
+    </File>
+    <File Name="apt32f171_initial.c">
+      <FileOption/>
+    </File>
+  </VirtualDirectory>
+  <VirtualDirectory Name="inc">
+    <File Name="include/apt32f171.h">
+      <FileOption/>
+    </File>
+    <File Name="include/apt32f171_types_local.h">
+      <FileOption/>
+    </File>
+    <File Name="include/apt32f171_ck802.h">
+      <FileOption/>
+    </File>
+    <File Name="include/apt32f171_ept.h">
+      <FileOption/>
+    </File>
+    <File Name="include/apt32f171_gpt.h">
+      <FileOption/>
+    </File>
+    <File Name="include/apt32f171_hwdiv.h">
+      <FileOption/>
+    </File>
+    <File Name="include/apt32f171_bt.h">
+      <FileOption/>
+    </File>
+    <File Name="include/apt32f171_crc.h">
+      <FileOption/>
+    </File>
+    <File Name="include/apt32f171_etcb.h">
+      <FileOption/>
+    </File>
+    <File Name="include/apt32f171_wwdt.h">
+      <FileOption/>
+    </File>
+    <File Name="include/apt32f171_syscon.h">
+      <FileOption/>
+    </File>
+    <File Name="include/apt32f171_cmp.h">
+      <FileOption/>
+    </File>
+    <File Name="include/apt32f171_coret.h">
+      <FileOption/>
+    </File>
+    <File Name="include/apt32f171_oamp.h">
+      <FileOption/>
+    </File>
+    <File Name="include/apt32f171_usart.h">
+      <FileOption/>
+    </File>
+    <File Name="include/apt32f171_gpio.h">
+      <FileOption/>
+    </File>
+    <File Name="include/apt32f171_ifc.h">
+      <FileOption/>
+    </File>
+    <File Name="include/apt32f171_adc.h">
+      <FileOption/>
+    </File>
+    <File Name="include/apt32f171_uart.h">
+      <FileOption/>
+    </File>
+    <File Name="include/apt32f171_epwm.h">
+      <FileOption/>
+    </File>
+    <File Name="include/apt32f171_tc0.h">
+      <FileOption/>
+    </File>
+    <File Name="include/apt32f171_tc1.h">
+      <FileOption/>
+    </File>
+    <File Name="include/apt32f171_tc2.h">
+      <FileOption/>
+    </File>
+    <File Name="include/apt32f171_iostring.h">
+      <FileOption/>
+    </File>
+  </VirtualDirectory>
+  <Dependencies Name="BuildSet"/>
+  <MonitorProgress>
+    <DebugLaunch>47</DebugLaunch>
+    <FlashOperate>92</FlashOperate>
+  </MonitorProgress>
+  <DebugSessions>
+    <watchExpressions>CONLR:0</watchExpressions>
+    <memoryExpressions>0x40010000;;;</memoryExpressions>
+    <statistics>E0011100;10;32;E0011104;MHZ;</statistics>
+    <peripheralTabs/>
+    <WatchDisplayFormat>0</WatchDisplayFormat>
+    <LocalDisplayFormat>0</LocalDisplayFormat>
+    <debugLayout>layout2|name=Project View;caption=Project View;state=31459324;dir=4;layer=1;row=0;pos=0;prop=68571;bestw=456;besth=277;minw=10;minh=5;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Debugger;caption=Debugger;state=14682108;dir=3;layer=1;row=0;pos=0;prop=92874;bestw=341;besth=315;minw=10;minh=5;maxw=-1;maxh=-1;floatx=60;floaty=707;floatw=418;floath=340|name=Frame Info;caption=Frame Info;state=14698492;dir=2;layer=2;row=0;pos=0;prop=100000;bestw=400;besth=300;minw=10;minh=5;maxw=-1;maxh=-1;floatx=1793;floaty=193;floatw=400;floath=250|name=Peripherals;caption=Peripherals;state=31459326;dir=3;layer=1;row=0;pos=1;prop=100000;bestw=11;besth=43;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Serial Pane;caption=Serial Pane;state=14682110;dir=3;layer=1;row=0;pos=1;prop=100000;bestw=400;besth=300;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Editor;caption=;state=256;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=20;besth=20;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Output View;caption=Output View;state=31459326;dir=3;layer=1;row=0;pos=1;prop=100000;bestw=958;besth=244;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Disassemble;caption=Disassemble;state=2099198;dir=3;layer=1;row=0;pos=2;prop=158373;bestw=200;besth=200;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=1746;floaty=812;floatw=216;floath=236|name=Outline;caption=Outline;state=2099198;dir=2;layer=0;row=2;pos=0;prop=100000;bestw=200;besth=200;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=1823;floaty=285;floatw=216;floath=236|dock_size(4,1,0)=273|dock_size(5,0,0)=20|dock_size(3,1,0)=182|dock_size(2,2,0)=367|</debugLayout>
+    <memoryTabColSizeExpressions>100:8;100:8;100:8;100:8;</memoryTabColSizeExpressions>
+  </DebugSessions>
+  <VendorInfo>
+    <VendorName>NULL</VendorName>
+  </VendorInfo>
+  <VirtualDirectory Name="doc">
+    <File Name="doc/APT32F171_Lib_Fix_Log.md"/>
+  </VirtualDirectory>
+  <BuildConfigs>
+    <BuildConfig Name="BuildSet">
+      <Target>
+        <ROMBank Selected="1">
+          <ROM1>
+            <InUse>no</InUse>
+            <Start/>
+            <Size/>
+          </ROM1>
+          <ROM2>
+            <InUse>no</InUse>
+            <Start/>
+            <Size/>
+          </ROM2>
+          <ROM3>
+            <InUse>no</InUse>
+            <Start/>
+            <Size/>
+          </ROM3>
+          <ROM4>
+            <InUse>no</InUse>
+            <Start/>
+            <Size/>
+          </ROM4>
+          <ROM5>
+            <InUse>no</InUse>
+            <Start/>
+            <Size/>
+          </ROM5>
+        </ROMBank>
+        <RAMBank>
+          <RAM1>
+            <InUse>no</InUse>
+            <Start/>
+            <Size/>
+            <Init>yes</Init>
+          </RAM1>
+          <RAM2>
+            <InUse>no</InUse>
+            <Start/>
+            <Size/>
+            <Init>yes</Init>
+          </RAM2>
+          <RAM3>
+            <InUse>no</InUse>
+            <Start/>
+            <Size/>
+            <Init>yes</Init>
+          </RAM3>
+          <RAM4>
+            <InUse>no</InUse>
+            <Start/>
+            <Size/>
+            <Init>yes</Init>
+          </RAM4>
+          <RAM5>
+            <InUse>no</InUse>
+            <Start/>
+            <Size/>
+            <Init>yes</Init>
+          </RAM5>
+        </RAMBank>
+        <CPU>ck801</CPU>
+        <UseMiniLib>yes</UseMiniLib>
+        <Endian>little</Endian>
+        <UseHardFloat>no</UseHardFloat>
+        <UseEnhancedLRW>no</UseEnhancedLRW>
+        <UseContinueBuild>no</UseContinueBuild>
+        <UseSemiHost>no</UseSemiHost>
+      </Target>
+      <Output>
+        <OutputName>$(ProjectName)</OutputName>
+        <Type>Executable</Type>
+        <CreateHexFile>yes</CreateHexFile>
+        <CreateBinFile>no</CreateBinFile>
+        <Preprocessor>no</Preprocessor>
+        <Disassmeble>yes</Disassmeble>
+        <CallGraph>no</CallGraph>
+        <Map>no</Map>
+      </Output>
+      <User>
+        <BeforeCompile>
+          <RunUserProg>no</RunUserProg>
+          <UserProgName/>
+        </BeforeCompile>
+        <BeforeMake>
+          <RunUserProg>no</RunUserProg>
+          <UserProgName/>
+        </BeforeMake>
+        <AfterMake>
+          <RunUserProg>no</RunUserProg>
+          <UserProgName/>
+        </AfterMake>
+        <Tools/>
+      </User>
+      <Compiler>
+        <Define/>
+        <Undefine/>
+        <Optim>Optimize size (-Os)</Optim>
+        <DebugLevel>Maximum (-g3)</DebugLevel>
+        <IncludePath>$(ProjectPath);$(ProjectPath)/include</IncludePath>
+        <OtherFlags>-mistack</OtherFlags>
+        <Verbose>no</Verbose>
+        <Ansi>no</Ansi>
+        <Syntax>no</Syntax>
+        <Pedantic>no</Pedantic>
+        <PedanticErr>no</PedanticErr>
+        <InhibitWarn>no</InhibitWarn>
+        <AllWarn>yes</AllWarn>
+        <WarnErr>no</WarnErr>
+        <OneElfS>no</OneElfS>
+        <OneElfSPerData>no</OneElfSPerData>
+        <Fstrict>no</Fstrict>
+      </Compiler>
+      <Asm>
+        <Define/>
+        <Undefine/>
+        <IncludePath>$(ProjectPath);$(ProjectPath)/include</IncludePath>
+        <OtherFlags/>
+        <DebugLevel>gdwarf2</DebugLevel>
+      </Asm>
+      <Linker>
+        <Garbage>yes</Garbage>
+        <Garbage2>yes</Garbage2>
+        <LDFile>$(ProjectPath)/ckcpu.ld</LDFile>
+        <LibName>libm</LibName>
+        <LibPath>$(ProjectPath)../lib802le/Obj/</LibPath>
+        <OtherFlags/>
+        <AutoLDFile>no</AutoLDFile>
+        <LinkType/>
+        <IncludeAllLibs>no</IncludeAllLibs>
+      </Linker>
+      <Debug>
+        <LoadApplicationAtStartup>yes</LoadApplicationAtStartup>
+        <Connector>ICE</Connector>
+        <StopAt>yes</StopAt>
+        <StopAtText>main</StopAtText>
+        <InitFile>$(ProjectPath)/gdb.init</InitFile>
+        <AfterLoadFile/>
+        <AutoRun>yes</AutoRun>
+        <ResetType>Soft Reset</ResetType>
+        <SoftResetVal>abcd1234</SoftResetVal>
+        <ResetAfterLoad>no</ResetAfterLoad>
+        <AfterResetFile/>
+        <Dumpcore>no</Dumpcore>
+        <DumpcoreText>$(ProjectPath)/$(ProjectName).cdkcore</DumpcoreText>
+        <ConfigICE>
+          <IP>localhost</IP>
+          <PORT>1025</PORT>
+          <CPUNumber>0</CPUNumber>
+          <Clock>1000</Clock>
+          <Delay>10</Delay>
+          <NResetDelay>100</NResetDelay>
+          <WaitReset>50</WaitReset>
+          <DDC>yes</DDC>
+          <TRST>no</TRST>
+          <DebugPrint>no</DebugPrint>
+          <Connect>Normal</Connect>
+          <ResetType>Soft Reset</ResetType>
+          <SoftResetVal>abcd1234</SoftResetVal>
+          <RTOSType>Bare Metal</RTOSType>
+          <DownloadToFlash>yes</DownloadToFlash>
+          <ResetAfterConnect>yes</ResetAfterConnect>
+          <GDBName/>
+          <GDBServerType>Local</GDBServerType>
+          <OtherFlags/>
+          <ICEEnablePCSampling>no</ICEEnablePCSampling>
+          <ICESamplingFreq>1000</ICESamplingFreq>
+          <RemoteICEEnablePCSampling>no</RemoteICEEnablePCSampling>
+          <RemoteICESamplingPort>1026</RemoteICESamplingPort>
+          <Version>latest</Version>
+          <SupportRemoteICEAsyncDebug>no</SupportRemoteICEAsyncDebug>
+        </ConfigICE>
+        <ConfigSIM>
+          <SIMTarget/>
+          <OtherFlags/>
+          <NoGraphic>yes</NoGraphic>
+          <Log>no</Log>
+          <SimTrace>no</SimTrace>
+          <Version>latest</Version>
+        </ConfigSIM>
+        <ConfigOpenOCD>
+          <OpenOCDExecutablePath/>
+          <OpenOCDTelnetPortEnable>no</OpenOCDTelnetPortEnable>
+          <OpenOCDTelnetPort>4444</OpenOCDTelnetPort>
+          <OpenOCDTclPortEnable>no</OpenOCDTclPortEnable>
+          <OpenOCDTclPort>6666</OpenOCDTclPort>
+          <OpenOCDConfigOptions/>
+          <OpenOCDTimeout>5000</OpenOCDTimeout>
+          <PluginID>openocd-sifive</PluginID>
+          <Version>latest</Version>
+        </ConfigOpenOCD>
+      </Debug>
+      <Flash>
+        <InitFile/>
+        <Erase>Erase Full Chip</Erase>
+        <Algorithms Path="">APT32F171_FLASHDOWN.elf</Algorithms>
+        <Program>yes</Program>
+        <Verify>yes</Verify>
+        <ResetAndRun>yes</ResetAndRun>
+        <ResetType>Soft Reset</ResetType>
+        <SoftResetVal>abcd1234</SoftResetVal>
+        <External>no</External>
+        <Command/>
+        <Arguments/>
+      </Flash>
+    </BuildConfig>
+  </BuildConfigs>
+</Project>
