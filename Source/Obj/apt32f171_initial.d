@@ -6,8 +6,7 @@ Obj/apt32f171_initial.o: apt32f171_initial.c include/apt32f171.h \
  include/apt32f171_gpio.h include/apt32f171_gpt.h include/apt32f171_bt.h \
  include/apt32f171_etcb.h include/apt32f171_usart.h \
  include/apt32f171_uart.h include/apt32f171_wwdt.h \
- include/apt32f171_ept.h include/apt32f171_epwm.h include/apt32f171_tc0.h \
- include/apt32f171_tc1.h include/apt32f171_tc2.h
+ include/apt32f171_ept.h
 
 include/apt32f171.h:
 
@@ -46,11 +45,3 @@ include/apt32f171_uart.h:
 include/apt32f171_wwdt.h:
 
 include/apt32f171_ept.h:
-
-include/apt32f171_epwm.h:
-
-include/apt32f171_tc0.h:
-
-include/apt32f171_tc1.h:
-
-include/apt32f171_tc2.h:

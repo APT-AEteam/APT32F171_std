@@ -1,17 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Session Name="D:\OneDrive\Works\Work Storage\Project\MCU\APT32F171\std\APT32F171_StdPeriph_Lib_V1_00\Workspace\APT32F171_StdPeriph_Lib\APT32F171_StdPeriph_Lib.cdkws">
-  <int Value="0" Name="m_selectedTab"/>
+  <int Value="1" Name="m_selectedTab"/>
   <wxString Value="D:\OneDrive\Works\Work Storage\Project\MCU\APT32F171\std\APT32F171_StdPeriph_Lib_V1_00\Workspace\APT32F171_StdPeriph_Lib\APT32F171_StdPeriph_Lib.cdkws" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
       <wxString Value="D:\OneDrive\Works\Work Storage\Project\MCU\APT32F171\std\APT32F171_StdPeriph_Lib_V1_00\Source\main.c" Name="FileName"/>
       <wxString Value="apt32f171a" Name="ProjectName"/>
       <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="5" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks">
-        <wxString Value="4:3"/>
-        <wxString Value="5:3"/>
-      </wxArrayString>
+      <int Value="32" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="D:\OneDrive\Works\Work Storage\Project\MCU\APT32F171\std\APT32F171_StdPeriph_Lib_V1_00\Source\apt32f171_initial.c" Name="FileName"/>
+      <wxString Value="apt32f171a" Name="ProjectName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="35" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="D:\OneDrive\Works\Work Storage\Project\MCU\APT32F171\std\APT32F171_StdPeriph_Lib_V1_00\Source\FWlib\apt32f171_syscon.c" Name="FileName"/>
+      <wxString Value="apt32f171a" Name="ProjectName"/>
+      <int Value="397" Name="FirstVisibleLine"/>
+      <int Value="398" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="D:\OneDrive\Works\Work Storage\Project\MCU\APT32F171\std\APT32F171_StdPeriph_Lib_V1_00\Source\apt32f171_interrupt.c" Name="FileName"/>
+      <wxString Value="apt32f171a" Name="ProjectName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="26" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="D:\OneDrive\Works\Work Storage\Project\MCU\APT32F171\std\APT32F171_StdPeriph_Lib_V1_00\Source\arch\crt0.S" Name="FileName"/>
+      <wxString Value="apt32f171a" Name="ProjectName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="64" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="D:\OneDrive\Works\Work Storage\Project\MCU\APT32F171\std\APT32F171_StdPeriph_Lib_V1_00\Source\doc\APT32F171_Lib_Fix_Log.md" Name="FileName"/>
+      <wxString Value="apt32f171a" Name="ProjectName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
   </TabInfoArray>

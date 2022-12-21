@@ -10,7 +10,7 @@ ProjectPath            :=./
 IntermediateDirectory  :=Obj
 OutDir                 :=$(IntermediateDirectory)
 User                   :=clutc
-Date                   :=16/12/2022
+Date                   :=21/12/2022
 CDKPath                :=F:/C-Sky/CDK
 ToolchainPath          :=F:/C-Sky/CDKRepo/Toolchain/CKV2ElfMinilib/V3.10.29/R/
 LinkerName             :=csky-elfabiv2-gcc
@@ -72,7 +72,7 @@ ASFLAGS  := -mcpu=ck801    -Wa,--gdwarf2
 
 Objects0=$(IntermediateDirectory)/arch_mem_init$(ObjectSuffix) $(IntermediateDirectory)/arch_crt0$(ObjectSuffix) $(IntermediateDirectory)/arch_apt32f171_iostring$(ObjectSuffix) $(IntermediateDirectory)/drivers_apt32f171$(ObjectSuffix) $(IntermediateDirectory)/drivers_apt32f171_ck802$(ObjectSuffix) $(IntermediateDirectory)/FWlib_apt32f171_ept$(ObjectSuffix) $(IntermediateDirectory)/FWlib_apt32f171_gpt$(ObjectSuffix) $(IntermediateDirectory)/FWlib_apt32f171_hwdiv$(ObjectSuffix) $(IntermediateDirectory)/FWlib_apt32f171_bt$(ObjectSuffix) $(IntermediateDirectory)/FWlib_apt32f171_crc$(ObjectSuffix) \
 	$(IntermediateDirectory)/FWlib_apt32f171_etcb$(ObjectSuffix) $(IntermediateDirectory)/FWlib_apt32f171_wwdt$(ObjectSuffix) $(IntermediateDirectory)/FWlib_apt32f171_syscon$(ObjectSuffix) $(IntermediateDirectory)/FWlib_apt32f171_usart$(ObjectSuffix) $(IntermediateDirectory)/FWlib_apt32f171_cmp$(ObjectSuffix) $(IntermediateDirectory)/FWlib_apt32f171_coret$(ObjectSuffix) $(IntermediateDirectory)/FWlib_apt32f171_gpio$(ObjectSuffix) $(IntermediateDirectory)/FWlib_apt32f171_oamp$(ObjectSuffix) $(IntermediateDirectory)/FWlib_apt32f171_ifc$(ObjectSuffix) $(IntermediateDirectory)/FWlib_apt32f171_adc$(ObjectSuffix) \
-	$(IntermediateDirectory)/FWlib_apt32f171_uart$(ObjectSuffix) $(IntermediateDirectory)/FWlib_apt32f171_epwm$(ObjectSuffix) $(IntermediateDirectory)/FWlib_apt32f171_tc0$(ObjectSuffix) $(IntermediateDirectory)/FWlib_apt32f171_tc1$(ObjectSuffix) $(IntermediateDirectory)/FWlib_apt32f171_tc2$(ObjectSuffix) $(IntermediateDirectory)/main$(ObjectSuffix) $(IntermediateDirectory)/apt32f171_interrupt$(ObjectSuffix) $(IntermediateDirectory)/apt32f171_initial$(ObjectSuffix) $(IntermediateDirectory)/__rt_entry$(ObjectSuffix) 
+	$(IntermediateDirectory)/FWlib_apt32f171_uart$(ObjectSuffix) $(IntermediateDirectory)/main$(ObjectSuffix) $(IntermediateDirectory)/apt32f171_interrupt$(ObjectSuffix) $(IntermediateDirectory)/apt32f171_initial$(ObjectSuffix) $(IntermediateDirectory)/__rt_entry$(ObjectSuffix) 
 
 
 
@@ -204,26 +204,6 @@ $(IntermediateDirectory)/FWlib_apt32f171_uart$(ObjectSuffix): FWlib/apt32f171_ua
 	$(CC) $(SourceSwitch) FWlib/apt32f171_uart.c $(CFLAGS) -MMD -MP -MT$(IntermediateDirectory)/FWlib_apt32f171_uart$(ObjectSuffix) -MF$(IntermediateDirectory)/FWlib_apt32f171_uart$(DependSuffix) $(ObjectSwitch)$(IntermediateDirectory)/FWlib_apt32f171_uart$(ObjectSuffix) $(IncludeCPath) $(IncludePackagePath)
 Lst/FWlib_apt32f171_uart$(PreprocessSuffix): FWlib/apt32f171_uart.c
 	$(CC) $(CFLAGS)$(IncludeCPath) $(PreprocessOnlySwitch) $(OutputSwitch) Lst/FWlib_apt32f171_uart$(PreprocessSuffix) FWlib/apt32f171_uart.c
-
-$(IntermediateDirectory)/FWlib_apt32f171_epwm$(ObjectSuffix): FWlib/apt32f171_epwm.c  
-	$(CC) $(SourceSwitch) FWlib/apt32f171_epwm.c $(CFLAGS) -MMD -MP -MT$(IntermediateDirectory)/FWlib_apt32f171_epwm$(ObjectSuffix) -MF$(IntermediateDirectory)/FWlib_apt32f171_epwm$(DependSuffix) $(ObjectSwitch)$(IntermediateDirectory)/FWlib_apt32f171_epwm$(ObjectSuffix) $(IncludeCPath) $(IncludePackagePath)
-Lst/FWlib_apt32f171_epwm$(PreprocessSuffix): FWlib/apt32f171_epwm.c
-	$(CC) $(CFLAGS)$(IncludeCPath) $(PreprocessOnlySwitch) $(OutputSwitch) Lst/FWlib_apt32f171_epwm$(PreprocessSuffix) FWlib/apt32f171_epwm.c
-
-$(IntermediateDirectory)/FWlib_apt32f171_tc0$(ObjectSuffix): FWlib/apt32f171_tc0.c  
-	$(CC) $(SourceSwitch) FWlib/apt32f171_tc0.c $(CFLAGS) -MMD -MP -MT$(IntermediateDirectory)/FWlib_apt32f171_tc0$(ObjectSuffix) -MF$(IntermediateDirectory)/FWlib_apt32f171_tc0$(DependSuffix) $(ObjectSwitch)$(IntermediateDirectory)/FWlib_apt32f171_tc0$(ObjectSuffix) $(IncludeCPath) $(IncludePackagePath)
-Lst/FWlib_apt32f171_tc0$(PreprocessSuffix): FWlib/apt32f171_tc0.c
-	$(CC) $(CFLAGS)$(IncludeCPath) $(PreprocessOnlySwitch) $(OutputSwitch) Lst/FWlib_apt32f171_tc0$(PreprocessSuffix) FWlib/apt32f171_tc0.c
-
-$(IntermediateDirectory)/FWlib_apt32f171_tc1$(ObjectSuffix): FWlib/apt32f171_tc1.c  
-	$(CC) $(SourceSwitch) FWlib/apt32f171_tc1.c $(CFLAGS) -MMD -MP -MT$(IntermediateDirectory)/FWlib_apt32f171_tc1$(ObjectSuffix) -MF$(IntermediateDirectory)/FWlib_apt32f171_tc1$(DependSuffix) $(ObjectSwitch)$(IntermediateDirectory)/FWlib_apt32f171_tc1$(ObjectSuffix) $(IncludeCPath) $(IncludePackagePath)
-Lst/FWlib_apt32f171_tc1$(PreprocessSuffix): FWlib/apt32f171_tc1.c
-	$(CC) $(CFLAGS)$(IncludeCPath) $(PreprocessOnlySwitch) $(OutputSwitch) Lst/FWlib_apt32f171_tc1$(PreprocessSuffix) FWlib/apt32f171_tc1.c
-
-$(IntermediateDirectory)/FWlib_apt32f171_tc2$(ObjectSuffix): FWlib/apt32f171_tc2.c  
-	$(CC) $(SourceSwitch) FWlib/apt32f171_tc2.c $(CFLAGS) -MMD -MP -MT$(IntermediateDirectory)/FWlib_apt32f171_tc2$(ObjectSuffix) -MF$(IntermediateDirectory)/FWlib_apt32f171_tc2$(DependSuffix) $(ObjectSwitch)$(IntermediateDirectory)/FWlib_apt32f171_tc2$(ObjectSuffix) $(IncludeCPath) $(IncludePackagePath)
-Lst/FWlib_apt32f171_tc2$(PreprocessSuffix): FWlib/apt32f171_tc2.c
-	$(CC) $(CFLAGS)$(IncludeCPath) $(PreprocessOnlySwitch) $(OutputSwitch) Lst/FWlib_apt32f171_tc2$(PreprocessSuffix) FWlib/apt32f171_tc2.c
 
 $(IntermediateDirectory)/main$(ObjectSuffix): main.c  
 	$(CC) $(SourceSwitch) main.c $(CFLAGS) -MMD -MP -MT$(IntermediateDirectory)/main$(ObjectSuffix) -MF$(IntermediateDirectory)/main$(DependSuffix) $(ObjectSwitch)$(IntermediateDirectory)/main$(ObjectSuffix) $(IncludeCPath) $(IncludePackagePath)

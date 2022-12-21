@@ -23,7 +23,6 @@
 #include "apt32f171_coret.h"
 #include "apt32f171_crc.h"
 #include "apt32f171_ept.h"
-#include "apt32f171_epwm.h"
 #include "apt32f171_etcb.h"
 #include "apt32f171_gpio.h"
 #include "apt32f171_gpt.h"
@@ -32,9 +31,6 @@
 #include "apt32f171_gpt.h"
 #include "apt32f171_oamp.h"
 #include "apt32f171_syscon.h"
-#include "apt32f171_tc0.h"
-#include "apt32f171_tc1.h"
-#include "apt32f171_tc2.h"
 #include "apt32f171_types_local.h"
 #include "apt32f171_usart.h"
 #include "apt32f171_uart.h"
@@ -59,7 +55,11 @@ int main(void)
 		SYSCON_IWDCNT_Reload();                 	//清狗
 		//...
 		//my_printf("hello apt32f171!\r\n");
+		GPIO_Set_Value(GPIOA0,0,1);
+		delay_nms(500);
+		PCLK_goto_deepsleep_mode();
+		GPIO_Set_Value(GPIOA0,0,0);
+		delay_nms(10000);   			//唤醒≈800ms后PA0.0输出高
     }
 }
-
 /******************* (C) COPYRIGHT 2018 APT Chip *****END OF FILE****/

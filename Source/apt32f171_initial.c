@@ -34,10 +34,6 @@
 #include "apt32f171_ept.h"
 #include "apt32f171_uart.h"
 #include "apt32f171_oamp.h"
-#include "apt32f171_epwm.h"
-#include "apt32f171_tc0.h"
-#include "apt32f171_tc1.h"
-#include "apt32f171_tc2.h"
 /* define --------------------------------------------------------------------*/
 
 /* externs--------------------------------------------------------------------*/
@@ -74,23 +70,23 @@ void delay_nus(unsigned int t)
 void GPIO_CONFIG(void)
 {
 	GPIO_DeInit();
-	GPIO_Init(GPIOA1,1,0);
-	GPIO_Init(GPIOA0,4,0);
+	GPIO_Init(GPIOA0,0,0);
+/*	GPIO_Init(GPIOA0,4,0);
 	GPIO_Init(GPIOA0,2,0);
-	GPIO_Init(GPIOA0,11,1);   //输入
+	GPIO_Init(GPIOA0,11,1);   //输入*/
 
 	//GPIO_Write_High(GPIOA0,10);				
 	//GPIO_Write_Low(GPIOA0,10);				
 //------------  EXI FUNTION  --------------------------------/
 //EXI0_INT= EXI0/EXI16,EXI1_INT= EXI1/EXI17, EXI2_INT=EXI2~EXI3/EXI18/EXI19, EXI3_INT=EXI4~EXI9, EXI4_INT=EXI10~EXI15    
-	/*GPIO_IntGroup_Set(PA0,0,Selete_EXI_PIN0);					//PA0.0 set as EXI0  
-	GPIOA0_EXI_Init(EXI0);                                   	//PA0.0 set as input
-	EXTI_trigger_CMD(ENABLE,EXI_PIN0,_EXIFT);                   //ENABLE falling edge
+	GPIO_IntGroup_Set(PA0,5,Selete_EXI_PIN5);					//PA0.0 set as EXI0  
+	GPIOA0_EXI_Init(EXI5);                                   	//PA0.0 set as input
+	EXTI_trigger_CMD(ENABLE,EXI_PIN5,_EXIFT);                   //ENABLE falling edge
 	//EXTI_trigger_CMD(ENABLE,EXI_PIN0,_EXIRT);                 //ENABLE rising edge
-    EXTI_interrupt_CMD(ENABLE,EXI_PIN0);                	   	//enable EXI
-    GPIO_EXTI_interrupt(GPIOA0,0b0000000000000001);				//enable GPIOA0.0 as EXI
+    EXTI_interrupt_CMD(ENABLE,EXI_PIN5);                	   	//enable EXI
+    GPIO_EXTI_interrupt(GPIOA0,0b0000000000100000);				//enable GPIOA0.0 as EXI
 	
-	GPIO_IntGroup_Set(PB0,0,Selete_EXI_PIN18);					//PB0.0 set as EXI18 
+	/*GPIO_IntGroup_Set(PB0,0,Selete_EXI_PIN18);					//PB0.0 set as EXI18 
 	GPIO_Init(GPIOB0,0,1);										//PB0.0 set as input                                	
 	EXTI_trigger_CMD(ENABLE,EXI_PIN18,_EXIFT);                  //ENABLE falling edge
 	//EXTI_trigger_CMD(ENABLE,EXI_PIN0,_EXIRT);                 //ENABLE rising edge
@@ -103,13 +99,13 @@ void GPIO_CONFIG(void)
 	//EXI0_Int_Enable();                                         //EXI0 / EXI16 INT Vector
     //EXI1_Int_Enable();                                       //EXI1 / EXI17 INT Vector
     //EXI2_Int_Enable();                                         //EXI2~EXI3 / EXI18~19 INT Vector
-    //EXI3_Int_Enable();                                       //EXI4~EXI8 INT Vector
+    EXI3_Int_Enable();                                       //EXI4~EXI8 INT Vector
     //EXI4_Int_Enable();                                       //EXI9~EXI15 INT Vector
 	
     //EXI0_WakeUp_Enable();										//EXI0 interrupt wake up enable
 	//EXI1_WakeUp_Enable();										//EXI1 interrupt wake up enable
 	//EXI2_WakeUp_Enable();										//EXI2~EXI3 interrupt wake up enable
-	//EXI3_WakeUp_Enable();										//EXI4~EXI8 interrupt wake up enable
+	EXI3_WakeUp_Enable();										//EXI4~EXI8 interrupt wake up enable
 	//EXI4_WakeUp_Enable();										//EXI9~EXI15 interrupt wake up enable
 }
 
@@ -445,267 +441,6 @@ void OPAMP_CONFIG(void)
 	OPA_Config_Prg(OPA0_NUM,PGAEN_ENABLE,Op_ExtPinConnect_DIS,BUFFER_DISABLE,4);			//OPA0,使能内部增益控制,负向输入口与PIN脚连通禁止,正向输入口为OPA0P,增益x5,微调增益0
 	OPA_Config_Prg(OPA1_NUM,PGAEN_ENABLE,Op_ExtPinConnect_DIS,BUFFER_DISABLE,1);			//OPA1,使能内部增益控制,负向输入口与PIN脚连通禁止,正向输入口为OPA1P,增益x10,微调增益0	
 }
-
-/*************************************************************/
-//GPT Functions
-//EntryParameter:NONE
-//ReturnValue:NONE
-/*************************************************************/ 
-void TC0_CONFIG(void)
-{
-	TC0_RESET_VALUE(TC0_0);												//TC0_0 所有寄存器复位赋值
-	TC0_RESET_VALUE(TC0_1);												//TC0_1 所有寄存器复位赋值
-	TC0_RESET_VALUE(TC0_2);												//TC0_2 所有寄存器复位赋值
-	
-	//TC0_IO_Init(TC0_IO_CLK0,0);												//CLK0 初始化
-	//TC0_IO_Init(TC0_IO_CLK1,0);												//CLK1 初始化
-	//TC0_IO_Init(TC0_IO_CLK2,0);												//CLK2 初始化	
-	//TC0_IO_Init(TC0_IO_ETR,0);												//TC0x 外部触发 初始化					
-	//TC0_IO_Init(TC0_IO_IO0A,0);												//IO0A 初始化
-	//TC0_IO_Init(TC0_IO_IO0B,0);												//IO0B 初始化		
-	//TC0_IO_Init(TC0_IO_IO1A,0);												//IO1A 初始化
-	//TC0_IO_Init(TC0_IO_IO1B,0);												//IO1B 初始化
-	//TC0_IO_Init(TC0_IO_IO2A,0);												//IO2A 初始化
-	//TC0_IO_Init(TC0_IO_IO2B,0);												//IO2B 初始化	
-	
-	TC0CHX_Clk_CMD(TC0_0,ENABLE);											//TC0_0 时钟使能	
-	TC0CHX_Clk_CMD(TC0_1,ENABLE);											//TC0_1 时钟使能
-	TC0CHX_Clk_CMD(TC0_2,ENABLE);											//TC0_2 时钟使能
-	
-	TC0CHX_SoftwareReset(TC0_0);											//TC0_0 软件复位
-	TC0CHX_SoftwareReset(TC0_1);											//TC0_1 软件复位
-	TC0CHX_SoftwareReset(TC0_2);											//TC0_2 软件复位
-	
-	//-------------外部时钟XC0~XC2源输入口选择-------------------
-	//TC0CHX_XCn_Configure(XC0_Configure,XC0_Selecte_TCLK0);					//XC0 选择 TCLK0
-	//TC0CHX_XCn_Configure(XC1_Configure,XC1_Selecte_TCLK1);					//XC1 选择 TCLK1
-	//TC0CHX_XCn_Configure(XC2_Configure,XC2_Selecte_TCLK2);					//XC2 选择 TCLK2
-	
-	TC0CHX_CLK_Configure(TC0_0,TC0_Mclk_Selecte_Pclk,TC0Clks_MCLK_DIV1,TC0CHX_CLKI_0,TC0CHX_BURST_SET_None);	//TC0_0 选择 PCLK 作为 MCLK;CLKS=MCLK/1;CLK上升沿计数;关闭群脉冲模式
-	TC0CHX_CLK_Configure(TC0_1,TC0_Mclk_Selecte_Pclk,TC0Clks_MCLK_DIV1,TC0CHX_CLKI_0,TC0CHX_BURST_SET_None);	//TC0_1 选择 PCLK 作为 MCLK;CLKS=MCLK/1;CLK上升沿计数;关闭群脉冲模式
-	TC0CHX_CLK_Configure(TC0_2,TC0_Mclk_Selecte_Pclk,TC0Clks_MCLK_DIV1,TC0CHX_CLKI_0,TC0CHX_BURST_SET_None);	//TC0_2 选择 PCLK 作为 MCLK;CLKS=MCLK/1;CLK上升沿计数;关闭群脉冲模式
-	
-	//------------RC匹配定时模块-------------------------
-	TC0CHX_COUNT_Configure(TC0_0,CPC_Reload_ENABLE);						//TC0_0 RC匹配重新计数
-	TC0CHX_COUNT_Configure(TC0_1,CPC_Reload_ENABLE);						//TC0_1 RC匹配重新计数
-	TC0CHX_COUNT_Configure(TC0_2,CPC_Reload_ENABLE);						//TC0_2 RC匹配重新计数
-	
-	//-----------RA&RB PWM|定时 模块--------------------
-	//TC0CHX_PWM_Configure(TC0_0,CPC_TC2OP_DISABLE,CPC_DisCountClk_DISABLE,CPC_Reload_ENABLE,EEVT_Reload_DISABLE,EEVT_XC0_NONE,
-	//					TIOA_SWTRG_OutPut_High,TIOA_EEVT_OutPut_NoChange,TIOA_CPA_OutPut_Low,TIOA_CPC_OutPut_High,TIOB_SWTRG_OutPut_High,TIOB_EEVT_OutPut_NoChange,TIOB_CPB_OutPut_Low,TIOB_CPC_OutPut_High);
-	//TC0_0RC匹配停止计数禁止;RC匹配停止计数时钟禁止;RC匹配重新计数禁止;外部事件触发重新计数禁止;外部事件XC0选择禁止;软件触发TIOA为高电平;外部事件触发TIOA不改变;RA匹配TIOA输出低电平;RC匹配TIOA输出高;软件触发TIOB为高电平;外部事件触发TIOB不改变;RB匹配TIOB输出低电平;RC匹配TIOB输出高
-	//TC0CHX_PWM_Configure(TC0_1,CPC_TC2OP_DISABLE,CPC_DisCountClk_DISABLE,CPC_Reload_ENABLE,EEVT_Reload_DISABLE,EEVT_XC0_NONE,
-	//					TIOA_SWTRG_OutPut_High,TIOA_EEVT_OutPut_NoChange,TIOA_CPA_OutPut_Low,TIOA_CPC_OutPut_High,TIOB_SWTRG_OutPut_High,TIOB_EEVT_OutPut_NoChange,TIOB_CPB_OutPut_Low,TIOB_CPC_OutPut_High);
-	//TC0_1,RC匹配停止计数禁止;RC匹配停止计数时钟禁止;RC匹配重新计数禁止;外部事件触发重新计数禁止;外部事件XC0选择禁止;软件触发TIOA为高电平;外部事件触发TIOA不改变;RA匹配TIOA输出低电平;RC匹配TIOA输出高;软件触发TIOB为高电平;外部事件触发TIOB不改变;RB匹配TIOB输出低电平;RC匹配TIOB输出高
-	//TC0CHX_PWM_Configure(TC0_2,CPC_TC2OP_DISABLE,CPC_DisCountClk_DISABLE,CPC_Reload_ENABLE,EEVT_Reload_DISABLE,EEVT_XC0_NONE,
-	//					TIOA_SWTRG_OutPut_High,TIOA_EEVT_OutPut_NoChange,TIOA_CPA_OutPut_Low,TIOA_CPC_OutPut_High,TIOB_SWTRG_OutPut_High,TIOB_EEVT_OutPut_NoChange,TIOB_CPB_OutPut_Low,TIOB_CPC_OutPut_High);
-	//TC0_2,RC匹配停止计数禁止;RC匹配停止计数时钟禁止;RC匹配重新计数禁止;外部事件触发重新计数禁止;外部事件XC0选择禁止;软件触发TIOA为高电平;外部事件间触发TIOA不改变;RA匹配TIOA输出低电平;RC匹配TIOA输出高;软件触发TIOB为高电平;外部事件触发TIOB不改变;RB匹配TIOB输出低电平;RC匹配TIOB输出高
-	TC0CHX_Set_RA_RB_RC(TC0_0,0,0,1000);				//GPT0 RA=0,RB=0,RC=1000
-	TC0CHX_Set_RA_RB_RC(TC0_1,0,0,1000);				//GPT1 RA=0,RB=0,RC=1000
-	TC0CHX_Set_RA_RB_RC(TC0_2,0,0,1000);				//GPT2 RA=0,RB=0,RC=1000
-	
-	//--------------RA RB 匹配捕捉 模块------------------
-	//TC0CHX_Capture_Configure(TC0_0,LDB_TC2OP_ENABLE,LDB_DisCountClk_DISABLE,ABETRG_TIOA_Rise,CPC_Reload_DISABLE,LDRA_TIOA_Fall,LDRB_TIOA_Rise);
-	//TC0_0;RB载入停止计数使能;RB载入停止时钟禁止;TIOA上升沿触发重启计数;RC匹配重新计数禁止;RA在TIOA下降沿载入;RB在TIOA上升沿载入
-	//TC0CHX_Capture_Configure(TC0_1,LDB_TC2OP_ENABLE,LDB_DisCountClk_DISABLE,ABETRG_TIOA_Rise,CPC_Reload_DISABLE,LDRA_TIOA_Fall,LDRB_TIOA_Rise);
-	//TC0_1;RB载入停止计数使能;RB载入停止时钟禁止;TIOA上升沿触发重启计数;RC匹配重新计数禁止;RA在TIOA下降沿载入;RB在TIOA上升沿载入
-	//TC0CHX_Capture_Configure(TC0_2,LDB_TC2OP_ENABLE,LDB_DisCountClk_DISABLE,ABETRG_TIOA_Rise,CPC_Reload_DISABLE,LDRA_TIOA_Fall,LDRB_TIOA_Rise);
-	//TC0_2;RB载入停止计数使能;RB载入停止时钟禁止;TIOA上升沿触发重启计数;RC匹配重新计数禁止;RA在TIOA下降沿载入;RB在TIOA上升沿载入
-	
-	//TC0CHX_ConfigInterrupt_CMD(TC0_0,TC0CHX_INT_COVFS,ENABLE);			//使能 TC0_0计数溢出中断
-	//TC0CHX_ConfigInterrupt_CMD(TC0_0,TC0CHX_INT_LOVRS,ENABLE);			//使能 TC0_0载入溢出中断
-	//TC0CHX_ConfigInterrupt_CMD(TC0_0,TC0CHX_INT_CPAS,ENABLE);			//使能 TC0_0比较寄存器A匹配中断
-	//TC0CHX_ConfigInterrupt_CMD(TC0_0,TC0CHX_INT_CPBS,ENABLE);			//使能 TC0_0比较寄存器B匹配中断
-	TC0CHX_ConfigInterrupt_CMD(TC0_0,TC0CHX_INT_CPCS,ENABLE);			//使能 TC0_0比较寄存器C匹配中断
-	//TC0CHX_ConfigInterrupt_CMD(TC0_0,TC0CHX_INT_LDRAS,ENABLE);			//使能 TC0_0载入寄存器A中断
-	//TC0CHX_ConfigInterrupt_CMD(TC0_0,TC0CHX_INT_LDRBS,ENABLE);			//使能 TC0_0载入寄存器B中断
-	//TC0CHX_ConfigInterrupt_CMD(TC0_0,TC0CHX_INT_ETRGS,ENABLE);			//使能 TC0_0外部触发中断
-	
-	//TC0CHX_ConfigInterrupt_CMD(TC0_1,TC0CHX_INT_COVFS,ENABLE);			//使能 TC0_1计数溢出中断
-	//TC0CHX_ConfigInterrupt_CMD(TC0_1,TC0CHX_INT_LOVRS,ENABLE);			//使能 TC0_1载入溢出中断
-	//TC0CHX_ConfigInterrupt_CMD(TC0_1,TC0CHX_INT_CPAS,ENABLE);			//使能 TC0_1比较寄存器A匹配中断
-	//TC0CHX_ConfigInterrupt_CMD(TC0_1,TC0CHX_INT_CPBS,ENABLE);			//使能 TC0_1比较寄存器B匹配中断
-	TC0CHX_ConfigInterrupt_CMD(TC0_1,TC0CHX_INT_CPCS,ENABLE);			//使能 TC0_1比较寄存器C匹配中断
-	//TC0CHX_ConfigInterrupt_CMD(TC0_1,TC0CHX_INT_LDRAS,ENABLE);			//使能 TC0_1载入寄存器A中断
-	//TC0CHX_ConfigInterrupt_CMD(TC0_1,TC0CHX_INT_LDRBS,ENABLE);			//使能 TC0_1载入寄存器B中断
-	//TC0CHX_ConfigInterrupt_CMD(TC0_1,TC0CHX_INT_ETRGS,ENABLE);			//使能 TC0_1外部触发中断	
-	
-	//TC0CHX_ConfigInterrupt_CMD(TC0_2,TC0CHX_INT_COVFS,ENABLE);			//使能 TC0_2计数溢出中断	
-	//TC0CHX_ConfigInterrupt_CMD(TC0_2,TC0CHX_INT_LOVRS,ENABLE);			//使能 TC0_2载入溢出中断
-	//TC0CHX_ConfigInterrupt_CMD(TC0_2,TC0CHX_INT_CPAS,ENABLE);			//使能 TC0_2比较寄存器A匹配中断
-	//TC0CHX_ConfigInterrupt_CMD(TC0_2,TC0CHX_INT_CPBS,ENABLE);			//使能 TC0_2比较寄存器B匹配中断
-	TC0CHX_ConfigInterrupt_CMD(TC0_2,TC0CHX_INT_CPCS,ENABLE);			//使能 TC0_2比较寄存器C匹配中断
-	//TC0CHX_ConfigInterrupt_CMD(TC0_2,TC0CHX_INT_LDRAS,ENABLE);			//使能 TC0_2载入寄存器A中断
-	//TC0CHX_ConfigInterrupt_CMD(TC0_2,TC0CHX_INT_LDRBS,ENABLE);			//使能 TC0_2载入寄存器B中断
-	//TC0CHX_ConfigInterrupt_CMD(TC0_2,TC0CHX_INT_ETRGS,ENABLE);			//使能 TC0_2外部触发中断
-	
-	//---------------------GPT 开启-----------------------
-	TC0CHX_CountClk_CMD(TC0_0,ENABLE);									//使能 TC0_0 计数时钟
-	TC0CHX_CountClk_CMD(TC0_1,ENABLE);									//使能 TC0_1 计数时钟
-	TC0CHX_CountClk_CMD(TC0_2,ENABLE);									//使能 TC0_2 计数时钟
-	//All_GPT_SWTRG();													//TC0_0、TC0_1、TC0_2同时触发
-	TC0CHX_SWTRG(TC0_0);												//软件触发TC00  
-	TC0CHX_SWTRG(TC0_1);												//软件触发TC01  
-	TC0CHX_SWTRG(TC0_2);												//软件触发TC02  
-	
-	TC0CH0_Int_Enable();												//使能 TC00 中断向量
-	TC0CH1_Int_Enable();												//使能 TC01 中断向量
-	TC0CH2_Int_Enable();												//使能 TC02 中断向量
-	
-}
-/*************************************************************/
-//TC1 Functions
-//EntryParameter:NONE
-//ReturnValue:NONE
-/*************************************************************/ 
-void TC1_CONFIG(void)
-{
-    TC1_RESET_VALUE();                                                        	//TC1 所有寄存器复位赋值
-	TC1_SoftwareReset();														//TC1 软件复位
-    //TC1_IO_Init(TC1_IO_TXOUT , 0 );                                           //PWM输出初始化
-    TC1_Configure(TC1_FIN_PCLK , 1 , 9 , Counter_Size_32BIT  , 100000 , 0);  		//TCCLK=sysclock/2^1/10，TC1_Clk-->1us
-    TC1_ControlSet_Configure(TC1_ControlSet_REPEAT,ENABLE);                  	//使能循环重复模式
-    //TC1_ControlSet_Configure(TC1_ControlSet_PWMEN,ENABLE);                   		//使能PWM模式
-    //TC1_ControlSet_Configure(TC1_ControlSet_IDLETC2,ENABLE);                  		//Idle状态下输出高电平
-	//TC1_ControlSet_Configure(TC1_ControlSet_OUTTC2,ENABLE);                   		//计数开始时输出高电平
-    //TC1_ControlSet_Configure(TC1_ControlSet_CAPT_F,ENABLE);                		//下降沿捕捉使能
-    //TC1_ControlSet_Configure(TC1_ControlSet_CAPT_TCAP,ENABLE);            		//捕捉输入使能
-    //TC1_ConfigInterrupt_CMD(TC1_STARTI, ENABLE);                         			//Start中断使能
-    //TC1_ConfigInterrupt_CMD(TC1_STOPI, ENABLE);                          			//Stop中断使能
-    TC1_ConfigInterrupt_CMD(TC1_PSTARTI, ENABLE);                          		//周期tart中断使能
-    //TC1_ConfigInterrupt_CMD(TC1_PENDI, ENABLE);                          			//周期Stop中断使能
-    //TC1_ConfigInterrupt_CMD(TC1_MATI, ENABLE);                           			//脉冲匹配中断使能
-    //TC1_ConfigInterrupt_CMD(TC1_OVFI, ENABLE);                           			//溢出中断使能
-    //TC1_ConfigInterrupt_CMD(TC1_CAPTI, ENABLE);                          			//捕捉中断使能
-    TC1_Start();                                                              	//Start TC1
-    TC1_Int_Enable();                                                           //使能TC1中断向量	
-}
-/*************************************************************/
-//TC2 Functions
-//EntryParameter:NONE
-//ReturnValue:NONE
-/*************************************************************/ 
-void TC2_CONFIG(void)
-{
-	TC2_RESET_VALUE();														//TC2 所有寄存器复位赋值
-	TC2_Softreset();															//TC2 软件复位
-	
-	//TC2_IO_Init(TC2_IO_CAP0,0);												//TC2 CAP0 初始化
-	//TC2_IO_Init(TC2_IO_CAP1,0);												//TC2 CAP1 初始化
-	
-	TC2_Clk_CMD(ENABLE);														//TC2 时钟使能
-	
-	//TC2_Channel0_CMD(ENABLE);													//TC2 通道0使能
-	//TC2_Channel1_CMD(ENABLE);													//TC2 通道1使能
-	
-	TC2_Configure(TC2_Count_mode_Continue,TC2_Count_STOPTYPE_StopConmand,TC2_CM0_Mode_Capture,TC2_CM1_Mode_Match,19,0);
-	//TC2 Configure;设置为连续计数模式;单次计数模式下,选择立即停止模式;通道0作为捕捉模式;通道1作为匹配模式;TC2_timeclk=pclk/(19+1)/2^0=1us
-	//TC2_Channel0_Capture_LoadMode_set(TC2_C0SR_CaptureFall);					//TC2 Channel0下降沿捕捉
-	TC2_CNR_CC0_CC1_Load(10000,0,0);												//TC2 CNTR=50,CC0R=0,CC1R=0
-	
-	
-	//TC2_MINT_CMD(TC2_STARTI,ENABLE);											//TC2 STARTI中断使能
-	//TC2_MINT_CMD(TC2_STOPI,ENABLE);											//TC2 STOP中断使能
-	TC2_MINT_CMD(TC2_PENDI,ENABLE);											//TC2 周期结束中断使能	
-	//TC2_CINT_CMD(TC2_CC0RI,ENABLE);											//TC2 通道0上升沿中断使能
-	//TC2_CINT_CMD(TC2_CC0FI,ENABLE);											//TC2 通道0下降沿中断使能
-	//TC2_CINT_CMD(TC2_CC1RI,ENABLE);											//TC2 通道1上升沿中断使能
-	//TC2_CINT_CMD(TC2_CC1FI,ENABLE);											//TC2 通道1下降沿中断使能
-	//TC2_CINT_CMD(TC2_Match0,ENABLE);												//TC2 通道0匹配中断
-	//TC2_CINT_CMD(TC2_Match1,ENABLE);												//TC2 通道1匹配中断
-	
-	TC2_Start();																//Start TC2
-	TC2_Int_Enable();															//ENABLE TC2 中断向量
-}
-
-/*************************************************************/
-//EPWM Init
-//EntryParameter:NONE
-//ReturnValue:NONE
-/*************************************************************/  
-/**********************BLOCK VIEW*****************************************/
-/*                   - PX ---                           -- PWM_X        */
-/*      PWM Engine --         ---PWM output Control ---                 */
-/*                   -PY ---                            --PWM_Y         */
-/*************************************************************************/ 
-void EPWM_CONFIG(void)
-{
-	EPWM_RESET_VALUE();									//EPWM 所有寄存器复位赋值
-	EPWM_software_reset();								//EPWM 软件复位	
-	
-	//EPWM_IO_Init(PWM_X0,0);							//PWM_X0 初始化
-	EPWM_IO_Init(PWM_Y0,1);							//PWM_Y0 初始化
-	//EPWM_IO_Init(PWM_X1,0);							//PWM_X1 初始化
-	//EPWM_IO_Init(PWM_Y1,0);							//PWM_Y1 初始化
-	//EPWM_IO_Init(PWM_X2,0);							//PWM_X2 初始化
-	//EPWM_IO_Init(PWM_Y2,0);							//PWM_Y2 初始化
-	//EPWM_IO_Init(PWM_EP0,0);							//PWM_EP0 初始化
-	//EPWM_IO_Init(PWM_EP1,0);							//PWM_EP1 初始化
-	//EPWM_IO_Init(PWM_EP2,0);							//PWM_EP2 初始化
-	//EPWM_IO_Init(PWM_EP3,0);							//PWM_EP3 初始化
-	//EPWM_IO_Init(PWM_EP4,0);							//PWM_EP4 初始化
-		
-	EPWM_CONTER_Configure(EPWM_ContMode_decrease,EPWM_Conter_three,EMP_Overflow_Mode_Continue,0,1);		//递减计数, EPMW_CLK=PCLK/(2^DIVN)/(DINM+1)=20M/2/(9+1)=1M=1US, 单次触发
-	
-	//EPWM_PX_PY_Configure(EPWM_P0X,EPWM_StartStopEvent_OutHigh,EPWM_PendEvent_OutHigh,EPWM_CentralEvent_NoChange,EPWM_EqCMPAEvent_OutLow,EPWM_EqCMPBEvent_NoChange,1000,500,0);	//P0X CNTR=1000,CMPAR=500,CMPBR=0
-	EPWM_PX_PY_Configure(EPWM_P0Y,EPWM_StartStopEvent_OutLow,EPWM_PendEvent_OutLow,EPWM_CentralEvent_NoChange,EPWM_EqCMPAEvent_OutHigh,EPWM_EqCMPBEvent_NoChange,1000,500,0);		//P0Y CNTR=1000,CMPAR=500,CMPBR=0
-	//EPWM_PX_PY_Configure(EPWM_P1X,EPWM_StartStopEvent_OutHigh,EPWM_PendEvent_OutHigh,EPWM_CentralEvent_NoChange,EPWM_EqCMPAEvent_OutLow,EPWM_EqCMPBEvent_NoChange,1000,500,0);	//P1X CNTR=1000,CMPAR=500,CMPBR=0
-	//EPWM_PX_PY_Configure(EPWM_P1Y,EPWM_StartStopEvent_OutLow,EPWM_PendEvent_OutLow,EPWM_CentralEvent_NoChange,EPWM_EqCMPAEvent_OutHigh,EPWM_EqCMPBEvent_NoChange,1000,500,0);		//P1Y CNTR=1000,CMPAR=500,CMPBR=0
-	//EPWM_PX_PY_Configure(EPWM_P2X,EPWM_StartStopEvent_OutHigh,EPWM_PendEvent_OutHigh,EPWM_CentralEvent_NoChange,EPWM_EqCMPAEvent_OutLow,EPWM_EqCMPBEvent_NoChange,1000,500,0);	//P2X CNTR=1000,CMPAR=500,CMPBR=0
-	//EPWM_PX_PY_Configure(EPWM_P2Y,EPWM_StartStopEvent_OutLow,EPWM_PendEvent_OutLow,EPWM_CentralEvent_NoChange,EPWM_EqCMPAEvent_OutHigh,EPWM_EqCMPBEvent_NoChange,1000,500,0);		//P2Y CNTR=1000,CMPAR=500,CMPBR=0
-	
-	EPWM_OUTPUT_Configure(EPWM_PWM_X0OrPWM_Y0,EPWM_OUTSE_PXPYOutputDirect,EPWM_X_POLARITY_NoChange,EPWM_Y_POLARITY_NoChange,EPWM_SRCSEL_PX,0x10,0x10);		//PWM_X PWM_Y 直接输出模式,输出端电平保持不变,RED=EPMW_CLK*16=16us,FED=EPMW_CLK*16=16us								
-	EPWM_OUTPUT_Configure(EPWM_PWM_X1OrPWM_Y1,EPWM_OUTSE_PXPYOutputDirect,EPWM_X_POLARITY_NoChange,EPWM_Y_POLARITY_NoChange,EPWM_SRCSEL_PX,0x10,0x10);		//PWM_X PWM_Y 直接输出模式,输出端电平保持不变,RED=EPMW_CLK*16=16us,FED=EPMW_CLK*16=16us						
-	EPWM_OUTPUT_Configure(EPWM_PWM_X2OrPWM_Y2,EPWM_OUTSE_PXPYOutputDirect,EPWM_X_POLARITY_NoChange,EPWM_Y_POLARITY_NoChange,EPWM_SRCSEL_PX,0x10,0x10);		//PWM_X PWM_Y 直接输出模式,输出端电平保持不变,RED=EPMW_CLK*16=16us,FED=EPMW_CLK*16=16us	
-					
-	//EPWM_LKCR_TRG_Configure(CMP0LKM,0x02);														//选择CMP0为外部触发源，正常启动模式
-	//EPWM_LKCR_TRG_Configure(CMP1LKM,0x07);														//选择CMP1为外部触发源，硬锁止
-	//EPWM_LKCR_TRG_Configure(CMP4LKM,0x03);														//选择CMP4为外部触发源，硬锁止(软锁止)
-	
-	//EPWM_TrgivtAndTrgtdl_Set_Configure(14,200);													//延时时间：（14+1）*4*1us=64us    间隔时间：200*4*1us=800us
-	
-	//EPWM_SoftHardWare_OUTPUT_Configure(EPWM_LK_output_HLP0XS,EPWM_LK_output_LOW);					//PWM_X0产生硬锁止时，输出低
-	//EPWM_SoftHardWare_OUTPUT_Configure(EPWM_LK_output_SLP0YS,EPWM_LK_output_LOW);					//PWM_Y0产生软锁止时，输出低
-	//EPWM_SoftHardWare_OUTPUT_Configure(EPWM_LK_output_SLP1XS,EPWM_LK_output_LOW);					//PWM_X1产生软锁止时，输出低
-	//EPWM_SoftHardWare_OUTPUT_Configure(EPWM_LK_output_SLP1YS,EPWM_LK_output_LOW);					//PWM_Y1产生软锁止时，输出低
-	//EPWM_SoftHardWare_OUTPUT_Configure(EPWM_LK_output_SLP2XS,EPWM_LK_output_LOW);					//PWM_X2产生软锁止时，输出低
-	//EPWM_SoftHardWare_OUTPUT_Configure(EPWM_LK_output_SLP2YS,EPWM_LK_output_LOW);					//PWM_Y2产生软锁止时，输出低
-
-	//EPWM_ConfigInterrupt_CMD(EPWM_START0,ENABLE);				//使能 Count0开启中断
-	//EPWM_ConfigInterrupt_CMD(EPWM_STOP0,ENABLE);				//使能 Count0停止中断
-	//EPWM_ConfigInterrupt_CMD(EPWM_PEND0,ENABLE);				//使能 Count0周期结束中断
-	//EPWM_ConfigInterrupt_CMD(EPWM_CENTER0,ENABLE);			//使能 Count0递增递减或递减递增中间计数中断
-	//EPWM_ConfigInterrupt_CMD(EPWM0_CMPAUM,ENABLE);			//使能 Count0递增CMPA匹配中断
-	//EPWM_ConfigInterrupt_CMD(EPWM0_CMPADM,ENABLE);			//使能 Count0递减CMPA匹配中断
-	//EPWM_ConfigInterrupt_CMD(EPWM0_CMPBUM,ENABLE);			//使能 Count0递增CMPB匹配中断
-	//EPWM_ConfigInterrupt_CMD(EPWM0_CMPBDM,ENABLE);			//使能 Count0递减CMPB配置中断
-	
-	//EPWM_ConfigInterrupt_CMD(EPWM_START1,ENABLE);				//使能 Count1开启中断
-	//EPWM_ConfigInterrupt_CMD(EPWM_STOP1,ENABLE);				//使能 Count1停止中断
-	//EPWM_ConfigInterrupt_CMD(EPWM_PEND1,ENABLE);				//使能 Count1周期结束中断
-	//EPWM_ConfigInterrupt_CMD(EPWM_CENTER1,ENABLE);			//使能 Count1递增递减或递减递增中间计数中断
-	//EPWM_ConfigInterrupt_CMD(EPWM1_CMPAUM,ENABLE);			//使能 Count1递增CMPA匹配中断
-	//EPWM_ConfigInterrupt_CMD(EPWM1_CMPADM,ENABLE);			//使能 Count1递减CMPA匹配中断
-	//EPWM_ConfigInterrupt_CMD(EPWM1_CMPBUM,ENABLE);			//使能 Count1递增CMPB匹配中断	
-	//EPWM_ConfigInterrupt_CMD(EPWM1_CMPBDM,ENABLE);			//使能 Count1递减CMPB配置中断
-	
-	//EPWM_ConfigInterrupt_CMD(EPWM_START2,ENABLE);				//使能 Count2开启中断
-	//EPWM_ConfigInterrupt_CMD(EPWM_STOP2,ENABLE);				//使能 Count2停止中断
-	//EPWM_ConfigInterrupt_CMD(EPWM_PEND2,ENABLE);				//使能 Count2周期结束中断	
-	//EPWM_ConfigInterrupt_CMD(EPWM_CENTER2,ENABLE);			//使能 Count2递增递减或递减递增中间计数中断
-	//EPWM_ConfigInterrupt_CMD(EPWM2_CMPAUM,ENABLE);			//使能 Count2递增CMPA匹配中断
-	//EPWM_ConfigInterrupt_CMD(EPWM2_CMPADM,ENABLE);			//使能 Count2递减CMPA匹配中断
-	//EPWM_ConfigInterrupt_CMD(EPWM2_CMPBUM,ENABLE);			//使能 Count2递增CMPB匹配中断
-	//EPWM_ConfigInterrupt_CMD(EPWM2_CMPBDM,ENABLE);			//使能 Count2递减CMPB配置中断
-	
-	//EPWM_AllConter_START();					//Count0~Count3 同时开启
-	EPWM_Conter0_START();						//Count0 开启	
-	//EPWM_Conter1_START();						//Count1 开启
-	//EPWM_Conter2_START();						//Count2 开启
-	
-	//EPWM_Int_Enable();						//使能 EPWM 中断向量
-}
-
 /*************************************************************/
 //syscon Functions
 //EntryParameter:NONE
@@ -773,9 +508,6 @@ void APT32F171_init(void)
     //GPT_CONFIG();												    //GPT initial    
 	//EPT_CONFIG();                                                 //EPT initial 
 	//BT_CONFIG();													//BT initial
-	//TC0_CONFIG();                                                 //TC0 initial
-	//TC1_CONFIG();                                                 //TC1 initial
-	//TC2_CONFIG();                                                 //TC2 initial
 	//ETCB_CONFIG();                                                //ETCB initial	
 	//ADC12_CONFIG();                                               //ADC initial 
 	//CORET_CONFIG();                                               //CORET initial
@@ -783,7 +515,6 @@ void APT32F171_init(void)
 	//USART_CONFIG();                                               //USART initial
 	//CMP_CONFIG();                                                 //CMP initial
 	//OPAMP_CONFIG();                                               //OPA initial
-	//EPWM_CONFIG();                                                //EPWM initial
 	//SYSCON_INT_Priority();
 }		
 

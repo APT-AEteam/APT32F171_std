@@ -6,14 +6,14 @@ Disassembly of section .text:
 
 00000000 <vector_table>:
        0:	00000104 	.long	0x00000104
-       4:	00005cce 	.long	0x00005cce
-       8:	00005ca6 	.long	0x00005ca6
+       4:	00004326 	.long	0x00004326
+       8:	000042fe 	.long	0x000042fe
        c:	0000017c 	.long	0x0000017c
-      10:	00005cba 	.long	0x00005cba
-      14:	00005c6a 	.long	0x00005c6a
+      10:	00004312 	.long	0x00004312
+      14:	000042c2 	.long	0x000042c2
       18:	0000017c 	.long	0x0000017c
-      1c:	00005c92 	.long	0x00005c92
-      20:	00005c7e 	.long	0x00005c7e
+      1c:	000042ea 	.long	0x000042ea
+      20:	000042d6 	.long	0x000042d6
       24:	0000017c 	.long	0x0000017c
       28:	0000017c 	.long	0x0000017c
       2c:	0000017c 	.long	0x0000017c
@@ -21,10 +21,10 @@ Disassembly of section .text:
       34:	0000017c 	.long	0x0000017c
       38:	0000017c 	.long	0x0000017c
       3c:	0000017c 	.long	0x0000017c
-      40:	00005c56 	.long	0x00005c56
-      44:	00005c42 	.long	0x00005c42
-      48:	00005c2e 	.long	0x00005c2e
-      4c:	00005c1a 	.long	0x00005c1a
+      40:	000042ae 	.long	0x000042ae
+      44:	0000429a 	.long	0x0000429a
+      48:	00004286 	.long	0x00004286
+      4c:	00004242 	.long	0x00004242
       50:	0000017c 	.long	0x0000017c
       54:	0000017c 	.long	0x0000017c
       58:	0000017c 	.long	0x0000017c
@@ -36,39 +36,39 @@ Disassembly of section .text:
       70:	0000017c 	.long	0x0000017c
       74:	0000017c 	.long	0x0000017c
       78:	0000017c 	.long	0x0000017c
-      7c:	00005c10 	.long	0x00005c10
-      80:	00005128 	.long	0x00005128
-      84:	0000513c 	.long	0x0000513c
-      88:	00005220 	.long	0x00005220
-      8c:	00005282 	.long	0x00005282
-      90:	000059fe 	.long	0x000059fe
-      94:	00005a6a 	.long	0x00005a6a
-      98:	00005ad6 	.long	0x00005ad6
-      9c:	000052d8 	.long	0x000052d8
-      a0:	00005302 	.long	0x00005302
-      a4:	00005874 	.long	0x00005874
-      a8:	00005b42 	.long	0x00005b42
-      ac:	00005ba2 	.long	0x00005ba2
-      b0:	0000541e 	.long	0x0000541e
-      b4:	00005448 	.long	0x00005448
-      b8:	00005488 	.long	0x00005488
-      bc:	00005642 	.long	0x00005642
-      c0:	000056bc 	.long	0x000056bc
-      c4:	000056f4 	.long	0x000056f4
-      c8:	0000572c 	.long	0x0000572c
-      cc:	00005764 	.long	0x00005764
-      d0:	0000585c 	.long	0x0000585c
-      d4:	0000532c 	.long	0x0000532c
-      d8:	0000536e 	.long	0x0000536e
-      dc:	000053c4 	.long	0x000053c4
-      e0:	0000579c 	.long	0x0000579c
+      7c:	00004238 	.long	0x00004238
+      80:	00003aec 	.long	0x00003aec
+      84:	00003b00 	.long	0x00003b00
+      88:	00003be4 	.long	0x00003be4
+      8c:	00003c46 	.long	0x00003c46
+      90:	0000017c 	.long	0x0000017c
+      94:	0000017c 	.long	0x0000017c
+      98:	0000017c 	.long	0x0000017c
+      9c:	00003c9c 	.long	0x00003c9c
+      a0:	00003cc6 	.long	0x00003cc6
+      a4:	0000017c 	.long	0x0000017c
+      a8:	0000017c 	.long	0x0000017c
+      ac:	0000017c 	.long	0x0000017c
+      b0:	00003de2 	.long	0x00003de2
+      b4:	00003e0c 	.long	0x00003e0c
+      b8:	00003e4c 	.long	0x00003e4c
+      bc:	00004006 	.long	0x00004006
+      c0:	00004080 	.long	0x00004080
+      c4:	000040b8 	.long	0x000040b8
+      c8:	000040f0 	.long	0x000040f0
+      cc:	00004128 	.long	0x00004128
+      d0:	00004220 	.long	0x00004220
+      d4:	00003cf0 	.long	0x00003cf0
+      d8:	00003d32 	.long	0x00003d32
+      dc:	00003d88 	.long	0x00003d88
+      e0:	00004160 	.long	0x00004160
       e4:	0000017c 	.long	0x0000017c
       e8:	0000017c 	.long	0x0000017c
-      ec:	00005844 	.long	0x00005844
-      f0:	000057e4 	.long	0x000057e4
-      f4:	000057fc 	.long	0x000057fc
-      f8:	00005814 	.long	0x00005814
-      fc:	0000582c 	.long	0x0000582c
+      ec:	00004208 	.long	0x00004208
+      f0:	000041a8 	.long	0x000041a8
+      f4:	000041c0 	.long	0x000041c0
+      f8:	000041d8 	.long	0x000041d8
+      fc:	000041f0 	.long	0x000041f0
      100:	00000006 	.long	0x00000006
 
 00000104 <__start>:
@@ -163,7 +163,7 @@ __to_main:
   lrw r15, __exit
      146:	ea8f0013 	lrw      	r15, 0x158	// 190 <DummyHandler+0x14>
   lrw r0,main
-     14a:	1013      	lrw      	r0, 0x65f4	// 194 <DummyHandler+0x18>
+     14a:	1013      	lrw      	r0, 0x4a14	// 194 <DummyHandler+0x18>
   jmp r0
      14c:	7800      	jmp      	r0
   mov r0, r0
@@ -236,7 +236,7 @@ DummyHandler:
      188:	200017f8 	.long	0x200017f8
      18c:	000001ac 	.long	0x000001ac
      190:	00000158 	.long	0x00000158
-     194:	000065f4 	.long	0x000065f4
+     194:	00004a14 	.long	0x00004a14
      198:	20003000 	.long	0x20003000
      19c:	0000ffff 	.long	0x0000ffff
      1a0:	00000fff 	.long	0x00000fff
@@ -258,20 +258,20 @@ void __main( void )
      */
   if( _start_data != _end_rodata ) {
      1ae:	1009      	lrw      	r0, 0x20000000	// 1d0 <__main+0x24>
-     1b0:	1029      	lrw      	r1, 0x6608	// 1d4 <__main+0x28>
+     1b0:	1029      	lrw      	r1, 0x4a58	// 1d4 <__main+0x28>
      1b2:	6442      	cmpne      	r0, r1
      1b4:	0c05      	bf      	0x1be	// 1be <__main+0x12>
 //    __memcpy_fast( dst, src, (_end_data - _start_data));
     memcpy( dst, src, (_end_data - _start_data));
      1b6:	1049      	lrw      	r2, 0x2000007c	// 1d8 <__main+0x2c>
      1b8:	6082      	subu      	r2, r0
-     1ba:	e00031eb 	bsr      	0x6590	// 6590 <__memcpy_fast>
+     1ba:	e00023fb 	bsr      	0x49b0	// 49b0 <__memcpy_fast>
   }
 
   /* zero the bss 
    */
   if( _ebss - _bss_start ) {
-     1be:	1048      	lrw      	r2, 0x20000108	// 1dc <__main+0x30>
+     1be:	1048      	lrw      	r2, 0x20000104	// 1dc <__main+0x30>
      1c0:	1008      	lrw      	r0, 0x2000007c	// 1e0 <__main+0x34>
      1c2:	640a      	cmpne      	r2, r0
      1c4:	0c05      	bf      	0x1ce	// 1ce <__main+0x22>
@@ -279,14 +279,14 @@ void __main( void )
     memset( _bss_start, 0x00, ( _ebss - _bss_start ));
      1c6:	6082      	subu      	r2, r0
      1c8:	3100      	movi      	r1, 0
-     1ca:	e000319f 	bsr      	0x6508	// 6508 <__memset_fast>
+     1ca:	e00023af 	bsr      	0x4928	// 4928 <__memset_fast>
   }
 }
      1ce:	1490      	pop      	r15
      1d0:	20000000 	.long	0x20000000
-     1d4:	00006608 	.long	0x00006608
+     1d4:	00004a58 	.long	0x00004a58
      1d8:	2000007c 	.long	0x2000007c
-     1dc:	20000108 	.long	0x20000108
+     1dc:	20000104 	.long	0x20000104
      1e0:	2000007c 	.long	0x2000007c
 
 000001e4 <CK801_int_Init>:
@@ -6911,7 +6911,7 @@ void USART_Baudrate_Cal(unsigned int rate,unsigned int PCLK_Val,USART_CLKS_TypeD
 	{
 		BRGR_Data=PCLK_Data/16/rate;				//ASYNC异步
     2076:	6c53      	mov      	r1, r4
-    2078:	e0002210 	bsr      	0x6498	// 6498 <__udiv32>
+    2078:	e0001420 	bsr      	0x48b8	// 48b8 <__udiv32>
 	}
 	USART0->BRGR = BRGR_Data<<4;
     207c:	116d      	lrw      	r3, 0x2000002c	// 2130 <USARTReceive+0x36>
@@ -9408,7 +9408,7 @@ void GPIO_Init(CSP_GPIO_T *GPIOx,uint8_t PinNum,GPIO_Dir_TypeDef Dir)
     2c04:	5903      	subi      	r0, r1, 1
     2c06:	3806      	cmphsi      	r0, 7
     2c08:	0827      	bt      	0x2c56	// 2c56 <GPIO_Init+0x5a>
-    2c0a:	e0001c75 	bsr      	0x64f4	// 64f4 <___gnu_csky_case_uqi>
+    2c0a:	e0000e85 	bsr      	0x4914	// 4914 <___gnu_csky_case_uqi>
     2c0e:	1004      	.short	0x1004
     2c10:	1d1a1613 	.long	0x1d1a1613
     2c14:	0021      	.short	0x0021
@@ -9490,7 +9490,7 @@ void GPIO_Init(CSP_GPIO_T *GPIOx,uint8_t PinNum,GPIO_Dir_TypeDef Dir)
     2c68:	3906      	cmphsi      	r1, 7
     2c6a:	6c07      	mov      	r0, r1
     2c6c:	0827      	bt      	0x2cba	// 2cba <GPIO_Init+0xbe>
-    2c6e:	e0001c43 	bsr      	0x64f4	// 64f4 <___gnu_csky_case_uqi>
+    2c6e:	e0000e53 	bsr      	0x4914	// 4914 <___gnu_csky_case_uqi>
     2c72:	1004      	.short	0x1004
     2c74:	1d1a1613 	.long	0x1d1a1613
     2c78:	0021      	.short	0x0021
@@ -9569,7 +9569,7 @@ void GPIO_InPutOutPut_Disable(CSP_GPIO_T *GPIOx,uint8_t PinNum)
     2cce:	5903      	subi      	r0, r1, 1
     2cd0:	3806      	cmphsi      	r0, 7
     2cd2:	081b      	bt      	0x2d08	// 2d08 <GPIO_InPutOutPut_Disable+0x42>
-    2cd4:	e0001c10 	bsr      	0x64f4	// 64f4 <___gnu_csky_case_uqi>
+    2cd4:	e0000e20 	bsr      	0x4914	// 4914 <___gnu_csky_case_uqi>
     2cd8:	0e0c0a04 	.long	0x0e0c0a04
     2cdc:	00161311 	.long	0x00161311
     {
@@ -9626,7 +9626,7 @@ void GPIO_InPutOutPut_Disable(CSP_GPIO_T *GPIOx,uint8_t PinNum)
     2d14:	3906      	cmphsi      	r1, 7
     2d16:	6c07      	mov      	r0, r1
     2d18:	081b      	bt      	0x2d4e	// 2d4e <GPIO_InPutOutPut_Disable+0x88>
-    2d1a:	e0001bed 	bsr      	0x64f4	// 64f4 <___gnu_csky_case_uqi>
+    2d1a:	e0000dfd 	bsr      	0x4914	// 4914 <___gnu_csky_case_uqi>
     2d1e:	0a04      	.short	0x0a04
     2d20:	13110e0c 	.long	0x13110e0c
     2d24:	0016      	.short	0x0016
@@ -9680,7 +9680,7 @@ void GPIO_MODE_Init(CSP_GPIO_T *GPIOx,GPIO_Mode_TypeDef IO_MODE,uint32_t val)
         switch (IO_MODE)
     2d5a:	0807      	bt      	0x2d68	// 2d68 <GPIO_MODE_Init+0x14>
     2d5c:	6c07      	mov      	r0, r1
-    2d5e:	e0001bcb 	bsr      	0x64f4	// 64f4 <___gnu_csky_case_uqi>
+    2d5e:	e0000ddb 	bsr      	0x4914	// 4914 <___gnu_csky_case_uqi>
     2d62:	0402      	.short	0x0402
     2d64:	0806      	.short	0x0806
         {
@@ -10071,7 +10071,7 @@ void GPIOA0_EXI_Init(GPIO_EXI_TypeDef EXI_IO)
     2f22:	380b      	cmphsi      	r0, 12
     2f24:	081e      	bt      	0x2f60	// 2f60 <GPIOA0_EXI_Init+0x40>
     2f26:	106b      	lrw      	r3, 0x20000014	// 2f50 <GPIOA0_EXI_Init+0x30>
-    2f28:	e0001ae6 	bsr      	0x64f4	// 64f4 <___gnu_csky_case_uqi>
+    2f28:	e0000cf6 	bsr      	0x4914	// 4914 <___gnu_csky_case_uqi>
     2f2c:	29211b14 	.long	0x29211b14
     2f30:	453e3730 	.long	0x453e3730
     2f34:	6058524b 	.long	0x6058524b
@@ -10198,7 +10198,7 @@ void GPIOA1_EXI_Init(GPIO_EXI_TypeDef EXI_IO)
     2ffe:	080f      	bt      	0x301c	// 301c <GPIOA1_EXI_Init+0x22>
     3000:	134d      	lrw      	r2, 0x20000010	// 31b4 <GPIO_Read_Output+0x12>
     3002:	136e      	lrw      	r3, 0x20000014	// 31b8 <GPIO_Read_Output+0x16>
-    3004:	e0001a78 	bsr      	0x64f4	// 64f4 <___gnu_csky_case_uqi>
+    3004:	e0000c88 	bsr      	0x4914	// 4914 <___gnu_csky_case_uqi>
     3008:	1b120b03 	.long	0x1b120b03
     300c:	2b23      	.short	0x2b23
     {
@@ -10276,7 +10276,7 @@ void GPIOB0_EXI_Init(GPIO_EXI_TypeDef EXI_IO)
     3070:	3807      	cmphsi      	r0, 8
     3072:	081c      	bt      	0x30aa	// 30aa <GPIOB0_EXI_Init+0x3c>
     3074:	1272      	lrw      	r3, 0x2000000c	// 31bc <GPIO_Read_Output+0x1a>
-    3076:	e0001a3f 	bsr      	0x64f4	// 64f4 <___gnu_csky_case_uqi>
+    3076:	e0000c4f 	bsr      	0x4914	// 4914 <___gnu_csky_case_uqi>
     307a:	0b04      	.short	0x0b04
     307c:	27201911 	.long	0x27201911
     3080:	372e      	.short	0x372e
@@ -10370,7 +10370,7 @@ void GPIOC0_EXI_Init(GPIO_EXI_TypeDef EXI_IO)
     30fc:	080e      	bt      	0x3118	// 3118 <GPIOC0_EXI_Init+0x20>
     30fe:	1151      	lrw      	r2, 0x20000008	// 31c0 <GPIO_Read_Output+0x1e>
     3100:	116f      	lrw      	r3, 0x2000000c	// 31bc <GPIO_Read_Output+0x1a>
-    3102:	e00019f9 	bsr      	0x64f4	// 64f4 <___gnu_csky_case_uqi>
+    3102:	e0000c09 	bsr      	0x4914	// 4914 <___gnu_csky_case_uqi>
     3106:	0a02      	.short	0x0a02
     3108:	1a11      	.short	0x1a11
     {
@@ -11590,7 +11590,7 @@ void ADC12_ConversionChannel_Config(ADC12_InputSet_TypeDef ADC12_ADCINX ,
     36d4:	030002c0 	.long	0x030002c0
     36d8:	00040300 	.long	0x00040300
     36dc:	20000010 	.long	0x20000010
-    36e0:	e000170a 	bsr      	0x64f4	// 64f4 <___gnu_csky_case_uqi>
+    36e0:	e000091a 	bsr      	0x4914	// 4914 <___gnu_csky_case_uqi>
     36e4:	321a1408 	.long	0x321a1408
     36e8:	6155493d 	.long	0x6155493d
     36ec:	827b746d 	.long	0x827b746d
@@ -12552,8612 +12552,2837 @@ U16_T UARTReceive(CSP_UART_T *uart,U8_T *destAddress_u16,U16_T length_u16)
     3ae4:	2000007c 	.long	0x2000007c
     3ae8:	0000ffef 	.long	0x0000ffef
 
-00003aec <EPWM_RESET_VALUE>:
-//EntryParameter:NONE
-//ReturnValue:NONE
-/*************************************************************/  
-void EPWM_RESET_VALUE(void)
-{
-		EPWM->CR=PWM_CR_RST;     				/**< CR  reset value  	*/
-    3aec:	107e      	lrw      	r3, 0x2000004c	// 3b64 <EPWM_RESET_VALUE+0x78>
-    3aee:	3280      	movi      	r2, 128
-    3af0:	9360      	ld.w      	r3, (r3, 0x0)
-    3af2:	4250      	lsli      	r2, r2, 16
-    3af4:	b340      	st.w      	r2, (r3, 0x0)
-		EPWM->LKCR=PWM_LKCR_RST;     			/**< LKCR  reset value 	*/
-    3af6:	3200      	movi      	r2, 0
-    3af8:	b341      	st.w      	r2, (r3, 0x4)
-		EPWM->LKTRG=PWM_LKTRG_RST;     			/**< LKTRG  reset value */
-    3afa:	b342      	st.w      	r2, (r3, 0x8)
-		EPWM->CNTR0=PWM_CNTR0_RST;     			/**< CNTR0  reset value */
-    3afc:	b343      	st.w      	r2, (r3, 0xc)
-		EPWM->CNTBR0=PWM_CNTBR0_RST;     		/**< CNTBR0  reset value */
-    3afe:	b344      	st.w      	r2, (r3, 0x10)
-		EPWM->PCNTR0=PWM_PCNTR0_RST;     		/**< PCNTR0  reset value */
-    3b00:	b345      	st.w      	r2, (r3, 0x14)
-		EPWM->SLPCNTR0=PWM_SLPCNTR0_RST;     	/**< SLPCNTR0  reset value */
-    3b02:	b346      	st.w      	r2, (r3, 0x18)
-		EPWM->CNTR1=PWM_CNTR1_RST;     			/**< CNTR1  reset value */
-    3b04:	b347      	st.w      	r2, (r3, 0x1c)
-		EPWM->CNTBR1=PWM_CNTBR1_RST;     		/**< CNTBR1  reset value */
-    3b06:	b348      	st.w      	r2, (r3, 0x20)
-		EPWM->PCNTR1=PWM_PCNTR1_RST;     		/**< PCNTR1  reset value */
-    3b08:	b349      	st.w      	r2, (r3, 0x24)
-		EPWM->SLPCNTR1=PWM_SLPCNTR1_RST;     	/**< SLPCNTR1  reset value */
-    3b0a:	b34a      	st.w      	r2, (r3, 0x28)
-		EPWM->CNTR2=PWM_CNTR2_RST;     			/**< CNTR2  reset value */
-    3b0c:	b34b      	st.w      	r2, (r3, 0x2c)
-		EPWM->CNTBR2=PWM_CNTBR2_RST;     		/**< CNTBR2  reset value */
-    3b0e:	b34c      	st.w      	r2, (r3, 0x30)
-		EPWM->PCNTR2=PWM_PCNTR2_RST;     		/**< PCNTR2  reset value */
-    3b10:	b34d      	st.w      	r2, (r3, 0x34)
-		EPWM->SLPCNTR2=PWM_SLPCNTR2_RST;     	/**< SLPCNTR2  reset value */
-    3b12:	b34e      	st.w      	r2, (r3, 0x38)
-		EPWM->CMPAR0=PWM_CMPAR0_RST;     		/**< CMPAR0  reset value */
-    3b14:	b34f      	st.w      	r2, (r3, 0x3c)
-		EPWM->PCMPAR0=PWM_PCMPAR0_RST;     		/**< PCMPAR0  reset value */
-    3b16:	b350      	st.w      	r2, (r3, 0x40)
-		EPWM->SLPCMPAR0=PWM_SLPCMPAR0_RST;     	/**< SLPCMPAR0  reset value */
-    3b18:	b351      	st.w      	r2, (r3, 0x44)
-		EPWM->CMPBR0=PWM_CMPBR0_RST;     		/**< CMPBR0  reset value */
-    3b1a:	b352      	st.w      	r2, (r3, 0x48)
-		EPWM->PCMPBR0=PWM_PCMPBR0_RST;     		/**< PCMPBR0  reset value */
-    3b1c:	b353      	st.w      	r2, (r3, 0x4c)
-		EPWM->SLPCMPBR0=PWM_SLPCMPBR0_RST;     	/**< SLPCMPBR0  reset value */
-    3b1e:	b354      	st.w      	r2, (r3, 0x50)
-		EPWM->CMPAR1=PWM_CMPAR1_RST;     		/**< CMPAR1  reset value */
-    3b20:	b355      	st.w      	r2, (r3, 0x54)
-		EPWM->PCMPAR1=PWM_PCMPAR1_RST;     		/**< PCMPAR1  reset value */
-    3b22:	b356      	st.w      	r2, (r3, 0x58)
-		EPWM->SLPCMPAR1=PWM_SLPCMPAR1_RST;     	/**< SLPCMPAR1  reset value */
-    3b24:	b357      	st.w      	r2, (r3, 0x5c)
-		EPWM->CMPBR1=PWM_CMPBR1_RST;     		/**< CMPBR1  reset value */
-    3b26:	b358      	st.w      	r2, (r3, 0x60)
-		EPWM->PCMPBR1=PWM_PCMPBR1_RST;     		/**< PCMPBR1 reset value */
-    3b28:	b359      	st.w      	r2, (r3, 0x64)
-		EPWM->SLPCMPBR1=PWM_SLPCMPBR1_RST;     	/**< SLPCMPBR1  reset value */
-    3b2a:	b35a      	st.w      	r2, (r3, 0x68)
-		EPWM->CMPAR2=PWM_CMPAR2_RST;     		/**< CMPAR2  reset value */
-    3b2c:	b35b      	st.w      	r2, (r3, 0x6c)
-		EPWM->PCMPAR2=PWM_PCMPAR2_RST;    		/**< PCMPAR2  reset value */
-    3b2e:	b35c      	st.w      	r2, (r3, 0x70)
-		EPWM->SLPCMPAR2=PWM_SLPCMPAR2_RST;     	/**< SLPCMPAR2  reset value */
-    3b30:	b35d      	st.w      	r2, (r3, 0x74)
-		EPWM->CMPBR2=PWM_CMPBR2_RST;     		/**< CMPBR2  reset value */
-    3b32:	b35e      	st.w      	r2, (r3, 0x78)
-		EPWM->PCMPBR2=PWM_PCMPBR2_RST;     		/**< PCMPBR2 reset value */
-    3b34:	b35f      	st.w      	r2, (r3, 0x7c)
-		EPWM->SLPCMPBR2=PWM_SLPCMPBR2_RST;     	/**< SLPCMPBR2  reset value */
-    3b36:	237f      	addi      	r3, 128
-    3b38:	b340      	st.w      	r2, (r3, 0x0)
-		EPWM->WGCR0=PWM_WGCR0_RST;     			/**< WGCR0  reset value */
-    3b3a:	b341      	st.w      	r2, (r3, 0x4)
-		EPWM->WGCR1=PWM_WGCR1_RST;     			/**< WGCR1  reset value */
-    3b3c:	b342      	st.w      	r2, (r3, 0x8)
-		EPWM->WGCR2=PWM_WGCR2_RST;     			/**< WGCR2  reset value */
-    3b3e:	b343      	st.w      	r2, (r3, 0xc)
-		EPWM->OUTCR0=PWM_OUTCR0_RST;     		/**< OUTCR0  reset value */
-    3b40:	b344      	st.w      	r2, (r3, 0x10)
-		EPWM->OUTCR1=PWM_OUTCR1_RST;     		/**< OUTCR1  reset value */
-    3b42:	b345      	st.w      	r2, (r3, 0x14)
-		EPWM->OUTCR2=PWM_OUTCR2_RST;     		/**< OUTCR2  reset value */
-    3b44:	b346      	st.w      	r2, (r3, 0x18)
-		EPWM->CFCR0=PWM_CFCR0_RST;     			/**< CFCR0  reset value */
-    3b46:	b347      	st.w      	r2, (r3, 0x1c)
-		EPWM->CFCR1=PWM_CFCR1_RST;     			/**< CFCR1  reset value */
-    3b48:	b348      	st.w      	r2, (r3, 0x20)
-		EPWM->CFCR2=PWM_CFCR2_RST;     			/**< CFCR2  reset value */
-    3b4a:	b349      	st.w      	r2, (r3, 0x24)
-		EPWM->EMR=PWM_EMR_RST;     				/**< EMR  reset value */
-    3b4c:	b34a      	st.w      	r2, (r3, 0x28)
-		EPWM->SLCON=PWM_SLCON_RST;     			/**< SLCON  reset value */
-    3b4e:	b34b      	st.w      	r2, (r3, 0x2c)
-		EPWM->SLSTEP0=PWM_SLSTEP0_RST;     		/**< SLSTEP0  reset value */
-    3b50:	b34c      	st.w      	r2, (r3, 0x30)
-		EPWM->SLSTEP1=PWM_SLSTEP1_RST;     		/**< SLSTEP1 reset value */
-    3b52:	b34d      	st.w      	r2, (r3, 0x34)
-		EPWM->IER=PWM_IER_RST;     				/**< IER reset value */
-    3b54:	b34e      	st.w      	r2, (r3, 0x38)
-		EPWM->ICR=PWM_ICR_RST;     				/**< ICR reset value */
-    3b56:	b34f      	st.w      	r2, (r3, 0x3c)
-		EPWM->RISR=PWM_RISR_RST;     			/**< RISR reset value */
-    3b58:	b350      	st.w      	r2, (r3, 0x40)
-		EPWM->MISR=PWM_MISR_RST;     			/**< MISR reset value */
-    3b5a:	b351      	st.w      	r2, (r3, 0x44)
-		EPWM->EXTRG0=PWM_EXTRG0_RST;     		/**< EXTRG0 reset value */
-    3b5c:	b352      	st.w      	r2, (r3, 0x48)
-		EPWM->EXTRG1=PWM_EXTRG1_RST;     		/**< EXTRG1 reset value */
-    3b5e:	b353      	st.w      	r2, (r3, 0x4c)
-}
-    3b60:	783c      	jmp      	r15
-    3b62:	0000      	bkpt
-    3b64:	2000004c 	.long	0x2000004c
-
-00003b68 <EPWM_IO_Init>:
-//PWM_EP4(0->PA1.5)
-//ReturnValue:NONE
-/*************************************************************/
-void EPWM_IO_Init(EPWM_IO_MODE_TypeDef  EPWM_IO_MODE_X , U8_T EPWM_IO_G )
-{
-	if(EPWM_IO_MODE_X==PWM_X0)
-    3b68:	3840      	cmpnei      	r0, 0
-    3b6a:	0837      	bt      	0x3bd8	// 3bd8 <EPWM_IO_Init+0x70>
-	{
-		if(EPWM_IO_G==0)
-    3b6c:	3940      	cmpnei      	r1, 0
-    3b6e:	0808      	bt      	0x3b7e	// 3b7e <EPWM_IO_Init+0x16>
-		{
-			GPIOA0->CONLR=(GPIOA0->CONLR & 0XFFFFFFF0)|0x00000007;										//EPWM0_X(PA0.0->AF4)
-    3b70:	0177      	lrw      	r3, 0x20000014	// 3e90 <EPWM_PX_PY_Configure+0x10a>
-	}
-	else if(EPWM_IO_MODE_X==PWM_X1)
-	{
-		if(EPWM_IO_G==0)
-		{
-			GPIOB0->CONLR=(GPIOB0->CONLR & 0XFFFFFFF0)|0x00000007;										//EPWM1_X(PB0.0->AF4)
-    3b72:	9340      	ld.w      	r2, (r3, 0x0)
-    3b74:	310f      	movi      	r1, 15
-    3b76:	9260      	ld.w      	r3, (r2, 0x0)
-    3b78:	68c5      	andn      	r3, r1
-    3b7a:	3107      	movi      	r1, 7
-    3b7c:	0438      	br      	0x3bec	// 3bec <EPWM_IO_Init+0x84>
-		else if(EPWM_IO_G==1)
-    3b7e:	3941      	cmpnei      	r1, 1
-    3b80:	080b      	bt      	0x3b96	// 3b96 <EPWM_IO_Init+0x2e>
-			GPIOB0->CONLR=(GPIOB0->CONLR & 0XFFF0FFFF)|0x00050000;										//EPWM0_X(PB0.4->AF2)
-    3b82:	017a      	lrw      	r3, 0x2000000c	// 3e94 <EPWM_PX_PY_Configure+0x10e>
-    3b84:	32f0      	movi      	r2, 240
-    3b86:	9320      	ld.w      	r1, (r3, 0x0)
-    3b88:	9160      	ld.w      	r3, (r1, 0x0)
-    3b8a:	424c      	lsli      	r2, r2, 12
-    3b8c:	68c9      	andn      	r3, r2
-    3b8e:	3bb0      	bseti      	r3, 16
-    3b90:	3bb2      	bseti      	r3, 18
-	}
-	else if(EPWM_IO_MODE_X==PWM_EP4)
-	{
-		if(EPWM_IO_G==0)
-		{
-			GPIOA1->CONLR=(GPIOA1->CONLR & 0XFF0FFFFF)|0x00600000;										//EPWM_EP4(PA1.5->AF3)
-    3b92:	b160      	st.w      	r3, (r1, 0x0)
-		}
-	}
-}
-    3b94:	042e      	br      	0x3bf0	// 3bf0 <EPWM_IO_Init+0x88>
-		else if(EPWM_IO_G==2)
-    3b96:	3942      	cmpnei      	r1, 2
-    3b98:	080b      	bt      	0x3bae	// 3bae <EPWM_IO_Init+0x46>
-			GPIOA1->CONLR=(GPIOA1->CONLR & 0XFFF0FFFF)|0x00070000;										//EPWM0_X(PA1.4->AF4)
-    3b9a:	017f      	lrw      	r3, 0x20000010	// 3e98 <EPWM_PX_PY_Configure+0x112>
-    3b9c:	32f0      	movi      	r2, 240
-    3b9e:	9320      	ld.w      	r1, (r3, 0x0)
-    3ba0:	424c      	lsli      	r2, r2, 12
-    3ba2:	9160      	ld.w      	r3, (r1, 0x0)
-    3ba4:	68c9      	andn      	r3, r2
-    3ba6:	32e0      	movi      	r2, 224
-    3ba8:	424b      	lsli      	r2, r2, 11
-			GPIOA1->CONLR=(GPIOA1->CONLR & 0XFF0FFFFF)|0x00700000;										//EPWM1_X(PA1.5->AF4)
-    3baa:	6cc8      	or      	r3, r2
-    3bac:	07f3      	br      	0x3b92	// 3b92 <EPWM_IO_Init+0x2a>
-		else if(EPWM_IO_G==3)
-    3bae:	3943      	cmpnei      	r1, 3
-    3bb0:	080a      	bt      	0x3bc4	// 3bc4 <EPWM_IO_Init+0x5c>
-			GPIOA0->CONLR=(GPIOA0->CONLR & 0XF0FFFFFF)|0x06000000;										//EPWM0_X(PA0.6->AF3)
-    3bb2:	0267      	lrw      	r3, 0x20000014	// 3e90 <EPWM_PX_PY_Configure+0x10a>
-    3bb4:	32f0      	movi      	r2, 240
-    3bb6:	9320      	ld.w      	r1, (r3, 0x0)
-    3bb8:	9160      	ld.w      	r3, (r1, 0x0)
-    3bba:	4254      	lsli      	r2, r2, 20
-    3bbc:	68c9      	andn      	r3, r2
-    3bbe:	3bb9      	bseti      	r3, 25
-    3bc0:	3bba      	bseti      	r3, 26
-    3bc2:	07e8      	br      	0x3b92	// 3b92 <EPWM_IO_Init+0x2a>
-		else if(EPWM_IO_G==4)
-    3bc4:	3944      	cmpnei      	r1, 4
-    3bc6:	0815      	bt      	0x3bf0	// 3bf0 <EPWM_IO_Init+0x88>
-			GPIOA0->CONHR=(GPIOA0->CONHR & 0XFFFFFF0F)|0x00000040;										//EPWM0_X(PA0.9->AF1)
-    3bc8:	026d      	lrw      	r3, 0x20000014	// 3e90 <EPWM_PX_PY_Configure+0x10a>
-    3bca:	31f0      	movi      	r1, 240
-    3bcc:	9340      	ld.w      	r2, (r3, 0x0)
-    3bce:	9261      	ld.w      	r3, (r2, 0x4)
-    3bd0:	68c5      	andn      	r3, r1
-    3bd2:	3ba6      	bseti      	r3, 6
-			GPIOA0->CONHR=(GPIOA0->CONHR & 0XFFFFFFF0)|0x00000004;										//EPWM1_Y(PA0.8->AF1)
-    3bd4:	b261      	st.w      	r3, (r2, 0x4)
-    3bd6:	040d      	br      	0x3bf0	// 3bf0 <EPWM_IO_Init+0x88>
-	else if(EPWM_IO_MODE_X==PWM_Y0)
-    3bd8:	3841      	cmpnei      	r0, 1
-    3bda:	082d      	bt      	0x3c34	// 3c34 <EPWM_IO_Init+0xcc>
-		if(EPWM_IO_G==0)
-    3bdc:	3940      	cmpnei      	r1, 0
-    3bde:	080a      	bt      	0x3bf2	// 3bf2 <EPWM_IO_Init+0x8a>
-			GPIOA0->CONLR=(GPIOA0->CONLR & 0XFFFFFF0F)|0x00000070;										//EPWM0_Y(PA0.1->AF4)
-    3be0:	0273      	lrw      	r3, 0x20000014	// 3e90 <EPWM_PX_PY_Configure+0x10a>
-    3be2:	9340      	ld.w      	r2, (r3, 0x0)
-    3be4:	31f0      	movi      	r1, 240
-    3be6:	9260      	ld.w      	r3, (r2, 0x0)
-    3be8:	68c5      	andn      	r3, r1
-    3bea:	3170      	movi      	r1, 112
-    3bec:	6cc4      	or      	r3, r1
-    3bee:	b260      	st.w      	r3, (r2, 0x0)
-}
-    3bf0:	783c      	jmp      	r15
-		else if(EPWM_IO_G==1)
-    3bf2:	3941      	cmpnei      	r1, 1
-    3bf4:	080a      	bt      	0x3c08	// 3c08 <EPWM_IO_Init+0xa0>
-			GPIOB0->CONLR=(GPIOB0->CONLR & 0XFF0FFFFF)|0x00500000;										//EPWM0_Y(PB0.5->AF2)
-    3bf6:	0277      	lrw      	r3, 0x2000000c	// 3e94 <EPWM_PX_PY_Configure+0x10e>
-    3bf8:	32f0      	movi      	r2, 240
-    3bfa:	9320      	ld.w      	r1, (r3, 0x0)
-    3bfc:	9160      	ld.w      	r3, (r1, 0x0)
-    3bfe:	4250      	lsli      	r2, r2, 16
-    3c00:	68c9      	andn      	r3, r2
-    3c02:	3bb4      	bseti      	r3, 20
-    3c04:	3bb6      	bseti      	r3, 22
-    3c06:	07c6      	br      	0x3b92	// 3b92 <EPWM_IO_Init+0x2a>
-		else if(EPWM_IO_G==2)
-    3c08:	3942      	cmpnei      	r1, 2
-    3c0a:	080a      	bt      	0x3c1e	// 3c1e <EPWM_IO_Init+0xb6>
-			GPIOA0->CONLR=(GPIOA0->CONLR & 0XFF0FFFFF)|0x00600000;										//EPWM0_Y(PA0.5->AF3)
-    3c0c:	027e      	lrw      	r3, 0x20000014	// 3e90 <EPWM_PX_PY_Configure+0x10a>
-			GPIOA1->CONLR=(GPIOA1->CONLR & 0XFF0FFFFF)|0x00600000;										//EPWM_EP4(PA1.5->AF3)
-    3c0e:	9320      	ld.w      	r1, (r3, 0x0)
-    3c10:	32f0      	movi      	r2, 240
-    3c12:	9160      	ld.w      	r3, (r1, 0x0)
-    3c14:	4250      	lsli      	r2, r2, 16
-    3c16:	68c9      	andn      	r3, r2
-    3c18:	3bb5      	bseti      	r3, 21
-    3c1a:	3bb6      	bseti      	r3, 22
-    3c1c:	07bb      	br      	0x3b92	// 3b92 <EPWM_IO_Init+0x2a>
-		else if(EPWM_IO_G==3)
-    3c1e:	3943      	cmpnei      	r1, 3
-    3c20:	0be8      	bt      	0x3bf0	// 3bf0 <EPWM_IO_Init+0x88>
-			GPIOA0->CONHR=(GPIOA0->CONHR & 0XFFFFF0FF)|0x00000400;										//EPWM0_Y(PA0.10->AF1)
-    3c22:	0363      	lrw      	r3, 0x20000014	// 3e90 <EPWM_PX_PY_Configure+0x10a>
-    3c24:	32f0      	movi      	r2, 240
-    3c26:	9320      	ld.w      	r1, (r3, 0x0)
-    3c28:	9161      	ld.w      	r3, (r1, 0x4)
-    3c2a:	4244      	lsli      	r2, r2, 4
-    3c2c:	68c9      	andn      	r3, r2
-    3c2e:	3baa      	bseti      	r3, 10
-    3c30:	b161      	st.w      	r3, (r1, 0x4)
-    3c32:	07df      	br      	0x3bf0	// 3bf0 <EPWM_IO_Init+0x88>
-	else if(EPWM_IO_MODE_X==PWM_X1)
-    3c34:	3842      	cmpnei      	r0, 2
-    3c36:	0823      	bt      	0x3c7c	// 3c7c <EPWM_IO_Init+0x114>
-		if(EPWM_IO_G==0)
-    3c38:	3940      	cmpnei      	r1, 0
-    3c3a:	0803      	bt      	0x3c40	// 3c40 <EPWM_IO_Init+0xd8>
-			GPIOB0->CONLR=(GPIOB0->CONLR & 0XFFFFFFF0)|0x00000007;										//EPWM1_X(PB0.0->AF4)
-    3c3c:	0369      	lrw      	r3, 0x2000000c	// 3e94 <EPWM_PX_PY_Configure+0x10e>
-    3c3e:	079a      	br      	0x3b72	// 3b72 <EPWM_IO_Init+0xa>
-		else if(EPWM_IO_G==1)
-    3c40:	3941      	cmpnei      	r1, 1
-    3c42:	0809      	bt      	0x3c54	// 3c54 <EPWM_IO_Init+0xec>
-			GPIOA0->CONLR=(GPIOA0->CONLR & 0XFFFFFFF0)|0x00000005;										//EPWM1_X(PA0.0->AF2)
-    3c44:	036c      	lrw      	r3, 0x20000014	// 3e90 <EPWM_PX_PY_Configure+0x10a>
-			GPIOB0->CONLR=(GPIOB0->CONLR & 0XFFFFFFF0)|0x00000005;										//EPWM2_X(PB0.0->AF2)
-    3c46:	9340      	ld.w      	r2, (r3, 0x0)
-    3c48:	9260      	ld.w      	r3, (r2, 0x0)
-    3c4a:	310f      	movi      	r1, 15
-    3c4c:	68c5      	andn      	r3, r1
-    3c4e:	3ba0      	bseti      	r3, 0
-    3c50:	3ba2      	bseti      	r3, 2
-    3c52:	07ce      	br      	0x3bee	// 3bee <EPWM_IO_Init+0x86>
-		else if(EPWM_IO_G==2)
-    3c54:	3942      	cmpnei      	r1, 2
-    3c56:	080a      	bt      	0x3c6a	// 3c6a <EPWM_IO_Init+0x102>
-			GPIOA1->CONLR=(GPIOA1->CONLR & 0XFF0FFFFF)|0x00700000;										//EPWM1_X(PA1.5->AF4)
-    3c58:	036f      	lrw      	r3, 0x20000010	// 3e98 <EPWM_PX_PY_Configure+0x112>
-    3c5a:	32f0      	movi      	r2, 240
-    3c5c:	9320      	ld.w      	r1, (r3, 0x0)
-    3c5e:	4250      	lsli      	r2, r2, 16
-    3c60:	9160      	ld.w      	r3, (r1, 0x0)
-    3c62:	68c9      	andn      	r3, r2
-    3c64:	32e0      	movi      	r2, 224
-    3c66:	424f      	lsli      	r2, r2, 15
-    3c68:	07a1      	br      	0x3baa	// 3baa <EPWM_IO_Init+0x42>
-		else if(EPWM_IO_G==3)
-    3c6a:	3943      	cmpnei      	r1, 3
-    3c6c:	0bc2      	bt      	0x3bf0	// 3bf0 <EPWM_IO_Init+0x88>
-			GPIOA0->CONLR=(GPIOA0->CONLR & 0X0FFFFFFF)|0x40000000;										//EPWM1_X(PA0.7->AF1)
-    3c6e:	0376      	lrw      	r3, 0x20000014	// 3e90 <EPWM_PX_PY_Configure+0x10a>
-    3c70:	9340      	ld.w      	r2, (r3, 0x0)
-    3c72:	9260      	ld.w      	r3, (r2, 0x0)
-    3c74:	4364      	lsli      	r3, r3, 4
-    3c76:	4b64      	lsri      	r3, r3, 4
-    3c78:	3bbe      	bseti      	r3, 30
-    3c7a:	07ba      	br      	0x3bee	// 3bee <EPWM_IO_Init+0x86>
-	else if(EPWM_IO_MODE_X==PWM_Y1)
-    3c7c:	3843      	cmpnei      	r0, 3
-    3c7e:	0818      	bt      	0x3cae	// 3cae <EPWM_IO_Init+0x146>
-		if(EPWM_IO_G==0)
-    3c80:	3940      	cmpnei      	r1, 0
-    3c82:	0803      	bt      	0x3c88	// 3c88 <EPWM_IO_Init+0x120>
-			GPIOB0->CONLR=(GPIOB0->CONLR & 0XFFFFFF0F)|0x00000070;										//EPWM1_Y(PB0.1->AF4)
-    3c84:	037b      	lrw      	r3, 0x2000000c	// 3e94 <EPWM_PX_PY_Configure+0x10e>
-    3c86:	07ae      	br      	0x3be2	// 3be2 <EPWM_IO_Init+0x7a>
-		else if(EPWM_IO_G==1)
-    3c88:	3941      	cmpnei      	r1, 1
-    3c8a:	0809      	bt      	0x3c9c	// 3c9c <EPWM_IO_Init+0x134>
-			GPIOA0->CONLR=(GPIOA0->CONLR & 0XFFFFFF0F)|0x00000050;										//EPWM1_Y(PA0.1->AF2)
-    3c8c:	037e      	lrw      	r3, 0x20000014	// 3e90 <EPWM_PX_PY_Configure+0x10a>
-			GPIOB0->CONLR=(GPIOB0->CONLR & 0XFFFFFF0F)|0x00000050;										//EPWM2_Y(PB0.1->AF2)
-    3c8e:	9340      	ld.w      	r2, (r3, 0x0)
-    3c90:	9260      	ld.w      	r3, (r2, 0x0)
-    3c92:	31f0      	movi      	r1, 240
-    3c94:	68c5      	andn      	r3, r1
-    3c96:	3ba4      	bseti      	r3, 4
-    3c98:	3ba6      	bseti      	r3, 6
-    3c9a:	07aa      	br      	0x3bee	// 3bee <EPWM_IO_Init+0x86>
-		else if(EPWM_IO_G==2)
-    3c9c:	3942      	cmpnei      	r1, 2
-    3c9e:	0ba9      	bt      	0x3bf0	// 3bf0 <EPWM_IO_Init+0x88>
-			GPIOA0->CONHR=(GPIOA0->CONHR & 0XFFFFFFF0)|0x00000004;										//EPWM1_Y(PA0.8->AF1)
-    3ca0:	137c      	lrw      	r3, 0x20000014	// 3e90 <EPWM_PX_PY_Configure+0x10a>
-    3ca2:	310f      	movi      	r1, 15
-    3ca4:	9340      	ld.w      	r2, (r3, 0x0)
-    3ca6:	9261      	ld.w      	r3, (r2, 0x4)
-    3ca8:	68c5      	andn      	r3, r1
-    3caa:	3ba2      	bseti      	r3, 2
-    3cac:	0794      	br      	0x3bd4	// 3bd4 <EPWM_IO_Init+0x6c>
-	else if(EPWM_IO_MODE_X==PWM_X2)
-    3cae:	3844      	cmpnei      	r0, 4
-    3cb0:	0813      	bt      	0x3cd6	// 3cd6 <EPWM_IO_Init+0x16e>
-		if(EPWM_IO_G==0)
-    3cb2:	3940      	cmpnei      	r1, 0
-    3cb4:	0803      	bt      	0x3cba	// 3cba <EPWM_IO_Init+0x152>
-			GPIOB0->CONLR=(GPIOB0->CONLR & 0XFFFFFFF0)|0x00000005;										//EPWM2_X(PB0.0->AF2)
-    3cb6:	1378      	lrw      	r3, 0x2000000c	// 3e94 <EPWM_PX_PY_Configure+0x10e>
-    3cb8:	07c7      	br      	0x3c46	// 3c46 <EPWM_IO_Init+0xde>
-		else if(EPWM_IO_G==1)
-    3cba:	3941      	cmpnei      	r1, 1
-    3cbc:	0803      	bt      	0x3cc2	// 3cc2 <EPWM_IO_Init+0x15a>
-			GPIOC0->CONLR=(GPIOC0->CONLR & 0XFFFFFF0F)|0x00000070;										//EPWM2_X(PC0.1->AF4)
-    3cbe:	1378      	lrw      	r3, 0x20000008	// 3e9c <EPWM_PX_PY_Configure+0x116>
-    3cc0:	0791      	br      	0x3be2	// 3be2 <EPWM_IO_Init+0x7a>
-		else if(EPWM_IO_G==2)
-    3cc2:	3942      	cmpnei      	r1, 2
-    3cc4:	0b96      	bt      	0x3bf0	// 3bf0 <EPWM_IO_Init+0x88>
-			GPIOA0->CONLR=(GPIOA0->CONLR & 0XFF0FFFFF)|0x00400000;										//EPWM2_X(PA0.5->AF1)
-    3cc6:	1373      	lrw      	r3, 0x20000014	// 3e90 <EPWM_PX_PY_Configure+0x10a>
-    3cc8:	32f0      	movi      	r2, 240
-    3cca:	9320      	ld.w      	r1, (r3, 0x0)
-    3ccc:	9160      	ld.w      	r3, (r1, 0x0)
-    3cce:	4250      	lsli      	r2, r2, 16
-    3cd0:	68c9      	andn      	r3, r2
-    3cd2:	3bb6      	bseti      	r3, 22
-    3cd4:	075f      	br      	0x3b92	// 3b92 <EPWM_IO_Init+0x2a>
-	else if(EPWM_IO_MODE_X==PWM_Y2)
-    3cd6:	3845      	cmpnei      	r0, 5
-    3cd8:	080f      	bt      	0x3cf6	// 3cf6 <EPWM_IO_Init+0x18e>
-		if(EPWM_IO_G==0)
-    3cda:	3940      	cmpnei      	r1, 0
-    3cdc:	0803      	bt      	0x3ce2	// 3ce2 <EPWM_IO_Init+0x17a>
-			GPIOB0->CONLR=(GPIOB0->CONLR & 0XFFFFFF0F)|0x00000050;										//EPWM2_Y(PB0.1->AF2)
-    3cde:	136e      	lrw      	r3, 0x2000000c	// 3e94 <EPWM_PX_PY_Configure+0x10e>
-    3ce0:	07d7      	br      	0x3c8e	// 3c8e <EPWM_IO_Init+0x126>
-		else if(EPWM_IO_G==1)
-    3ce2:	3941      	cmpnei      	r1, 1
-    3ce4:	0b86      	bt      	0x3bf0	// 3bf0 <EPWM_IO_Init+0x88>
-			GPIOA0->CONLR=(GPIOA0->CONLR & 0XF0FFFFFF)|0x04000000;										//EPWM2_Y(PA0.6->AF1)
-    3ce6:	136b      	lrw      	r3, 0x20000014	// 3e90 <EPWM_PX_PY_Configure+0x10a>
-    3ce8:	32f0      	movi      	r2, 240
-    3cea:	9320      	ld.w      	r1, (r3, 0x0)
-    3cec:	9160      	ld.w      	r3, (r1, 0x0)
-    3cee:	4254      	lsli      	r2, r2, 20
-    3cf0:	68c9      	andn      	r3, r2
-    3cf2:	3bba      	bseti      	r3, 26
-    3cf4:	074f      	br      	0x3b92	// 3b92 <EPWM_IO_Init+0x2a>
-	else if(EPWM_IO_MODE_X==PWM_EP0)																	
-    3cf6:	3846      	cmpnei      	r0, 6
-    3cf8:	080b      	bt      	0x3d0e	// 3d0e <EPWM_IO_Init+0x1a6>
-		if(EPWM_IO_G==0)
-    3cfa:	3940      	cmpnei      	r1, 0
-    3cfc:	0b7a      	bt      	0x3bf0	// 3bf0 <EPWM_IO_Init+0x88>
-			GPIOB0->CONLR=(GPIOB0->CONLR & 0X0FFFFFFF)|0x50000000;										//EPWM2_Y(PB0.7->AF2)
-    3cfe:	1366      	lrw      	r3, 0x2000000c	// 3e94 <EPWM_PX_PY_Configure+0x10e>
-    3d00:	9340      	ld.w      	r2, (r3, 0x0)
-    3d02:	9260      	ld.w      	r3, (r2, 0x0)
-    3d04:	4364      	lsli      	r3, r3, 4
-    3d06:	4b64      	lsri      	r3, r3, 4
-    3d08:	3bbc      	bseti      	r3, 28
-    3d0a:	3bbe      	bseti      	r3, 30
-    3d0c:	0771      	br      	0x3bee	// 3bee <EPWM_IO_Init+0x86>
-	else if(EPWM_IO_MODE_X==PWM_EP1)
-    3d0e:	3847      	cmpnei      	r0, 7
-    3d10:	080c      	bt      	0x3d28	// 3d28 <EPWM_IO_Init+0x1c0>
-		if(EPWM_IO_G==0)
-    3d12:	3940      	cmpnei      	r1, 0
-    3d14:	0b6e      	bt      	0x3bf0	// 3bf0 <EPWM_IO_Init+0x88>
-			GPIOC0->CONLR=(GPIOC0->CONLR & 0XFFFFF0FF)|0x00000600;										//EPWM_EP1(PC0.2->AF3)
-    3d16:	1362      	lrw      	r3, 0x20000008	// 3e9c <EPWM_PX_PY_Configure+0x116>
-    3d18:	32f0      	movi      	r2, 240
-    3d1a:	9320      	ld.w      	r1, (r3, 0x0)
-    3d1c:	9160      	ld.w      	r3, (r1, 0x0)
-    3d1e:	4244      	lsli      	r2, r2, 4
-    3d20:	68c9      	andn      	r3, r2
-    3d22:	3ba9      	bseti      	r3, 9
-    3d24:	3baa      	bseti      	r3, 10
-    3d26:	0736      	br      	0x3b92	// 3b92 <EPWM_IO_Init+0x2a>
-	else if(EPWM_IO_MODE_X==PWM_EP2)
-    3d28:	3848      	cmpnei      	r0, 8
-    3d2a:	080b      	bt      	0x3d40	// 3d40 <EPWM_IO_Init+0x1d8>
-		if(EPWM_IO_G==0)
-    3d2c:	3940      	cmpnei      	r1, 0
-    3d2e:	0b61      	bt      	0x3bf0	// 3bf0 <EPWM_IO_Init+0x88>
-			GPIOC0->CONLR=(GPIOC0->CONLR & 0XFFFF0FFF)|0x00004000;										//EPWM_EP2(PC0.3->AF1)
-    3d30:	127b      	lrw      	r3, 0x20000008	// 3e9c <EPWM_PX_PY_Configure+0x116>
-    3d32:	32f0      	movi      	r2, 240
-    3d34:	9320      	ld.w      	r1, (r3, 0x0)
-    3d36:	9160      	ld.w      	r3, (r1, 0x0)
-    3d38:	4248      	lsli      	r2, r2, 8
-    3d3a:	68c9      	andn      	r3, r2
-    3d3c:	3bae      	bseti      	r3, 14
-    3d3e:	072a      	br      	0x3b92	// 3b92 <EPWM_IO_Init+0x2a>
-	else if(EPWM_IO_MODE_X==PWM_EP3)
-    3d40:	3849      	cmpnei      	r0, 9
-    3d42:	080b      	bt      	0x3d58	// 3d58 <EPWM_IO_Init+0x1f0>
-		if(EPWM_IO_G==0)
-    3d44:	3940      	cmpnei      	r1, 0
-    3d46:	0b55      	bt      	0x3bf0	// 3bf0 <EPWM_IO_Init+0x88>
-			GPIOB0->CONLR=(GPIOB0->CONLR & 0XFFF0FFFF)|0x00040000;										//EPWM_EP3(PB0.4->AF1)
-    3d48:	1273      	lrw      	r3, 0x2000000c	// 3e94 <EPWM_PX_PY_Configure+0x10e>
-    3d4a:	32f0      	movi      	r2, 240
-    3d4c:	9320      	ld.w      	r1, (r3, 0x0)
-    3d4e:	9160      	ld.w      	r3, (r1, 0x0)
-    3d50:	424c      	lsli      	r2, r2, 12
-    3d52:	68c9      	andn      	r3, r2
-    3d54:	3bb2      	bseti      	r3, 18
-    3d56:	071e      	br      	0x3b92	// 3b92 <EPWM_IO_Init+0x2a>
-	else if(EPWM_IO_MODE_X==PWM_EP4)
-    3d58:	384a      	cmpnei      	r0, 10
-    3d5a:	0b4b      	bt      	0x3bf0	// 3bf0 <EPWM_IO_Init+0x88>
-		if(EPWM_IO_G==0)
-    3d5c:	3940      	cmpnei      	r1, 0
-    3d5e:	0b49      	bt      	0x3bf0	// 3bf0 <EPWM_IO_Init+0x88>
-			GPIOA1->CONLR=(GPIOA1->CONLR & 0XFF0FFFFF)|0x00600000;										//EPWM_EP4(PA1.5->AF3)
-    3d60:	126e      	lrw      	r3, 0x20000010	// 3e98 <EPWM_PX_PY_Configure+0x112>
-    3d62:	0756      	br      	0x3c0e	// 3c0e <EPWM_IO_Init+0xa6>
-
-00003d64 <EPWM_CONTER_Configure>:
-//EPWM_DINM;0~0XFFF
-//ReturnValue:NONE
-/*************************************************************/  
-//EPWM_CLK=PCLK/(2^DIVN)/(DINM+1)
-void EPWM_CONTER_Configure(EPWM_CMODE_TypeDef EPWM_ContMode_X , EPWM_Conter_NUM_TypeDef EMP_Conter_X, EPWM_Overflow_Mode_TypeDef EMP_Overflow_Mode_X , U8_T  EPWM_DIVN , U16_T  EPWM_DINM )
-{
-    3d64:	14c3      	push      	r4-r6
-    3d66:	d8ae1006 	ld.h      	r5, (r14, 0xc)
-	EPWM->CR |= CKEN;
-	EPWM->CR = EPWM_ContMode_X | EMP_Conter_X | EMP_Overflow_Mode_X | (EPWM_DIVN<<5) | (EPWM_DINM<<8) | CKEN ;
-    3d6a:	3ab6      	bseti      	r2, 22
-    3d6c:	6c84      	or      	r2, r1
-	EPWM->CR |= CKEN;
-    3d6e:	128d      	lrw      	r4, 0x2000004c	// 3ea0 <EPWM_PX_PY_Configure+0x11a>
-	EPWM->CR = EPWM_ContMode_X | EMP_Conter_X | EMP_Overflow_Mode_X | (EPWM_DIVN<<5) | (EPWM_DINM<<8) | CKEN ;
-    3d70:	4528      	lsli      	r1, r5, 8
-	EPWM->CR |= CKEN;
-    3d72:	9480      	ld.w      	r4, (r4, 0x0)
-	EPWM->CR = EPWM_ContMode_X | EMP_Conter_X | EMP_Overflow_Mode_X | (EPWM_DIVN<<5) | (EPWM_DINM<<8) | CKEN ;
-    3d74:	6c84      	or      	r2, r1
-	EPWM->CR |= CKEN;
-    3d76:	94c0      	ld.w      	r6, (r4, 0x0)
-	EPWM->CR = EPWM_ContMode_X | EMP_Conter_X | EMP_Overflow_Mode_X | (EPWM_DIVN<<5) | (EPWM_DINM<<8) | CKEN ;
-    3d78:	6c08      	or      	r0, r2
-    3d7a:	4365      	lsli      	r3, r3, 5
-	EPWM->CR |= CKEN;
-    3d7c:	3eb6      	bseti      	r6, 22
-	EPWM->CR = EPWM_ContMode_X | EMP_Conter_X | EMP_Overflow_Mode_X | (EPWM_DIVN<<5) | (EPWM_DINM<<8) | CKEN ;
-    3d7e:	6cc0      	or      	r3, r0
-	EPWM->CR |= CKEN;
-    3d80:	b4c0      	st.w      	r6, (r4, 0x0)
-	EPWM->CR = EPWM_ContMode_X | EMP_Conter_X | EMP_Overflow_Mode_X | (EPWM_DIVN<<5) | (EPWM_DINM<<8) | CKEN ;
-    3d82:	b460      	st.w      	r3, (r4, 0x0)
-}
-    3d84:	1483      	pop      	r4-r6
-
-00003d86 <EPWM_PX_PY_Configure>:
-//ReturnValue:NONE
-/*************************************************************/  
-void EPWM_PX_PY_Configure(EPWM_PXxOrPYx_TypeDef EPWM_PXxOrPYx , EPWM_StartStopEvent_PxOUT_TypeDef EPWM_StartStopEvent_X , EPWM_PendEvent_PxOUT_TypeDef EPWM_PendEvent_X , 
-						EPWM_CentralEvent_PxOUT_TypeDef EPWM_CentralEvent_X , EPWM_EqCMPAEvent_PxOUT_TypeDef EPWM_EqCMPAEvent_X , EPWM_EqCMPBEvent_PxOUT_TypeDef EPWM_EqCMPBEvent_X  ,
-						U16_T EPWM_CNTRX , U16_T EPWM_CMPARX , U16_T EPWM_CMPBRX)
-{
-    3d86:	14c4      	push      	r4-r7
-    3d88:	1425      	subi      	r14, r14, 20
-    3d8a:	b860      	st.w      	r3, (r14, 0x0)
-    3d8c:	9869      	ld.w      	r3, (r14, 0x24)
-    3d8e:	b861      	st.w      	r3, (r14, 0x4)
-    3d90:	986a      	ld.w      	r3, (r14, 0x28)
-    3d92:	b862      	st.w      	r3, (r14, 0x8)
-    3d94:	d86e1018 	ld.h      	r3, (r14, 0x30)
-    3d98:	b863      	st.w      	r3, (r14, 0xc)
-	if(EPWM_PXxOrPYx==EPWM_P0X)
-    3d9a:	3840      	cmpnei      	r0, 0
-{
-    3d9c:	d86e101a 	ld.h      	r3, (r14, 0x34)
-    3da0:	d88e1016 	ld.h      	r4, (r14, 0x2c)
-    3da4:	b864      	st.w      	r3, (r14, 0x10)
-	if(EPWM_PXxOrPYx==EPWM_P0X)
-    3da6:	0823      	bt      	0x3dec	// 3dec <EPWM_PX_PY_Configure+0x66>
-	{
-		EPWM->WGCR0&=0XFFFFFC00;
-    3da8:	111e      	lrw      	r0, 0x2000004c	// 3ea0 <EPWM_PX_PY_Configure+0x11a>
-    3daa:	3780      	movi      	r7, 128
-    3dac:	90c0      	ld.w      	r6, (r0, 0x0)
-    3dae:	61d8      	addu      	r7, r6
-    3db0:	9701      	ld.w      	r0, (r7, 0x4)
-    3db2:	11bd      	lrw      	r5, 0x3ff	// 3ea4 <EPWM_PX_PY_Configure+0x11e>
-    3db4:	6815      	andn      	r0, r5
-    3db6:	b701      	st.w      	r0, (r7, 0x4)
-		EPWM->WGCR0|=(EPWM_StartStopEvent_X<<8)|(EPWM_PendEvent_X<<6)|(EPWM_CentralEvent_X<<4)|(EPWM_EqCMPBEvent_X<<2)|EPWM_EqCMPAEvent_X;
-    3db8:	9862      	ld.w      	r3, (r14, 0x8)
-    3dba:	4302      	lsli      	r0, r3, 2
-    3dbc:	97a1      	ld.w      	r5, (r7, 0x4)
-    3dbe:	9861      	ld.w      	r3, (r14, 0x4)
-    3dc0:	6d4c      	or      	r5, r3
-    3dc2:	9860      	ld.w      	r3, (r14, 0x0)
-    3dc4:	6d40      	or      	r5, r0
-    3dc6:	4364      	lsli      	r3, r3, 4
-    3dc8:	6cd4      	or      	r3, r5
-    3dca:	4246      	lsli      	r2, r2, 6
-    3dcc:	6cc8      	or      	r3, r2
-    3dce:	4128      	lsli      	r1, r1, 8
-		EPWM->CMPBR0=(0xA5<<24)|EPWM_CMPBRX;
-	}
-	else if(EPWM_PXxOrPYx==EPWM_P0Y)
-	{
-		EPWM->WGCR0&=0XFFF003FF;
-		EPWM->WGCR0|=(EPWM_StartStopEvent_X<<18)|(EPWM_PendEvent_X<<16)|(EPWM_CentralEvent_X<<14)|(EPWM_EqCMPBEvent_X<<12)|(EPWM_EqCMPAEvent_X<<10);
-    3dd0:	6c4c      	or      	r1, r3
-		EPWM->CNTR0=(0xA5<<24)|EPWM_CNTRX;
-    3dd2:	33a5      	movi      	r3, 165
-    3dd4:	4378      	lsli      	r3, r3, 24
-		EPWM->CMPAR0=(0xA5<<24)|EPWM_CMPARX;
-    3dd6:	9843      	ld.w      	r2, (r14, 0xc)
-    3dd8:	6c8c      	or      	r2, r3
-		EPWM->CNTR0=(0xA5<<24)|EPWM_CNTRX;
-    3dda:	6d0c      	or      	r4, r3
-		EPWM->WGCR0|=(EPWM_StartStopEvent_X<<18)|(EPWM_PendEvent_X<<16)|(EPWM_CentralEvent_X<<14)|(EPWM_EqCMPBEvent_X<<12)|(EPWM_EqCMPAEvent_X<<10);
-    3ddc:	b721      	st.w      	r1, (r7, 0x4)
-		EPWM->CNTR0=(0xA5<<24)|EPWM_CNTRX;
-    3dde:	b683      	st.w      	r4, (r6, 0xc)
-		EPWM->CMPAR0=(0xA5<<24)|EPWM_CMPARX;
-    3de0:	b64f      	st.w      	r2, (r6, 0x3c)
-		EPWM->CMPBR0=(0xA5<<24)|EPWM_CMPBRX;
-    3de2:	9844      	ld.w      	r2, (r14, 0x10)
-    3de4:	6c8c      	or      	r2, r3
-    3de6:	b652      	st.w      	r2, (r6, 0x48)
-		EPWM->WGCR2|=(EPWM_StartStopEvent_X<<18)|(EPWM_PendEvent_X<<16)|(EPWM_CentralEvent_X<<14)|(EPWM_EqCMPBEvent_X<<12)|(EPWM_EqCMPAEvent_X<<10);
-		EPWM->CNTR2=(0xA5<<24)|EPWM_CNTRX;
-		EPWM->CMPAR2=(0xA5<<24)|EPWM_CMPARX;
-		EPWM->CMPBR2=(0xA5<<24)|EPWM_CMPBRX;
-	}
-}
-    3de8:	1405      	addi      	r14, r14, 20
-    3dea:	1484      	pop      	r4-r7
-	else if(EPWM_PXxOrPYx==EPWM_P0Y)
-    3dec:	3841      	cmpnei      	r0, 1
-    3dee:	0817      	bt      	0x3e1c	// 3e1c <EPWM_PX_PY_Configure+0x96>
-		EPWM->WGCR0&=0XFFF003FF;
-    3df0:	110c      	lrw      	r0, 0x2000004c	// 3ea0 <EPWM_PX_PY_Configure+0x11a>
-    3df2:	3780      	movi      	r7, 128
-    3df4:	90c0      	ld.w      	r6, (r0, 0x0)
-    3df6:	61d8      	addu      	r7, r6
-    3df8:	9701      	ld.w      	r0, (r7, 0x4)
-    3dfa:	11ac      	lrw      	r5, 0xffc00	// 3ea8 <EPWM_PX_PY_Configure+0x122>
-    3dfc:	6815      	andn      	r0, r5
-		EPWM->WGCR0|=(EPWM_StartStopEvent_X<<18)|(EPWM_PendEvent_X<<16)|(EPWM_CentralEvent_X<<14)|(EPWM_EqCMPBEvent_X<<12)|(EPWM_EqCMPAEvent_X<<10);
-    3dfe:	9861      	ld.w      	r3, (r14, 0x4)
-		EPWM->WGCR0&=0XFFF003FF;
-    3e00:	b701      	st.w      	r0, (r7, 0x4)
-		EPWM->WGCR0|=(EPWM_StartStopEvent_X<<18)|(EPWM_PendEvent_X<<16)|(EPWM_CentralEvent_X<<14)|(EPWM_EqCMPBEvent_X<<12)|(EPWM_EqCMPAEvent_X<<10);
-    3e02:	9701      	ld.w      	r0, (r7, 0x4)
-    3e04:	43aa      	lsli      	r5, r3, 10
-    3e06:	9862      	ld.w      	r3, (r14, 0x8)
-    3e08:	6d40      	or      	r5, r0
-    3e0a:	430c      	lsli      	r0, r3, 12
-    3e0c:	9860      	ld.w      	r3, (r14, 0x0)
-    3e0e:	6c14      	or      	r0, r5
-    3e10:	436e      	lsli      	r3, r3, 14
-    3e12:	6cc0      	or      	r3, r0
-    3e14:	4250      	lsli      	r2, r2, 16
-    3e16:	6cc8      	or      	r3, r2
-    3e18:	4132      	lsli      	r1, r1, 18
-    3e1a:	07db      	br      	0x3dd0	// 3dd0 <EPWM_PX_PY_Configure+0x4a>
-	else if(EPWM_PXxOrPYx==EPWM_P1X)
-    3e1c:	3842      	cmpnei      	r0, 2
-    3e1e:	0823      	bt      	0x3e64	// 3e64 <EPWM_PX_PY_Configure+0xde>
-		EPWM->WGCR1&=0XFFFFFC00;
-    3e20:	1100      	lrw      	r0, 0x2000004c	// 3ea0 <EPWM_PX_PY_Configure+0x11a>
-    3e22:	3780      	movi      	r7, 128
-    3e24:	90c0      	ld.w      	r6, (r0, 0x0)
-    3e26:	61d8      	addu      	r7, r6
-    3e28:	9702      	ld.w      	r0, (r7, 0x8)
-    3e2a:	10bf      	lrw      	r5, 0x3ff	// 3ea4 <EPWM_PX_PY_Configure+0x11e>
-    3e2c:	6815      	andn      	r0, r5
-    3e2e:	b702      	st.w      	r0, (r7, 0x8)
-		EPWM->WGCR1|=(EPWM_StartStopEvent_X<<8)|(EPWM_PendEvent_X<<6)|(EPWM_CentralEvent_X<<4)|(EPWM_EqCMPBEvent_X<<2)|EPWM_EqCMPAEvent_X;
-    3e30:	9862      	ld.w      	r3, (r14, 0x8)
-    3e32:	97a2      	ld.w      	r5, (r7, 0x8)
-    3e34:	4302      	lsli      	r0, r3, 2
-    3e36:	9861      	ld.w      	r3, (r14, 0x4)
-    3e38:	6cd4      	or      	r3, r5
-    3e3a:	6d4f      	mov      	r5, r3
-    3e3c:	9860      	ld.w      	r3, (r14, 0x0)
-    3e3e:	6d40      	or      	r5, r0
-    3e40:	4364      	lsli      	r3, r3, 4
-    3e42:	6cd4      	or      	r3, r5
-    3e44:	4246      	lsli      	r2, r2, 6
-    3e46:	6cc8      	or      	r3, r2
-    3e48:	4128      	lsli      	r1, r1, 8
-		EPWM->WGCR1|=(EPWM_StartStopEvent_X<<18)|(EPWM_PendEvent_X<<16)|(EPWM_CentralEvent_X<<14)|(EPWM_EqCMPBEvent_X<<12)|(EPWM_EqCMPAEvent_X<<10);
-    3e4a:	6c4c      	or      	r1, r3
-		EPWM->CNTR1=(0xA5<<24)|EPWM_CNTRX;
-    3e4c:	33a5      	movi      	r3, 165
-    3e4e:	4378      	lsli      	r3, r3, 24
-		EPWM->CMPAR1=(0xA5<<24)|EPWM_CMPARX;
-    3e50:	9843      	ld.w      	r2, (r14, 0xc)
-    3e52:	6c8c      	or      	r2, r3
-		EPWM->CNTR1=(0xA5<<24)|EPWM_CNTRX;
-    3e54:	6d0c      	or      	r4, r3
-		EPWM->WGCR1|=(EPWM_StartStopEvent_X<<18)|(EPWM_PendEvent_X<<16)|(EPWM_CentralEvent_X<<14)|(EPWM_EqCMPBEvent_X<<12)|(EPWM_EqCMPAEvent_X<<10);
-    3e56:	b722      	st.w      	r1, (r7, 0x8)
-		EPWM->CNTR1=(0xA5<<24)|EPWM_CNTRX;
-    3e58:	b687      	st.w      	r4, (r6, 0x1c)
-		EPWM->CMPAR1=(0xA5<<24)|EPWM_CMPARX;
-    3e5a:	b655      	st.w      	r2, (r6, 0x54)
-		EPWM->CMPBR1=(0xA5<<24)|EPWM_CMPBRX;
-    3e5c:	9844      	ld.w      	r2, (r14, 0x10)
-    3e5e:	6c8c      	or      	r2, r3
-    3e60:	b658      	st.w      	r2, (r6, 0x60)
-    3e62:	07c3      	br      	0x3de8	// 3de8 <EPWM_PX_PY_Configure+0x62>
-	else if(EPWM_PXxOrPYx==EPWM_P1Y)
-    3e64:	3843      	cmpnei      	r0, 3
-    3e66:	0826      	bt      	0x3eb2	// 3eb2 <EPWM_PX_PY_Configure+0x12c>
-		EPWM->WGCR1&=0XFFF003FF;
-    3e68:	100e      	lrw      	r0, 0x2000004c	// 3ea0 <EPWM_PX_PY_Configure+0x11a>
-    3e6a:	3780      	movi      	r7, 128
-    3e6c:	90c0      	ld.w      	r6, (r0, 0x0)
-    3e6e:	61d8      	addu      	r7, r6
-    3e70:	9702      	ld.w      	r0, (r7, 0x8)
-    3e72:	10ae      	lrw      	r5, 0xffc00	// 3ea8 <EPWM_PX_PY_Configure+0x122>
-    3e74:	6815      	andn      	r0, r5
-		EPWM->WGCR1|=(EPWM_StartStopEvent_X<<18)|(EPWM_PendEvent_X<<16)|(EPWM_CentralEvent_X<<14)|(EPWM_EqCMPBEvent_X<<12)|(EPWM_EqCMPAEvent_X<<10);
-    3e76:	9861      	ld.w      	r3, (r14, 0x4)
-		EPWM->WGCR1&=0XFFF003FF;
-    3e78:	b702      	st.w      	r0, (r7, 0x8)
-		EPWM->WGCR1|=(EPWM_StartStopEvent_X<<18)|(EPWM_PendEvent_X<<16)|(EPWM_CentralEvent_X<<14)|(EPWM_EqCMPBEvent_X<<12)|(EPWM_EqCMPAEvent_X<<10);
-    3e7a:	9702      	ld.w      	r0, (r7, 0x8)
-    3e7c:	43aa      	lsli      	r5, r3, 10
-    3e7e:	9862      	ld.w      	r3, (r14, 0x8)
-    3e80:	6d40      	or      	r5, r0
-    3e82:	430c      	lsli      	r0, r3, 12
-    3e84:	9860      	ld.w      	r3, (r14, 0x0)
-    3e86:	6c14      	or      	r0, r5
-    3e88:	436e      	lsli      	r3, r3, 14
-    3e8a:	6cc0      	or      	r3, r0
-    3e8c:	4250      	lsli      	r2, r2, 16
-    3e8e:	040f      	br      	0x3eac	// 3eac <EPWM_PX_PY_Configure+0x126>
-    3e90:	20000014 	.long	0x20000014
-    3e94:	2000000c 	.long	0x2000000c
-    3e98:	20000010 	.long	0x20000010
-    3e9c:	20000008 	.long	0x20000008
-    3ea0:	2000004c 	.long	0x2000004c
-    3ea4:	000003ff 	.long	0x000003ff
-    3ea8:	000ffc00 	.long	0x000ffc00
-    3eac:	6cc8      	or      	r3, r2
-    3eae:	4132      	lsli      	r1, r1, 18
-    3eb0:	07cd      	br      	0x3e4a	// 3e4a <EPWM_PX_PY_Configure+0xc4>
-	else if(EPWM_PXxOrPYx==EPWM_P2X)
-    3eb2:	3844      	cmpnei      	r0, 4
-    3eb4:	0823      	bt      	0x3efa	// 3efa <EPWM_PX_PY_Configure+0x174>
-		EPWM->WGCR2&=0XFFFFFC00;
-    3eb6:	011f      	lrw      	r0, 0x2000004c	// 41b4 <EPWM_LKCR_TRG_Configure+0x7c>
-    3eb8:	3780      	movi      	r7, 128
-    3eba:	90c0      	ld.w      	r6, (r0, 0x0)
-    3ebc:	61d8      	addu      	r7, r6
-    3ebe:	9703      	ld.w      	r0, (r7, 0xc)
-    3ec0:	02a1      	lrw      	r5, 0x3ff	// 41b8 <EPWM_LKCR_TRG_Configure+0x80>
-    3ec2:	6815      	andn      	r0, r5
-    3ec4:	b703      	st.w      	r0, (r7, 0xc)
-		EPWM->WGCR2|=(EPWM_StartStopEvent_X<<8)|(EPWM_PendEvent_X<<6)|(EPWM_CentralEvent_X<<4)|(EPWM_EqCMPBEvent_X<<2)|EPWM_EqCMPAEvent_X;
-    3ec6:	9862      	ld.w      	r3, (r14, 0x8)
-    3ec8:	97a3      	ld.w      	r5, (r7, 0xc)
-    3eca:	4302      	lsli      	r0, r3, 2
-    3ecc:	9861      	ld.w      	r3, (r14, 0x4)
-    3ece:	6cd4      	or      	r3, r5
-    3ed0:	6d4f      	mov      	r5, r3
-    3ed2:	9860      	ld.w      	r3, (r14, 0x0)
-    3ed4:	6d40      	or      	r5, r0
-    3ed6:	4364      	lsli      	r3, r3, 4
-    3ed8:	6cd4      	or      	r3, r5
-    3eda:	4246      	lsli      	r2, r2, 6
-    3edc:	6cc8      	or      	r3, r2
-    3ede:	4128      	lsli      	r1, r1, 8
-    3ee0:	6c4c      	or      	r1, r3
-		EPWM->CNTR2=(0xA5<<24)|EPWM_CNTRX;
-    3ee2:	33a5      	movi      	r3, 165
-    3ee4:	4378      	lsli      	r3, r3, 24
-		EPWM->CMPAR2=(0xA5<<24)|EPWM_CMPARX;
-    3ee6:	9843      	ld.w      	r2, (r14, 0xc)
-    3ee8:	6c8c      	or      	r2, r3
-		EPWM->CNTR2=(0xA5<<24)|EPWM_CNTRX;
-    3eea:	6d0c      	or      	r4, r3
-		EPWM->WGCR2|=(EPWM_StartStopEvent_X<<18)|(EPWM_PendEvent_X<<16)|(EPWM_CentralEvent_X<<14)|(EPWM_EqCMPBEvent_X<<12)|(EPWM_EqCMPAEvent_X<<10);
-    3eec:	b723      	st.w      	r1, (r7, 0xc)
-		EPWM->CNTR2=(0xA5<<24)|EPWM_CNTRX;
-    3eee:	b68b      	st.w      	r4, (r6, 0x2c)
-		EPWM->CMPAR2=(0xA5<<24)|EPWM_CMPARX;
-    3ef0:	b65b      	st.w      	r2, (r6, 0x6c)
-		EPWM->CMPBR2=(0xA5<<24)|EPWM_CMPBRX;
-    3ef2:	9844      	ld.w      	r2, (r14, 0x10)
-    3ef4:	6c8c      	or      	r2, r3
-    3ef6:	b65e      	st.w      	r2, (r6, 0x78)
-}
-    3ef8:	0778      	br      	0x3de8	// 3de8 <EPWM_PX_PY_Configure+0x62>
-	else if(EPWM_PXxOrPYx==EPWM_P2Y)
-    3efa:	3845      	cmpnei      	r0, 5
-    3efc:	0b76      	bt      	0x3de8	// 3de8 <EPWM_PX_PY_Configure+0x62>
-		EPWM->WGCR2&=0XFFF003FF;
-    3efe:	0211      	lrw      	r0, 0x2000004c	// 41b4 <EPWM_LKCR_TRG_Configure+0x7c>
-    3f00:	3780      	movi      	r7, 128
-    3f02:	90c0      	ld.w      	r6, (r0, 0x0)
-    3f04:	61d8      	addu      	r7, r6
-    3f06:	9703      	ld.w      	r0, (r7, 0xc)
-    3f08:	02b2      	lrw      	r5, 0xffc00	// 41bc <EPWM_LKCR_TRG_Configure+0x84>
-    3f0a:	6815      	andn      	r0, r5
-		EPWM->WGCR2|=(EPWM_StartStopEvent_X<<18)|(EPWM_PendEvent_X<<16)|(EPWM_CentralEvent_X<<14)|(EPWM_EqCMPBEvent_X<<12)|(EPWM_EqCMPAEvent_X<<10);
-    3f0c:	9861      	ld.w      	r3, (r14, 0x4)
-		EPWM->WGCR2&=0XFFF003FF;
-    3f0e:	b703      	st.w      	r0, (r7, 0xc)
-		EPWM->WGCR2|=(EPWM_StartStopEvent_X<<18)|(EPWM_PendEvent_X<<16)|(EPWM_CentralEvent_X<<14)|(EPWM_EqCMPBEvent_X<<12)|(EPWM_EqCMPAEvent_X<<10);
-    3f10:	9703      	ld.w      	r0, (r7, 0xc)
-    3f12:	43aa      	lsli      	r5, r3, 10
-    3f14:	9862      	ld.w      	r3, (r14, 0x8)
-    3f16:	6d40      	or      	r5, r0
-    3f18:	430c      	lsli      	r0, r3, 12
-    3f1a:	9860      	ld.w      	r3, (r14, 0x0)
-    3f1c:	6c14      	or      	r0, r5
-    3f1e:	436e      	lsli      	r3, r3, 14
-    3f20:	6c0c      	or      	r0, r3
-    3f22:	4250      	lsli      	r2, r2, 16
-    3f24:	6c08      	or      	r0, r2
-    3f26:	4132      	lsli      	r1, r1, 18
-    3f28:	6c40      	or      	r1, r0
-    3f2a:	07dc      	br      	0x3ee2	// 3ee2 <EPWM_PX_PY_Configure+0x15c>
-
-00003f2c <EPWM_OUTPUT_Configure>:
-/*************************************************************/
-//RED = DTR x (DIVM + 1) x 2DIVN x PCLK
-//FED = DTF x (DIVM + 1) x 2DIVN x PCLK
-void EPWM_OUTPUT_Configure(EPWM_PWM_XxOrPWM_Yx_TypeDef EPWM_PWM_XxOrPWM_Yx , EPWM_OUTSEL_TypeDef EPWM_OUTSEL_X , EPWM_X_POLARITY_TypeDef EPWM_X_POLARITY_X 
-					, EPWM_Y_POLARITY_TypeDef EPWM_Y_POLARITY_X , EPWM_SRCSEL_TypeDef EPWM_SRCSEL_X , U16_T DTR , U16_T DTF)
-{
-    3f2c:	14c3      	push      	r4-r6
-	if(EPWM_PWM_XxOrPWM_Yx==EPWM_PWM_X0OrPWM_Y0)
-    3f2e:	3840      	cmpnei      	r0, 0
-{
-    3f30:	98c3      	ld.w      	r6, (r14, 0xc)
-    3f32:	d8ae1008 	ld.h      	r5, (r14, 0x10)
-    3f36:	d88e100a 	ld.h      	r4, (r14, 0x14)
-	if(EPWM_PWM_XxOrPWM_Yx==EPWM_PWM_X0OrPWM_Y0)
-    3f3a:	080d      	bt      	0x3f54	// 3f54 <EPWM_OUTPUT_Configure+0x28>
-	{
-		EPWM->OUTCR0=EPWM_OUTSEL_X|EPWM_X_POLARITY_X|EPWM_Y_POLARITY_X|EPWM_SRCSEL_X|(DTR<<6)|(DTF<<15);
-    3f3c:	448f      	lsli      	r4, r4, 15
-    3f3e:	6d0c      	or      	r4, r3
-    3f40:	6d18      	or      	r4, r6
-    3f42:	0302      	lrw      	r0, 0x2000004c	// 41b4 <EPWM_LKCR_TRG_Configure+0x7c>
-    3f44:	6c90      	or      	r2, r4
-    3f46:	45a6      	lsli      	r5, r5, 6
-    3f48:	9000      	ld.w      	r0, (r0, 0x0)
-    3f4a:	6c94      	or      	r2, r5
-    3f4c:	6c48      	or      	r1, r2
-    3f4e:	207f      	addi      	r0, 128
-    3f50:	b024      	st.w      	r1, (r0, 0x10)
-	}
-	else if(EPWM_PWM_XxOrPWM_Yx==EPWM_PWM_X2OrPWM_Y2)
-	{
-		EPWM->OUTCR2=EPWM_OUTSEL_X|EPWM_X_POLARITY_X|EPWM_Y_POLARITY_X|EPWM_SRCSEL_X|(DTR<<6)|(DTF<<15);
-	}
-}
-    3f52:	1483      	pop      	r4-r6
-	else if(EPWM_PWM_XxOrPWM_Yx==EPWM_PWM_X1OrPWM_Y1)
-    3f54:	3841      	cmpnei      	r0, 1
-    3f56:	080d      	bt      	0x3f70	// 3f70 <EPWM_OUTPUT_Configure+0x44>
-		EPWM->OUTCR1=EPWM_OUTSEL_X|EPWM_X_POLARITY_X|EPWM_Y_POLARITY_X|EPWM_SRCSEL_X|(DTR<<6)|(DTF<<15);
-    3f58:	448f      	lsli      	r4, r4, 15
-    3f5a:	6d0c      	or      	r4, r3
-    3f5c:	6d18      	or      	r4, r6
-    3f5e:	0309      	lrw      	r0, 0x2000004c	// 41b4 <EPWM_LKCR_TRG_Configure+0x7c>
-    3f60:	6c90      	or      	r2, r4
-    3f62:	45a6      	lsli      	r5, r5, 6
-    3f64:	9000      	ld.w      	r0, (r0, 0x0)
-    3f66:	6c94      	or      	r2, r5
-    3f68:	6c48      	or      	r1, r2
-    3f6a:	207f      	addi      	r0, 128
-    3f6c:	b025      	st.w      	r1, (r0, 0x14)
-    3f6e:	07f2      	br      	0x3f52	// 3f52 <EPWM_OUTPUT_Configure+0x26>
-	else if(EPWM_PWM_XxOrPWM_Yx==EPWM_PWM_X2OrPWM_Y2)
-    3f70:	3842      	cmpnei      	r0, 2
-    3f72:	0bf0      	bt      	0x3f52	// 3f52 <EPWM_OUTPUT_Configure+0x26>
-		EPWM->OUTCR2=EPWM_OUTSEL_X|EPWM_X_POLARITY_X|EPWM_Y_POLARITY_X|EPWM_SRCSEL_X|(DTR<<6)|(DTF<<15);
-    3f74:	448f      	lsli      	r4, r4, 15
-    3f76:	6d0c      	or      	r4, r3
-    3f78:	6d18      	or      	r4, r6
-    3f7a:	0310      	lrw      	r0, 0x2000004c	// 41b4 <EPWM_LKCR_TRG_Configure+0x7c>
-    3f7c:	6c90      	or      	r2, r4
-    3f7e:	45a6      	lsli      	r5, r5, 6
-    3f80:	9000      	ld.w      	r0, (r0, 0x0)
-    3f82:	6c94      	or      	r2, r5
-    3f84:	6c48      	or      	r1, r2
-    3f86:	207f      	addi      	r0, 128
-    3f88:	b026      	st.w      	r1, (r0, 0x18)
-}
-    3f8a:	07e4      	br      	0x3f52	// 3f52 <EPWM_OUTPUT_Configure+0x26>
-
-00003f8c <EPWM_Set_CNTRX_CMPARX_CMPBRX>:
-//Load_PCMPARX:0~0xffff
-//Load_PCMPBRX:0~0xffff
-//ReturnValue:NONE
-/*************************************************************/ 
-void EPWM_Set_CNTRX_CMPARX_CMPBRX(EPWM_CNTRX_Selected_TypeDef EPWM_CNTRX_Selected , U16_T Load_PCNTRX , U16_T Load_PCMPARX , U16_T Load_PCMPBRX )
-{
-    3f8c:	14c1      	push      	r4
-	if(EPWM_CNTRX_Selected==EPWM_CNTR0)
-    3f8e:	3840      	cmpnei      	r0, 0
-    3f90:	080c      	bt      	0x3fa8	// 3fa8 <EPWM_Set_CNTRX_CMPARX_CMPBRX+0x1c>
-	{
-		EPWM->CNTR0=(0xA5<<24)|Load_PCNTRX;
-    3f92:	34a5      	movi      	r4, 165
-    3f94:	4498      	lsli      	r4, r4, 24
-    3f96:	0317      	lrw      	r0, 0x2000004c	// 41b4 <EPWM_LKCR_TRG_Configure+0x7c>
-    3f98:	6c50      	or      	r1, r4
-    3f9a:	9000      	ld.w      	r0, (r0, 0x0)
-		EPWM->CMPAR0=(0xA5<<24)|Load_PCMPARX;
-    3f9c:	6c90      	or      	r2, r4
-		EPWM->CMPBR0=(0xA5<<24)|Load_PCMPBRX;
-    3f9e:	6d0c      	or      	r4, r3
-		EPWM->CNTR0=(0xA5<<24)|Load_PCNTRX;
-    3fa0:	b023      	st.w      	r1, (r0, 0xc)
-		EPWM->CMPAR0=(0xA5<<24)|Load_PCMPARX;
-    3fa2:	b04f      	st.w      	r2, (r0, 0x3c)
-		EPWM->CMPBR0=(0xA5<<24)|Load_PCMPBRX;
-    3fa4:	b092      	st.w      	r4, (r0, 0x48)
-	{
-		EPWM->CNTR2=(0xA5<<24)|Load_PCNTRX;
-		EPWM->CMPAR2=(0xA5<<24)|Load_PCMPARX;
-		EPWM->CMPBR2=(0xA5<<24)|Load_PCMPBRX;
-	}
-}
-    3fa6:	1481      	pop      	r4
-	else if(EPWM_CNTRX_Selected==EPWM_CNTR1)
-    3fa8:	3841      	cmpnei      	r0, 1
-    3faa:	080c      	bt      	0x3fc2	// 3fc2 <EPWM_Set_CNTRX_CMPARX_CMPBRX+0x36>
-		EPWM->CNTR1=(0xA5<<24)|Load_PCNTRX;
-    3fac:	031d      	lrw      	r0, 0x2000004c	// 41b4 <EPWM_LKCR_TRG_Configure+0x7c>
-    3fae:	9080      	ld.w      	r4, (r0, 0x0)
-    3fb0:	30a5      	movi      	r0, 165
-    3fb2:	4018      	lsli      	r0, r0, 24
-    3fb4:	6c40      	or      	r1, r0
-		EPWM->CMPAR1=(0xA5<<24)|Load_PCMPARX;
-    3fb6:	6c80      	or      	r2, r0
-		EPWM->CMPBR1=(0xA5<<24)|Load_PCMPBRX;
-    3fb8:	6c0c      	or      	r0, r3
-		EPWM->CNTR1=(0xA5<<24)|Load_PCNTRX;
-    3fba:	b427      	st.w      	r1, (r4, 0x1c)
-		EPWM->CMPAR1=(0xA5<<24)|Load_PCMPARX;
-    3fbc:	b455      	st.w      	r2, (r4, 0x54)
-		EPWM->CMPBR1=(0xA5<<24)|Load_PCMPBRX;
-    3fbe:	b418      	st.w      	r0, (r4, 0x60)
-    3fc0:	07f3      	br      	0x3fa6	// 3fa6 <EPWM_Set_CNTRX_CMPARX_CMPBRX+0x1a>
-	else if(EPWM_CNTRX_Selected==EPWM_CNTR2)
-    3fc2:	3842      	cmpnei      	r0, 2
-    3fc4:	0bf1      	bt      	0x3fa6	// 3fa6 <EPWM_Set_CNTRX_CMPARX_CMPBRX+0x1a>
-		EPWM->CNTR2=(0xA5<<24)|Load_PCNTRX;
-    3fc6:	131c      	lrw      	r0, 0x2000004c	// 41b4 <EPWM_LKCR_TRG_Configure+0x7c>
-    3fc8:	9080      	ld.w      	r4, (r0, 0x0)
-    3fca:	30a5      	movi      	r0, 165
-    3fcc:	4018      	lsli      	r0, r0, 24
-    3fce:	6c40      	or      	r1, r0
-		EPWM->CMPAR2=(0xA5<<24)|Load_PCMPARX;
-    3fd0:	6c80      	or      	r2, r0
-		EPWM->CMPBR2=(0xA5<<24)|Load_PCMPBRX;
-    3fd2:	6c0c      	or      	r0, r3
-		EPWM->CNTR2=(0xA5<<24)|Load_PCNTRX;
-    3fd4:	b42b      	st.w      	r1, (r4, 0x2c)
-		EPWM->CMPAR2=(0xA5<<24)|Load_PCMPARX;
-    3fd6:	b45b      	st.w      	r2, (r4, 0x6c)
-		EPWM->CMPBR2=(0xA5<<24)|Load_PCMPBRX;
-    3fd8:	b41e      	st.w      	r0, (r4, 0x78)
-}
-    3fda:	07e6      	br      	0x3fa6	// 3fa6 <EPWM_Set_CNTRX_CMPARX_CMPBRX+0x1a>
-
-00003fdc <EPWM_Set_SLPCNTRX_SLPCMPARX_SLPCMPBRX>:
-//Load_SLPCMPARX:0~0xffff
-//Load_SLPCMPBRX:0~0xffff
-//ReturnValue:NOE
-/*************************************************************/ 
-void EPWM_Set_SLPCNTRX_SLPCMPARX_SLPCMPBRX(EPWM_CNTRX_Selected_TypeDef EPWM_SLPCNTRX_Selected , U16_T Load_SLPCNTRX , U16_T Load_SLPCMPARX , U16_T Load_SLPCMPBRX )
-{
-    3fdc:	14c2      	push      	r4-r5
-	if(EPWM_SLPCNTRX_Selected==EPWM_SLPCNTR0)
-    3fde:	3843      	cmpnei      	r0, 3
-    3fe0:	080c      	bt      	0x3ff8	// 3ff8 <EPWM_Set_SLPCNTRX_SLPCMPARX_SLPCMPBRX+0x1c>
-	{
-		EPWM->SLPCNTR0=(0xA5<<24)|Load_SLPCNTRX;
-    3fe2:	1315      	lrw      	r0, 0x2000004c	// 41b4 <EPWM_LKCR_TRG_Configure+0x7c>
-    3fe4:	9080      	ld.w      	r4, (r0, 0x0)
-    3fe6:	30a5      	movi      	r0, 165
-    3fe8:	4018      	lsli      	r0, r0, 24
-    3fea:	6c40      	or      	r1, r0
-		EPWM->SLPCMPAR0=(0xA5<<24)|Load_SLPCMPARX;
-    3fec:	6c80      	or      	r2, r0
-		EPWM->SLPCMPBR0=(0xA5<<24)|Load_SLPCMPBRX;
-    3fee:	6c0c      	or      	r0, r3
-		EPWM->SLPCNTR0=(0xA5<<24)|Load_SLPCNTRX;
-    3ff0:	b426      	st.w      	r1, (r4, 0x18)
-		EPWM->SLPCMPAR0=(0xA5<<24)|Load_SLPCMPARX;
-    3ff2:	b451      	st.w      	r2, (r4, 0x44)
-		EPWM->SLPCMPBR0=(0xA5<<24)|Load_SLPCMPBRX;
-    3ff4:	b414      	st.w      	r0, (r4, 0x50)
-	{
-		EPWM->SLPCNTR1=(0xA5<<24)|Load_SLPCNTRX;
-		EPWM->SLPCMPAR1=(0xA5<<24)|Load_SLPCMPARX;
-		EPWM->SLPCMPBR1=(0xA5<<24)|Load_SLPCMPBRX;
-	}
-}
-    3ff6:	1482      	pop      	r4-r5
-	else if(EPWM_SLPCNTRX_Selected==EPWM_SLPCNTR1)
-    3ff8:	3844      	cmpnei      	r0, 4
-    3ffa:	0bfe      	bt      	0x3ff6	// 3ff6 <EPWM_Set_SLPCNTRX_SLPCMPARX_SLPCMPBRX+0x1a>
-		EPWM->SLPCNTR1=(0xA5<<24)|Load_SLPCNTRX;
-    3ffc:	34a5      	movi      	r4, 165
-    3ffe:	4498      	lsli      	r4, r4, 24
-    4000:	130d      	lrw      	r0, 0x2000004c	// 41b4 <EPWM_LKCR_TRG_Configure+0x7c>
-    4002:	6c50      	or      	r1, r4
-    4004:	90a0      	ld.w      	r5, (r0, 0x0)
-		EPWM->SLPCMPAR1=(0xA5<<24)|Load_SLPCMPARX;
-    4006:	6c90      	or      	r2, r4
-		EPWM->SLPCMPBR1=(0xA5<<24)|Load_SLPCMPBRX;
-    4008:	6cd0      	or      	r3, r4
-		EPWM->SLPCNTR1=(0xA5<<24)|Load_SLPCNTRX;
-    400a:	b52a      	st.w      	r1, (r5, 0x28)
-		EPWM->SLPCMPAR1=(0xA5<<24)|Load_SLPCMPARX;
-    400c:	b557      	st.w      	r2, (r5, 0x5c)
-		EPWM->SLPCMPBR1=(0xA5<<24)|Load_SLPCMPBRX;
-    400e:	b57a      	st.w      	r3, (r5, 0x68)
-}
-    4010:	07f3      	br      	0x3ff6	// 3ff6 <EPWM_Set_SLPCNTRX_SLPCMPARX_SLPCMPBRX+0x1a>
-
-00004012 <EPWM_software_reset>:
-//EntryParameter:NONE
-//ReturnValue:NONE
-/*************************************************************/  
-void EPWM_software_reset(void)
-{
-	EPWM->CR = EPWM->CR | S_RST;									// Reset PWM
-    4012:	1369      	lrw      	r3, 0x2000004c	// 41b4 <EPWM_LKCR_TRG_Configure+0x7c>
-    4014:	9340      	ld.w      	r2, (r3, 0x0)
-    4016:	9260      	ld.w      	r3, (r2, 0x0)
-    4018:	3ba2      	bseti      	r3, 2
-    401a:	b260      	st.w      	r3, (r2, 0x0)
-}
-    401c:	783c      	jmp      	r15
-
-0000401e <EPWM_AllConter_START>:
-//EntryParameter:NONE
-//ReturnValue:NONE
-/*************************************************************/  
-void EPWM_AllConter_START(void)
-{
-	EPWM->CR = EPWM->CR | PWMSTART;									// Start PWM
-    401e:	1366      	lrw      	r3, 0x2000004c	// 41b4 <EPWM_LKCR_TRG_Configure+0x7c>
-    4020:	9340      	ld.w      	r2, (r3, 0x0)
-    4022:	9260      	ld.w      	r3, (r2, 0x0)
-    4024:	3ba0      	bseti      	r3, 0
-    4026:	b260      	st.w      	r3, (r2, 0x0)
-}
-    4028:	783c      	jmp      	r15
-
-0000402a <EPWM_Conter0_START>:
-//EntryParameter:NONE
-//ReturnValue:NONE
-/*************************************************************/  
-void EPWM_Conter0_START(void)
-{
-	EPWM->CR = EPWM->CR | PWM0START;									// Start PWM0
-    402a:	1363      	lrw      	r3, 0x2000004c	// 41b4 <EPWM_LKCR_TRG_Configure+0x7c>
-    402c:	9340      	ld.w      	r2, (r3, 0x0)
-    402e:	9260      	ld.w      	r3, (r2, 0x0)
-    4030:	3bb8      	bseti      	r3, 24
-    4032:	b260      	st.w      	r3, (r2, 0x0)
-}
-    4034:	783c      	jmp      	r15
-
-00004036 <EPWM_Conter1_START>:
-//EntryParameter:NONE
-//ReturnValue:NONE
-/*************************************************************/  
-void EPWM_Conter1_START(void)
-{
-	EPWM->CR = EPWM->CR | PWM1START;									// Start PWM1
-    4036:	1360      	lrw      	r3, 0x2000004c	// 41b4 <EPWM_LKCR_TRG_Configure+0x7c>
-    4038:	9340      	ld.w      	r2, (r3, 0x0)
-    403a:	9260      	ld.w      	r3, (r2, 0x0)
-    403c:	3bb9      	bseti      	r3, 25
-    403e:	b260      	st.w      	r3, (r2, 0x0)
-}
-    4040:	783c      	jmp      	r15
-
-00004042 <EPWM_Conter2_START>:
-//EntryParameter:NONE
-//ReturnValue:NONE
-/*************************************************************/  
-void EPWM_Conter2_START(void)
-{
-	EPWM->CR = EPWM->CR | PWM2START;									// Start PWM2
-    4042:	127d      	lrw      	r3, 0x2000004c	// 41b4 <EPWM_LKCR_TRG_Configure+0x7c>
-    4044:	9340      	ld.w      	r2, (r3, 0x0)
-    4046:	9260      	ld.w      	r3, (r2, 0x0)
-    4048:	3bba      	bseti      	r3, 26
-    404a:	b260      	st.w      	r3, (r2, 0x0)
-}
-    404c:	783c      	jmp      	r15
-
-0000404e <EPWM_AllConter_stop>:
-//EntryParameter:NONE
-//ReturnValue:NONE
-/*************************************************************/  
-void EPWM_AllConter_stop(void)
-{
-	EPWM->CR = EPWM->CR | PWMSTOP;									// stop PWM
-    404e:	127a      	lrw      	r3, 0x2000004c	// 41b4 <EPWM_LKCR_TRG_Configure+0x7c>
-	while( (EPWM->CR & BUSY) == BUSY );					// Check if the PWM is busy
-    4050:	3280      	movi      	r2, 128
-	EPWM->CR = EPWM->CR | PWMSTOP;									// stop PWM
-    4052:	9320      	ld.w      	r1, (r3, 0x0)
-    4054:	9160      	ld.w      	r3, (r1, 0x0)
-    4056:	3ba1      	bseti      	r3, 1
-    4058:	b160      	st.w      	r3, (r1, 0x0)
-	while( (EPWM->CR & BUSY) == BUSY );					// Check if the PWM is busy
-    405a:	424d      	lsli      	r2, r2, 13
-    405c:	9160      	ld.w      	r3, (r1, 0x0)
-    405e:	68c8      	and      	r3, r2
-    4060:	3b40      	cmpnei      	r3, 0
-    4062:	0bfd      	bt      	0x405c	// 405c <EPWM_AllConter_stop+0xe>
-}
-    4064:	783c      	jmp      	r15
-
-00004066 <EPWM_Conter0_STOP>:
-//EntryParameter:NONE
-//ReturnValue:NONE
-/*************************************************************/  
-void EPWM_Conter0_STOP(void)
-{
-	EPWM->CR = EPWM->CR | PWM0STOP;									// Stop PWM0
-    4066:	1274      	lrw      	r3, 0x2000004c	// 41b4 <EPWM_LKCR_TRG_Configure+0x7c>
-	while( (EPWM->RISR & EPWM_STOP0)!=EPWM_STOP0 );					// Check if the PWM0 stop complete
-    4068:	3102      	movi      	r1, 2
-	EPWM->CR = EPWM->CR | PWM0STOP;									// Stop PWM0
-    406a:	9360      	ld.w      	r3, (r3, 0x0)
-    406c:	9340      	ld.w      	r2, (r3, 0x0)
-    406e:	3abb      	bseti      	r2, 27
-    4070:	b340      	st.w      	r2, (r3, 0x0)
-	while( (EPWM->RISR & EPWM_STOP0)!=EPWM_STOP0 );					// Check if the PWM0 stop complete
-    4072:	237f      	addi      	r3, 128
-    4074:	9350      	ld.w      	r2, (r3, 0x40)
-    4076:	6884      	and      	r2, r1
-    4078:	3a40      	cmpnei      	r2, 0
-    407a:	0ffd      	bf      	0x4074	// 4074 <EPWM_Conter0_STOP+0xe>
-}
-    407c:	783c      	jmp      	r15
-
-0000407e <EPWM_Conter1_STOP>:
-//EntryParameter:NONE
-//ReturnValue:NONE
-/*************************************************************/  
-void EPWM_Conter1_STOP(void)
-{
-	EPWM->CR = EPWM->CR | PWM1STOP;									// Stop PWM1
-    407e:	126e      	lrw      	r3, 0x2000004c	// 41b4 <EPWM_LKCR_TRG_Configure+0x7c>
-	while( (EPWM->RISR & EPWM_STOP1)!=EPWM_STOP1 );					// Check if the PWM1 stop complete
-    4080:	3120      	movi      	r1, 32
-	EPWM->CR = EPWM->CR | PWM1STOP;									// Stop PWM1
-    4082:	9360      	ld.w      	r3, (r3, 0x0)
-    4084:	9340      	ld.w      	r2, (r3, 0x0)
-    4086:	3abc      	bseti      	r2, 28
-    4088:	b340      	st.w      	r2, (r3, 0x0)
-	while( (EPWM->RISR & EPWM_STOP1)!=EPWM_STOP1 );					// Check if the PWM1 stop complete
-    408a:	237f      	addi      	r3, 128
-    408c:	9350      	ld.w      	r2, (r3, 0x40)
-    408e:	6884      	and      	r2, r1
-    4090:	3a40      	cmpnei      	r2, 0
-    4092:	0ffd      	bf      	0x408c	// 408c <EPWM_Conter1_STOP+0xe>
-}
-    4094:	783c      	jmp      	r15
-
-00004096 <EPWM_Conter2_STOP>:
-//EntryParameter:NONE
-//ReturnValue:NONE
-/*************************************************************/  
-void EPWM_Conter2_STOP(void)
-{
-	EPWM->CR = EPWM->CR | PWM2STOP;									// Stop PWM2
-    4096:	1268      	lrw      	r3, 0x2000004c	// 41b4 <EPWM_LKCR_TRG_Configure+0x7c>
-	while( (EPWM->RISR & EPWM_STOP2)!=EPWM_STOP2 );					// Check if the PWM2 stop complete
-    4098:	3180      	movi      	r1, 128
-	EPWM->CR = EPWM->CR | PWM2STOP;									// Stop PWM2
-    409a:	9360      	ld.w      	r3, (r3, 0x0)
-    409c:	9340      	ld.w      	r2, (r3, 0x0)
-    409e:	3abd      	bseti      	r2, 29
-    40a0:	b340      	st.w      	r2, (r3, 0x0)
-	while( (EPWM->RISR & EPWM_STOP2)!=EPWM_STOP2 );					// Check if the PWM2 stop complete
-    40a2:	4122      	lsli      	r1, r1, 2
-    40a4:	237f      	addi      	r3, 128
-    40a6:	9350      	ld.w      	r2, (r3, 0x40)
-    40a8:	6884      	and      	r2, r1
-    40aa:	3a40      	cmpnei      	r2, 0
-    40ac:	0ffd      	bf      	0x40a6	// 40a6 <EPWM_Conter2_STOP+0x10>
-}
-    40ae:	783c      	jmp      	r15
-
-000040b0 <EPWM_ConfigInterrupt_CMD>:
-//EPWM0_SLPA_OVF,EPWM0_SLPB_OVF,EPWM1_SLPA_OVF,EPWM1_SLPB_OVF
-//NewState:ENABLE,DISABLE
-//ReturnValue:NONE
-/*************************************************************/ 
-void EPWM_ConfigInterrupt_CMD(EPWM_INT_TypeDef EPWM_INT_X , FunctionalStatus NewState)
-{
-    40b0:	1261      	lrw      	r3, 0x2000004c	// 41b4 <EPWM_LKCR_TRG_Configure+0x7c>
-	if (NewState != DISABLE)
-    40b2:	3940      	cmpnei      	r1, 0
-	{
-		EPWM->IER  |= EPWM_INT_X;						//SET
-    40b4:	9360      	ld.w      	r3, (r3, 0x0)
-    40b6:	237f      	addi      	r3, 128
-    40b8:	934e      	ld.w      	r2, (r3, 0x38)
-	if (NewState != DISABLE)
-    40ba:	0c04      	bf      	0x40c2	// 40c2 <EPWM_ConfigInterrupt_CMD+0x12>
-		EPWM->IER  |= EPWM_INT_X;						//SET
-    40bc:	6c08      	or      	r0, r2
-    40be:	b30e      	st.w      	r0, (r3, 0x38)
-	}
-	else
-	{
-		EPWM->IER  &= ~EPWM_INT_X;						//CLR
-	}
-}
-    40c0:	783c      	jmp      	r15
-		EPWM->IER  &= ~EPWM_INT_X;						//CLR
-    40c2:	6881      	andn      	r2, r0
-    40c4:	b34e      	st.w      	r2, (r3, 0x38)
-}
-    40c6:	07fd      	br      	0x40c0	// 40c0 <EPWM_ConfigInterrupt_CMD+0x10>
-
-000040c8 <EPWM_Carrier_Wave_CMD>:
-//ReturnValue:NONE
-/*************************************************************/ 
-//CarrierWave_Duty_time=OSW_time*(PCLK/CDIV)*8
-void EPWM_Carrier_Wave_CMD(EPWM_PWM_XxOrPWM_Yx_TypeDef EPWM_PWM_XxOrPWM_Yx , EPWM_Carrier_Wave_Duty_TypeDef EPWM_Carrier_Wave_Duty_X ,
-					EPWM_CDIV_TypeDef EPWM_CDIV_X , U8_T OSW_time , FunctionalStatus NewState)
-{
-    40c8:	14c2      	push      	r4-r5
-	if(EPWM_PWM_XxOrPWM_Yx==EPWM_PWM_X0OrPWM_Y0)
-    40ca:	3840      	cmpnei      	r0, 0
-{
-    40cc:	9882      	ld.w      	r4, (r14, 0x8)
-	if(EPWM_PWM_XxOrPWM_Yx==EPWM_PWM_X0OrPWM_Y0)
-    40ce:	0810      	bt      	0x40ee	// 40ee <EPWM_Carrier_Wave_CMD+0x26>
-	{
-		EPWM->CFCR0=EPWM_Carrier_Wave_Duty_X|EPWM_CDIV_X|(OSW_time<<4);
-    40d0:	1119      	lrw      	r0, 0x2000004c	// 41b4 <EPWM_LKCR_TRG_Configure+0x7c>
-    40d2:	4364      	lsli      	r3, r3, 4
-    40d4:	9000      	ld.w      	r0, (r0, 0x0)
-    40d6:	6c84      	or      	r2, r1
-    40d8:	6c8c      	or      	r2, r3
-    40da:	207f      	addi      	r0, 128
-    40dc:	b047      	st.w      	r2, (r0, 0x1c)
-		if (NewState != DISABLE)
-    40de:	3c40      	cmpnei      	r4, 0
-		{
-			EPWM->CFCR0  |= 0x01;						//SET
-    40e0:	9067      	ld.w      	r3, (r0, 0x1c)
-		if (NewState != DISABLE)
-    40e2:	0c04      	bf      	0x40ea	// 40ea <EPWM_Carrier_Wave_CMD+0x22>
-			EPWM->CFCR0  |= 0x01;						//SET
-    40e4:	3ba0      	bseti      	r3, 0
-		}
-		else
-		{
-			EPWM->CFCR0  &= 0xfffffffe;					//CLR
-    40e6:	b067      	st.w      	r3, (r0, 0x1c)
-		else
-		{
-			EPWM->CFCR2  &= 0xfffffffe;					//CLR
-		}
-	}
-}
-    40e8:	1482      	pop      	r4-r5
-			EPWM->CFCR0  &= 0xfffffffe;					//CLR
-    40ea:	3b80      	bclri      	r3, 0
-    40ec:	07fd      	br      	0x40e6	// 40e6 <EPWM_Carrier_Wave_CMD+0x1e>
-	else if(EPWM_PWM_XxOrPWM_Yx==EPWM_PWM_X1OrPWM_Y1)
-    40ee:	3841      	cmpnei      	r0, 1
-    40f0:	0811      	bt      	0x4112	// 4112 <EPWM_Carrier_Wave_CMD+0x4a>
-		EPWM->CFCR1=EPWM_Carrier_Wave_Duty_X|EPWM_CDIV_X|(OSW_time<<4);
-    40f2:	11b1      	lrw      	r5, 0x2000004c	// 41b4 <EPWM_LKCR_TRG_Configure+0x7c>
-    40f4:	4364      	lsli      	r3, r3, 4
-    40f6:	95a0      	ld.w      	r5, (r5, 0x0)
-    40f8:	6c84      	or      	r2, r1
-    40fa:	6c8c      	or      	r2, r3
-    40fc:	257f      	addi      	r5, 128
-    40fe:	b548      	st.w      	r2, (r5, 0x20)
-		if (NewState != DISABLE)
-    4100:	3c40      	cmpnei      	r4, 0
-			EPWM->CFCR1  |= 0x01;						//SET
-    4102:	9568      	ld.w      	r3, (r5, 0x20)
-		if (NewState != DISABLE)
-    4104:	0c04      	bf      	0x410c	// 410c <EPWM_Carrier_Wave_CMD+0x44>
-			EPWM->CFCR1  |= 0x01;						//SET
-    4106:	6c0c      	or      	r0, r3
-    4108:	b508      	st.w      	r0, (r5, 0x20)
-    410a:	07ef      	br      	0x40e8	// 40e8 <EPWM_Carrier_Wave_CMD+0x20>
-			EPWM->CFCR1  &= 0xfffffffe;					//CLR
-    410c:	3b80      	bclri      	r3, 0
-    410e:	b568      	st.w      	r3, (r5, 0x20)
-    4110:	07ec      	br      	0x40e8	// 40e8 <EPWM_Carrier_Wave_CMD+0x20>
-	else if(EPWM_PWM_XxOrPWM_Yx==EPWM_PWM_X2OrPWM_Y2)
-    4112:	3842      	cmpnei      	r0, 2
-    4114:	0bea      	bt      	0x40e8	// 40e8 <EPWM_Carrier_Wave_CMD+0x20>
-		EPWM->CFCR2|=EPWM_Carrier_Wave_Duty_X|EPWM_CDIV_X|(OSW_time<<4);
-    4116:	1108      	lrw      	r0, 0x2000004c	// 41b4 <EPWM_LKCR_TRG_Configure+0x7c>
-    4118:	4364      	lsli      	r3, r3, 4
-    411a:	9000      	ld.w      	r0, (r0, 0x0)
-    411c:	207f      	addi      	r0, 128
-    411e:	90a9      	ld.w      	r5, (r0, 0x24)
-    4120:	6c94      	or      	r2, r5
-    4122:	6c84      	or      	r2, r1
-    4124:	6c8c      	or      	r2, r3
-    4126:	b049      	st.w      	r2, (r0, 0x24)
-		if (NewState != DISABLE)
-    4128:	3c40      	cmpnei      	r4, 0
-			EPWM->CFCR2  |= 0x01;						//SET
-    412a:	9069      	ld.w      	r3, (r0, 0x24)
-		if (NewState != DISABLE)
-    412c:	0c04      	bf      	0x4134	// 4134 <EPWM_Carrier_Wave_CMD+0x6c>
-			EPWM->CFCR2  |= 0x01;						//SET
-    412e:	3ba0      	bseti      	r3, 0
-			EPWM->CFCR2  &= 0xfffffffe;					//CLR
-    4130:	b069      	st.w      	r3, (r0, 0x24)
-}
-    4132:	07db      	br      	0x40e8	// 40e8 <EPWM_Carrier_Wave_CMD+0x20>
-			EPWM->CFCR2  &= 0xfffffffe;					//CLR
-    4134:	3b80      	bclri      	r3, 0
-    4136:	07fd      	br      	0x4130	// 4130 <EPWM_Carrier_Wave_CMD+0x68>
-
-00004138 <EPWM_LKCR_TRG_Configure>:
-//10：选择为软锁止的触发源
-//11：选择为硬锁止的触发源
-//IVT = TRGIVT x 4 x Tpwmclk  ; TDL = (TRGTDL+1) x 4 x Tpwmclk 
-void EPWM_LKCR_TRG_Configure(EPWM_Triggle_Source_TypeDef EPWM_Triggle_Source_X , U8_T EPWM_LK_mode_selected)
-{
-	if(EPWM_Triggle_Source_X==CMP0LKM)
-    4138:	3841      	cmpnei      	r0, 1
-    413a:	080b      	bt      	0x4150	// 4150 <EPWM_LKCR_TRG_Configure+0x18>
-	{
-		EPWM->LKCR&=0XFFFFFFF8;
-    413c:	107e      	lrw      	r3, 0x2000004c	// 41b4 <EPWM_LKCR_TRG_Configure+0x7c>
-    413e:	3007      	movi      	r0, 7
-    4140:	9360      	ld.w      	r3, (r3, 0x0)
-    4142:	9341      	ld.w      	r2, (r3, 0x4)
-    4144:	6881      	andn      	r2, r0
-    4146:	b341      	st.w      	r2, (r3, 0x4)
-		EPWM->LKCR|=EPWM_LK_mode_selected;
-    4148:	9341      	ld.w      	r2, (r3, 0x4)
-		EPWM->LKCR|=EPWM_LK_mode_selected<<18;
-	}
-	else if(EPWM_Triggle_Source_X==EXI3LKM)
-	{
-		EPWM->LKCR&=0XFF1FFFFF;
-		EPWM->LKCR|=EPWM_LK_mode_selected<<21;
-    414a:	6c48      	or      	r1, r2
-    414c:	b321      	st.w      	r1, (r3, 0x4)
-	else if(EPWM_Triggle_Source_X==EXI7LKM)
-	{
-		EPWM->LKCR&=0X3FFFFFFF;
-		EPWM->LKCR|=EPWM_LK_mode_selected<<30;
-	}*/
-}
-    414e:	783c      	jmp      	r15
-	else if(EPWM_Triggle_Source_X==CMP1LKM)
-    4150:	3842      	cmpnei      	r0, 2
-    4152:	080a      	bt      	0x4166	// 4166 <EPWM_LKCR_TRG_Configure+0x2e>
-		EPWM->LKCR&=0XFFFFFFC7;
-    4154:	1078      	lrw      	r3, 0x2000004c	// 41b4 <EPWM_LKCR_TRG_Configure+0x7c>
-    4156:	3038      	movi      	r0, 56
-    4158:	9360      	ld.w      	r3, (r3, 0x0)
-    415a:	9341      	ld.w      	r2, (r3, 0x4)
-    415c:	6881      	andn      	r2, r0
-    415e:	b341      	st.w      	r2, (r3, 0x4)
-		EPWM->LKCR|=EPWM_LK_mode_selected<<3;
-    4160:	9341      	ld.w      	r2, (r3, 0x4)
-    4162:	4123      	lsli      	r1, r1, 3
-    4164:	07f3      	br      	0x414a	// 414a <EPWM_LKCR_TRG_Configure+0x12>
-	else if(EPWM_Triggle_Source_X==CMP2LKM)
-    4166:	3843      	cmpnei      	r0, 3
-    4168:	080a      	bt      	0x417c	// 417c <EPWM_LKCR_TRG_Configure+0x44>
-		EPWM->LKCR&=0XFFFFFF3F;
-    416a:	1073      	lrw      	r3, 0x2000004c	// 41b4 <EPWM_LKCR_TRG_Configure+0x7c>
-		EPWM->LKCR|=EPWM_LK_mode_selected<<6;
-    416c:	4126      	lsli      	r1, r1, 6
-		EPWM->LKCR&=0XFFFFFF3F;
-    416e:	9360      	ld.w      	r3, (r3, 0x0)
-    4170:	9341      	ld.w      	r2, (r3, 0x4)
-    4172:	3a86      	bclri      	r2, 6
-    4174:	3a87      	bclri      	r2, 7
-    4176:	b341      	st.w      	r2, (r3, 0x4)
-		EPWM->LKCR|=EPWM_LK_mode_selected<<6;
-    4178:	9341      	ld.w      	r2, (r3, 0x4)
-    417a:	07e8      	br      	0x414a	// 414a <EPWM_LKCR_TRG_Configure+0x12>
-	else if(EPWM_Triggle_Source_X==CMP3LKM)
-    417c:	3844      	cmpnei      	r0, 4
-    417e:	080a      	bt      	0x4192	// 4192 <EPWM_LKCR_TRG_Configure+0x5a>
-		EPWM->LKCR&=0XFFFFFCFF;
-    4180:	106d      	lrw      	r3, 0x2000004c	// 41b4 <EPWM_LKCR_TRG_Configure+0x7c>
-		EPWM->LKCR|=EPWM_LK_mode_selected<<8;
-    4182:	4128      	lsli      	r1, r1, 8
-		EPWM->LKCR&=0XFFFFFCFF;
-    4184:	9360      	ld.w      	r3, (r3, 0x0)
-    4186:	9341      	ld.w      	r2, (r3, 0x4)
-    4188:	3a88      	bclri      	r2, 8
-    418a:	3a89      	bclri      	r2, 9
-    418c:	b341      	st.w      	r2, (r3, 0x4)
-		EPWM->LKCR|=EPWM_LK_mode_selected<<8;
-    418e:	9341      	ld.w      	r2, (r3, 0x4)
-    4190:	07dd      	br      	0x414a	// 414a <EPWM_LKCR_TRG_Configure+0x12>
-	else if(EPWM_Triggle_Source_X==CMP4LKM)
-    4192:	3845      	cmpnei      	r0, 5
-    4194:	080a      	bt      	0x41a8	// 41a8 <EPWM_LKCR_TRG_Configure+0x70>
-		EPWM->LKCR&=0XFFFFF3FF;
-    4196:	1068      	lrw      	r3, 0x2000004c	// 41b4 <EPWM_LKCR_TRG_Configure+0x7c>
-		EPWM->LKCR|=EPWM_LK_mode_selected<<10;
-    4198:	412a      	lsli      	r1, r1, 10
-		EPWM->LKCR&=0XFFFFF3FF;
-    419a:	9360      	ld.w      	r3, (r3, 0x0)
-    419c:	9341      	ld.w      	r2, (r3, 0x4)
-    419e:	3a8a      	bclri      	r2, 10
-    41a0:	3a8b      	bclri      	r2, 11
-    41a2:	b341      	st.w      	r2, (r3, 0x4)
-		EPWM->LKCR|=EPWM_LK_mode_selected<<10;
-    41a4:	9341      	ld.w      	r2, (r3, 0x4)
-    41a6:	07d2      	br      	0x414a	// 414a <EPWM_LKCR_TRG_Configure+0x12>
-	else if(EPWM_Triggle_Source_X==EXI0LKM)
-    41a8:	3846      	cmpnei      	r0, 6
-    41aa:	0813      	bt      	0x41d0	// 41d0 <EPWM_LKCR_TRG_Configure+0x98>
-		EPWM->LKCR&=0XFFFF8FFF;
-    41ac:	1062      	lrw      	r3, 0x2000004c	// 41b4 <EPWM_LKCR_TRG_Configure+0x7c>
-    41ae:	30e0      	movi      	r0, 224
-    41b0:	0408      	br      	0x41c0	// 41c0 <EPWM_LKCR_TRG_Configure+0x88>
-    41b2:	0000      	bkpt
-    41b4:	2000004c 	.long	0x2000004c
-    41b8:	000003ff 	.long	0x000003ff
-    41bc:	000ffc00 	.long	0x000ffc00
-    41c0:	9360      	ld.w      	r3, (r3, 0x0)
-    41c2:	9341      	ld.w      	r2, (r3, 0x4)
-    41c4:	4007      	lsli      	r0, r0, 7
-    41c6:	6881      	andn      	r2, r0
-    41c8:	b341      	st.w      	r2, (r3, 0x4)
-		EPWM->LKCR|=EPWM_LK_mode_selected<<12;
-    41ca:	9341      	ld.w      	r2, (r3, 0x4)
-    41cc:	412c      	lsli      	r1, r1, 12
-    41ce:	07be      	br      	0x414a	// 414a <EPWM_LKCR_TRG_Configure+0x12>
-	else if(EPWM_Triggle_Source_X==EXI1LKM)
-    41d0:	3847      	cmpnei      	r0, 7
-    41d2:	080b      	bt      	0x41e8	// 41e8 <EPWM_LKCR_TRG_Configure+0xb0>
-		EPWM->LKCR&=0XFFFC7FFF;
-    41d4:	0260      	lrw      	r3, 0x2000004c	// 44d0 <EPMW_Soft_Lock_Auto_adjust_Configure+0x12c>
-    41d6:	30e0      	movi      	r0, 224
-    41d8:	9360      	ld.w      	r3, (r3, 0x0)
-    41da:	9341      	ld.w      	r2, (r3, 0x4)
-    41dc:	400a      	lsli      	r0, r0, 10
-    41de:	6881      	andn      	r2, r0
-    41e0:	b341      	st.w      	r2, (r3, 0x4)
-		EPWM->LKCR|=EPWM_LK_mode_selected<<15;
-    41e2:	9341      	ld.w      	r2, (r3, 0x4)
-    41e4:	412f      	lsli      	r1, r1, 15
-    41e6:	07b2      	br      	0x414a	// 414a <EPWM_LKCR_TRG_Configure+0x12>
-	else if(EPWM_Triggle_Source_X==EXI2LKM)
-    41e8:	3848      	cmpnei      	r0, 8
-    41ea:	080b      	bt      	0x4200	// 4200 <EPWM_LKCR_TRG_Configure+0xc8>
-		EPWM->LKCR&=0XFFE3FFFF;
-    41ec:	0266      	lrw      	r3, 0x2000004c	// 44d0 <EPMW_Soft_Lock_Auto_adjust_Configure+0x12c>
-    41ee:	30e0      	movi      	r0, 224
-    41f0:	9360      	ld.w      	r3, (r3, 0x0)
-    41f2:	9341      	ld.w      	r2, (r3, 0x4)
-    41f4:	400d      	lsli      	r0, r0, 13
-    41f6:	6881      	andn      	r2, r0
-    41f8:	b341      	st.w      	r2, (r3, 0x4)
-		EPWM->LKCR|=EPWM_LK_mode_selected<<18;
-    41fa:	9341      	ld.w      	r2, (r3, 0x4)
-    41fc:	4132      	lsli      	r1, r1, 18
-    41fe:	07a6      	br      	0x414a	// 414a <EPWM_LKCR_TRG_Configure+0x12>
-	else if(EPWM_Triggle_Source_X==EXI3LKM)
-    4200:	3849      	cmpnei      	r0, 9
-    4202:	0ba6      	bt      	0x414e	// 414e <EPWM_LKCR_TRG_Configure+0x16>
-		EPWM->LKCR&=0XFF1FFFFF;
-    4204:	026c      	lrw      	r3, 0x2000004c	// 44d0 <EPMW_Soft_Lock_Auto_adjust_Configure+0x12c>
-    4206:	30e0      	movi      	r0, 224
-    4208:	9360      	ld.w      	r3, (r3, 0x0)
-    420a:	9341      	ld.w      	r2, (r3, 0x4)
-    420c:	4010      	lsli      	r0, r0, 16
-    420e:	6881      	andn      	r2, r0
-    4210:	b341      	st.w      	r2, (r3, 0x4)
-		EPWM->LKCR|=EPWM_LK_mode_selected<<21;
-    4212:	9341      	ld.w      	r2, (r3, 0x4)
-    4214:	4135      	lsli      	r1, r1, 21
-    4216:	079a      	br      	0x414a	// 414a <EPWM_LKCR_TRG_Configure+0x12>
-
-00004218 <EPWM_TrgivtAndTrgtdl_Set_Configure>:
-//EPWM_TRGIVT:0~255
-//ReturnValue:NONE
-/*************************************************************/
-void EPWM_TrgivtAndTrgtdl_Set_Configure(U8_T EPWM_TRGTDL , U8_T EPWM_TRGIVT)
-{
-	EPWM->LKTRG = (0XA5<<24) | (EPWM_TRGTDL<<8) | EPWM_TRGIVT;
-    4218:	0271      	lrw      	r3, 0x2000004c	// 44d0 <EPMW_Soft_Lock_Auto_adjust_Configure+0x12c>
-    421a:	4008      	lsli      	r0, r0, 8
-    421c:	9340      	ld.w      	r2, (r3, 0x0)
-    421e:	33a5      	movi      	r3, 165
-    4220:	4378      	lsli      	r3, r3, 24
-    4222:	6c4c      	or      	r1, r3
-    4224:	6c04      	or      	r0, r1
-    4226:	b202      	st.w      	r0, (r2, 0x8)
-}
-    4228:	783c      	jmp      	r15
-
-0000422a <EPWM_Software_Clr>:
-//EPWM Software clr
-//EntryParameter:NONE
-//ReturnValue:NONE
-/*************************************************************/
-void EPWM_Software_Clr(void)
-{
-    422a:	14c1      	push      	r4
-	R_EPWM_EMR_ST=EPWM->EMR&0XFFFFFFFC;
-    422c:	0276      	lrw      	r3, 0x2000004c	// 44d0 <EPMW_Soft_Lock_Auto_adjust_Configure+0x12c>
-	if(EPWM->EMR&0x02)
-    422e:	3402      	movi      	r4, 2
-	R_EPWM_EMR_ST=EPWM->EMR&0XFFFFFFFC;
-    4230:	9340      	ld.w      	r2, (r3, 0x0)
-    4232:	227f      	addi      	r2, 128
-    4234:	922a      	ld.w      	r1, (r2, 0x28)
-    4236:	3980      	bclri      	r1, 0
-    4238:	3981      	bclri      	r1, 1
-    423a:	0278      	lrw      	r3, 0x200000a8	// 44d4 <EPMW_Soft_Lock_Auto_adjust_Configure+0x130>
-    423c:	b320      	st.w      	r1, (r3, 0x0)
-	if(EPWM->EMR&0x02)
-    423e:	920a      	ld.w      	r0, (r2, 0x28)
-    4240:	6810      	and      	r0, r4
-    4242:	3840      	cmpnei      	r0, 0
-    4244:	0c04      	bf      	0x424c	// 424c <EPWM_Software_Clr+0x22>
-	{
-		R_EPWM_EMR_ST|=0x02;
-    4246:	9320      	ld.w      	r1, (r3, 0x0)
-    4248:	6c50      	or      	r1, r4
-    424a:	b320      	st.w      	r1, (r3, 0x0)
-	}
-	EPWM->EMR=R_EPWM_EMR_ST;
-    424c:	9360      	ld.w      	r3, (r3, 0x0)
-    424e:	b26a      	st.w      	r3, (r2, 0x28)
-}
-    4250:	1481      	pop      	r4
-
-00004252 <EPWM_Hardware_Clr>:
-//EPWM Hardware clr
-//EntryParameter:NONE
-//ReturnValue:NONE
-/*************************************************************/
-void EPWM_Hardware_Clr(void)
-{
-    4252:	14c1      	push      	r4
-	R_EPWM_EMR_ST=EPWM->EMR&0XFFFFFFFC;
-    4254:	0360      	lrw      	r3, 0x2000004c	// 44d0 <EPMW_Soft_Lock_Auto_adjust_Configure+0x12c>
-    4256:	025f      	lrw      	r2, 0x200000a8	// 44d4 <EPMW_Soft_Lock_Auto_adjust_Configure+0x130>
-	if(EPWM->EMR&0x01)
-    4258:	3401      	movi      	r4, 1
-	R_EPWM_EMR_ST=EPWM->EMR&0XFFFFFFFC;
-    425a:	9360      	ld.w      	r3, (r3, 0x0)
-    425c:	237f      	addi      	r3, 128
-    425e:	932a      	ld.w      	r1, (r3, 0x28)
-    4260:	3980      	bclri      	r1, 0
-    4262:	3981      	bclri      	r1, 1
-    4264:	b220      	st.w      	r1, (r2, 0x0)
-	if(EPWM->EMR&0x01)
-    4266:	930a      	ld.w      	r0, (r3, 0x28)
-    4268:	6810      	and      	r0, r4
-    426a:	3840      	cmpnei      	r0, 0
-    426c:	0c04      	bf      	0x4274	// 4274 <EPWM_Hardware_Clr+0x22>
-	{
-		R_EPWM_EMR_ST|=0x01;
-    426e:	9220      	ld.w      	r1, (r2, 0x0)
-    4270:	6c50      	or      	r1, r4
-    4272:	b220      	st.w      	r1, (r2, 0x0)
-	}
-	EPWM->EMR=R_EPWM_EMR_ST;
-    4274:	9240      	ld.w      	r2, (r2, 0x0)
-    4276:	b34a      	st.w      	r2, (r3, 0x28)
-	
-	EPWM->EMR|=0x01;
-    4278:	934a      	ld.w      	r2, (r3, 0x28)
-    427a:	3aa0      	bseti      	r2, 0
-    427c:	b34a      	st.w      	r2, (r3, 0x28)
-}
-    427e:	1481      	pop      	r4
-
-00004280 <EPWM_SoftHardWare_OUTPUT_Configure>:
-//EPWM_LK_output_X:EPWM_LK_output_LOW,EPWM_LK_output_High,EPWM_LK_output_OP,EPWM_LK_output_keep
-//ReturnValue:NONE
-/*************************************************************/
-void EPWM_SoftHardWare_OUTPUT_Configure(EPWM_LK_output_Select_TypeDef EPWM_LK_output_Select_X , EPWM_LK_output_TypeDef EPWM_LK_output_X)
-{
-	if(EPWM_LK_output_Select_X==EPWM_LK_output_HLP0XS)
-    4280:	3841      	cmpnei      	r0, 1
-    4282:	080d      	bt      	0x429c	// 429c <EPWM_SoftHardWare_OUTPUT_Configure+0x1c>
-	{
-		EPWM->EMR&=0XFFFFFFF3;
-    4284:	036c      	lrw      	r3, 0x2000004c	// 44d0 <EPMW_Soft_Lock_Auto_adjust_Configure+0x12c>
-		EPWM->EMR|=EPWM_LK_output_X<<2;
-    4286:	4122      	lsli      	r1, r1, 2
-		EPWM->EMR&=0XFFFFFFF3;
-    4288:	9360      	ld.w      	r3, (r3, 0x0)
-    428a:	237f      	addi      	r3, 128
-    428c:	934a      	ld.w      	r2, (r3, 0x28)
-    428e:	3a82      	bclri      	r2, 2
-    4290:	3a83      	bclri      	r2, 3
-    4292:	b34a      	st.w      	r2, (r3, 0x28)
-		EPWM->EMR|=EPWM_LK_output_X<<2;
-    4294:	934a      	ld.w      	r2, (r3, 0x28)
-		EPWM->EMR|=EPWM_LK_output_X<<22;
-	}
-	else if(EPWM_LK_output_Select_X==EPWM_LK_output_SLP2YS)
-	{
-		EPWM->EMR&=0XFCFFFFFF;
-		EPWM->EMR|=EPWM_LK_output_X<<24;
-    4296:	6c48      	or      	r1, r2
-    4298:	b32a      	st.w      	r1, (r3, 0x28)
-	}
-}
-    429a:	783c      	jmp      	r15
-	else if(EPWM_LK_output_Select_X==EPWM_LK_output_HLP0YS)
-    429c:	3842      	cmpnei      	r0, 2
-    429e:	080b      	bt      	0x42b4	// 42b4 <EPWM_SoftHardWare_OUTPUT_Configure+0x34>
-		EPWM->EMR&=0XFFFFFFCF;
-    42a0:	0373      	lrw      	r3, 0x2000004c	// 44d0 <EPMW_Soft_Lock_Auto_adjust_Configure+0x12c>
-		EPWM->EMR|=EPWM_LK_output_X<<4;
-    42a2:	4124      	lsli      	r1, r1, 4
-		EPWM->EMR&=0XFFFFFFCF;
-    42a4:	9360      	ld.w      	r3, (r3, 0x0)
-    42a6:	237f      	addi      	r3, 128
-    42a8:	934a      	ld.w      	r2, (r3, 0x28)
-    42aa:	3a84      	bclri      	r2, 4
-    42ac:	3a85      	bclri      	r2, 5
-    42ae:	b34a      	st.w      	r2, (r3, 0x28)
-		EPWM->EMR|=EPWM_LK_output_X<<4;
-    42b0:	934a      	ld.w      	r2, (r3, 0x28)
-    42b2:	07f2      	br      	0x4296	// 4296 <EPWM_SoftHardWare_OUTPUT_Configure+0x16>
-	else if(EPWM_LK_output_Select_X==EPWM_LK_output_SLP0XS)
-    42b4:	3843      	cmpnei      	r0, 3
-    42b6:	080b      	bt      	0x42cc	// 42cc <EPWM_SoftHardWare_OUTPUT_Configure+0x4c>
-		EPWM->EMR&=0XFFFFFF3F;
-    42b8:	0379      	lrw      	r3, 0x2000004c	// 44d0 <EPMW_Soft_Lock_Auto_adjust_Configure+0x12c>
-		EPWM->EMR|=EPWM_LK_output_X<<6;
-    42ba:	4126      	lsli      	r1, r1, 6
-		EPWM->EMR&=0XFFFFFF3F;
-    42bc:	9360      	ld.w      	r3, (r3, 0x0)
-    42be:	237f      	addi      	r3, 128
-    42c0:	934a      	ld.w      	r2, (r3, 0x28)
-    42c2:	3a86      	bclri      	r2, 6
-    42c4:	3a87      	bclri      	r2, 7
-    42c6:	b34a      	st.w      	r2, (r3, 0x28)
-		EPWM->EMR|=EPWM_LK_output_X<<6;
-    42c8:	934a      	ld.w      	r2, (r3, 0x28)
-    42ca:	07e6      	br      	0x4296	// 4296 <EPWM_SoftHardWare_OUTPUT_Configure+0x16>
-	else if(EPWM_LK_output_Select_X==EPWM_LK_output_SLP0YS)
-    42cc:	3844      	cmpnei      	r0, 4
-    42ce:	080b      	bt      	0x42e4	// 42e4 <EPWM_SoftHardWare_OUTPUT_Configure+0x64>
-		EPWM->EMR&=0XFFFFFCFF;
-    42d0:	037f      	lrw      	r3, 0x2000004c	// 44d0 <EPMW_Soft_Lock_Auto_adjust_Configure+0x12c>
-		EPWM->EMR|=EPWM_LK_output_X<<8;
-    42d2:	4128      	lsli      	r1, r1, 8
-		EPWM->EMR&=0XFFFFFCFF;
-    42d4:	9360      	ld.w      	r3, (r3, 0x0)
-    42d6:	237f      	addi      	r3, 128
-    42d8:	934a      	ld.w      	r2, (r3, 0x28)
-    42da:	3a88      	bclri      	r2, 8
-    42dc:	3a89      	bclri      	r2, 9
-    42de:	b34a      	st.w      	r2, (r3, 0x28)
-		EPWM->EMR|=EPWM_LK_output_X<<8;
-    42e0:	934a      	ld.w      	r2, (r3, 0x28)
-    42e2:	07da      	br      	0x4296	// 4296 <EPWM_SoftHardWare_OUTPUT_Configure+0x16>
-	else if(EPWM_LK_output_Select_X==EPWM_LK_output_HLP1XS)
-    42e4:	3845      	cmpnei      	r0, 5
-    42e6:	080b      	bt      	0x42fc	// 42fc <EPWM_SoftHardWare_OUTPUT_Configure+0x7c>
-		EPWM->EMR&=0XFFFFF3FF;
-    42e8:	137a      	lrw      	r3, 0x2000004c	// 44d0 <EPMW_Soft_Lock_Auto_adjust_Configure+0x12c>
-		EPWM->EMR|=EPWM_LK_output_X<<10;
-    42ea:	412a      	lsli      	r1, r1, 10
-		EPWM->EMR&=0XFFFFF3FF;
-    42ec:	9360      	ld.w      	r3, (r3, 0x0)
-    42ee:	237f      	addi      	r3, 128
-    42f0:	934a      	ld.w      	r2, (r3, 0x28)
-    42f2:	3a8a      	bclri      	r2, 10
-    42f4:	3a8b      	bclri      	r2, 11
-    42f6:	b34a      	st.w      	r2, (r3, 0x28)
-		EPWM->EMR|=EPWM_LK_output_X<<10;
-    42f8:	934a      	ld.w      	r2, (r3, 0x28)
-    42fa:	07ce      	br      	0x4296	// 4296 <EPWM_SoftHardWare_OUTPUT_Configure+0x16>
-	else if(EPWM_LK_output_Select_X==EPWM_LK_output_HLP1YS)
-    42fc:	3846      	cmpnei      	r0, 6
-    42fe:	080b      	bt      	0x4314	// 4314 <EPWM_SoftHardWare_OUTPUT_Configure+0x94>
-		EPWM->EMR&=0XFFFFCFFF;
-    4300:	1374      	lrw      	r3, 0x2000004c	// 44d0 <EPMW_Soft_Lock_Auto_adjust_Configure+0x12c>
-		EPWM->EMR|=EPWM_LK_output_X<<12;
-    4302:	412c      	lsli      	r1, r1, 12
-		EPWM->EMR&=0XFFFFCFFF;
-    4304:	9360      	ld.w      	r3, (r3, 0x0)
-    4306:	237f      	addi      	r3, 128
-    4308:	934a      	ld.w      	r2, (r3, 0x28)
-    430a:	3a8c      	bclri      	r2, 12
-    430c:	3a8d      	bclri      	r2, 13
-    430e:	b34a      	st.w      	r2, (r3, 0x28)
-		EPWM->EMR|=EPWM_LK_output_X<<12;
-    4310:	934a      	ld.w      	r2, (r3, 0x28)
-    4312:	07c2      	br      	0x4296	// 4296 <EPWM_SoftHardWare_OUTPUT_Configure+0x16>
-	else if(EPWM_LK_output_Select_X==EPWM_LK_output_SLP1XS)
-    4314:	3847      	cmpnei      	r0, 7
-    4316:	080b      	bt      	0x432c	// 432c <EPWM_SoftHardWare_OUTPUT_Configure+0xac>
-		EPWM->EMR&=0XFFFF3FFF;
-    4318:	136e      	lrw      	r3, 0x2000004c	// 44d0 <EPMW_Soft_Lock_Auto_adjust_Configure+0x12c>
-		EPWM->EMR|=EPWM_LK_output_X<<14;
-    431a:	412e      	lsli      	r1, r1, 14
-		EPWM->EMR&=0XFFFF3FFF;
-    431c:	9360      	ld.w      	r3, (r3, 0x0)
-    431e:	237f      	addi      	r3, 128
-    4320:	934a      	ld.w      	r2, (r3, 0x28)
-    4322:	3a8e      	bclri      	r2, 14
-    4324:	3a8f      	bclri      	r2, 15
-    4326:	b34a      	st.w      	r2, (r3, 0x28)
-		EPWM->EMR|=EPWM_LK_output_X<<14;
-    4328:	934a      	ld.w      	r2, (r3, 0x28)
-    432a:	07b6      	br      	0x4296	// 4296 <EPWM_SoftHardWare_OUTPUT_Configure+0x16>
-	else if(EPWM_LK_output_Select_X==EPWM_LK_output_SLP1YS)
-    432c:	3848      	cmpnei      	r0, 8
-    432e:	080b      	bt      	0x4344	// 4344 <EPWM_SoftHardWare_OUTPUT_Configure+0xc4>
-		EPWM->EMR&=0XFFFCFFFF;
-    4330:	1368      	lrw      	r3, 0x2000004c	// 44d0 <EPMW_Soft_Lock_Auto_adjust_Configure+0x12c>
-		EPWM->EMR|=EPWM_LK_output_X<<16;
-    4332:	4130      	lsli      	r1, r1, 16
-		EPWM->EMR&=0XFFFCFFFF;
-    4334:	9360      	ld.w      	r3, (r3, 0x0)
-    4336:	237f      	addi      	r3, 128
-    4338:	934a      	ld.w      	r2, (r3, 0x28)
-    433a:	3a90      	bclri      	r2, 16
-    433c:	3a91      	bclri      	r2, 17
-    433e:	b34a      	st.w      	r2, (r3, 0x28)
-		EPWM->EMR|=EPWM_LK_output_X<<16;
-    4340:	934a      	ld.w      	r2, (r3, 0x28)
-    4342:	07aa      	br      	0x4296	// 4296 <EPWM_SoftHardWare_OUTPUT_Configure+0x16>
-	else if(EPWM_LK_output_Select_X==EPWM_LK_output_HLP2XS)
-    4344:	3849      	cmpnei      	r0, 9
-    4346:	080b      	bt      	0x435c	// 435c <EPWM_SoftHardWare_OUTPUT_Configure+0xdc>
-		EPWM->EMR&=0XFFF3FFFF;
-    4348:	1362      	lrw      	r3, 0x2000004c	// 44d0 <EPMW_Soft_Lock_Auto_adjust_Configure+0x12c>
-		EPWM->EMR|=EPWM_LK_output_X<<18;
-    434a:	4132      	lsli      	r1, r1, 18
-		EPWM->EMR&=0XFFF3FFFF;
-    434c:	9360      	ld.w      	r3, (r3, 0x0)
-    434e:	237f      	addi      	r3, 128
-    4350:	934a      	ld.w      	r2, (r3, 0x28)
-    4352:	3a92      	bclri      	r2, 18
-    4354:	3a93      	bclri      	r2, 19
-    4356:	b34a      	st.w      	r2, (r3, 0x28)
-		EPWM->EMR|=EPWM_LK_output_X<<18;
-    4358:	934a      	ld.w      	r2, (r3, 0x28)
-    435a:	079e      	br      	0x4296	// 4296 <EPWM_SoftHardWare_OUTPUT_Configure+0x16>
-	else if(EPWM_LK_output_Select_X==EPWM_LK_output_HLP2YS)
-    435c:	384a      	cmpnei      	r0, 10
-    435e:	080b      	bt      	0x4374	// 4374 <EPWM_SoftHardWare_OUTPUT_Configure+0xf4>
-		EPWM->EMR&=0XFFCFFFFF;
-    4360:	127c      	lrw      	r3, 0x2000004c	// 44d0 <EPMW_Soft_Lock_Auto_adjust_Configure+0x12c>
-		EPWM->EMR|=EPWM_LK_output_X<<20;
-    4362:	4134      	lsli      	r1, r1, 20
-		EPWM->EMR&=0XFFCFFFFF;
-    4364:	9360      	ld.w      	r3, (r3, 0x0)
-    4366:	237f      	addi      	r3, 128
-    4368:	934a      	ld.w      	r2, (r3, 0x28)
-    436a:	3a94      	bclri      	r2, 20
-    436c:	3a95      	bclri      	r2, 21
-    436e:	b34a      	st.w      	r2, (r3, 0x28)
-		EPWM->EMR|=EPWM_LK_output_X<<20;
-    4370:	934a      	ld.w      	r2, (r3, 0x28)
-    4372:	0792      	br      	0x4296	// 4296 <EPWM_SoftHardWare_OUTPUT_Configure+0x16>
-	else if(EPWM_LK_output_Select_X==EPWM_LK_output_SLP2XS)
-    4374:	384b      	cmpnei      	r0, 11
-    4376:	080b      	bt      	0x438c	// 438c <EPWM_SoftHardWare_OUTPUT_Configure+0x10c>
-		EPWM->EMR&=0XFF3FFFFF;
-    4378:	1276      	lrw      	r3, 0x2000004c	// 44d0 <EPMW_Soft_Lock_Auto_adjust_Configure+0x12c>
-		EPWM->EMR|=EPWM_LK_output_X<<22;
-    437a:	4136      	lsli      	r1, r1, 22
-		EPWM->EMR&=0XFF3FFFFF;
-    437c:	9360      	ld.w      	r3, (r3, 0x0)
-    437e:	237f      	addi      	r3, 128
-    4380:	934a      	ld.w      	r2, (r3, 0x28)
-    4382:	3a96      	bclri      	r2, 22
-    4384:	3a97      	bclri      	r2, 23
-    4386:	b34a      	st.w      	r2, (r3, 0x28)
-		EPWM->EMR|=EPWM_LK_output_X<<22;
-    4388:	934a      	ld.w      	r2, (r3, 0x28)
-    438a:	0786      	br      	0x4296	// 4296 <EPWM_SoftHardWare_OUTPUT_Configure+0x16>
-	else if(EPWM_LK_output_Select_X==EPWM_LK_output_SLP2YS)
-    438c:	384c      	cmpnei      	r0, 12
-    438e:	0b86      	bt      	0x429a	// 429a <EPWM_SoftHardWare_OUTPUT_Configure+0x1a>
-		EPWM->EMR&=0XFCFFFFFF;
-    4390:	1270      	lrw      	r3, 0x2000004c	// 44d0 <EPMW_Soft_Lock_Auto_adjust_Configure+0x12c>
-		EPWM->EMR|=EPWM_LK_output_X<<24;
-    4392:	4138      	lsli      	r1, r1, 24
-		EPWM->EMR&=0XFCFFFFFF;
-    4394:	9360      	ld.w      	r3, (r3, 0x0)
-    4396:	237f      	addi      	r3, 128
-    4398:	934a      	ld.w      	r2, (r3, 0x28)
-    439a:	3a98      	bclri      	r2, 24
-    439c:	3a99      	bclri      	r2, 25
-    439e:	b34a      	st.w      	r2, (r3, 0x28)
-		EPWM->EMR|=EPWM_LK_output_X<<24;
-    43a0:	934a      	ld.w      	r2, (r3, 0x28)
-    43a2:	077a      	br      	0x4296	// 4296 <EPWM_SoftHardWare_OUTPUT_Configure+0x16>
-
-000043a4 <EPMW_Soft_Lock_Auto_adjust_Configure>:
-//ReturnValue:NONE
-/*************************************************************/
-//每组CMPAX和CMPBX不能同时设置为增或者减
-void EPMW_Soft_Lock_Auto_adjust_Configure(EPWM_SLCON_TypeDef EPWM_SLCON__X , FunctionalStatus NewState , U16_T INC_DEC_STEPX)
-{
-	if(EPWM_SLCON__X==EPWM_SL_DECA_EN0)
-    43a4:	3841      	cmpnei      	r0, 1
-    43a6:	0811      	bt      	0x43c8	// 43c8 <EPMW_Soft_Lock_Auto_adjust_Configure+0x24>
-    43a8:	126a      	lrw      	r3, 0x2000004c	// 44d0 <EPMW_Soft_Lock_Auto_adjust_Configure+0x12c>
-	{
-		if (NewState != DISABLE)
-    43aa:	3940      	cmpnei      	r1, 0
-		{
-			EPWM->SLCON|=0X00000001;
-    43ac:	9360      	ld.w      	r3, (r3, 0x0)
-    43ae:	237f      	addi      	r3, 128
-		if (NewState != DISABLE)
-    43b0:	0c08      	bf      	0x43c0	// 43c0 <EPMW_Soft_Lock_Auto_adjust_Configure+0x1c>
-			EPWM->SLCON|=0X00000001;
-    43b2:	932b      	ld.w      	r1, (r3, 0x2c)
-    43b4:	6c04      	or      	r0, r1
-    43b6:	b30b      	st.w      	r0, (r3, 0x2c)
-	else if(EPWM_SLCON__X==EPWM_SL_DECB_EN0)
-	{
-		if (NewState != DISABLE)
-		{
-			EPWM->SLCON|=0X00000004;
-			EPWM->SLSTEP0=(EPWM->SLSTEP0&0XFFFFF000)|INC_DEC_STEPX;
-    43b8:	932c      	ld.w      	r1, (r3, 0x30)
-    43ba:	1208      	lrw      	r0, 0xfff	// 44d8 <EPMW_Soft_Lock_Auto_adjust_Configure+0x134>
-    43bc:	6841      	andn      	r1, r0
-    43be:	0413      	br      	0x43e4	// 43e4 <EPMW_Soft_Lock_Auto_adjust_Configure+0x40>
-			EPWM->SLCON&=0XFFFFFFFE;
-    43c0:	934b      	ld.w      	r2, (r3, 0x2c)
-    43c2:	3a80      	bclri      	r2, 0
-		{
-			EPWM->SLCON|=0X00000200;
-		}
-		else
-		{
-			EPWM->SLCON&=0XFFFFFDFF;
-    43c4:	b34b      	st.w      	r2, (r3, 0x2c)
-		}
-	}
-}
-    43c6:	0411      	br      	0x43e8	// 43e8 <EPMW_Soft_Lock_Auto_adjust_Configure+0x44>
-	else if(EPWM_SLCON__X==EPWM_SL_INCA_EN0)
-    43c8:	3842      	cmpnei      	r0, 2
-    43ca:	0813      	bt      	0x43f0	// 43f0 <EPMW_Soft_Lock_Auto_adjust_Configure+0x4c>
-    43cc:	1261      	lrw      	r3, 0x2000004c	// 44d0 <EPMW_Soft_Lock_Auto_adjust_Configure+0x12c>
-		if (NewState != DISABLE)
-    43ce:	3940      	cmpnei      	r1, 0
-			EPWM->SLCON|=0X00000002;
-    43d0:	9360      	ld.w      	r3, (r3, 0x0)
-    43d2:	237f      	addi      	r3, 128
-		if (NewState != DISABLE)
-    43d4:	0c0b      	bf      	0x43ea	// 43ea <EPMW_Soft_Lock_Auto_adjust_Configure+0x46>
-			EPWM->SLCON|=0X00000002;
-    43d6:	932b      	ld.w      	r1, (r3, 0x2c)
-    43d8:	6c04      	or      	r0, r1
-    43da:	b30b      	st.w      	r0, (r3, 0x2c)
-			EPWM->SLSTEP0=(EPWM->SLSTEP0&0XFF000FFF)|(INC_DEC_STEPX<<12);
-    43dc:	932c      	ld.w      	r1, (r3, 0x30)
-    43de:	1200      	lrw      	r0, 0xfff000	// 44dc <EPMW_Soft_Lock_Auto_adjust_Configure+0x138>
-    43e0:	6841      	andn      	r1, r0
-    43e2:	424c      	lsli      	r2, r2, 12
-    43e4:	6c84      	or      	r2, r1
-    43e6:	b34c      	st.w      	r2, (r3, 0x30)
-}
-    43e8:	783c      	jmp      	r15
-			EPWM->SLCON&=0XFFFFFFFD;
-    43ea:	934b      	ld.w      	r2, (r3, 0x2c)
-    43ec:	3a81      	bclri      	r2, 1
-    43ee:	07eb      	br      	0x43c4	// 43c4 <EPMW_Soft_Lock_Auto_adjust_Configure+0x20>
-	else if(EPWM_SLCON__X==EPWM_SL_DECB_EN0)
-    43f0:	3843      	cmpnei      	r0, 3
-    43f2:	080d      	bt      	0x440c	// 440c <EPMW_Soft_Lock_Auto_adjust_Configure+0x68>
-    43f4:	1177      	lrw      	r3, 0x2000004c	// 44d0 <EPMW_Soft_Lock_Auto_adjust_Configure+0x12c>
-		if (NewState != DISABLE)
-    43f6:	3940      	cmpnei      	r1, 0
-			EPWM->SLCON|=0X00000004;
-    43f8:	9360      	ld.w      	r3, (r3, 0x0)
-    43fa:	237f      	addi      	r3, 128
-		if (NewState != DISABLE)
-    43fc:	0c05      	bf      	0x4406	// 4406 <EPMW_Soft_Lock_Auto_adjust_Configure+0x62>
-			EPWM->SLCON|=0X00000004;
-    43fe:	932b      	ld.w      	r1, (r3, 0x2c)
-    4400:	39a2      	bseti      	r1, 2
-    4402:	b32b      	st.w      	r1, (r3, 0x2c)
-    4404:	07da      	br      	0x43b8	// 43b8 <EPMW_Soft_Lock_Auto_adjust_Configure+0x14>
-			EPWM->SLCON&=0XFFFFFFFB;
-    4406:	934b      	ld.w      	r2, (r3, 0x2c)
-    4408:	3a82      	bclri      	r2, 2
-    440a:	07dd      	br      	0x43c4	// 43c4 <EPMW_Soft_Lock_Auto_adjust_Configure+0x20>
-	else if(EPWM_SLCON__X==EPWM_SL_INCB_EN0)
-    440c:	3844      	cmpnei      	r0, 4
-    440e:	080d      	bt      	0x4428	// 4428 <EPMW_Soft_Lock_Auto_adjust_Configure+0x84>
-    4410:	1170      	lrw      	r3, 0x2000004c	// 44d0 <EPMW_Soft_Lock_Auto_adjust_Configure+0x12c>
-		if (NewState != DISABLE)
-    4412:	3940      	cmpnei      	r1, 0
-			EPWM->SLCON|=0X00000008;
-    4414:	9360      	ld.w      	r3, (r3, 0x0)
-    4416:	237f      	addi      	r3, 128
-		if (NewState != DISABLE)
-    4418:	0c05      	bf      	0x4422	// 4422 <EPMW_Soft_Lock_Auto_adjust_Configure+0x7e>
-			EPWM->SLCON|=0X00000008;
-    441a:	932b      	ld.w      	r1, (r3, 0x2c)
-    441c:	39a3      	bseti      	r1, 3
-    441e:	b32b      	st.w      	r1, (r3, 0x2c)
-    4420:	07de      	br      	0x43dc	// 43dc <EPMW_Soft_Lock_Auto_adjust_Configure+0x38>
-			EPWM->SLCON&=0XFFFFFFF7;
-    4422:	934b      	ld.w      	r2, (r3, 0x2c)
-    4424:	3a83      	bclri      	r2, 3
-    4426:	07cf      	br      	0x43c4	// 43c4 <EPMW_Soft_Lock_Auto_adjust_Configure+0x20>
-	else if(EPWM_SLCON__X==EPWM_SL_DECA_EN1)
-    4428:	3845      	cmpnei      	r0, 5
-    442a:	0812      	bt      	0x444e	// 444e <EPMW_Soft_Lock_Auto_adjust_Configure+0xaa>
-    442c:	1169      	lrw      	r3, 0x2000004c	// 44d0 <EPMW_Soft_Lock_Auto_adjust_Configure+0x12c>
-		if (NewState != DISABLE)
-    442e:	3940      	cmpnei      	r1, 0
-			EPWM->SLCON|=0X00000010;
-    4430:	9360      	ld.w      	r3, (r3, 0x0)
-    4432:	237f      	addi      	r3, 128
-		if (NewState != DISABLE)
-    4434:	0c0a      	bf      	0x4448	// 4448 <EPMW_Soft_Lock_Auto_adjust_Configure+0xa4>
-			EPWM->SLCON|=0X00000010;
-    4436:	932b      	ld.w      	r1, (r3, 0x2c)
-    4438:	39a4      	bseti      	r1, 4
-			EPWM->SLCON|=0X00000040;
-    443a:	b32b      	st.w      	r1, (r3, 0x2c)
-			EPWM->SLSTEP1=(EPWM->SLSTEP1&0XFFFFF000)|INC_DEC_STEPX;
-    443c:	932d      	ld.w      	r1, (r3, 0x34)
-    443e:	1107      	lrw      	r0, 0xfff	// 44d8 <EPMW_Soft_Lock_Auto_adjust_Configure+0x134>
-    4440:	6841      	andn      	r1, r0
-			EPWM->SLSTEP1=(EPWM->SLSTEP1&0XFF000FFF)|(INC_DEC_STEPX<<12);
-    4442:	6c84      	or      	r2, r1
-    4444:	b34d      	st.w      	r2, (r3, 0x34)
-    4446:	07d1      	br      	0x43e8	// 43e8 <EPMW_Soft_Lock_Auto_adjust_Configure+0x44>
-			EPWM->SLCON&=0XFFFFFFEF;
-    4448:	934b      	ld.w      	r2, (r3, 0x2c)
-    444a:	3a84      	bclri      	r2, 4
-    444c:	07bc      	br      	0x43c4	// 43c4 <EPMW_Soft_Lock_Auto_adjust_Configure+0x20>
-	else if(EPWM_SLCON__X==EPWM_SL_INCA_EN1)
-    444e:	3846      	cmpnei      	r0, 6
-    4450:	0811      	bt      	0x4472	// 4472 <EPMW_Soft_Lock_Auto_adjust_Configure+0xce>
-    4452:	1160      	lrw      	r3, 0x2000004c	// 44d0 <EPMW_Soft_Lock_Auto_adjust_Configure+0x12c>
-		if (NewState != DISABLE)
-    4454:	3940      	cmpnei      	r1, 0
-			EPWM->SLCON|=0X00000020;
-    4456:	9360      	ld.w      	r3, (r3, 0x0)
-    4458:	237f      	addi      	r3, 128
-		if (NewState != DISABLE)
-    445a:	0c09      	bf      	0x446c	// 446c <EPMW_Soft_Lock_Auto_adjust_Configure+0xc8>
-			EPWM->SLCON|=0X00000020;
-    445c:	932b      	ld.w      	r1, (r3, 0x2c)
-    445e:	39a5      	bseti      	r1, 5
-			EPWM->SLCON|=0X00000080;
-    4460:	b32b      	st.w      	r1, (r3, 0x2c)
-			EPWM->SLSTEP1=(EPWM->SLSTEP1&0XFF000FFF)|(INC_DEC_STEPX<<12);
-    4462:	932d      	ld.w      	r1, (r3, 0x34)
-    4464:	101e      	lrw      	r0, 0xfff000	// 44dc <EPMW_Soft_Lock_Auto_adjust_Configure+0x138>
-    4466:	6841      	andn      	r1, r0
-    4468:	424c      	lsli      	r2, r2, 12
-    446a:	07ec      	br      	0x4442	// 4442 <EPMW_Soft_Lock_Auto_adjust_Configure+0x9e>
-			EPWM->SLCON&=0XFFFFFFDF;
-    446c:	934b      	ld.w      	r2, (r3, 0x2c)
-    446e:	3a85      	bclri      	r2, 5
-    4470:	07aa      	br      	0x43c4	// 43c4 <EPMW_Soft_Lock_Auto_adjust_Configure+0x20>
-	else if(EPWM_SLCON__X==EPWM_SL_DECB_EN1)
-    4472:	3847      	cmpnei      	r0, 7
-    4474:	080c      	bt      	0x448c	// 448c <EPMW_Soft_Lock_Auto_adjust_Configure+0xe8>
-    4476:	1077      	lrw      	r3, 0x2000004c	// 44d0 <EPMW_Soft_Lock_Auto_adjust_Configure+0x12c>
-		if (NewState != DISABLE)
-    4478:	3940      	cmpnei      	r1, 0
-			EPWM->SLCON|=0X00000040;
-    447a:	9360      	ld.w      	r3, (r3, 0x0)
-    447c:	237f      	addi      	r3, 128
-		if (NewState != DISABLE)
-    447e:	0c04      	bf      	0x4486	// 4486 <EPMW_Soft_Lock_Auto_adjust_Configure+0xe2>
-			EPWM->SLCON|=0X00000040;
-    4480:	932b      	ld.w      	r1, (r3, 0x2c)
-    4482:	39a6      	bseti      	r1, 6
-    4484:	07db      	br      	0x443a	// 443a <EPMW_Soft_Lock_Auto_adjust_Configure+0x96>
-			EPWM->SLCON&=0XFFFFFFBF;
-    4486:	934b      	ld.w      	r2, (r3, 0x2c)
-    4488:	3a86      	bclri      	r2, 6
-    448a:	079d      	br      	0x43c4	// 43c4 <EPMW_Soft_Lock_Auto_adjust_Configure+0x20>
-	else if(EPWM_SLCON__X==EPWM_SL_INCB_EN1)
-    448c:	3848      	cmpnei      	r0, 8
-    448e:	080e      	bt      	0x44aa	// 44aa <EPMW_Soft_Lock_Auto_adjust_Configure+0x106>
-    4490:	1070      	lrw      	r3, 0x2000004c	// 44d0 <EPMW_Soft_Lock_Auto_adjust_Configure+0x12c>
-		if (NewState != DISABLE)
-    4492:	3940      	cmpnei      	r1, 0
-			EPWM->SLCON|=0X00000080;
-    4494:	9360      	ld.w      	r3, (r3, 0x0)
-		if (NewState != DISABLE)
-    4496:	0c06      	bf      	0x44a2	// 44a2 <EPMW_Soft_Lock_Auto_adjust_Configure+0xfe>
-			EPWM->SLCON|=0X00000080;
-    4498:	3080      	movi      	r0, 128
-    449a:	60c0      	addu      	r3, r0
-    449c:	932b      	ld.w      	r1, (r3, 0x2c)
-    449e:	6c40      	or      	r1, r0
-    44a0:	07e0      	br      	0x4460	// 4460 <EPMW_Soft_Lock_Auto_adjust_Configure+0xbc>
-			EPWM->SLCON&=0XFFFFFF7F;
-    44a2:	237f      	addi      	r3, 128
-    44a4:	934b      	ld.w      	r2, (r3, 0x2c)
-    44a6:	3a87      	bclri      	r2, 7
-    44a8:	078e      	br      	0x43c4	// 43c4 <EPMW_Soft_Lock_Auto_adjust_Configure+0x20>
-	else if(EPWM_SLCON__X==EPWM_SL_CNTR_DEC_EN)
-    44aa:	3849      	cmpnei      	r0, 9
-    44ac:	080b      	bt      	0x44c2	// 44c2 <EPMW_Soft_Lock_Auto_adjust_Configure+0x11e>
-    44ae:	1069      	lrw      	r3, 0x2000004c	// 44d0 <EPMW_Soft_Lock_Auto_adjust_Configure+0x12c>
-		if (NewState != DISABLE)
-    44b0:	3940      	cmpnei      	r1, 0
-			EPWM->SLCON|=0X00000100;
-    44b2:	9360      	ld.w      	r3, (r3, 0x0)
-    44b4:	237f      	addi      	r3, 128
-    44b6:	934b      	ld.w      	r2, (r3, 0x2c)
-		if (NewState != DISABLE)
-    44b8:	0c03      	bf      	0x44be	// 44be <EPMW_Soft_Lock_Auto_adjust_Configure+0x11a>
-			EPWM->SLCON|=0X00000100;
-    44ba:	3aa8      	bseti      	r2, 8
-    44bc:	0784      	br      	0x43c4	// 43c4 <EPMW_Soft_Lock_Auto_adjust_Configure+0x20>
-			EPWM->SLCON&=0XFFFFFEFF;
-    44be:	3a88      	bclri      	r2, 8
-    44c0:	0782      	br      	0x43c4	// 43c4 <EPMW_Soft_Lock_Auto_adjust_Configure+0x20>
-	else if(EPWM_SLCON__X==EPWM_SL_CNTR_INC_EN)
-    44c2:	384a      	cmpnei      	r0, 10
-    44c4:	0b92      	bt      	0x43e8	// 43e8 <EPMW_Soft_Lock_Auto_adjust_Configure+0x44>
-    44c6:	1063      	lrw      	r3, 0x2000004c	// 44d0 <EPMW_Soft_Lock_Auto_adjust_Configure+0x12c>
-		if (NewState != DISABLE)
-    44c8:	3940      	cmpnei      	r1, 0
-			EPWM->SLCON|=0X00000200;
-    44ca:	9360      	ld.w      	r3, (r3, 0x0)
-    44cc:	237f      	addi      	r3, 128
-    44ce:	0409      	br      	0x44e0	// 44e0 <EPMW_Soft_Lock_Auto_adjust_Configure+0x13c>
-    44d0:	2000004c 	.long	0x2000004c
-    44d4:	200000a8 	.long	0x200000a8
-    44d8:	00000fff 	.long	0x00000fff
-    44dc:	00fff000 	.long	0x00fff000
-    44e0:	934b      	ld.w      	r2, (r3, 0x2c)
-		if (NewState != DISABLE)
-    44e2:	0c03      	bf      	0x44e8	// 44e8 <EPMW_Soft_Lock_Auto_adjust_Configure+0x144>
-			EPWM->SLCON|=0X00000200;
-    44e4:	3aa9      	bseti      	r2, 9
-    44e6:	076f      	br      	0x43c4	// 43c4 <EPMW_Soft_Lock_Auto_adjust_Configure+0x20>
-			EPWM->SLCON&=0XFFFFFDFF;
-    44e8:	3a89      	bclri      	r2, 9
-    44ea:	076d      	br      	0x43c4	// 43c4 <EPMW_Soft_Lock_Auto_adjust_Configure+0x20>
-
-000044ec <EPMW_Soft_Lock_output_SLPXS_CMD>:
-//EntryParameter:NewState
-//NewState:ENABLE,DISABLE
-//ReturnValue:NONE
-/*************************************************************/
-void EPMW_Soft_Lock_output_SLPXS_CMD(FunctionalStatus NewState)		
-{
-    44ec:	0278      	lrw      	r3, 0x2000004c	// 4788 <EPWM_Wakeup_Disable+0x14>
-	if (NewState != DISABLE)
-    44ee:	3840      	cmpnei      	r0, 0
-	{
-		EPWM->SLCON|=0X01000000;								//一直output SL_PXS设置状态  
-    44f0:	9360      	ld.w      	r3, (r3, 0x0)
-    44f2:	237f      	addi      	r3, 128
-    44f4:	934b      	ld.w      	r2, (r3, 0x2c)
-	if (NewState != DISABLE)
-    44f6:	0c04      	bf      	0x44fe	// 44fe <EPMW_Soft_Lock_output_SLPXS_CMD+0x12>
-		EPWM->SLCON|=0X01000000;								//一直output SL_PXS设置状态  
-    44f8:	3ab8      	bseti      	r2, 24
-	}
-	else
-	{
-		EPWM->SLCON&=0XFEFFFFFF;								//只output一个周期 SL_PXS设置状态后输出PWM
-    44fa:	b34b      	st.w      	r2, (r3, 0x2c)
-	}
-}
-    44fc:	783c      	jmp      	r15
-		EPWM->SLCON&=0XFEFFFFFF;								//只output一个周期 SL_PXS设置状态后输出PWM
-    44fe:	3a98      	bclri      	r2, 24
-    4500:	07fd      	br      	0x44fa	// 44fa <EPMW_Soft_Lock_output_SLPXS_CMD+0xe>
-
-00004502 <EPWM_EXTRG_Configure>:
-//EPWM_EXTRG_Mode_X:EPWM_EXTRG_Mode_NONE,EPWM_EXTRG_Mode_ADC,EPWM_EXTRG_Mode_STC16,EPWM_EXTRG_Mode_AdcStc16
-//ReturnValue:NONE
-/*************************************************************/
-void EPWM_EXTRG_Configure(EPWM_EXTRG_EVET_TypeDef EPWM_EXTRG_EVET_X , EPWM_EXTRG_Mode_TypeDef EPWM_EXTRG_Mode_X)	
-{
-	if(EPWM_EXTRG_EVET_X==EPWM0_EXTRG_START)
-    4502:	3840      	cmpnei      	r0, 0
-    4504:	080c      	bt      	0x451c	// 451c <EPWM_EXTRG_Configure+0x1a>
-	{
-		EPWM->EXTRG0&=0XFFFFFFFC;
-    4506:	027e      	lrw      	r3, 0x2000004c	// 4788 <EPWM_Wakeup_Disable+0x14>
-    4508:	9360      	ld.w      	r3, (r3, 0x0)
-    450a:	237f      	addi      	r3, 128
-    450c:	9352      	ld.w      	r2, (r3, 0x48)
-    450e:	3a80      	bclri      	r2, 0
-    4510:	3a81      	bclri      	r2, 1
-    4512:	b352      	st.w      	r2, (r3, 0x48)
-		EPWM->EXTRG0|=EPWM_EXTRG_Mode_X;
-    4514:	9352      	ld.w      	r2, (r3, 0x48)
-		EPWM->EXTRG0|=EPWM_EXTRG_Mode_X<<20;
-	}
-	if(EPWM_EXTRG_EVET_X==EPWM2_EXTRG_CENTER)
-	{
-		EPWM->EXTRG0&=0XFF3FFFFF;
-		EPWM->EXTRG0|=EPWM_EXTRG_Mode_X<<22;
-    4516:	6c48      	or      	r1, r2
-    4518:	b332      	st.w      	r1, (r3, 0x48)
-	if(EPWM_EXTRG_EVET_X==EPWM2_EXTRG_CMPBDM)
-	{
-		EPWM->EXTRG1&=0XFF3FFFFF;
-		EPWM->EXTRG1|=EPWM_EXTRG_Mode_X<<22;
-	}
-}	
-    451a:	783c      	jmp      	r15
-	if(EPWM_EXTRG_EVET_X==EPWM0_EXTRG_STOP)
-    451c:	3841      	cmpnei      	r0, 1
-    451e:	080b      	bt      	0x4534	// 4534 <EPWM_EXTRG_Configure+0x32>
-		EPWM->EXTRG0&=0XFFFFFFF3;
-    4520:	0365      	lrw      	r3, 0x2000004c	// 4788 <EPWM_Wakeup_Disable+0x14>
-		EPWM->EXTRG0|=EPWM_EXTRG_Mode_X<<2;
-    4522:	4122      	lsli      	r1, r1, 2
-		EPWM->EXTRG0&=0XFFFFFFF3;
-    4524:	9360      	ld.w      	r3, (r3, 0x0)
-    4526:	237f      	addi      	r3, 128
-    4528:	9352      	ld.w      	r2, (r3, 0x48)
-    452a:	3a82      	bclri      	r2, 2
-    452c:	3a83      	bclri      	r2, 3
-    452e:	b352      	st.w      	r2, (r3, 0x48)
-		EPWM->EXTRG0|=EPWM_EXTRG_Mode_X<<2;
-    4530:	9352      	ld.w      	r2, (r3, 0x48)
-    4532:	07f2      	br      	0x4516	// 4516 <EPWM_EXTRG_Configure+0x14>
-	if(EPWM_EXTRG_EVET_X==EPWM0_EXTRG_PEND)
-    4534:	3842      	cmpnei      	r0, 2
-    4536:	080b      	bt      	0x454c	// 454c <EPWM_EXTRG_Configure+0x4a>
-		EPWM->EXTRG0&=0XFFFFFFCF;
-    4538:	036b      	lrw      	r3, 0x2000004c	// 4788 <EPWM_Wakeup_Disable+0x14>
-		EPWM->EXTRG0|=EPWM_EXTRG_Mode_X<<4;
-    453a:	4124      	lsli      	r1, r1, 4
-		EPWM->EXTRG0&=0XFFFFFFCF;
-    453c:	9360      	ld.w      	r3, (r3, 0x0)
-    453e:	237f      	addi      	r3, 128
-    4540:	9352      	ld.w      	r2, (r3, 0x48)
-    4542:	3a84      	bclri      	r2, 4
-    4544:	3a85      	bclri      	r2, 5
-    4546:	b352      	st.w      	r2, (r3, 0x48)
-		EPWM->EXTRG0|=EPWM_EXTRG_Mode_X<<4;
-    4548:	9352      	ld.w      	r2, (r3, 0x48)
-    454a:	07e6      	br      	0x4516	// 4516 <EPWM_EXTRG_Configure+0x14>
-	if(EPWM_EXTRG_EVET_X==EPWM0_EXTRG_CENTER)
-    454c:	3843      	cmpnei      	r0, 3
-    454e:	080b      	bt      	0x4564	// 4564 <EPWM_EXTRG_Configure+0x62>
-		EPWM->EXTRG0&=0XFFFFFF3F;
-    4550:	0371      	lrw      	r3, 0x2000004c	// 4788 <EPWM_Wakeup_Disable+0x14>
-		EPWM->EXTRG0|=EPWM_EXTRG_Mode_X<<6;
-    4552:	4126      	lsli      	r1, r1, 6
-		EPWM->EXTRG0&=0XFFFFFF3F;
-    4554:	9360      	ld.w      	r3, (r3, 0x0)
-    4556:	237f      	addi      	r3, 128
-    4558:	9352      	ld.w      	r2, (r3, 0x48)
-    455a:	3a86      	bclri      	r2, 6
-    455c:	3a87      	bclri      	r2, 7
-    455e:	b352      	st.w      	r2, (r3, 0x48)
-		EPWM->EXTRG0|=EPWM_EXTRG_Mode_X<<6;
-    4560:	9352      	ld.w      	r2, (r3, 0x48)
-    4562:	07da      	br      	0x4516	// 4516 <EPWM_EXTRG_Configure+0x14>
-	if(EPWM_EXTRG_EVET_X==EPWM1_EXTRG_START)
-    4564:	3844      	cmpnei      	r0, 4
-    4566:	080b      	bt      	0x457c	// 457c <EPWM_EXTRG_Configure+0x7a>
-		EPWM->EXTRG0&=0XFFFFFCFF;
-    4568:	0377      	lrw      	r3, 0x2000004c	// 4788 <EPWM_Wakeup_Disable+0x14>
-		EPWM->EXTRG0|=EPWM_EXTRG_Mode_X<<8;
-    456a:	4128      	lsli      	r1, r1, 8
-		EPWM->EXTRG0&=0XFFFFFCFF;
-    456c:	9360      	ld.w      	r3, (r3, 0x0)
-    456e:	237f      	addi      	r3, 128
-    4570:	9352      	ld.w      	r2, (r3, 0x48)
-    4572:	3a88      	bclri      	r2, 8
-    4574:	3a89      	bclri      	r2, 9
-    4576:	b352      	st.w      	r2, (r3, 0x48)
-		EPWM->EXTRG0|=EPWM_EXTRG_Mode_X<<8;
-    4578:	9352      	ld.w      	r2, (r3, 0x48)
-    457a:	07ce      	br      	0x4516	// 4516 <EPWM_EXTRG_Configure+0x14>
-	if(EPWM_EXTRG_EVET_X==EPWM1_EXTRG_STOP)
-    457c:	3845      	cmpnei      	r0, 5
-    457e:	080b      	bt      	0x4594	// 4594 <EPWM_EXTRG_Configure+0x92>
-		EPWM->EXTRG0&=0XFFFFF3FF;
-    4580:	037d      	lrw      	r3, 0x2000004c	// 4788 <EPWM_Wakeup_Disable+0x14>
-		EPWM->EXTRG0|=EPWM_EXTRG_Mode_X<<10;
-    4582:	412a      	lsli      	r1, r1, 10
-		EPWM->EXTRG0&=0XFFFFF3FF;
-    4584:	9360      	ld.w      	r3, (r3, 0x0)
-    4586:	237f      	addi      	r3, 128
-    4588:	9352      	ld.w      	r2, (r3, 0x48)
-    458a:	3a8a      	bclri      	r2, 10
-    458c:	3a8b      	bclri      	r2, 11
-    458e:	b352      	st.w      	r2, (r3, 0x48)
-		EPWM->EXTRG0|=EPWM_EXTRG_Mode_X<<10;
-    4590:	9352      	ld.w      	r2, (r3, 0x48)
-    4592:	07c2      	br      	0x4516	// 4516 <EPWM_EXTRG_Configure+0x14>
-	if(EPWM_EXTRG_EVET_X==EPWM1_EXTRG_PEND)
-    4594:	3846      	cmpnei      	r0, 6
-    4596:	080b      	bt      	0x45ac	// 45ac <EPWM_EXTRG_Configure+0xaa>
-		EPWM->EXTRG0&=0XFFFFCFFF;
-    4598:	137c      	lrw      	r3, 0x2000004c	// 4788 <EPWM_Wakeup_Disable+0x14>
-		EPWM->EXTRG0|=EPWM_EXTRG_Mode_X<<12;
-    459a:	412c      	lsli      	r1, r1, 12
-		EPWM->EXTRG0&=0XFFFFCFFF;
-    459c:	9360      	ld.w      	r3, (r3, 0x0)
-    459e:	237f      	addi      	r3, 128
-    45a0:	9352      	ld.w      	r2, (r3, 0x48)
-    45a2:	3a8c      	bclri      	r2, 12
-    45a4:	3a8d      	bclri      	r2, 13
-    45a6:	b352      	st.w      	r2, (r3, 0x48)
-		EPWM->EXTRG0|=EPWM_EXTRG_Mode_X<<12;
-    45a8:	9352      	ld.w      	r2, (r3, 0x48)
-    45aa:	07b6      	br      	0x4516	// 4516 <EPWM_EXTRG_Configure+0x14>
-	if(EPWM_EXTRG_EVET_X==EPWM1_EXTRG_CENTER)
-    45ac:	3847      	cmpnei      	r0, 7
-    45ae:	080b      	bt      	0x45c4	// 45c4 <EPWM_EXTRG_Configure+0xc2>
-		EPWM->EXTRG0&=0XFFFF3FFF;
-    45b0:	1376      	lrw      	r3, 0x2000004c	// 4788 <EPWM_Wakeup_Disable+0x14>
-		EPWM->EXTRG0|=EPWM_EXTRG_Mode_X<<14;
-    45b2:	412e      	lsli      	r1, r1, 14
-		EPWM->EXTRG0&=0XFFFF3FFF;
-    45b4:	9360      	ld.w      	r3, (r3, 0x0)
-    45b6:	237f      	addi      	r3, 128
-    45b8:	9352      	ld.w      	r2, (r3, 0x48)
-    45ba:	3a8e      	bclri      	r2, 14
-    45bc:	3a8f      	bclri      	r2, 15
-    45be:	b352      	st.w      	r2, (r3, 0x48)
-		EPWM->EXTRG0|=EPWM_EXTRG_Mode_X<<14;
-    45c0:	9352      	ld.w      	r2, (r3, 0x48)
-    45c2:	07aa      	br      	0x4516	// 4516 <EPWM_EXTRG_Configure+0x14>
-	if(EPWM_EXTRG_EVET_X==EPWM2_EXTRG_START)
-    45c4:	3848      	cmpnei      	r0, 8
-    45c6:	080b      	bt      	0x45dc	// 45dc <EPWM_EXTRG_Configure+0xda>
-		EPWM->EXTRG0&=0XFFFCFFFF;
-    45c8:	1370      	lrw      	r3, 0x2000004c	// 4788 <EPWM_Wakeup_Disable+0x14>
-		EPWM->EXTRG0|=EPWM_EXTRG_Mode_X<<16;
-    45ca:	4130      	lsli      	r1, r1, 16
-		EPWM->EXTRG0&=0XFFFCFFFF;
-    45cc:	9360      	ld.w      	r3, (r3, 0x0)
-    45ce:	237f      	addi      	r3, 128
-    45d0:	9352      	ld.w      	r2, (r3, 0x48)
-    45d2:	3a90      	bclri      	r2, 16
-    45d4:	3a91      	bclri      	r2, 17
-    45d6:	b352      	st.w      	r2, (r3, 0x48)
-		EPWM->EXTRG0|=EPWM_EXTRG_Mode_X<<16;
-    45d8:	9352      	ld.w      	r2, (r3, 0x48)
-    45da:	079e      	br      	0x4516	// 4516 <EPWM_EXTRG_Configure+0x14>
-	if(EPWM_EXTRG_EVET_X==EPWM2_EXTRG_STOP)
-    45dc:	3849      	cmpnei      	r0, 9
-    45de:	080b      	bt      	0x45f4	// 45f4 <EPWM_EXTRG_Configure+0xf2>
-		EPWM->EXTRG0&=0XFFF3FFFF;
-    45e0:	136a      	lrw      	r3, 0x2000004c	// 4788 <EPWM_Wakeup_Disable+0x14>
-		EPWM->EXTRG0|=EPWM_EXTRG_Mode_X<<18;
-    45e2:	4132      	lsli      	r1, r1, 18
-		EPWM->EXTRG0&=0XFFF3FFFF;
-    45e4:	9360      	ld.w      	r3, (r3, 0x0)
-    45e6:	237f      	addi      	r3, 128
-    45e8:	9352      	ld.w      	r2, (r3, 0x48)
-    45ea:	3a92      	bclri      	r2, 18
-    45ec:	3a93      	bclri      	r2, 19
-    45ee:	b352      	st.w      	r2, (r3, 0x48)
-		EPWM->EXTRG0|=EPWM_EXTRG_Mode_X<<18;
-    45f0:	9352      	ld.w      	r2, (r3, 0x48)
-    45f2:	0792      	br      	0x4516	// 4516 <EPWM_EXTRG_Configure+0x14>
-	if(EPWM_EXTRG_EVET_X==EPWM2_EXTRG_PEND)
-    45f4:	384a      	cmpnei      	r0, 10
-    45f6:	080b      	bt      	0x460c	// 460c <EPWM_EXTRG_Configure+0x10a>
-		EPWM->EXTRG0&=0XFFCFFFFF;
-    45f8:	1364      	lrw      	r3, 0x2000004c	// 4788 <EPWM_Wakeup_Disable+0x14>
-		EPWM->EXTRG0|=EPWM_EXTRG_Mode_X<<20;
-    45fa:	4134      	lsli      	r1, r1, 20
-		EPWM->EXTRG0&=0XFFCFFFFF;
-    45fc:	9360      	ld.w      	r3, (r3, 0x0)
-    45fe:	237f      	addi      	r3, 128
-    4600:	9352      	ld.w      	r2, (r3, 0x48)
-    4602:	3a94      	bclri      	r2, 20
-    4604:	3a95      	bclri      	r2, 21
-    4606:	b352      	st.w      	r2, (r3, 0x48)
-		EPWM->EXTRG0|=EPWM_EXTRG_Mode_X<<20;
-    4608:	9352      	ld.w      	r2, (r3, 0x48)
-    460a:	0786      	br      	0x4516	// 4516 <EPWM_EXTRG_Configure+0x14>
-	if(EPWM_EXTRG_EVET_X==EPWM2_EXTRG_CENTER)
-    460c:	384b      	cmpnei      	r0, 11
-    460e:	080b      	bt      	0x4624	// 4624 <EPWM_EXTRG_Configure+0x122>
-		EPWM->EXTRG0&=0XFF3FFFFF;
-    4610:	127e      	lrw      	r3, 0x2000004c	// 4788 <EPWM_Wakeup_Disable+0x14>
-		EPWM->EXTRG0|=EPWM_EXTRG_Mode_X<<22;
-    4612:	4136      	lsli      	r1, r1, 22
-		EPWM->EXTRG0&=0XFF3FFFFF;
-    4614:	9360      	ld.w      	r3, (r3, 0x0)
-    4616:	237f      	addi      	r3, 128
-    4618:	9352      	ld.w      	r2, (r3, 0x48)
-    461a:	3a96      	bclri      	r2, 22
-    461c:	3a97      	bclri      	r2, 23
-    461e:	b352      	st.w      	r2, (r3, 0x48)
-		EPWM->EXTRG0|=EPWM_EXTRG_Mode_X<<22;
-    4620:	9352      	ld.w      	r2, (r3, 0x48)
-    4622:	077a      	br      	0x4516	// 4516 <EPWM_EXTRG_Configure+0x14>
-	if(EPWM_EXTRG_EVET_X==EPWM0_EXTRG_CMPAUM)
-    4624:	384c      	cmpnei      	r0, 12
-    4626:	080c      	bt      	0x463e	// 463e <EPWM_EXTRG_Configure+0x13c>
-		EPWM->EXTRG1&=0XFFFFFFFC;
-    4628:	1278      	lrw      	r3, 0x2000004c	// 4788 <EPWM_Wakeup_Disable+0x14>
-    462a:	9360      	ld.w      	r3, (r3, 0x0)
-    462c:	237f      	addi      	r3, 128
-    462e:	9353      	ld.w      	r2, (r3, 0x4c)
-    4630:	3a80      	bclri      	r2, 0
-    4632:	3a81      	bclri      	r2, 1
-    4634:	b353      	st.w      	r2, (r3, 0x4c)
-		EPWM->EXTRG1|=EPWM_EXTRG_Mode_X;
-    4636:	9353      	ld.w      	r2, (r3, 0x4c)
-		EPWM->EXTRG1|=EPWM_EXTRG_Mode_X<<22;
-    4638:	6c48      	or      	r1, r2
-    463a:	b333      	st.w      	r1, (r3, 0x4c)
-}	
-    463c:	076f      	br      	0x451a	// 451a <EPWM_EXTRG_Configure+0x18>
-	if(EPWM_EXTRG_EVET_X==EPWM0_EXTRG_CMPADM)
-    463e:	384d      	cmpnei      	r0, 13
-    4640:	080b      	bt      	0x4656	// 4656 <EPWM_EXTRG_Configure+0x154>
-		EPWM->EXTRG1&=0XFFFFFFF3;
-    4642:	1272      	lrw      	r3, 0x2000004c	// 4788 <EPWM_Wakeup_Disable+0x14>
-		EPWM->EXTRG1|=EPWM_EXTRG_Mode_X<<2;
-    4644:	4122      	lsli      	r1, r1, 2
-		EPWM->EXTRG1&=0XFFFFFFF3;
-    4646:	9360      	ld.w      	r3, (r3, 0x0)
-    4648:	237f      	addi      	r3, 128
-    464a:	9353      	ld.w      	r2, (r3, 0x4c)
-    464c:	3a82      	bclri      	r2, 2
-    464e:	3a83      	bclri      	r2, 3
-    4650:	b353      	st.w      	r2, (r3, 0x4c)
-		EPWM->EXTRG1|=EPWM_EXTRG_Mode_X<<2;
-    4652:	9353      	ld.w      	r2, (r3, 0x4c)
-    4654:	07f2      	br      	0x4638	// 4638 <EPWM_EXTRG_Configure+0x136>
-	if(EPWM_EXTRG_EVET_X==EPWM0_EXTRG_CMPBUM)
-    4656:	384e      	cmpnei      	r0, 14
-    4658:	080b      	bt      	0x466e	// 466e <EPWM_EXTRG_Configure+0x16c>
-		EPWM->EXTRG1&=0XFFFFFFCF;
-    465a:	126c      	lrw      	r3, 0x2000004c	// 4788 <EPWM_Wakeup_Disable+0x14>
-		EPWM->EXTRG1|=EPWM_EXTRG_Mode_X<<4;
-    465c:	4124      	lsli      	r1, r1, 4
-		EPWM->EXTRG1&=0XFFFFFFCF;
-    465e:	9360      	ld.w      	r3, (r3, 0x0)
-    4660:	237f      	addi      	r3, 128
-    4662:	9353      	ld.w      	r2, (r3, 0x4c)
-    4664:	3a84      	bclri      	r2, 4
-    4666:	3a85      	bclri      	r2, 5
-    4668:	b353      	st.w      	r2, (r3, 0x4c)
-		EPWM->EXTRG1|=EPWM_EXTRG_Mode_X<<4;
-    466a:	9353      	ld.w      	r2, (r3, 0x4c)
-    466c:	07e6      	br      	0x4638	// 4638 <EPWM_EXTRG_Configure+0x136>
-	if(EPWM_EXTRG_EVET_X==EPWM0_EXTRG_CMPBDM)
-    466e:	384f      	cmpnei      	r0, 15
-    4670:	080b      	bt      	0x4686	// 4686 <EPWM_EXTRG_Configure+0x184>
-		EPWM->EXTRG1&=0XFFFFFF3F;
-    4672:	1266      	lrw      	r3, 0x2000004c	// 4788 <EPWM_Wakeup_Disable+0x14>
-		EPWM->EXTRG1|=EPWM_EXTRG_Mode_X<<6;
-    4674:	4126      	lsli      	r1, r1, 6
-		EPWM->EXTRG1&=0XFFFFFF3F;
-    4676:	9360      	ld.w      	r3, (r3, 0x0)
-    4678:	237f      	addi      	r3, 128
-    467a:	9353      	ld.w      	r2, (r3, 0x4c)
-    467c:	3a86      	bclri      	r2, 6
-    467e:	3a87      	bclri      	r2, 7
-    4680:	b353      	st.w      	r2, (r3, 0x4c)
-		EPWM->EXTRG1|=EPWM_EXTRG_Mode_X<<6;
-    4682:	9353      	ld.w      	r2, (r3, 0x4c)
-    4684:	07da      	br      	0x4638	// 4638 <EPWM_EXTRG_Configure+0x136>
-	if(EPWM_EXTRG_EVET_X==EPWM1_EXTRG_CMPAUM)
-    4686:	3850      	cmpnei      	r0, 16
-    4688:	080b      	bt      	0x469e	// 469e <EPWM_EXTRG_Configure+0x19c>
-		EPWM->EXTRG1&=0XFFFFFCFF;
-    468a:	1260      	lrw      	r3, 0x2000004c	// 4788 <EPWM_Wakeup_Disable+0x14>
-		EPWM->EXTRG1|=EPWM_EXTRG_Mode_X<<8;
-    468c:	4128      	lsli      	r1, r1, 8
-		EPWM->EXTRG1&=0XFFFFFCFF;
-    468e:	9360      	ld.w      	r3, (r3, 0x0)
-    4690:	237f      	addi      	r3, 128
-    4692:	9353      	ld.w      	r2, (r3, 0x4c)
-    4694:	3a88      	bclri      	r2, 8
-    4696:	3a89      	bclri      	r2, 9
-    4698:	b353      	st.w      	r2, (r3, 0x4c)
-		EPWM->EXTRG1|=EPWM_EXTRG_Mode_X<<8;
-    469a:	9353      	ld.w      	r2, (r3, 0x4c)
-    469c:	07ce      	br      	0x4638	// 4638 <EPWM_EXTRG_Configure+0x136>
-	if(EPWM_EXTRG_EVET_X==EPWM1_EXTRG_CMPADM)
-    469e:	3851      	cmpnei      	r0, 17
-    46a0:	080b      	bt      	0x46b6	// 46b6 <EPWM_EXTRG_Configure+0x1b4>
-		EPWM->EXTRG1&=0XFFFFF3FF;
-    46a2:	117a      	lrw      	r3, 0x2000004c	// 4788 <EPWM_Wakeup_Disable+0x14>
-		EPWM->EXTRG1|=EPWM_EXTRG_Mode_X<<10;
-    46a4:	412a      	lsli      	r1, r1, 10
-		EPWM->EXTRG1&=0XFFFFF3FF;
-    46a6:	9360      	ld.w      	r3, (r3, 0x0)
-    46a8:	237f      	addi      	r3, 128
-    46aa:	9353      	ld.w      	r2, (r3, 0x4c)
-    46ac:	3a8a      	bclri      	r2, 10
-    46ae:	3a8b      	bclri      	r2, 11
-    46b0:	b353      	st.w      	r2, (r3, 0x4c)
-		EPWM->EXTRG1|=EPWM_EXTRG_Mode_X<<10;
-    46b2:	9353      	ld.w      	r2, (r3, 0x4c)
-    46b4:	07c2      	br      	0x4638	// 4638 <EPWM_EXTRG_Configure+0x136>
-	if(EPWM_EXTRG_EVET_X==EPWM1_EXTRG_CMPBUM)
-    46b6:	3852      	cmpnei      	r0, 18
-    46b8:	080b      	bt      	0x46ce	// 46ce <EPWM_EXTRG_Configure+0x1cc>
-		EPWM->EXTRG1&=0XFFFFCFFF;
-    46ba:	1174      	lrw      	r3, 0x2000004c	// 4788 <EPWM_Wakeup_Disable+0x14>
-		EPWM->EXTRG1|=EPWM_EXTRG_Mode_X<<12;
-    46bc:	412c      	lsli      	r1, r1, 12
-		EPWM->EXTRG1&=0XFFFFCFFF;
-    46be:	9360      	ld.w      	r3, (r3, 0x0)
-    46c0:	237f      	addi      	r3, 128
-    46c2:	9353      	ld.w      	r2, (r3, 0x4c)
-    46c4:	3a8c      	bclri      	r2, 12
-    46c6:	3a8d      	bclri      	r2, 13
-    46c8:	b353      	st.w      	r2, (r3, 0x4c)
-		EPWM->EXTRG1|=EPWM_EXTRG_Mode_X<<12;
-    46ca:	9353      	ld.w      	r2, (r3, 0x4c)
-    46cc:	07b6      	br      	0x4638	// 4638 <EPWM_EXTRG_Configure+0x136>
-	if(EPWM_EXTRG_EVET_X==EPWM1_EXTRG_CMPBDM)
-    46ce:	3853      	cmpnei      	r0, 19
-    46d0:	080b      	bt      	0x46e6	// 46e6 <EPWM_EXTRG_Configure+0x1e4>
-		EPWM->EXTRG1&=0XFFFF3FFF;
-    46d2:	116e      	lrw      	r3, 0x2000004c	// 4788 <EPWM_Wakeup_Disable+0x14>
-		EPWM->EXTRG1|=EPWM_EXTRG_Mode_X<<14;
-    46d4:	412e      	lsli      	r1, r1, 14
-		EPWM->EXTRG1&=0XFFFF3FFF;
-    46d6:	9360      	ld.w      	r3, (r3, 0x0)
-    46d8:	237f      	addi      	r3, 128
-    46da:	9353      	ld.w      	r2, (r3, 0x4c)
-    46dc:	3a8e      	bclri      	r2, 14
-    46de:	3a8f      	bclri      	r2, 15
-    46e0:	b353      	st.w      	r2, (r3, 0x4c)
-		EPWM->EXTRG1|=EPWM_EXTRG_Mode_X<<14;
-    46e2:	9353      	ld.w      	r2, (r3, 0x4c)
-    46e4:	07aa      	br      	0x4638	// 4638 <EPWM_EXTRG_Configure+0x136>
-	if(EPWM_EXTRG_EVET_X==EPWM2_EXTRG_CMPAUM)
-    46e6:	3854      	cmpnei      	r0, 20
-    46e8:	080b      	bt      	0x46fe	// 46fe <EPWM_EXTRG_Configure+0x1fc>
-		EPWM->EXTRG1&=0XFFFCFFFF;
-    46ea:	1168      	lrw      	r3, 0x2000004c	// 4788 <EPWM_Wakeup_Disable+0x14>
-		EPWM->EXTRG1|=EPWM_EXTRG_Mode_X<<16;
-    46ec:	4130      	lsli      	r1, r1, 16
-		EPWM->EXTRG1&=0XFFFCFFFF;
-    46ee:	9360      	ld.w      	r3, (r3, 0x0)
-    46f0:	237f      	addi      	r3, 128
-    46f2:	9353      	ld.w      	r2, (r3, 0x4c)
-    46f4:	3a90      	bclri      	r2, 16
-    46f6:	3a91      	bclri      	r2, 17
-    46f8:	b353      	st.w      	r2, (r3, 0x4c)
-		EPWM->EXTRG1|=EPWM_EXTRG_Mode_X<<16;
-    46fa:	9353      	ld.w      	r2, (r3, 0x4c)
-    46fc:	079e      	br      	0x4638	// 4638 <EPWM_EXTRG_Configure+0x136>
-	if(EPWM_EXTRG_EVET_X==EPWM2_EXTRG_CMPADM)
-    46fe:	3855      	cmpnei      	r0, 21
-    4700:	080b      	bt      	0x4716	// 4716 <EPWM_EXTRG_Configure+0x214>
-		EPWM->EXTRG1&=0XFFF3FFFF;
-    4702:	1162      	lrw      	r3, 0x2000004c	// 4788 <EPWM_Wakeup_Disable+0x14>
-		EPWM->EXTRG1|=EPWM_EXTRG_Mode_X<<18;
-    4704:	4132      	lsli      	r1, r1, 18
-		EPWM->EXTRG1&=0XFFF3FFFF;
-    4706:	9360      	ld.w      	r3, (r3, 0x0)
-    4708:	237f      	addi      	r3, 128
-    470a:	9353      	ld.w      	r2, (r3, 0x4c)
-    470c:	3a92      	bclri      	r2, 18
-    470e:	3a93      	bclri      	r2, 19
-    4710:	b353      	st.w      	r2, (r3, 0x4c)
-		EPWM->EXTRG1|=EPWM_EXTRG_Mode_X<<18;
-    4712:	9353      	ld.w      	r2, (r3, 0x4c)
-    4714:	0792      	br      	0x4638	// 4638 <EPWM_EXTRG_Configure+0x136>
-	if(EPWM_EXTRG_EVET_X==EPWM2_EXTRG_CMPBUM)
-    4716:	3856      	cmpnei      	r0, 22
-    4718:	080b      	bt      	0x472e	// 472e <EPWM_EXTRG_Configure+0x22c>
-		EPWM->EXTRG1&=0XFFCFFFFF;
-    471a:	107c      	lrw      	r3, 0x2000004c	// 4788 <EPWM_Wakeup_Disable+0x14>
-		EPWM->EXTRG1|=EPWM_EXTRG_Mode_X<<20;
-    471c:	4134      	lsli      	r1, r1, 20
-		EPWM->EXTRG1&=0XFFCFFFFF;
-    471e:	9360      	ld.w      	r3, (r3, 0x0)
-    4720:	237f      	addi      	r3, 128
-    4722:	9353      	ld.w      	r2, (r3, 0x4c)
-    4724:	3a94      	bclri      	r2, 20
-    4726:	3a95      	bclri      	r2, 21
-    4728:	b353      	st.w      	r2, (r3, 0x4c)
-		EPWM->EXTRG1|=EPWM_EXTRG_Mode_X<<20;
-    472a:	9353      	ld.w      	r2, (r3, 0x4c)
-    472c:	0786      	br      	0x4638	// 4638 <EPWM_EXTRG_Configure+0x136>
-	if(EPWM_EXTRG_EVET_X==EPWM2_EXTRG_CMPBDM)
-    472e:	3857      	cmpnei      	r0, 23
-    4730:	0af5      	bt      	0x451a	// 451a <EPWM_EXTRG_Configure+0x18>
-		EPWM->EXTRG1&=0XFF3FFFFF;
-    4732:	1076      	lrw      	r3, 0x2000004c	// 4788 <EPWM_Wakeup_Disable+0x14>
-		EPWM->EXTRG1|=EPWM_EXTRG_Mode_X<<22;
-    4734:	4136      	lsli      	r1, r1, 22
-		EPWM->EXTRG1&=0XFF3FFFFF;
-    4736:	9360      	ld.w      	r3, (r3, 0x0)
-    4738:	237f      	addi      	r3, 128
-    473a:	9353      	ld.w      	r2, (r3, 0x4c)
-    473c:	3a96      	bclri      	r2, 22
-    473e:	3a97      	bclri      	r2, 23
-    4740:	b353      	st.w      	r2, (r3, 0x4c)
-		EPWM->EXTRG1|=EPWM_EXTRG_Mode_X<<22;
-    4742:	9353      	ld.w      	r2, (r3, 0x4c)
-    4744:	077a      	br      	0x4638	// 4638 <EPWM_EXTRG_Configure+0x136>
-
-00004746 <EPWM_Int_Enable>:
-//EntryParameter:NONE
-//ReturnValue:NONE
-/*************************************************************/
-void EPWM_Int_Enable(void)
-{
-    INTC_ISER_WRITE(EPWM_INT);    
-    4746:	1072      	lrw      	r3, 0x20000078	// 478c <EPWM_Wakeup_Disable+0x18>
-    4748:	3280      	movi      	r2, 128
-    474a:	9360      	ld.w      	r3, (r3, 0x0)
-    474c:	23ff      	addi      	r3, 256
-    474e:	4242      	lsli      	r2, r2, 2
-    4750:	b340      	st.w      	r2, (r3, 0x0)
-}
-    4752:	783c      	jmp      	r15
-
-00004754 <EPWM_Int_Disable>:
-//EntryParameter:NONE
-//ReturnValue:NONE
-/*************************************************************/
-void EPWM_Int_Disable(void)
-{
-    INTC_ICER_WRITE(EPWM_INT);    
-    4754:	106e      	lrw      	r3, 0x20000078	// 478c <EPWM_Wakeup_Disable+0x18>
-    4756:	32c0      	movi      	r2, 192
-    4758:	9360      	ld.w      	r3, (r3, 0x0)
-    475a:	4241      	lsli      	r2, r2, 1
-    475c:	60c8      	addu      	r3, r2
-    475e:	3280      	movi      	r2, 128
-    4760:	4242      	lsli      	r2, r2, 2
-    4762:	b340      	st.w      	r2, (r3, 0x0)
-}
-    4764:	783c      	jmp      	r15
-
-00004766 <EPWM_Wakeup_Enable>:
-//EntryParameter:NONE
-//ReturnValue:NONE
-/*************************************************************/
-void EPWM_Wakeup_Enable(void)
-{
-    INTC_IWER_WRITE(EPWM_INT);    
-    4766:	106a      	lrw      	r3, 0x20000078	// 478c <EPWM_Wakeup_Disable+0x18>
-    4768:	3280      	movi      	r2, 128
-    476a:	9360      	ld.w      	r3, (r3, 0x0)
-    476c:	23ff      	addi      	r3, 256
-    476e:	4242      	lsli      	r2, r2, 2
-    4770:	b350      	st.w      	r2, (r3, 0x40)
-}
-    4772:	783c      	jmp      	r15
-
-00004774 <EPWM_Wakeup_Disable>:
-//EntryParameter:NONE
-//ReturnValue:NONE
-/*************************************************************/
-void EPWM_Wakeup_Disable(void)
-{
-    INTC_IWDR_WRITE(EPWM_INT);    
-    4774:	1066      	lrw      	r3, 0x20000078	// 478c <EPWM_Wakeup_Disable+0x18>
-    4776:	32e0      	movi      	r2, 224
-    4778:	9360      	ld.w      	r3, (r3, 0x0)
-    477a:	4241      	lsli      	r2, r2, 1
-    477c:	60c8      	addu      	r3, r2
-    477e:	3280      	movi      	r2, 128
-    4780:	4242      	lsli      	r2, r2, 2
-    4782:	b340      	st.w      	r2, (r3, 0x0)
-}
-    4784:	783c      	jmp      	r15
-    4786:	0000      	bkpt
-    4788:	2000004c 	.long	0x2000004c
-    478c:	20000078 	.long	0x20000078
-
-00004790 <TC0_RESET_VALUE>:
-//*TC0CHX:TC0_0,TC0_1,TC0_2
-//ReturnValue:NONE
-/*************************************************************/  
-void TC0_RESET_VALUE(CSP_TC0_T *TC0CHX)									//reset value
-{
-	TC0CHX->ECR		=	TC0_ECR_RST;          		/**< ECR reset value       */
-    4790:	3300      	movi      	r3, 0
-	TC0CHX->DCR		=	TC0_DCR_RST;	     	 	/**< DCR reset value       */
-	TC0CHX->PMSR	=	TC0_PMSR_RST;	     		/**< PMSR reset value      */
-    4792:	104e      	lrw      	r2, 0x2aaaaaa0	// 47c8 <TC0_RESET_VALUE+0x38>
-	TC0CHX->ECR		=	TC0_ECR_RST;          		/**< ECR reset value       */
-    4794:	b074      	st.w      	r3, (r0, 0x50)
-	TC0CHX->CV		=	TC0_CV_RST;           		/**< CV reset value        */
-	TC0CHX->RA		= 	TC0_RA_RST;           	 	/**< RA reset value        */
-	TC0CHX->RB		=	TC0_RB_RST;           	 	/**< RB reset value        */
-	TC0CHX->RC		=	TC0_RC_RST;           		/**< RC reset value        */
-	
-	TC0->BCR	=	TC0_BCR_RST;          			/**< BCR reset value       */
-    4796:	31c0      	movi      	r1, 192
-	TC0CHX->DCR		=	TC0_DCR_RST;	     	 	/**< DCR reset value       */
-    4798:	b075      	st.w      	r3, (r0, 0x54)
-	TC0CHX->PMSR	=	TC0_PMSR_RST;	     		/**< PMSR reset value      */
-    479a:	b056      	st.w      	r2, (r0, 0x58)
-	TC0->BCR	=	TC0_BCR_RST;          			/**< BCR reset value       */
-    479c:	4122      	lsli      	r1, r1, 2
-    479e:	104c      	lrw      	r2, 0x20000064	// 47cc <TC0_RESET_VALUE+0x3c>
-    47a0:	9240      	ld.w      	r2, (r2, 0x0)
-	TC0CHX->CR		=	TC0_CR_RST;           		/**< CR reset value        */
-    47a2:	b078      	st.w      	r3, (r0, 0x60)
-	TC0->BCR	=	TC0_BCR_RST;          			/**< BCR reset value       */
-    47a4:	6048      	addu      	r1, r2
-	TC0CHX->MR		=	TC0_MR_RST;          		/**< MR reset value        */
-    47a6:	b079      	st.w      	r3, (r0, 0x64)
-	TC0CHX->CSR		= 	TC0_CSR_RST;         		/**< CSR reset value       */
-    47a8:	b07b      	st.w      	r3, (r0, 0x6c)
-	TC0CHX->SR 		=	TC0_SR_RST;           		/**< SR reset value        */
-    47aa:	b07c      	st.w      	r3, (r0, 0x70)
-	TC0CHX->IER		=	TC0_IER_RST;          		/**< IER reset value       */
-    47ac:	b07d      	st.w      	r3, (r0, 0x74)
-	TC0CHX->IDR		=	TC0_IDR_RST;          		/**< IDR reset value       */
-    47ae:	b07e      	st.w      	r3, (r0, 0x78)
-	TC0CHX->IMR		=	TC0_IMR_RST;          		/**< IMR Rreset value      */
-    47b0:	b07f      	st.w      	r3, (r0, 0x7c)
-	TC0CHX->CV		=	TC0_CV_RST;           		/**< CV reset value        */
-    47b2:	207f      	addi      	r0, 128
-    47b4:	b060      	st.w      	r3, (r0, 0x0)
-	TC0CHX->RA		= 	TC0_RA_RST;           	 	/**< RA reset value        */
-    47b6:	b061      	st.w      	r3, (r0, 0x4)
-	TC0CHX->RB		=	TC0_RB_RST;           	 	/**< RB reset value        */
-    47b8:	b062      	st.w      	r3, (r0, 0x8)
-	TC0CHX->RC		=	TC0_RC_RST;           		/**< RC reset value        */
-    47ba:	b063      	st.w      	r3, (r0, 0xc)
-	TC0->BCR	=	TC0_BCR_RST;          			/**< BCR reset value       */
-    47bc:	b160      	st.w      	r3, (r1, 0x0)
-	TC0->BMR	=	TC0_BMR_RST;          			/**< BMR reset value       */
-    47be:	31c1      	movi      	r1, 193
-    47c0:	4122      	lsli      	r1, r1, 2
-    47c2:	6084      	addu      	r2, r1
-    47c4:	b260      	st.w      	r3, (r2, 0x0)
-}
-    47c6:	783c      	jmp      	r15
-    47c8:	2aaaaaa0 	.long	0x2aaaaaa0
-    47cc:	20000064 	.long	0x20000064
-
-000047d0 <TC0_IO_Init>:
-//TC0_IO_IO2B(0->PA0.1(AF1) ; 1->PA1.5(AF2))
-//ReturnValue:NONE
-/*************************************************************/
-void TC0_IO_Init(TC0_IO_MODE_TypeDef  TC0_IO_MODE_X , U8_T TC0_IO_G )
-{
-	if(TC0_IO_MODE_X==TC0_IO_CLK0)
-    47d0:	3841      	cmpnei      	r0, 1
-    47d2:	0819      	bt      	0x4804	// 4804 <TC0_IO_Init+0x34>
-	{
-		if(TC0_IO_G==0)
-    47d4:	3940      	cmpnei      	r1, 0
-    47d6:	080b      	bt      	0x47ec	// 47ec <TC0_IO_Init+0x1c>
-		{
-			GPIOB0->CONLR=(GPIOB0->CONLR & 0XF0FFFFFF)|0x05000000;										//TC0_IO_CLK0(PB0.6->AF2)
-    47d8:	0174      	lrw      	r3, 0x2000000c	// 4b04 <TC0CHX_PWM_Configure+0x56>
-    47da:	32f0      	movi      	r2, 240
-    47dc:	9320      	ld.w      	r1, (r3, 0x0)
-    47de:	9160      	ld.w      	r3, (r1, 0x0)
-    47e0:	4254      	lsli      	r2, r2, 20
-    47e2:	68c9      	andn      	r3, r2
-    47e4:	3bb8      	bseti      	r3, 24
-    47e6:	3bba      	bseti      	r3, 26
-		{
-			GPIOA0->CONLR=(GPIOA0->CONLR & 0XFFFFFF0F)|0x00000040;										//TC0_IO_IO2B(PA0.1->AF1)
-		}
-		else if(TC0_IO_G==1)
-		{
-			GPIOA1->CONLR=(GPIOA1->CONLR & 0XFF0FFFFF)|0x00500000;										//TC0_IO_IO1A(PA1.5->AF2)
-    47e8:	b160      	st.w      	r3, (r1, 0x0)
-		}
-	}
-}
-    47ea:	046a      	br      	0x48be	// 48be <TC0_IO_Init+0xee>
-		else if(TC0_IO_G==1)
-    47ec:	3941      	cmpnei      	r1, 1
-    47ee:	0868      	bt      	0x48be	// 48be <TC0_IO_Init+0xee>
-			GPIOA0->CONHR=(GPIOA0->CONHR & 0XFFFF0FFF)|0x00006000;										//TC0_IO_CLK0(PA0.11->AF3)
-    47f0:	0179      	lrw      	r3, 0x20000014	// 4b08 <TC0CHX_PWM_Configure+0x5a>
-    47f2:	32f0      	movi      	r2, 240
-    47f4:	9320      	ld.w      	r1, (r3, 0x0)
-    47f6:	9161      	ld.w      	r3, (r1, 0x4)
-    47f8:	4248      	lsli      	r2, r2, 8
-    47fa:	68c9      	andn      	r3, r2
-    47fc:	3bad      	bseti      	r3, 13
-    47fe:	3bae      	bseti      	r3, 14
-			GPIOA0->CONHR=(GPIOA0->CONHR & 0XFFFF0FFF)|0x00004000;										//TC0_IO_IO0B(PA0.11->AF1)
-    4800:	b161      	st.w      	r3, (r1, 0x4)
-    4802:	045e      	br      	0x48be	// 48be <TC0_IO_Init+0xee>
-	else if(TC0_IO_MODE_X==TC0_IO_CLK1)
-    4804:	3842      	cmpnei      	r0, 2
-    4806:	080c      	bt      	0x481e	// 481e <TC0_IO_Init+0x4e>
-		if(TC0_IO_G==0)
-    4808:	3940      	cmpnei      	r1, 0
-    480a:	085a      	bt      	0x48be	// 48be <TC0_IO_Init+0xee>
-			GPIOB0->CONLR=(GPIOB0->CONLR & 0XFF0FFFFF)|0x00600000;										//TC0_IO_CLK1(PB0.5->AF3)
-    480c:	0261      	lrw      	r3, 0x2000000c	// 4b04 <TC0CHX_PWM_Configure+0x56>
-    480e:	32f0      	movi      	r2, 240
-    4810:	9320      	ld.w      	r1, (r3, 0x0)
-    4812:	9160      	ld.w      	r3, (r1, 0x0)
-    4814:	4250      	lsli      	r2, r2, 16
-    4816:	68c9      	andn      	r3, r2
-    4818:	3bb5      	bseti      	r3, 21
-    481a:	3bb6      	bseti      	r3, 22
-    481c:	07e6      	br      	0x47e8	// 47e8 <TC0_IO_Init+0x18>
-	else if(TC0_IO_MODE_X==TC0_IO_CLK2)
-    481e:	3843      	cmpnei      	r0, 3
-    4820:	080c      	bt      	0x4838	// 4838 <TC0_IO_Init+0x68>
-		if(TC0_IO_G==0)
-    4822:	3940      	cmpnei      	r1, 0
-    4824:	084d      	bt      	0x48be	// 48be <TC0_IO_Init+0xee>
-			GPIOC0->CONLR=(GPIOC0->CONLR & 0XFFFFFF0F)|0x00000060;										//TC0_IO_CLK2(PC0.1->AF3)
-    4826:	0265      	lrw      	r3, 0x20000008	// 4b0c <TC0CHX_PWM_Configure+0x5e>
-    4828:	31f0      	movi      	r1, 240
-    482a:	9340      	ld.w      	r2, (r3, 0x0)
-    482c:	9260      	ld.w      	r3, (r2, 0x0)
-    482e:	68c5      	andn      	r3, r1
-    4830:	3ba5      	bseti      	r3, 5
-    4832:	3ba6      	bseti      	r3, 6
-			GPIOA0->CONLR=(GPIOA0->CONLR & 0XFFFFFF0F)|0x00000040;										//TC0_IO_IO2B(PA0.1->AF1)
-    4834:	b260      	st.w      	r3, (r2, 0x0)
-    4836:	0444      	br      	0x48be	// 48be <TC0_IO_Init+0xee>
-	else if(TC0_IO_MODE_X==TC0_IO_ETR)
-    4838:	3844      	cmpnei      	r0, 4
-    483a:	0816      	bt      	0x4866	// 4866 <TC0_IO_Init+0x96>
-		if(TC0_IO_G==0)
-    483c:	3940      	cmpnei      	r1, 0
-    483e:	080a      	bt      	0x4852	// 4852 <TC0_IO_Init+0x82>
-			GPIOB0->CONLR=(GPIOB0->CONLR & 0XFFFFF0FF)|0x00000500;										//TC0_IO_ETR(PB0.2->AF2)
-    4840:	026e      	lrw      	r3, 0x2000000c	// 4b04 <TC0CHX_PWM_Configure+0x56>
-			GPIOA1->CONLR=(GPIOA1->CONLR & 0XFFFFF0FF)|0x00000500;										//TC0_IO_IO1A(PA1.2->AF2)
-    4842:	9320      	ld.w      	r1, (r3, 0x0)
-    4844:	32f0      	movi      	r2, 240
-    4846:	9160      	ld.w      	r3, (r1, 0x0)
-    4848:	4244      	lsli      	r2, r2, 4
-    484a:	68c9      	andn      	r3, r2
-    484c:	3ba8      	bseti      	r3, 8
-    484e:	3baa      	bseti      	r3, 10
-    4850:	07cc      	br      	0x47e8	// 47e8 <TC0_IO_Init+0x18>
-		else if(TC0_IO_G==1)
-    4852:	3941      	cmpnei      	r1, 1
-    4854:	0835      	bt      	0x48be	// 48be <TC0_IO_Init+0xee>
-			GPIOC0->CONLR=(GPIOC0->CONLR & 0XFFFFFFF0)|0x00000006;										//TC0_IO_ETR(PC0.0->AF3)
-    4856:	0271      	lrw      	r3, 0x20000008	// 4b0c <TC0CHX_PWM_Configure+0x5e>
-    4858:	310f      	movi      	r1, 15
-    485a:	9340      	ld.w      	r2, (r3, 0x0)
-    485c:	9260      	ld.w      	r3, (r2, 0x0)
-    485e:	68c5      	andn      	r3, r1
-    4860:	3ba1      	bseti      	r3, 1
-    4862:	3ba2      	bseti      	r3, 2
-    4864:	07e8      	br      	0x4834	// 4834 <TC0_IO_Init+0x64>
-	else if(TC0_IO_MODE_X==TC0_IO_IO0A)
-    4866:	3845      	cmpnei      	r0, 5
-    4868:	082c      	bt      	0x48c0	// 48c0 <TC0_IO_Init+0xf0>
-		if(TC0_IO_G==0)
-    486a:	3940      	cmpnei      	r1, 0
-    486c:	080a      	bt      	0x4880	// 4880 <TC0_IO_Init+0xb0>
-			GPIOB0->CONLR=(GPIOB0->CONLR & 0XFFFFF0FF)|0x00000600;										//TC0_IO_IO0A(PB0.2->AF3)
-    486e:	0279      	lrw      	r3, 0x2000000c	// 4b04 <TC0CHX_PWM_Configure+0x56>
-    4870:	32f0      	movi      	r2, 240
-    4872:	9320      	ld.w      	r1, (r3, 0x0)
-    4874:	9160      	ld.w      	r3, (r1, 0x0)
-    4876:	4244      	lsli      	r2, r2, 4
-    4878:	68c9      	andn      	r3, r2
-    487a:	3ba9      	bseti      	r3, 9
-    487c:	3baa      	bseti      	r3, 10
-    487e:	07b5      	br      	0x47e8	// 47e8 <TC0_IO_Init+0x18>
-		else if(TC0_IO_G==1)
-    4880:	3941      	cmpnei      	r1, 1
-    4882:	080b      	bt      	0x4898	// 4898 <TC0_IO_Init+0xc8>
-			GPIOA0->CONLR=(GPIOA0->CONLR & 0XFFFF0FFF)|0x00007000;										//TC0_IO_IO0A(PA0.3->AF4)
-    4884:	027e      	lrw      	r3, 0x20000014	// 4b08 <TC0CHX_PWM_Configure+0x5a>
-    4886:	32f0      	movi      	r2, 240
-    4888:	9320      	ld.w      	r1, (r3, 0x0)
-    488a:	4248      	lsli      	r2, r2, 8
-    488c:	9160      	ld.w      	r3, (r1, 0x0)
-    488e:	68c9      	andn      	r3, r2
-    4890:	32e0      	movi      	r2, 224
-    4892:	4247      	lsli      	r2, r2, 7
-			GPIOA0->CONLR=(GPIOA0->CONLR & 0XFFF0FFFF)|0x00070000;										//TC0_IO_IO0B(PA0.4->AF4)
-    4894:	6cc8      	or      	r3, r2
-    4896:	07a9      	br      	0x47e8	// 47e8 <TC0_IO_Init+0x18>
-		else if(TC0_IO_G==2)
-    4898:	3942      	cmpnei      	r1, 2
-    489a:	0809      	bt      	0x48ac	// 48ac <TC0_IO_Init+0xdc>
-			GPIOC0->CONLR=(GPIOC0->CONLR & 0XFFFFF0FF)|0x00000400;										//TC0_IO_IO0A(PC0.2->AF1)
-    489c:	0363      	lrw      	r3, 0x20000008	// 4b0c <TC0CHX_PWM_Configure+0x5e>
-    489e:	32f0      	movi      	r2, 240
-    48a0:	9320      	ld.w      	r1, (r3, 0x0)
-    48a2:	9160      	ld.w      	r3, (r1, 0x0)
-    48a4:	4244      	lsli      	r2, r2, 4
-    48a6:	68c9      	andn      	r3, r2
-    48a8:	3baa      	bseti      	r3, 10
-    48aa:	079f      	br      	0x47e8	// 47e8 <TC0_IO_Init+0x18>
-		else if(TC0_IO_G==3)
-    48ac:	3943      	cmpnei      	r1, 3
-    48ae:	0808      	bt      	0x48be	// 48be <TC0_IO_Init+0xee>
-			GPIOA1->CONLR=(GPIOA1->CONLR & 0XFFFFFFF0)|0x00000005;										//TC0_IO_IO0A(PA1.0->AF2)
-    48b0:	0367      	lrw      	r3, 0x20000010	// 4b10 <TC0CHX_PWM_Configure+0x62>
-    48b2:	310f      	movi      	r1, 15
-    48b4:	9340      	ld.w      	r2, (r3, 0x0)
-    48b6:	9260      	ld.w      	r3, (r2, 0x0)
-    48b8:	68c5      	andn      	r3, r1
-    48ba:	6c0c      	or      	r0, r3
-    48bc:	b200      	st.w      	r0, (r2, 0x0)
-}
-    48be:	783c      	jmp      	r15
-	else if(TC0_IO_MODE_X==TC0_IO_IO0B)
-    48c0:	3846      	cmpnei      	r0, 6
-    48c2:	082b      	bt      	0x4918	// 4918 <TC0_IO_Init+0x148>
-		if(TC0_IO_G==0)
-    48c4:	3940      	cmpnei      	r1, 0
-    48c6:	0809      	bt      	0x48d8	// 48d8 <TC0_IO_Init+0x108>
-			GPIOA0->CONHR=(GPIOA0->CONHR & 0XFFFF0FFF)|0x00004000;										//TC0_IO_IO0B(PA0.11->AF1)
-    48c8:	036f      	lrw      	r3, 0x20000014	// 4b08 <TC0CHX_PWM_Configure+0x5a>
-    48ca:	32f0      	movi      	r2, 240
-    48cc:	9320      	ld.w      	r1, (r3, 0x0)
-    48ce:	9161      	ld.w      	r3, (r1, 0x4)
-    48d0:	4248      	lsli      	r2, r2, 8
-    48d2:	68c9      	andn      	r3, r2
-    48d4:	3bae      	bseti      	r3, 14
-    48d6:	0795      	br      	0x4800	// 4800 <TC0_IO_Init+0x30>
-		else if(TC0_IO_G==1)
-    48d8:	3941      	cmpnei      	r1, 1
-    48da:	080a      	bt      	0x48ee	// 48ee <TC0_IO_Init+0x11e>
-			GPIOA0->CONLR=(GPIOA0->CONLR & 0XFFF0FFFF)|0x00070000;										//TC0_IO_IO0B(PA0.4->AF4)
-    48dc:	0374      	lrw      	r3, 0x20000014	// 4b08 <TC0CHX_PWM_Configure+0x5a>
-    48de:	32f0      	movi      	r2, 240
-    48e0:	9320      	ld.w      	r1, (r3, 0x0)
-    48e2:	424c      	lsli      	r2, r2, 12
-    48e4:	9160      	ld.w      	r3, (r1, 0x0)
-    48e6:	68c9      	andn      	r3, r2
-    48e8:	32e0      	movi      	r2, 224
-    48ea:	424b      	lsli      	r2, r2, 11
-    48ec:	07d4      	br      	0x4894	// 4894 <TC0_IO_Init+0xc4>
-		else if(TC0_IO_G==2)
-    48ee:	3942      	cmpnei      	r1, 2
-    48f0:	080a      	bt      	0x4904	// 4904 <TC0_IO_Init+0x134>
-			GPIOB0->CONLR=(GPIOB0->CONLR & 0XFFFF0FFF)|0x00006000;										//TC0_IO_IO0B(PB0.3->AF3)
-    48f2:	037a      	lrw      	r3, 0x2000000c	// 4b04 <TC0CHX_PWM_Configure+0x56>
-    48f4:	32f0      	movi      	r2, 240
-    48f6:	9320      	ld.w      	r1, (r3, 0x0)
-    48f8:	9160      	ld.w      	r3, (r1, 0x0)
-    48fa:	4248      	lsli      	r2, r2, 8
-    48fc:	68c9      	andn      	r3, r2
-    48fe:	3bad      	bseti      	r3, 13
-    4900:	3bae      	bseti      	r3, 14
-    4902:	0773      	br      	0x47e8	// 47e8 <TC0_IO_Init+0x18>
-		else if(TC0_IO_G==3)
-    4904:	3943      	cmpnei      	r1, 3
-    4906:	0bdc      	bt      	0x48be	// 48be <TC0_IO_Init+0xee>
-			GPIOA1->CONLR=(GPIOA1->CONLR & 0XFFFFFF0F)|0x00000050;										//TC0_IO_IO0B(PA1.1->AF2)
-    4908:	037d      	lrw      	r3, 0x20000010	// 4b10 <TC0CHX_PWM_Configure+0x62>
-    490a:	31f0      	movi      	r1, 240
-    490c:	9340      	ld.w      	r2, (r3, 0x0)
-    490e:	9260      	ld.w      	r3, (r2, 0x0)
-    4910:	68c5      	andn      	r3, r1
-    4912:	3ba4      	bseti      	r3, 4
-    4914:	3ba6      	bseti      	r3, 6
-    4916:	078f      	br      	0x4834	// 4834 <TC0_IO_Init+0x64>
-	else if(TC0_IO_MODE_X==TC0_IO_IO1A)
-    4918:	3847      	cmpnei      	r0, 7
-    491a:	080e      	bt      	0x4936	// 4936 <TC0_IO_Init+0x166>
-		if(TC0_IO_G==0)
-    491c:	3940      	cmpnei      	r1, 0
-    491e:	0808      	bt      	0x492e	// 492e <TC0_IO_Init+0x15e>
-			GPIOB0->CONLR=(GPIOB0->CONLR & 0XFFFFFFF0)|0x00000004;										//TC0_IO_IO1A(PB0.0->AF1)
-    4920:	1379      	lrw      	r3, 0x2000000c	// 4b04 <TC0CHX_PWM_Configure+0x56>
-			GPIOA0->CONLR=(GPIOA0->CONLR & 0XFFFFFFF0)|0x00000004;										//TC0_IO_IO2A(PA0.0->AF1)
-    4922:	9340      	ld.w      	r2, (r3, 0x0)
-    4924:	9260      	ld.w      	r3, (r2, 0x0)
-    4926:	310f      	movi      	r1, 15
-    4928:	68c5      	andn      	r3, r1
-    492a:	3ba2      	bseti      	r3, 2
-    492c:	0784      	br      	0x4834	// 4834 <TC0_IO_Init+0x64>
-		else if(TC0_IO_G==1)
-    492e:	3941      	cmpnei      	r1, 1
-    4930:	0bc7      	bt      	0x48be	// 48be <TC0_IO_Init+0xee>
-			GPIOA1->CONLR=(GPIOA1->CONLR & 0XFFFFF0FF)|0x00000500;										//TC0_IO_IO1A(PA1.2->AF2)
-    4932:	1378      	lrw      	r3, 0x20000010	// 4b10 <TC0CHX_PWM_Configure+0x62>
-    4934:	0787      	br      	0x4842	// 4842 <TC0_IO_Init+0x72>
-	else if(TC0_IO_MODE_X==TC0_IO_IO1B)
-    4936:	3848      	cmpnei      	r0, 8
-    4938:	0815      	bt      	0x4962	// 4962 <TC0_IO_Init+0x192>
-		if(TC0_IO_G==0)
-    493a:	3940      	cmpnei      	r1, 0
-    493c:	0808      	bt      	0x494c	// 494c <TC0_IO_Init+0x17c>
-			GPIOB0->CONLR=(GPIOB0->CONLR & 0XFFFFFF0F)|0x00000040;										//TC0_IO_IO1A(PB0.1->AF1)
-    493e:	1372      	lrw      	r3, 0x2000000c	// 4b04 <TC0CHX_PWM_Configure+0x56>
-			GPIOA0->CONLR=(GPIOA0->CONLR & 0XFFFFFF0F)|0x00000040;										//TC0_IO_IO2B(PA0.1->AF1)
-    4940:	9340      	ld.w      	r2, (r3, 0x0)
-    4942:	9260      	ld.w      	r3, (r2, 0x0)
-    4944:	31f0      	movi      	r1, 240
-    4946:	68c5      	andn      	r3, r1
-    4948:	3ba6      	bseti      	r3, 6
-    494a:	0775      	br      	0x4834	// 4834 <TC0_IO_Init+0x64>
-		else if(TC0_IO_G==1)
-    494c:	3941      	cmpnei      	r1, 1
-    494e:	0bb8      	bt      	0x48be	// 48be <TC0_IO_Init+0xee>
-			GPIOA1->CONLR=(GPIOA1->CONLR & 0XFFFF0FFF)|0x00005000;										//TC0_IO_IO1A(PA1.3->AF2)
-    4950:	1370      	lrw      	r3, 0x20000010	// 4b10 <TC0CHX_PWM_Configure+0x62>
-    4952:	32f0      	movi      	r2, 240
-    4954:	9320      	ld.w      	r1, (r3, 0x0)
-    4956:	9160      	ld.w      	r3, (r1, 0x0)
-    4958:	4248      	lsli      	r2, r2, 8
-    495a:	68c9      	andn      	r3, r2
-    495c:	3bac      	bseti      	r3, 12
-    495e:	3bae      	bseti      	r3, 14
-    4960:	0744      	br      	0x47e8	// 47e8 <TC0_IO_Init+0x18>
-	else if(TC0_IO_MODE_X==TC0_IO_IO2A)
-    4962:	3849      	cmpnei      	r0, 9
-    4964:	0810      	bt      	0x4984	// 4984 <TC0_IO_Init+0x1b4>
-		if(TC0_IO_G==0)
-    4966:	3940      	cmpnei      	r1, 0
-    4968:	0803      	bt      	0x496e	// 496e <TC0_IO_Init+0x19e>
-			GPIOA0->CONLR=(GPIOA0->CONLR & 0XFFFFFFF0)|0x00000004;										//TC0_IO_IO2A(PA0.0->AF1)
-    496a:	1368      	lrw      	r3, 0x20000014	// 4b08 <TC0CHX_PWM_Configure+0x5a>
-    496c:	07db      	br      	0x4922	// 4922 <TC0_IO_Init+0x152>
-		else if(TC0_IO_G==1)
-    496e:	3941      	cmpnei      	r1, 1
-    4970:	0ba7      	bt      	0x48be	// 48be <TC0_IO_Init+0xee>
-			GPIOA1->CONLR=(GPIOA1->CONLR & 0XFFF0FFFF)|0x00050000;										//TC0_IO_IO2A(PA1.4->AF2)
-    4972:	1368      	lrw      	r3, 0x20000010	// 4b10 <TC0CHX_PWM_Configure+0x62>
-    4974:	32f0      	movi      	r2, 240
-    4976:	9320      	ld.w      	r1, (r3, 0x0)
-    4978:	9160      	ld.w      	r3, (r1, 0x0)
-    497a:	424c      	lsli      	r2, r2, 12
-    497c:	68c9      	andn      	r3, r2
-    497e:	3bb0      	bseti      	r3, 16
-    4980:	3bb2      	bseti      	r3, 18
-    4982:	0733      	br      	0x47e8	// 47e8 <TC0_IO_Init+0x18>
-	else if(TC0_IO_MODE_X==TC0_IO_IO2B)
-    4984:	384a      	cmpnei      	r0, 10
-    4986:	0b9c      	bt      	0x48be	// 48be <TC0_IO_Init+0xee>
-		if(TC0_IO_G==0)
-    4988:	3940      	cmpnei      	r1, 0
-    498a:	0803      	bt      	0x4990	// 4990 <TC0_IO_Init+0x1c0>
-			GPIOA0->CONLR=(GPIOA0->CONLR & 0XFFFFFF0F)|0x00000040;										//TC0_IO_IO2B(PA0.1->AF1)
-    498c:	127f      	lrw      	r3, 0x20000014	// 4b08 <TC0CHX_PWM_Configure+0x5a>
-    498e:	07d9      	br      	0x4940	// 4940 <TC0_IO_Init+0x170>
-		else if(TC0_IO_G==1)
-    4990:	3941      	cmpnei      	r1, 1
-    4992:	0b96      	bt      	0x48be	// 48be <TC0_IO_Init+0xee>
-			GPIOA1->CONLR=(GPIOA1->CONLR & 0XFF0FFFFF)|0x00500000;										//TC0_IO_IO1A(PA1.5->AF2)
-    4994:	127f      	lrw      	r3, 0x20000010	// 4b10 <TC0CHX_PWM_Configure+0x62>
-    4996:	32f0      	movi      	r2, 240
-    4998:	9320      	ld.w      	r1, (r3, 0x0)
-    499a:	9160      	ld.w      	r3, (r1, 0x0)
-    499c:	4250      	lsli      	r2, r2, 16
-    499e:	68c9      	andn      	r3, r2
-    49a0:	3bb4      	bseti      	r3, 20
-    49a2:	3bb6      	bseti      	r3, 22
-    49a4:	0722      	br      	0x47e8	// 47e8 <TC0_IO_Init+0x18>
-
-000049a6 <All_TC0_SoftwareReset>:
-//EntryParameter:
-//ReturnValue:NONE
-/*************************************************************/ 
-void All_TC0_SoftwareReset(void)
-{
-	TC0->BCR = 0x01;							// all TC0 Software reset
-    49a6:	127c      	lrw      	r3, 0x20000064	// 4b14 <TC0CHX_PWM_Configure+0x66>
-    49a8:	32c0      	movi      	r2, 192
-    49aa:	9360      	ld.w      	r3, (r3, 0x0)
-    49ac:	4242      	lsli      	r2, r2, 2
-    49ae:	60c8      	addu      	r3, r2
-    49b0:	3201      	movi      	r2, 1
-    49b2:	b340      	st.w      	r2, (r3, 0x0)
-}
-    49b4:	783c      	jmp      	r15
-
-000049b6 <All_TC0_SWTRG>:
-//EntryParameter:
-//ReturnValue:NONE
-/*************************************************************/ 
-void All_TC0_SWTRG(void)
-{
-	TC0->BCR = 0x02;							// all TC0 SWTRG
-    49b6:	1278      	lrw      	r3, 0x20000064	// 4b14 <TC0CHX_PWM_Configure+0x66>
-    49b8:	32c0      	movi      	r2, 192
-    49ba:	9360      	ld.w      	r3, (r3, 0x0)
-    49bc:	4242      	lsli      	r2, r2, 2
-    49be:	60c8      	addu      	r3, r2
-    49c0:	3202      	movi      	r2, 2
-    49c2:	b340      	st.w      	r2, (r3, 0x0)
-}
-    49c4:	783c      	jmp      	r15
-
-000049c6 <TC0CHX_SWTRG>:
-//*TC0CHX:TC0_0,TC0_1,TC0_2
-//ReturnValue:NONE
-/*************************************************************/ 
-void TC0CHX_SWTRG(CSP_TC0_T *TC0CHX)
-{
-	TC0CHX->CR = 0x08;							//TC0CHX SWTRG
-    49c6:	3308      	movi      	r3, 8
-    49c8:	b078      	st.w      	r3, (r0, 0x60)
-}
-    49ca:	783c      	jmp      	r15
-
-000049cc <TC0CHX_SoftwareReset>:
-//*TC0CHX:TC0_0,TC0_1,TC0_2
-//ReturnValue:NONE
-/*************************************************************/ 
-void TC0CHX_SoftwareReset(CSP_TC0_T *TC0CHX)
-{
-	TC0CHX->CR = 0x01;							//TC0CHX Software reset
-    49cc:	3301      	movi      	r3, 1
-    49ce:	b078      	st.w      	r3, (r0, 0x60)
-}
-    49d0:	783c      	jmp      	r15
-
-000049d2 <TC0CHX_CountClk_CMD>:
-//NewState:DISABLE,ENABLE
-//ReturnValue:NONE
-/*************************************************************/ 
-void TC0CHX_CountClk_CMD(CSP_TC0_T *TC0CHX , FunctionalStatus NewState)
-{
-	if(NewState != DISABLE)
-    49d2:	3940      	cmpnei      	r1, 0
-    49d4:	0c04      	bf      	0x49dc	// 49dc <TC0CHX_CountClk_CMD+0xa>
-	{
-		TC0CHX->CR = 0x02;							//enable counter clk 
-    49d6:	3302      	movi      	r3, 2
-	}
-	else
-	{
-		TC0CHX->CR = 0x04;							//Disable counter clk 
-    49d8:	b078      	st.w      	r3, (r0, 0x60)
-	}
-}
-    49da:	783c      	jmp      	r15
-		TC0CHX->CR = 0x04;							//Disable counter clk 
-    49dc:	3304      	movi      	r3, 4
-    49de:	07fd      	br      	0x49d8	// 49d8 <TC0CHX_CountClk_CMD+0x6>
-
-000049e0 <TC0CHX_Clk_CMD>:
-//NewState:DISABLE,ENABLE
-//ReturnValue:NONE
-/*************************************************************/
-void TC0CHX_Clk_CMD(CSP_TC0_T *TC0CHX , FunctionalStatus NewState)
-{
-	if(NewState != DISABLE)
-    49e0:	3940      	cmpnei      	r1, 0
-	{
-		TC0CHX->ECR	=0X02;									//TC0 CLK enable
-    49e2:	3302      	movi      	r3, 2
-	if(NewState != DISABLE)
-    49e4:	0c08      	bf      	0x49f4	// 49f4 <TC0CHX_Clk_CMD+0x14>
-		TC0CHX->ECR	=0X02;									//TC0 CLK enable
-    49e6:	b074      	st.w      	r3, (r0, 0x50)
-		while(!(TC0CHX->PMSR&0X02));
-    49e8:	3202      	movi      	r2, 2
-    49ea:	9076      	ld.w      	r3, (r0, 0x58)
-    49ec:	68c8      	and      	r3, r2
-    49ee:	3b40      	cmpnei      	r3, 0
-    49f0:	0ffd      	bf      	0x49ea	// 49ea <TC0CHX_Clk_CMD+0xa>
-	else 
-	{
-		TC0CHX->DCR	=0X02;									//TC0 CLK disable
-		while(TC0CHX->PMSR&0X02);
-	}
-}
-    49f2:	783c      	jmp      	r15
-		TC0CHX->DCR	=0X02;									//TC0 CLK disable
-    49f4:	b075      	st.w      	r3, (r0, 0x54)
-		while(TC0CHX->PMSR&0X02);
-    49f6:	3202      	movi      	r2, 2
-    49f8:	9076      	ld.w      	r3, (r0, 0x58)
-    49fa:	68c8      	and      	r3, r2
-    49fc:	3b40      	cmpnei      	r3, 0
-    49fe:	0bfd      	bt      	0x49f8	// 49f8 <TC0CHX_Clk_CMD+0x18>
-    4a00:	07f9      	br      	0x49f2	// 49f2 <TC0CHX_Clk_CMD+0x12>
-
-00004a02 <TC0CHX_Set_RA_RB_RC>:
-//load_RC:0~0xffff
-//ReturnValue:NONE
-/*************************************************************/ 
-void TC0CHX_Set_RA_RB_RC(CSP_TC0_T *TC0CHX , U16_T load_RA , U16_T load_RB , U16_T load_RC)
-{
-	TC0CHX->RA = load_RA;											//Set TC0 RA
-    4a02:	207f      	addi      	r0, 128
-    4a04:	b021      	st.w      	r1, (r0, 0x4)
-	TC0CHX->RB = load_RB;											//Set TC0 RB
-    4a06:	b042      	st.w      	r2, (r0, 0x8)
-	TC0CHX->RC = load_RC;											//Set TC0 RC
-    4a08:	b063      	st.w      	r3, (r0, 0xc)
-}
-    4a0a:	783c      	jmp      	r15
-
-00004a0c <TC0CHX_CLK_Configure>:
-//TC0CHX_BURST_SET_X:TC0CHX_BURST_SET_None,TC0CHX_BURST_SET_XC0,TC0CHX_BURST_SET_XC1,TC0CHX_BURST_SET_XC2
-//ReturnValue:NONE
-/*************************************************************/
-void TC0CHX_CLK_Configure(CSP_TC0_T *TC0CHX , TC0_Mclk_Selecte_TypeDef TC0_Mclk_Selecte_X , TC0Clks_Selecte_TypeDef TC0Clks_Selecte_X ,
-						TC0CHX_CLKI_SET_TypeDef TC0CHX_CLKI_X , TC0CHX_BURST_SET_TypeDef TC0CHX_BURST_SET_X)
-{
-    4a0c:	14c3      	push      	r4-r6
-    4a0e:	9883      	ld.w      	r4, (r14, 0xc)
-    4a10:	6d93      	mov      	r6, r4
-	TC0CHX->MR=TC0CHX->MR&0XFFFFFFC0;
-    4a12:	353f      	movi      	r5, 63
-    4a14:	9099      	ld.w      	r4, (r0, 0x64)
-    4a16:	6915      	andn      	r4, r5
-    4a18:	b099      	st.w      	r4, (r0, 0x64)
-	TC0CHX->MR|=TC0Clks_Selecte_X|TC0CHX_CLKI_X|TC0CHX_BURST_SET_X;
-    4a1a:	6cd8      	or      	r3, r6
-    4a1c:	9099      	ld.w      	r4, (r0, 0x64)
-    4a1e:	6c8c      	or      	r2, r3
-    4a20:	6c90      	or      	r2, r4
-    4a22:	b059      	st.w      	r2, (r0, 0x64)
-	TC0->BMR=TC0->BMR&0xFFFFFEFF;
-    4a24:	32c1      	movi      	r2, 193
-    4a26:	117c      	lrw      	r3, 0x20000064	// 4b14 <TC0CHX_PWM_Configure+0x66>
-    4a28:	4242      	lsli      	r2, r2, 2
-    4a2a:	9360      	ld.w      	r3, (r3, 0x0)
-    4a2c:	60c8      	addu      	r3, r2
-    4a2e:	9340      	ld.w      	r2, (r3, 0x0)
-    4a30:	3a88      	bclri      	r2, 8
-    4a32:	b340      	st.w      	r2, (r3, 0x0)
-	TC0->BMR|=TC0_Mclk_Selecte_X;								//MCLK选择PCLK或者96MHz		
-    4a34:	9340      	ld.w      	r2, (r3, 0x0)
-    4a36:	6c84      	or      	r2, r1
-    4a38:	b340      	st.w      	r2, (r3, 0x0)
-	if(TC0_Mclk_Selecte_X==TC0_Mclk_Selecte_HFOSC)				//若选择96MHz需要增加配置
-    4a3a:	3380      	movi      	r3, 128
-    4a3c:	4361      	lsli      	r3, r3, 1
-    4a3e:	64c6      	cmpne      	r1, r3
-	TC0CHX->MR|=TC0Clks_Selecte_X|TC0CHX_CLKI_X|TC0CHX_BURST_SET_X;
-    4a40:	6d5b      	mov      	r5, r6
-	if(TC0_Mclk_Selecte_X==TC0_Mclk_Selecte_HFOSC)				//若选择96MHz需要增加配置
-    4a42:	080c      	bt      	0x4a5a	// 4a5a <TC0CHX_CLK_Configure+0x4e>
-	{
-		SYSCON->CLCR|=(0X01<<20);
-    4a44:	1175      	lrw      	r3, 0x20000070	// 4b18 <TC0CHX_PWM_Configure+0x6a>
-		while(!(SYSCON->CLCR&(0x01<<21)));
-    4a46:	3280      	movi      	r2, 128
-		SYSCON->CLCR|=(0X01<<20);
-    4a48:	9320      	ld.w      	r1, (r3, 0x0)
-    4a4a:	9174      	ld.w      	r3, (r1, 0x50)
-    4a4c:	3bb4      	bseti      	r3, 20
-    4a4e:	b174      	st.w      	r3, (r1, 0x50)
-		while(!(SYSCON->CLCR&(0x01<<21)));
-    4a50:	424e      	lsli      	r2, r2, 14
-    4a52:	9174      	ld.w      	r3, (r1, 0x50)
-    4a54:	68c8      	and      	r3, r2
-    4a56:	3b40      	cmpnei      	r3, 0
-    4a58:	0ffd      	bf      	0x4a52	// 4a52 <TC0CHX_CLK_Configure+0x46>
-	}
-}
-    4a5a:	1483      	pop      	r4-r6
-
-00004a5c <TC0CHX_XCn_Configure>:
-//				XC2_Selecte_TCLK2,XC2_Selecte_TIOA0,XC2_Selecte_TIOA1,
-//ReturnValue:NONE
-/*************************************************************/ 
-void TC0CHX_XCn_Configure(XCn_Configure_TypeDef XCn_Configure , XCn_Selecte_TypeDef XCn_Selecte_x)
-{
-	if(XCn_Configure==XC0_Configure)
-    4a5c:	3840      	cmpnei      	r0, 0
-    4a5e:	080e      	bt      	0x4a7a	// 4a7a <TC0CHX_XCn_Configure+0x1e>
-	{
-		TC0->BMR=TC0->BMR&0xFFFFFFFC;
-    4a60:	116d      	lrw      	r3, 0x20000064	// 4b14 <TC0CHX_PWM_Configure+0x66>
-    4a62:	32c1      	movi      	r2, 193
-    4a64:	4242      	lsli      	r2, r2, 2
-    4a66:	9360      	ld.w      	r3, (r3, 0x0)
-    4a68:	60c8      	addu      	r3, r2
-    4a6a:	9340      	ld.w      	r2, (r3, 0x0)
-    4a6c:	3a80      	bclri      	r2, 0
-    4a6e:	3a81      	bclri      	r2, 1
-		TC0->BMR=TC0->BMR&0xFFFFFFF3;
-		TC0->BMR|=XCn_Selecte_x;
-	}
-	else if(XCn_Configure==XC2_Configure)
-	{
-		TC0->BMR=TC0->BMR&0xFFFFFFCF;
-    4a70:	b340      	st.w      	r2, (r3, 0x0)
-		TC0->BMR|=XCn_Selecte_x;
-    4a72:	9340      	ld.w      	r2, (r3, 0x0)
-    4a74:	6c48      	or      	r1, r2
-    4a76:	b320      	st.w      	r1, (r3, 0x0)
-	}
-}
-    4a78:	783c      	jmp      	r15
-	else if(XCn_Configure==XC1_Configure)
-    4a7a:	3842      	cmpnei      	r0, 2
-    4a7c:	080a      	bt      	0x4a90	// 4a90 <TC0CHX_XCn_Configure+0x34>
-		TC0->BMR=TC0->BMR&0xFFFFFFF3;
-    4a7e:	1166      	lrw      	r3, 0x20000064	// 4b14 <TC0CHX_PWM_Configure+0x66>
-    4a80:	32c1      	movi      	r2, 193
-    4a82:	4242      	lsli      	r2, r2, 2
-    4a84:	9360      	ld.w      	r3, (r3, 0x0)
-    4a86:	60c8      	addu      	r3, r2
-    4a88:	9340      	ld.w      	r2, (r3, 0x0)
-    4a8a:	3a82      	bclri      	r2, 2
-    4a8c:	3a83      	bclri      	r2, 3
-    4a8e:	07f1      	br      	0x4a70	// 4a70 <TC0CHX_XCn_Configure+0x14>
-	else if(XCn_Configure==XC2_Configure)
-    4a90:	3843      	cmpnei      	r0, 3
-    4a92:	0bf3      	bt      	0x4a78	// 4a78 <TC0CHX_XCn_Configure+0x1c>
-		TC0->BMR=TC0->BMR&0xFFFFFFCF;
-    4a94:	1160      	lrw      	r3, 0x20000064	// 4b14 <TC0CHX_PWM_Configure+0x66>
-    4a96:	32c1      	movi      	r2, 193
-    4a98:	4242      	lsli      	r2, r2, 2
-    4a9a:	9360      	ld.w      	r3, (r3, 0x0)
-    4a9c:	60c8      	addu      	r3, r2
-    4a9e:	9340      	ld.w      	r2, (r3, 0x0)
-    4aa0:	3a84      	bclri      	r2, 4
-    4aa2:	3a85      	bclri      	r2, 5
-    4aa4:	07e6      	br      	0x4a70	// 4a70 <TC0CHX_XCn_Configure+0x14>
-
-00004aa6 <TC0CHX_COUNT_Configure>:
-//CPC_Reload_CMD:CPC_Reload_DISABLE,CPC_Reload_ENABLE
-//ReturnValue:NONE
-/*************************************************************/ 
-void TC0CHX_COUNT_Configure(CSP_TC0_T *TC0CHX , CPC_TRG_CMD_TypeDef CPC_Reload_CMD)
-{
-	TC0CHX->MR|=CPC_Reload_CMD;
-    4aa6:	9079      	ld.w      	r3, (r0, 0x64)
-    4aa8:	6c4c      	or      	r1, r3
-    4aaa:	b039      	st.w      	r1, (r0, 0x64)
-}
-    4aac:	783c      	jmp      	r15
-
-00004aae <TC0CHX_PWM_Configure>:
-//ReturnValue:NONE
-/*************************************************************/ 
-void TC0CHX_PWM_Configure(CSP_TC0_T *TC0CHX , CPC_STOP_CMD_TypeDef CPC_STOP_CMD , CPC_DisCountClk_CMD_TypeDef CPC_DisCountClk_CMD , CPC_TRG_CMD_TypeDef CPC_Reload_CMD , ENETRG_CMD_TypeDef EEVT_Reload_CMD , EEVT_SET_TypeDef EEVT_SET_X ,
-						 TIOA_SWTRG_OutPutX_TypeDef TIOA_SWTRG_OutPutX , TIOA_EEVT_OutPutX_TypeDef TIOA_EEVT_OutPutX , TIOA_CPA_OutPutX_TypeDef TIOA_CPA_OutPutX , TIOA_CPC_OutPutX_TypeDef TIOA_CPC_OutPutX ,
-						 TIOB_SWTRG_OutPutX_TypeDef TIOB_SWTRG_OutPutX , TIOB_EEVT_OutPutX_TypeDef TIOB_EEVT_OutPutX , TIOB_CPB_OutPutX_TypeDef TIOB_CPB_OutPutX , TIOB_CPC_OutPutX_TypeDef TIOB_CPC_OutPutX)
-{
-    4aae:	14c4      	push      	r4-r7
-    4ab0:	1428      	subi      	r14, r14, 32
-    4ab2:	98ae      	ld.w      	r5, (r14, 0x38)
-    4ab4:	b8a1      	st.w      	r5, (r14, 0x4)
-    4ab6:	98af      	ld.w      	r5, (r14, 0x3c)
-    4ab8:	b8a2      	st.w      	r5, (r14, 0x8)
-    4aba:	98b0      	ld.w      	r5, (r14, 0x40)
-    4abc:	b8a3      	st.w      	r5, (r14, 0xc)
-    4abe:	98b1      	ld.w      	r5, (r14, 0x44)
-    4ac0:	b8a4      	st.w      	r5, (r14, 0x10)
-    4ac2:	98b2      	ld.w      	r5, (r14, 0x48)
-    4ac4:	b8a5      	st.w      	r5, (r14, 0x14)
-    4ac6:	98b3      	ld.w      	r5, (r14, 0x4c)
-    4ac8:	b8a6      	st.w      	r5, (r14, 0x18)
-    4aca:	98b4      	ld.w      	r5, (r14, 0x50)
-    4acc:	6dd7      	mov      	r7, r5
-    4ace:	98b5      	ld.w      	r5, (r14, 0x54)
-    4ad0:	b8a7      	st.w      	r5, (r14, 0x1c)
-	TC0CHX->MR=TC0CHX->MR&0X0000003F;
-    4ad2:	363f      	movi      	r6, 63
-    4ad4:	90b9      	ld.w      	r5, (r0, 0x64)
-    4ad6:	6958      	and      	r5, r6
-	TC0CHX->MR|=(0X01<<15)|CPC_STOP_CMD|CPC_DisCountClk_CMD|CPC_Reload_CMD|TIOA_SWTRG_OutPutX|TIOA_EEVT_OutPutX|TIOA_CPA_OutPutX|TIOA_CPC_OutPutX
-    4ad8:	98c7      	ld.w      	r6, (r14, 0x1c)
-    4ada:	3eaf      	bseti      	r6, 15
-    4adc:	6d9c      	or      	r6, r7
-    4ade:	98e6      	ld.w      	r7, (r14, 0x18)
-    4ae0:	6d9c      	or      	r6, r7
-    4ae2:	98e4      	ld.w      	r7, (r14, 0x10)
-    4ae4:	6d9c      	or      	r6, r7
-    4ae6:	98e5      	ld.w      	r7, (r14, 0x14)
-    4ae8:	6d9c      	or      	r6, r7
-    4aea:	98e3      	ld.w      	r7, (r14, 0xc)
-    4aec:	6d9c      	or      	r6, r7
-    4aee:	98e2      	ld.w      	r7, (r14, 0x8)
-    4af0:	6d9c      	or      	r6, r7
-    4af2:	98e1      	ld.w      	r7, (r14, 0x4)
-    4af4:	6d9c      	or      	r6, r7
-    4af6:	6cd8      	or      	r3, r6
-	TC0CHX->MR=TC0CHX->MR&0X0000003F;
-    4af8:	b0b9      	st.w      	r5, (r0, 0x64)
-{
-    4afa:	988c      	ld.w      	r4, (r14, 0x30)
-	TC0CHX->MR|=(0X01<<15)|CPC_STOP_CMD|CPC_DisCountClk_CMD|CPC_Reload_CMD|TIOA_SWTRG_OutPutX|TIOA_EEVT_OutPutX|TIOA_CPA_OutPutX|TIOA_CPC_OutPutX
-    4afc:	6c8c      	or      	r2, r3
-    4afe:	90b9      	ld.w      	r5, (r0, 0x64)
-{
-    4b00:	b880      	st.w      	r4, (r14, 0x0)
-    4b02:	040d      	br      	0x4b1c	// 4b1c <TC0CHX_PWM_Configure+0x6e>
-    4b04:	2000000c 	.long	0x2000000c
-    4b08:	20000014 	.long	0x20000014
-    4b0c:	20000008 	.long	0x20000008
-    4b10:	20000010 	.long	0x20000010
-    4b14:	20000064 	.long	0x20000064
-    4b18:	20000070 	.long	0x20000070
-	TC0CHX->MR|=(0X01<<15)|CPC_STOP_CMD|CPC_DisCountClk_CMD|CPC_Reload_CMD|TIOA_SWTRG_OutPutX|TIOA_EEVT_OutPutX|TIOA_CPA_OutPutX|TIOA_CPC_OutPutX
-    4b1c:	6c48      	or      	r1, r2
-					|TIOB_SWTRG_OutPutX|TIOB_EEVT_OutPutX|TIOB_CPB_OutPutX|TIOB_CPC_OutPutX;
-	if(EEVT_Reload_CMD==EEVT_Reload_ENABLE)
-    4b1e:	9860      	ld.w      	r3, (r14, 0x0)
-	TC0CHX->MR|=(0X01<<15)|CPC_STOP_CMD|CPC_DisCountClk_CMD|CPC_Reload_CMD|TIOA_SWTRG_OutPutX|TIOA_EEVT_OutPutX|TIOA_CPA_OutPutX|TIOA_CPC_OutPutX
-    4b20:	6d44      	or      	r5, r1
-    4b22:	b0b9      	st.w      	r5, (r0, 0x64)
-	if(EEVT_Reload_CMD==EEVT_Reload_ENABLE)
-    4b24:	3b41      	cmpnei      	r3, 1
-{
-    4b26:	988d      	ld.w      	r4, (r14, 0x34)
-	{
-		TC0CHX->MR|=(0x00<<12);
-    4b28:	9079      	ld.w      	r3, (r0, 0x64)
-	if(EEVT_Reload_CMD==EEVT_Reload_ENABLE)
-    4b2a:	0808      	bt      	0x4b3a	// 4b3a <TC0CHX_PWM_Configure+0x8c>
-	}
-	else
-	{
-		TC0CHX->MR|=(0x01<<12);
-	}
-	if(EEVT_SET_X==EEVT_TIOB_NONE)
-    4b2c:	3c4a      	cmpnei      	r4, 10
-		TC0CHX->MR|=(0x01<<12);
-    4b2e:	b079      	st.w      	r3, (r0, 0x64)
-	if(EEVT_SET_X==EEVT_TIOB_NONE)
-    4b30:	0807      	bt      	0x4b3e	// 4b3e <TC0CHX_PWM_Configure+0x90>
-	{
-		TC0CHX->MR|=(0x00<<10)|(0x00<<8);
-    4b32:	9079      	ld.w      	r3, (r0, 0x64)
-	{
-		TC0CHX->MR|=(0x03<<10)|(0x02<<8);
-	}
-	else if(EEVT_SET_X==EEVT_XC2_Rise_Fall)
-	{
-		TC0CHX->MR|=(0x03<<10)|(0x03<<8);
-    4b34:	b079      	st.w      	r3, (r0, 0x64)
-	}
-}
-    4b36:	1408      	addi      	r14, r14, 32
-    4b38:	1484      	pop      	r4-r7
-		TC0CHX->MR|=(0x01<<12);
-    4b3a:	3bac      	bseti      	r3, 12
-    4b3c:	07f8      	br      	0x4b2c	// 4b2c <TC0CHX_PWM_Configure+0x7e>
-	else if(EEVT_SET_X==EEVT_TIOB_Rise)
-    4b3e:	3c4b      	cmpnei      	r4, 11
-    4b40:	0804      	bt      	0x4b48	// 4b48 <TC0CHX_PWM_Configure+0x9a>
-		TC0CHX->MR|=(0x00<<10)|(0x01<<8);
-    4b42:	9079      	ld.w      	r3, (r0, 0x64)
-    4b44:	3ba8      	bseti      	r3, 8
-    4b46:	07f7      	br      	0x4b34	// 4b34 <TC0CHX_PWM_Configure+0x86>
-	else if(EEVT_SET_X==EEVT_TIOB_Fall)
-    4b48:	3c4c      	cmpnei      	r4, 12
-    4b4a:	0804      	bt      	0x4b52	// 4b52 <TC0CHX_PWM_Configure+0xa4>
-		TC0CHX->MR|=(0x00<<10)|(0x02<<8);
-    4b4c:	9079      	ld.w      	r3, (r0, 0x64)
-    4b4e:	3ba9      	bseti      	r3, 9
-    4b50:	07f2      	br      	0x4b34	// 4b34 <TC0CHX_PWM_Configure+0x86>
-	else if(EEVT_SET_X==EEVT_TIOB_Rise_Fall)
-    4b52:	3c4d      	cmpnei      	r4, 13
-    4b54:	0805      	bt      	0x4b5e	// 4b5e <TC0CHX_PWM_Configure+0xb0>
-		TC0CHX->MR|=(0x00<<10)|(0x03<<8);
-    4b56:	9079      	ld.w      	r3, (r0, 0x64)
-    4b58:	3ba8      	bseti      	r3, 8
-    4b5a:	3ba9      	bseti      	r3, 9
-    4b5c:	07ec      	br      	0x4b34	// 4b34 <TC0CHX_PWM_Configure+0x86>
-	else if(EEVT_SET_X==EEVT_XC0_NONE)
-    4b5e:	3c4e      	cmpnei      	r4, 14
-    4b60:	0804      	bt      	0x4b68	// 4b68 <TC0CHX_PWM_Configure+0xba>
-		TC0CHX->MR|=(0x01<<10)|(0x00<<8);
-    4b62:	9079      	ld.w      	r3, (r0, 0x64)
-    4b64:	3baa      	bseti      	r3, 10
-    4b66:	07e7      	br      	0x4b34	// 4b34 <TC0CHX_PWM_Configure+0x86>
-	else if(EEVT_SET_X==EEVT_XC0_Rise)
-    4b68:	3c4f      	cmpnei      	r4, 15
-    4b6a:	0805      	bt      	0x4b74	// 4b74 <TC0CHX_PWM_Configure+0xc6>
-		TC0CHX->MR|=(0x01<<10)|(0x01<<8);
-    4b6c:	9079      	ld.w      	r3, (r0, 0x64)
-    4b6e:	3ba8      	bseti      	r3, 8
-    4b70:	3baa      	bseti      	r3, 10
-    4b72:	07e1      	br      	0x4b34	// 4b34 <TC0CHX_PWM_Configure+0x86>
-	else if(EEVT_SET_X==EEVT_XC0_Fall)
-    4b74:	3c50      	cmpnei      	r4, 16
-    4b76:	0805      	bt      	0x4b80	// 4b80 <TC0CHX_PWM_Configure+0xd2>
-		TC0CHX->MR|=(0x01<<10)|(0x02<<8);
-    4b78:	9079      	ld.w      	r3, (r0, 0x64)
-    4b7a:	3ba9      	bseti      	r3, 9
-    4b7c:	3baa      	bseti      	r3, 10
-    4b7e:	07db      	br      	0x4b34	// 4b34 <TC0CHX_PWM_Configure+0x86>
-	else if(EEVT_SET_X==EEVT_XC0_Rise_Fall)
-    4b80:	3c51      	cmpnei      	r4, 17
-    4b82:	0806      	bt      	0x4b8e	// 4b8e <TC0CHX_PWM_Configure+0xe0>
-		TC0CHX->MR|=(0x01<<10)|(0x03<<8);
-    4b84:	32e0      	movi      	r2, 224
-    4b86:	9079      	ld.w      	r3, (r0, 0x64)
-    4b88:	4243      	lsli      	r2, r2, 3
-		TC0CHX->MR|=(0x03<<10)|(0x03<<8);
-    4b8a:	6cc8      	or      	r3, r2
-    4b8c:	07d4      	br      	0x4b34	// 4b34 <TC0CHX_PWM_Configure+0x86>
-	else if(EEVT_SET_X==EEVT_XC1_NONE)
-    4b8e:	3c52      	cmpnei      	r4, 18
-    4b90:	0804      	bt      	0x4b98	// 4b98 <TC0CHX_PWM_Configure+0xea>
-		TC0CHX->MR|=(0x02<<10)|(0x00<<8);
-    4b92:	9079      	ld.w      	r3, (r0, 0x64)
-    4b94:	3bab      	bseti      	r3, 11
-    4b96:	07cf      	br      	0x4b34	// 4b34 <TC0CHX_PWM_Configure+0x86>
-	else if(EEVT_SET_X==EEVT_XC1_Rise)
-    4b98:	3c53      	cmpnei      	r4, 19
-    4b9a:	0805      	bt      	0x4ba4	// 4ba4 <TC0CHX_PWM_Configure+0xf6>
-		TC0CHX->MR|=(0x02<<10)|(0x01<<8);
-    4b9c:	9079      	ld.w      	r3, (r0, 0x64)
-    4b9e:	3ba8      	bseti      	r3, 8
-    4ba0:	3bab      	bseti      	r3, 11
-    4ba2:	07c9      	br      	0x4b34	// 4b34 <TC0CHX_PWM_Configure+0x86>
-	else if(EEVT_SET_X==EEVT_XC1_Fall)
-    4ba4:	3c54      	cmpnei      	r4, 20
-    4ba6:	0805      	bt      	0x4bb0	// 4bb0 <TC0CHX_PWM_Configure+0x102>
-		TC0CHX->MR|=(0x02<<10)|(0x02<<8);
-    4ba8:	9079      	ld.w      	r3, (r0, 0x64)
-    4baa:	3ba9      	bseti      	r3, 9
-    4bac:	3bab      	bseti      	r3, 11
-    4bae:	07c3      	br      	0x4b34	// 4b34 <TC0CHX_PWM_Configure+0x86>
-	else if(EEVT_SET_X==EEVT_XC1_Rise_Fall)
-    4bb0:	3c55      	cmpnei      	r4, 21
-    4bb2:	0805      	bt      	0x4bbc	// 4bbc <TC0CHX_PWM_Configure+0x10e>
-		TC0CHX->MR|=(0x02<<10)|(0x03<<8);
-    4bb4:	9079      	ld.w      	r3, (r0, 0x64)
-    4bb6:	32b0      	movi      	r2, 176
-		TC0CHX->MR|=(0x03<<10)|(0x03<<8);
-    4bb8:	4244      	lsli      	r2, r2, 4
-    4bba:	07e8      	br      	0x4b8a	// 4b8a <TC0CHX_PWM_Configure+0xdc>
-	else if(EEVT_SET_X==EEVT_XC2_NONE)
-    4bbc:	3c56      	cmpnei      	r4, 22
-    4bbe:	0805      	bt      	0x4bc8	// 4bc8 <TC0CHX_PWM_Configure+0x11a>
-		TC0CHX->MR|=(0x03<<10)|(0x00<<8);
-    4bc0:	9079      	ld.w      	r3, (r0, 0x64)
-    4bc2:	3baa      	bseti      	r3, 10
-    4bc4:	3bab      	bseti      	r3, 11
-    4bc6:	07b7      	br      	0x4b34	// 4b34 <TC0CHX_PWM_Configure+0x86>
-	else if(EEVT_SET_X==EEVT_XC2_Rise)
-    4bc8:	3c57      	cmpnei      	r4, 23
-    4bca:	0804      	bt      	0x4bd2	// 4bd2 <TC0CHX_PWM_Configure+0x124>
-		TC0CHX->MR|=(0x03<<10)|(0x01<<8);
-    4bcc:	9079      	ld.w      	r3, (r0, 0x64)
-    4bce:	32d0      	movi      	r2, 208
-    4bd0:	07f4      	br      	0x4bb8	// 4bb8 <TC0CHX_PWM_Configure+0x10a>
-	else if(EEVT_SET_X==EEVT_XC2_Fall)
-    4bd2:	3c58      	cmpnei      	r4, 24
-    4bd4:	0804      	bt      	0x4bdc	// 4bdc <TC0CHX_PWM_Configure+0x12e>
-		TC0CHX->MR|=(0x03<<10)|(0x02<<8);
-    4bd6:	9079      	ld.w      	r3, (r0, 0x64)
-    4bd8:	32e0      	movi      	r2, 224
-    4bda:	07ef      	br      	0x4bb8	// 4bb8 <TC0CHX_PWM_Configure+0x10a>
-	else if(EEVT_SET_X==EEVT_XC2_Rise_Fall)
-    4bdc:	3c59      	cmpnei      	r4, 25
-    4bde:	0bac      	bt      	0x4b36	// 4b36 <TC0CHX_PWM_Configure+0x88>
-		TC0CHX->MR|=(0x03<<10)|(0x03<<8);
-    4be0:	9079      	ld.w      	r3, (r0, 0x64)
-    4be2:	32f0      	movi      	r2, 240
-    4be4:	07ea      	br      	0x4bb8	// 4bb8 <TC0CHX_PWM_Configure+0x10a>
-
-00004be6 <TC0CHX_Capture_Configure>:
-//LDRB_TIOA_SET_X:LDRB_TIOA_NONE,LDRB_TIOA_Rise,LDRB_TIOA_Fall,LDRB_TIOA_Rise_Fall
-//ReturnValue:NONE
-/*************************************************************/ 
-void TC0CHX_Capture_Configure(CSP_TC0_T *TC0CHX , LDB_STOP_CMD_TypeDef LDB_STOP_CMD_X , LDB_DISCountClk_CMD_TypeDef LDB_DIS_CMD_X , 
-		ABETRG_SET_TypeDef ABETRG_SET_X , CPC_TRG_CMD_TypeDef CPC_Reload_CMD , LDRA_TIOA_SET_TypeDef LDRA_TIOA_SET_X , LDRB_TIOA_SET_TypeDef LDRB_TIOA_SET_X)
-{
-    4be6:	14c4      	push      	r4-r7
-    4be8:	1421      	subi      	r14, r14, 4
-    4bea:	9885      	ld.w      	r4, (r14, 0x14)
-    4bec:	6dd3      	mov      	r7, r4
-    4bee:	9886      	ld.w      	r4, (r14, 0x18)
-    4bf0:	6d93      	mov      	r6, r4
-    4bf2:	9887      	ld.w      	r4, (r14, 0x1c)
-    4bf4:	b880      	st.w      	r4, (r14, 0x0)
-	TC0CHX->MR=TC0CHX->MR&0X0000003F;
-    4bf6:	353f      	movi      	r5, 63
-    4bf8:	9099      	ld.w      	r4, (r0, 0x64)
-    4bfa:	6914      	and      	r4, r5
-	TC0CHX->MR|=CPC_Reload_CMD|LDB_STOP_CMD_X|LDB_DIS_CMD_X|LDRA_TIOA_SET_X|LDRB_TIOA_SET_X;
-    4bfc:	6d5b      	mov      	r5, r6
-    4bfe:	98c0      	ld.w      	r6, (r14, 0x0)
-    4c00:	6d58      	or      	r5, r6
-    4c02:	6c94      	or      	r2, r5
-	TC0CHX->MR=TC0CHX->MR&0X0000003F;
-    4c04:	b099      	st.w      	r4, (r0, 0x64)
-	TC0CHX->MR|=CPC_Reload_CMD|LDB_STOP_CMD_X|LDB_DIS_CMD_X|LDRA_TIOA_SET_X|LDRB_TIOA_SET_X;
-    4c06:	6c48      	or      	r1, r2
-    4c08:	9099      	ld.w      	r4, (r0, 0x64)
-    4c0a:	6c5c      	or      	r1, r7
-    4c0c:	6c50      	or      	r1, r4
-	if(ABETRG_SET_X==ABETRG_TIOA_NONE)
-    4c0e:	3b4a      	cmpnei      	r3, 10
-	TC0CHX->MR|=CPC_Reload_CMD|LDB_STOP_CMD_X|LDB_DIS_CMD_X|LDRA_TIOA_SET_X|LDRB_TIOA_SET_X;
-    4c10:	b039      	st.w      	r1, (r0, 0x64)
-	if(ABETRG_SET_X==ABETRG_TIOA_NONE)
-    4c12:	0806      	bt      	0x4c1e	// 4c1e <TC0CHX_Capture_Configure+0x38>
-	{
-		TC0CHX->MR|=(0x01<<10)|(0x00<<8);
-    4c14:	9079      	ld.w      	r3, (r0, 0x64)
-    4c16:	3baa      	bseti      	r3, 10
-	{
-		TC0CHX->MR|=(0x00<<10)|(0x02<<8);
-	}
-	else if(ABETRG_SET_X==ABETRG_TIOB_Rise_Fall)
-	{
-		TC0CHX->MR|=(0x00<<10)|(0x03<<8);
-    4c18:	b079      	st.w      	r3, (r0, 0x64)
-	}
-}
-    4c1a:	1401      	addi      	r14, r14, 4
-    4c1c:	1484      	pop      	r4-r7
-	else if(ABETRG_SET_X==ABETRG_TIOA_Rise)
-    4c1e:	3b4b      	cmpnei      	r3, 11
-    4c20:	0805      	bt      	0x4c2a	// 4c2a <TC0CHX_Capture_Configure+0x44>
-		TC0CHX->MR|=(0x01<<10)|(0x01<<8);
-    4c22:	9079      	ld.w      	r3, (r0, 0x64)
-    4c24:	3ba8      	bseti      	r3, 8
-    4c26:	3baa      	bseti      	r3, 10
-    4c28:	07f8      	br      	0x4c18	// 4c18 <TC0CHX_Capture_Configure+0x32>
-	else if(ABETRG_SET_X==ABETRG_TIOA_Fall)
-    4c2a:	3b4c      	cmpnei      	r3, 12
-    4c2c:	0805      	bt      	0x4c36	// 4c36 <TC0CHX_Capture_Configure+0x50>
-		TC0CHX->MR|=(0x01<<10)|(0x02<<8);
-    4c2e:	9079      	ld.w      	r3, (r0, 0x64)
-    4c30:	3ba9      	bseti      	r3, 9
-    4c32:	3baa      	bseti      	r3, 10
-    4c34:	07f2      	br      	0x4c18	// 4c18 <TC0CHX_Capture_Configure+0x32>
-	else if(ABETRG_SET_X==ABETRG_TIOA_Rise_Fall)
-    4c36:	3b4d      	cmpnei      	r3, 13
-    4c38:	0806      	bt      	0x4c44	// 4c44 <TC0CHX_Capture_Configure+0x5e>
-		TC0CHX->MR|=(0x01<<10)|(0x03<<8);
-    4c3a:	32e0      	movi      	r2, 224
-    4c3c:	9079      	ld.w      	r3, (r0, 0x64)
-    4c3e:	4243      	lsli      	r2, r2, 3
-    4c40:	6cc8      	or      	r3, r2
-    4c42:	07eb      	br      	0x4c18	// 4c18 <TC0CHX_Capture_Configure+0x32>
-	else if(ABETRG_SET_X==ABETRG_TIOB_NONE)
-    4c44:	3b4e      	cmpnei      	r3, 14
-    4c46:	0803      	bt      	0x4c4c	// 4c4c <TC0CHX_Capture_Configure+0x66>
-		TC0CHX->MR|=(0x00<<10)|(0x00<<8);
-    4c48:	9079      	ld.w      	r3, (r0, 0x64)
-    4c4a:	07e7      	br      	0x4c18	// 4c18 <TC0CHX_Capture_Configure+0x32>
-	else if(ABETRG_SET_X==ABETRG_TIOB_Rise)
-    4c4c:	3b4f      	cmpnei      	r3, 15
-    4c4e:	0804      	bt      	0x4c56	// 4c56 <TC0CHX_Capture_Configure+0x70>
-		TC0CHX->MR|=(0x00<<10)|(0x01<<8);
-    4c50:	9079      	ld.w      	r3, (r0, 0x64)
-    4c52:	3ba8      	bseti      	r3, 8
-    4c54:	07e2      	br      	0x4c18	// 4c18 <TC0CHX_Capture_Configure+0x32>
-	else if(ABETRG_SET_X==ABETRG_TIOB_Fall)
-    4c56:	3b50      	cmpnei      	r3, 16
-    4c58:	0804      	bt      	0x4c60	// 4c60 <TC0CHX_Capture_Configure+0x7a>
-		TC0CHX->MR|=(0x00<<10)|(0x02<<8);
-    4c5a:	9079      	ld.w      	r3, (r0, 0x64)
-    4c5c:	3ba9      	bseti      	r3, 9
-    4c5e:	07dd      	br      	0x4c18	// 4c18 <TC0CHX_Capture_Configure+0x32>
-	else if(ABETRG_SET_X==ABETRG_TIOB_Rise_Fall)
-    4c60:	3b51      	cmpnei      	r3, 17
-    4c62:	0bdc      	bt      	0x4c1a	// 4c1a <TC0CHX_Capture_Configure+0x34>
-		TC0CHX->MR|=(0x00<<10)|(0x03<<8);
-    4c64:	9079      	ld.w      	r3, (r0, 0x64)
-    4c66:	3ba8      	bseti      	r3, 8
-    4c68:	3ba9      	bseti      	r3, 9
-    4c6a:	07d7      	br      	0x4c18	// 4c18 <TC0CHX_Capture_Configure+0x32>
-
-00004c6c <TC0CHX_ConfigInterrupt_CMD>:
-//NewState:ENABLE,DISABLE
-//ReturnValue:NONE
-/*************************************************************/ 
-void TC0CHX_ConfigInterrupt_CMD(CSP_TC0_T *TC0CHX , TC0CHX_INT_TypeDef TC0CHX_INT_X , FunctionalStatus NewState)
-{
-	if (NewState != DISABLE)
-    4c6c:	3a40      	cmpnei      	r2, 0
-    4c6e:	0c07      	bf      	0x4c7c	// 4c7c <TC0CHX_ConfigInterrupt_CMD+0x10>
-	{
-		TC0CHX->IER  = TC0CHX_INT_X;					//SET
-    4c70:	b03d      	st.w      	r1, (r0, 0x74)
-		while(!(TC0CHX->IMR&TC0CHX_INT_X));
-    4c72:	907f      	ld.w      	r3, (r0, 0x7c)
-    4c74:	68c4      	and      	r3, r1
-    4c76:	3b40      	cmpnei      	r3, 0
-    4c78:	0ffd      	bf      	0x4c72	// 4c72 <TC0CHX_ConfigInterrupt_CMD+0x6>
-	else
-	{
-		TC0CHX->IDR  =	TC0CHX_INT_X;					//CLR
-		while(TC0CHX->IMR&TC0CHX_INT_X);
-	}
-}
-    4c7a:	783c      	jmp      	r15
-		TC0CHX->IDR  =	TC0CHX_INT_X;					//CLR
-    4c7c:	b03e      	st.w      	r1, (r0, 0x78)
-		while(TC0CHX->IMR&TC0CHX_INT_X);
-    4c7e:	907f      	ld.w      	r3, (r0, 0x7c)
-    4c80:	68c4      	and      	r3, r1
-    4c82:	3b40      	cmpnei      	r3, 0
-    4c84:	0bfd      	bt      	0x4c7e	// 4c7e <TC0CHX_ConfigInterrupt_CMD+0x12>
-    4c86:	07fa      	br      	0x4c7a	// 4c7a <TC0CHX_ConfigInterrupt_CMD+0xe>
-
-00004c88 <TC0CH0_Int_Enable>:
-//EntryParameter:NONE
-//ReturnValue:NONE
-/*************************************************************/
-void TC0CH0_Int_Enable(void)
-{
-    INTC_ISER_WRITE(TC0_0_INT);    
-    4c88:	116a      	lrw      	r3, 0x20000078	// 4d30 <TC0CH2_Wakeup_Disable+0x10>
-    4c8a:	3210      	movi      	r2, 16
-    4c8c:	9360      	ld.w      	r3, (r3, 0x0)
-    4c8e:	23ff      	addi      	r3, 256
-    4c90:	b340      	st.w      	r2, (r3, 0x0)
-}
-    4c92:	783c      	jmp      	r15
-
-00004c94 <TC0CH1_Int_Enable>:
-//EntryParameter:NONE
-//ReturnValue:NONE
-/*************************************************************/
-void TC0CH1_Int_Enable(void)
-{
-    INTC_ISER_WRITE(TC0_1_INT);    
-    4c94:	1167      	lrw      	r3, 0x20000078	// 4d30 <TC0CH2_Wakeup_Disable+0x10>
-    4c96:	3220      	movi      	r2, 32
-    4c98:	9360      	ld.w      	r3, (r3, 0x0)
-    4c9a:	23ff      	addi      	r3, 256
-    4c9c:	b340      	st.w      	r2, (r3, 0x0)
-}
-    4c9e:	783c      	jmp      	r15
-
-00004ca0 <TC0CH2_Int_Enable>:
-//EntryParameter:NONE
-//ReturnValue:NONE
-/*************************************************************/
-void TC0CH2_Int_Enable(void)
-{
-    INTC_ISER_WRITE(TC0_2_INT);    
-    4ca0:	1164      	lrw      	r3, 0x20000078	// 4d30 <TC0CH2_Wakeup_Disable+0x10>
-    4ca2:	3240      	movi      	r2, 64
-    4ca4:	9360      	ld.w      	r3, (r3, 0x0)
-    4ca6:	23ff      	addi      	r3, 256
-    4ca8:	b340      	st.w      	r2, (r3, 0x0)
-}
-    4caa:	783c      	jmp      	r15
-
-00004cac <TC0CH0_Int_Disable>:
-//EntryParameter:NONE
-//ReturnValue:NONE
-/*************************************************************/
-void TC0CH0_Int_Disable(void)
-{
-    INTC_ICER_WRITE(TC0_0_INT);    
-    4cac:	1161      	lrw      	r3, 0x20000078	// 4d30 <TC0CH2_Wakeup_Disable+0x10>
-    4cae:	32c0      	movi      	r2, 192
-    4cb0:	9360      	ld.w      	r3, (r3, 0x0)
-    4cb2:	4241      	lsli      	r2, r2, 1
-    4cb4:	60c8      	addu      	r3, r2
-    4cb6:	3210      	movi      	r2, 16
-    4cb8:	b340      	st.w      	r2, (r3, 0x0)
-}
-    4cba:	783c      	jmp      	r15
-
-00004cbc <TC0CH1_Int_Disable>:
-//EntryParameter:NONE
-//ReturnValue:NONE
-/*************************************************************/
-void TC0CH1_Int_Disable(void)
-{
-    INTC_ICER_WRITE(TC0_1_INT);    
-    4cbc:	107d      	lrw      	r3, 0x20000078	// 4d30 <TC0CH2_Wakeup_Disable+0x10>
-    4cbe:	32c0      	movi      	r2, 192
-    4cc0:	9360      	ld.w      	r3, (r3, 0x0)
-    4cc2:	4241      	lsli      	r2, r2, 1
-    4cc4:	60c8      	addu      	r3, r2
-    4cc6:	3220      	movi      	r2, 32
-    4cc8:	b340      	st.w      	r2, (r3, 0x0)
-}
-    4cca:	783c      	jmp      	r15
-
-00004ccc <TC0CH2_Int_Disable>:
-//EntryParameter:NONE
-//ReturnValue:NONE
-/*************************************************************/
-void TC0CH2_Int_Disable(void)
-{
-    INTC_ICER_WRITE(TC0_2_INT);    
-    4ccc:	1079      	lrw      	r3, 0x20000078	// 4d30 <TC0CH2_Wakeup_Disable+0x10>
-    4cce:	32c0      	movi      	r2, 192
-    4cd0:	9360      	ld.w      	r3, (r3, 0x0)
-    4cd2:	4241      	lsli      	r2, r2, 1
-    4cd4:	60c8      	addu      	r3, r2
-    4cd6:	3240      	movi      	r2, 64
-    4cd8:	b340      	st.w      	r2, (r3, 0x0)
-}
-    4cda:	783c      	jmp      	r15
-
-00004cdc <TC0CH0_Wakeup_Enable>:
-//EntryParameter:NONE
-//ReturnValue:NONE
-/*************************************************************/
-void TC0CH0_Wakeup_Enable(void)
-{
-    INTC_IWER_WRITE(TC0_0_INT);    
-    4cdc:	1075      	lrw      	r3, 0x20000078	// 4d30 <TC0CH2_Wakeup_Disable+0x10>
-    4cde:	3210      	movi      	r2, 16
-    4ce0:	9360      	ld.w      	r3, (r3, 0x0)
-    4ce2:	23ff      	addi      	r3, 256
-    4ce4:	b350      	st.w      	r2, (r3, 0x40)
-}
-    4ce6:	783c      	jmp      	r15
-
-00004ce8 <TC0CH0_Wakeup_Disable>:
-//EntryParameter:NONE
-//ReturnValue:NONE
-/*************************************************************/
-void TC0CH0_Wakeup_Disable(void)
-{
-    INTC_IWDR_WRITE(TC0_0_INT);    
-    4ce8:	1072      	lrw      	r3, 0x20000078	// 4d30 <TC0CH2_Wakeup_Disable+0x10>
-    4cea:	32e0      	movi      	r2, 224
-    4cec:	9360      	ld.w      	r3, (r3, 0x0)
-    4cee:	4241      	lsli      	r2, r2, 1
-    4cf0:	60c8      	addu      	r3, r2
-    4cf2:	3210      	movi      	r2, 16
-    4cf4:	b340      	st.w      	r2, (r3, 0x0)
-}
-    4cf6:	783c      	jmp      	r15
-
-00004cf8 <TC0CH1_Wakeup_Enable>:
-//EntryParameter:NONE
-//ReturnValue:NONE
-/*************************************************************/
-void TC0CH1_Wakeup_Enable(void)
-{
-    INTC_IWER_WRITE(TC0_1_INT);    
-    4cf8:	106e      	lrw      	r3, 0x20000078	// 4d30 <TC0CH2_Wakeup_Disable+0x10>
-    4cfa:	3220      	movi      	r2, 32
-    4cfc:	9360      	ld.w      	r3, (r3, 0x0)
-    4cfe:	23ff      	addi      	r3, 256
-    4d00:	b350      	st.w      	r2, (r3, 0x40)
-}
-    4d02:	783c      	jmp      	r15
-
-00004d04 <TC0CH1_Wakeup_Disable>:
-//EntryParameter:NONE
-//ReturnValue:NONE
-/*************************************************************/
-void TC0CH1_Wakeup_Disable(void)
-{
-    INTC_IWDR_WRITE(TC0_1_INT);    
-    4d04:	106b      	lrw      	r3, 0x20000078	// 4d30 <TC0CH2_Wakeup_Disable+0x10>
-    4d06:	32e0      	movi      	r2, 224
-    4d08:	9360      	ld.w      	r3, (r3, 0x0)
-    4d0a:	4241      	lsli      	r2, r2, 1
-    4d0c:	60c8      	addu      	r3, r2
-    4d0e:	3220      	movi      	r2, 32
-    4d10:	b340      	st.w      	r2, (r3, 0x0)
-}
-    4d12:	783c      	jmp      	r15
-
-00004d14 <TC0CH2_Wakeup_Enable>:
-//EntryParameter:NONE
-//ReturnValue:NONE
-/*************************************************************/
-void TC0CH2_Wakeup_Enable(void)
-{
-    INTC_IWER_WRITE(TC0_2_INT);    
-    4d14:	1067      	lrw      	r3, 0x20000078	// 4d30 <TC0CH2_Wakeup_Disable+0x10>
-    4d16:	3240      	movi      	r2, 64
-    4d18:	9360      	ld.w      	r3, (r3, 0x0)
-    4d1a:	23ff      	addi      	r3, 256
-    4d1c:	b350      	st.w      	r2, (r3, 0x40)
-}
-    4d1e:	783c      	jmp      	r15
-
-00004d20 <TC0CH2_Wakeup_Disable>:
-//EntryParameter:NONE
-//ReturnValue:NONE
-/*************************************************************/
-void TC0CH2_Wakeup_Disable(void)
-{
-    INTC_IWDR_WRITE(TC0_2_INT);    
-    4d20:	1064      	lrw      	r3, 0x20000078	// 4d30 <TC0CH2_Wakeup_Disable+0x10>
-    4d22:	32e0      	movi      	r2, 224
-    4d24:	9360      	ld.w      	r3, (r3, 0x0)
-    4d26:	4241      	lsli      	r2, r2, 1
-    4d28:	60c8      	addu      	r3, r2
-    4d2a:	3240      	movi      	r2, 64
-    4d2c:	b340      	st.w      	r2, (r3, 0x0)
-}
-    4d2e:	783c      	jmp      	r15
-    4d30:	20000078 	.long	0x20000078
-
-00004d34 <TC1_ControlSet_Configure.part.0>:
-/*************************************************************/  
-void TC1_ControlSet_Configure (TC1_ControlSet_TypeDef TC1_ControlSet_x , FunctionalStatus NewState)
-{
-	if (NewState != DISABLE)
-	{
-		TC1->CSR |= TC1_ControlSet_x;
-    4d34:	1066      	lrw      	r3, 0x20000054	// 4d4c <TC1_ControlSet_Configure.part.0+0x18>
-		if(TC1_ControlSet_x)
-    4d36:	3840      	cmpnei      	r0, 0
-		TC1->CSR |= TC1_ControlSet_x;
-    4d38:	9340      	ld.w      	r2, (r3, 0x0)
-    4d3a:	9264      	ld.w      	r3, (r2, 0x10)
-    4d3c:	6cc0      	or      	r3, r0
-    4d3e:	b264      	st.w      	r3, (r2, 0x10)
-		if(TC1_ControlSet_x)
-    4d40:	0c05      	bf      	0x4d4a	// 4d4a <TC1_ControlSet_Configure.part.0+0x16>
-		{
-			while(!(TC1->SR&TC1_ControlSet_x));
-    4d42:	9266      	ld.w      	r3, (r2, 0x18)
-    4d44:	68c0      	and      	r3, r0
-    4d46:	3b40      	cmpnei      	r3, 0
-    4d48:	0ffd      	bf      	0x4d42	// 4d42 <TC1_ControlSet_Configure.part.0+0xe>
-	else
-	{
-		TC1->CCR |= TC1_ControlSet_x;
-		while(TC1->SR&TC1_ControlSet_x);
-	}
-}
-    4d4a:	783c      	jmp      	r15
-    4d4c:	20000054 	.long	0x20000054
-
-00004d50 <TC1_RESET_VALUE>:
-	TC1->IDR 	= TC1_IDR_RST;											/**< IDR reset value         */    
-    4d50:	1369      	lrw      	r3, 0x20000054	// 4ef4 <TC1_IO_Init+0x96>
-    4d52:	134a      	lrw      	r2, 0x11000a	// 4ef8 <TC1_IO_Init+0x9a>
-    4d54:	9360      	ld.w      	r3, (r3, 0x0)
-    4d56:	b340      	st.w      	r2, (r3, 0x0)
-	TC1->SR 	= TC1_SR_RST;           								/**< SR reset value          */
-    4d58:	3102      	movi      	r1, 2
-	TC1->CSSR 	= TC1_CSSR_RST;	     								   	/**< CSSR reset value        */
-    4d5a:	3200      	movi      	r2, 0
-    4d5c:	b341      	st.w      	r2, (r3, 0x4)
-	TC1->CEDR 	= TC1_CEDR_RST;  	 									/**< CEDR reset value        */
-    4d5e:	b342      	st.w      	r2, (r3, 0x8)
-	TC1->SRR 	= TC1_SRR_RST;             								/**< SRR reset value         */
-    4d60:	b343      	st.w      	r2, (r3, 0xc)
-	TC1->CSR 	= TC1_CSR_RST;             	 							/**< CSR reset value         */
-    4d62:	b344      	st.w      	r2, (r3, 0x10)
-	TC1->CCR 	= TC1_CCR_RST;              							/**< CCR reset value         */
-    4d64:	b345      	st.w      	r2, (r3, 0x14)
-	TC1->SR 	= TC1_SR_RST;           								/**< SR reset value          */
-    4d66:	b326      	st.w      	r1, (r3, 0x18)
-	TC1->CSMR 	= TC1_CSMR_RST;           								/**< SR reset value          */
-    4d68:	311f      	movi      	r1, 31
-	TC1->IMSCR 	= TC1_IMSCR_RST;        								/**< IMSCR reset value       */
-    4d6a:	b347      	st.w      	r2, (r3, 0x1c)
-	TC1->RISR	= TC1_RISR_RST;          								/**< RISR reset value        */
-    4d6c:	b348      	st.w      	r2, (r3, 0x20)
-	TC1->MISR 	= TC1_MISR_RST;         								/**< MIS reset value        */
-    4d6e:	b349      	st.w      	r2, (r3, 0x24)
-	TC1->ICR 	= TC1_ICR_RST;          								/**< ICR reset value         */
-    4d70:	b34a      	st.w      	r2, (r3, 0x28)
-	TC1->CDR 	= TC1_CDR_RST;        									/**< SR reset value          */
-    4d72:	b34b      	st.w      	r2, (r3, 0x2c)
-	TC1->CSMR 	= TC1_CSMR_RST;           								/**< SR reset value          */
-    4d74:	b32c      	st.w      	r1, (r3, 0x30)
-	TC1->PRDR 	= TC1_PRDR_RST;           								/**< DR reset value          */
-    4d76:	b34d      	st.w      	r2, (r3, 0x34)
-	TC1->PULR	= TC1_PULR_RST;          								/**< SR reset value          */
-    4d78:	b34e      	st.w      	r2, (r3, 0x38)
-	TC1->CUCR 	= TC1_CUCR_RST;         								/**< SR reset value          */
-    4d7a:	b353      	st.w      	r2, (r3, 0x4c)
-	TC1->CDCR 	= TC1_CDCR_RST;            								/**< SR reset value          */
-    4d7c:	b354      	st.w      	r2, (r3, 0x50)
-	TC1->CVR	= TC1_CVR_RST;											/**< CVR reset value         */
-    4d7e:	b355      	st.w      	r2, (r3, 0x54)
-}
-    4d80:	783c      	jmp      	r15
-
-00004d82 <TC1_Configure>:
-{
-    4d82:	14c3      	push      	r4-r6
-    4d84:	9883      	ld.w      	r4, (r14, 0xc)
-    4d86:	6d53      	mov      	r5, r4
-    4d88:	9884      	ld.w      	r4, (r14, 0x10)
-    4d8a:	6d93      	mov      	r6, r4
-	TC1->CSSR = TC1_FIN_X;													//selected TC1 clk
-    4d8c:	129a      	lrw      	r4, 0x20000054	// 4ef4 <TC1_IO_Init+0x96>
-	TC1->CDR = TC1_DIVN|(TC1_DINM<<4);										//DIVN and DINM set
-    4d8e:	4244      	lsli      	r2, r2, 4
-	TC1->CSSR = TC1_FIN_X;													//selected TC1 clk
-    4d90:	9480      	ld.w      	r4, (r4, 0x0)
-    4d92:	b401      	st.w      	r0, (r4, 0x4)
-	TC1->CDR = TC1_DIVN|(TC1_DINM<<4);										//DIVN and DINM set
-    4d94:	6c48      	or      	r1, r2
-	TC1->CEDR = TC1_CLKEN|TC1_DBGEN;										//ENABLE TC1 CLK
-    4d96:	121a      	lrw      	r0, 0x80000001	// 4efc <TC1_IO_Init+0x9e>
-    4d98:	b402      	st.w      	r0, (r4, 0x8)
-	TC1->CDR = TC1_DIVN|(TC1_DINM<<4);										//DIVN and DINM set
-    4d9a:	b42b      	st.w      	r1, (r4, 0x2c)
-	TC1->CSMR = Counter_Size_X;												//selected TC1 conter size
-    4d9c:	b46c      	st.w      	r3, (r4, 0x30)
-	TC1->PRDR = loadCounter_PRDR;											//Period of TC1 date register
-    4d9e:	b4ad      	st.w      	r5, (r4, 0x34)
-	TC1->PULR = loadCounter_PULR;											//Pulse of TC1 date register
-    4da0:	b4ce      	st.w      	r6, (r4, 0x38)
-}
-    4da2:	1483      	pop      	r4-r6
-
-00004da4 <TC1_ControlSet_Configure>:
-{
-    4da4:	14d0      	push      	r15
-	if (NewState != DISABLE)
-    4da6:	3940      	cmpnei      	r1, 0
-    4da8:	0c04      	bf      	0x4db0	// 4db0 <TC1_ControlSet_Configure+0xc>
-    4daa:	e3ffffc5 	bsr      	0x4d34	// 4d34 <TC1_ControlSet_Configure.part.0>
-}
-    4dae:	1490      	pop      	r15
-		TC1->CCR |= TC1_ControlSet_x;
-    4db0:	1271      	lrw      	r3, 0x20000054	// 4ef4 <TC1_IO_Init+0x96>
-    4db2:	9340      	ld.w      	r2, (r3, 0x0)
-    4db4:	9265      	ld.w      	r3, (r2, 0x14)
-    4db6:	6cc0      	or      	r3, r0
-    4db8:	b265      	st.w      	r3, (r2, 0x14)
-		while(TC1->SR&TC1_ControlSet_x);
-    4dba:	9266      	ld.w      	r3, (r2, 0x18)
-    4dbc:	68c0      	and      	r3, r0
-    4dbe:	3b40      	cmpnei      	r3, 0
-    4dc0:	0bfd      	bt      	0x4dba	// 4dba <TC1_ControlSet_Configure+0x16>
-    4dc2:	07f6      	br      	0x4dae	// 4dae <TC1_ControlSet_Configure+0xa>
-
-00004dc4 <TC1_ConfigInterrupt_CMD>:
-//TC1_IMSCR_X:TC1_STARTI,TC1_STOPI,TC1_PSTARTI,TC1_PENDI,TC1_MATI,TC1_OVFI,TC1_CAPTI
-//NewState:ENABLE,DISABLE
-//ReturnValue:NONE
-/*************************************************************/ 
-void TC1_ConfigInterrupt_CMD(TC1_IMSCR_TypeDef TC1_IMSCR_X , FunctionalStatus NewState)
-{
-    4dc4:	126c      	lrw      	r3, 0x20000054	// 4ef4 <TC1_IO_Init+0x96>
-	if (NewState != DISABLE)
-    4dc6:	3940      	cmpnei      	r1, 0
-	{
-		TC1->IMSCR  |= TC1_IMSCR_X;						//SET
-    4dc8:	9340      	ld.w      	r2, (r3, 0x0)
-    4dca:	9267      	ld.w      	r3, (r2, 0x1c)
-	if (NewState != DISABLE)
-    4dcc:	0c04      	bf      	0x4dd4	// 4dd4 <TC1_ConfigInterrupt_CMD+0x10>
-		TC1->IMSCR  |= TC1_IMSCR_X;						//SET
-    4dce:	6c0c      	or      	r0, r3
-    4dd0:	b207      	st.w      	r0, (r2, 0x1c)
-	}
-	else
-	{
-		TC1->IMSCR  &= ~TC1_IMSCR_X;					//CLR
-	}
-}
-    4dd2:	783c      	jmp      	r15
-		TC1->IMSCR  &= ~TC1_IMSCR_X;					//CLR
-    4dd4:	68c1      	andn      	r3, r0
-    4dd6:	b267      	st.w      	r3, (r2, 0x1c)
-}
-    4dd8:	07fd      	br      	0x4dd2	// 4dd2 <TC1_ConfigInterrupt_CMD+0xe>
-
-00004dda <TC1_SoftwareReset>:
-//EntryParameter:
-//ReturnValue:NONE
-/*************************************************************/ 
-void TC1_SoftwareReset(void)
-{
-	TC1->SRR = TC1_SWRST;							// Software reset
-    4dda:	1267      	lrw      	r3, 0x20000054	// 4ef4 <TC1_IO_Init+0x96>
-    4ddc:	3201      	movi      	r2, 1
-    4dde:	9360      	ld.w      	r3, (r3, 0x0)
-    4de0:	b343      	st.w      	r2, (r3, 0xc)
-}
-    4de2:	783c      	jmp      	r15
-
-00004de4 <TC1_Start>:
-//TC1 start
-//EntryParameter:
-//ReturnValue:NONE
-/*************************************************************/ 
-void TC1_Start(void)
-{
-    4de4:	14d0      	push      	r15
-    4de6:	3001      	movi      	r0, 1
-    4de8:	e3ffffa6 	bsr      	0x4d34	// 4d34 <TC1_ControlSet_Configure.part.0>
-	TC1_ControlSet_Configure (TC1_ControlSet_start_stop , ENABLE); 
-}
-    4dec:	1490      	pop      	r15
-
-00004dee <TC1_start_stop>:
-    4dee:	14d0      	push      	r15
-    4df0:	e3fffffa 	bsr      	0x4de4	// 4de4 <TC1_Start>
-    4df4:	1490      	pop      	r15
-
-00004df6 <TC1_Stop>:
-//TC1 stop
-//EntryParameter:
-//ReturnValue:NONE
-/*************************************************************/ 
-void TC1_Stop(void)
-{
-    4df6:	14d0      	push      	r15
-	TC1_ControlSet_Configure (TC1_ControlSet_start_stop , DISABLE); 
-    4df8:	3100      	movi      	r1, 0
-    4dfa:	3001      	movi      	r0, 1
-    4dfc:	e3ffffd4 	bsr      	0x4da4	// 4da4 <TC1_ControlSet_Configure>
-}
-    4e00:	1490      	pop      	r15
-
-00004e02 <TC1_Set_Period>:
-//TC1 counter period DATA read 
-//EntryParameter:loadCounter_PRDR,loadCounter_PULR
-//ReturnValue:Conter prdr register value
-/*************************************************************/  
-void TC1_Set_Period(U32_T loadCounter_PRDR , U32_T loadCounter_PULR)
-{
-    4e02:	14c1      	push      	r4
-	TC1->CSR = (TC1->CSR & 0xFFFFFFFD) | 0x02;
-    4e04:	117c      	lrw      	r3, 0x20000054	// 4ef4 <TC1_IO_Init+0x96>
-	while(!((TC1->SR & 0x02)==0X02));
-    4e06:	3402      	movi      	r4, 2
-	TC1->CSR = (TC1->CSR & 0xFFFFFFFD) | 0x02;
-    4e08:	9360      	ld.w      	r3, (r3, 0x0)
-    4e0a:	9344      	ld.w      	r2, (r3, 0x10)
-    4e0c:	3aa1      	bseti      	r2, 1
-    4e0e:	b344      	st.w      	r2, (r3, 0x10)
-	while(!((TC1->SR & 0x02)==0X02));
-    4e10:	9346      	ld.w      	r2, (r3, 0x18)
-    4e12:	6890      	and      	r2, r4
-    4e14:	3a40      	cmpnei      	r2, 0
-    4e16:	0ffd      	bf      	0x4e10	// 4e10 <TC1_Set_Period+0xe>
-	TC1->PRDR = loadCounter_PRDR;											//Period of TC1 date register
-    4e18:	b30d      	st.w      	r0, (r3, 0x34)
-	TC1->PULR = loadCounter_PULR;											//Pulse of TC1 date register
-    4e1a:	b32e      	st.w      	r1, (r3, 0x38)
-}
-    4e1c:	1481      	pop      	r4
-
-00004e1e <TC1_Int_Enable>:
-//EntryParameter:NONE
-//ReturnValue:NONE
-/*************************************************************/
-void TC1_Int_Enable(void)
-{
-    INTC_ISER_WRITE(TC1_INT);    
-    4e1e:	1179      	lrw      	r3, 0x20000078	// 4f00 <TC1_IO_Init+0xa2>
-    4e20:	3280      	movi      	r2, 128
-    4e22:	9360      	ld.w      	r3, (r3, 0x0)
-    4e24:	23ff      	addi      	r3, 256
-    4e26:	4243      	lsli      	r2, r2, 3
-    4e28:	b340      	st.w      	r2, (r3, 0x0)
-}
-    4e2a:	783c      	jmp      	r15
-
-00004e2c <TC1_Int_Disable>:
-//EntryParameter:NONE
-//ReturnValue:NONE
-/*************************************************************/
-void TC1_Int_Disable(void)
-{
-    INTC_ICER_WRITE(TC1_INT);    
-    4e2c:	1175      	lrw      	r3, 0x20000078	// 4f00 <TC1_IO_Init+0xa2>
-    4e2e:	32c0      	movi      	r2, 192
-    4e30:	9360      	ld.w      	r3, (r3, 0x0)
-    4e32:	4241      	lsli      	r2, r2, 1
-    4e34:	60c8      	addu      	r3, r2
-    4e36:	3280      	movi      	r2, 128
-    4e38:	4243      	lsli      	r2, r2, 3
-    4e3a:	b340      	st.w      	r2, (r3, 0x0)
-}
-    4e3c:	783c      	jmp      	r15
-
-00004e3e <TC1_Wakeup_Enable>:
-//EntryParameter:NONE
-//ReturnValue:NONE
-/*************************************************************/
-void TC1_Wakeup_Enable(void)
-{
-    INTC_IWER_WRITE(TC1_INT);    
-    4e3e:	1171      	lrw      	r3, 0x20000078	// 4f00 <TC1_IO_Init+0xa2>
-    4e40:	3280      	movi      	r2, 128
-    4e42:	9360      	ld.w      	r3, (r3, 0x0)
-    4e44:	23ff      	addi      	r3, 256
-    4e46:	4243      	lsli      	r2, r2, 3
-    4e48:	b350      	st.w      	r2, (r3, 0x40)
-}
-    4e4a:	783c      	jmp      	r15
-
-00004e4c <TC1_Wakeup_Disable>:
-//EntryParameter:NONE
-//ReturnValue:NONE
-/*************************************************************/
-void TC1_Wakeup_Disable(void)
-{
-    INTC_IWDR_WRITE(TC1_INT);    
-    4e4c:	116d      	lrw      	r3, 0x20000078	// 4f00 <TC1_IO_Init+0xa2>
-    4e4e:	32e0      	movi      	r2, 224
-    4e50:	9360      	ld.w      	r3, (r3, 0x0)
-    4e52:	4241      	lsli      	r2, r2, 1
-    4e54:	60c8      	addu      	r3, r2
-    4e56:	3280      	movi      	r2, 128
-    4e58:	4243      	lsli      	r2, r2, 3
-    4e5a:	b340      	st.w      	r2, (r3, 0x0)
-}
-    4e5c:	783c      	jmp      	r15
-
-00004e5e <TC1_IO_Init>:
-//TC1_IO_G;TC1_IO_TXOUT(0->PB0.5 ;1->PA0.06;2->PC0.3;3->PA0.2),TC1_IO_TCLK(0->PB0.3),TC1_IO_TCAPX(0->PA1.0;1->PA1.1)
-//ReturnValue:NONE
-/*************************************************************/
-void TC1_IO_Init(TC1_IO_MODE_TypeDef  TC1_IO_MODE_X , U8_T TC1_IO_G )
-{
-	if(TC1_IO_MODE_X==TC1_IO_TXOUT)
-    4e5e:	3841      	cmpnei      	r0, 1
-    4e60:	082d      	bt      	0x4eba	// 4eba <TC1_IO_Init+0x5c>
-	{
-		if(TC1_IO_G==0)
-    4e62:	3940      	cmpnei      	r1, 0
-    4e64:	080a      	bt      	0x4e78	// 4e78 <TC1_IO_Init+0x1a>
-		{
-			GPIOB0->CONLR=(GPIOB0->CONLR & 0XFF0FFFFF)|0x00400000;										//T1OUT(PB0.5->AF1)
-    4e66:	1168      	lrw      	r3, 0x2000000c	// 4f04 <TC1_IO_Init+0xa6>
-    4e68:	32f0      	movi      	r2, 240
-    4e6a:	9320      	ld.w      	r1, (r3, 0x0)
-    4e6c:	9160      	ld.w      	r3, (r1, 0x0)
-    4e6e:	4250      	lsli      	r2, r2, 16
-    4e70:	68c9      	andn      	r3, r2
-    4e72:	3bb6      	bseti      	r3, 22
-		}
-		else if(TC1_IO_G==1)
-		{
-			GPIOA0->CONLR=(GPIOA0->CONLR & 0XF0FFFFFF)|0x05000000;										//T1OUT(PA0.06->AF2)
-    4e74:	b160      	st.w      	r3, (r1, 0x0)
-		else if(TC1_IO_G==1)
-		{
-			GPIOA1->CONLR=(GPIOA1->CONLR & 0XFFFFFF0F)|0x00000040;										//TCAP1(PA1.1->AF1)
-		}
-	}
-}
-    4e76:	783c      	jmp      	r15
-		else if(TC1_IO_G==1)
-    4e78:	3941      	cmpnei      	r1, 1
-    4e7a:	080a      	bt      	0x4e8e	// 4e8e <TC1_IO_Init+0x30>
-			GPIOA0->CONLR=(GPIOA0->CONLR & 0XF0FFFFFF)|0x05000000;										//T1OUT(PA0.06->AF2)
-    4e7c:	1163      	lrw      	r3, 0x20000014	// 4f08 <TC1_IO_Init+0xaa>
-    4e7e:	32f0      	movi      	r2, 240
-    4e80:	9320      	ld.w      	r1, (r3, 0x0)
-    4e82:	9160      	ld.w      	r3, (r1, 0x0)
-    4e84:	4254      	lsli      	r2, r2, 20
-    4e86:	68c9      	andn      	r3, r2
-    4e88:	3bb8      	bseti      	r3, 24
-    4e8a:	3bba      	bseti      	r3, 26
-    4e8c:	07f4      	br      	0x4e74	// 4e74 <TC1_IO_Init+0x16>
-		else if(TC1_IO_G==2)
-    4e8e:	3942      	cmpnei      	r1, 2
-    4e90:	080a      	bt      	0x4ea4	// 4ea4 <TC1_IO_Init+0x46>
-			GPIOC0->CONLR=(GPIOC0->CONLR & 0XFFFF0FFF)|0x00005000;										//T1OUT(PC0.03->AF2)
-    4e92:	107f      	lrw      	r3, 0x20000008	// 4f0c <TC1_IO_Init+0xae>
-			GPIOB0->CONLR=(GPIOB0->CONLR & 0XFFFF0FFF)|0x00005000;										//TCLK(PB0.3->AF2)
-    4e94:	9320      	ld.w      	r1, (r3, 0x0)
-    4e96:	32f0      	movi      	r2, 240
-    4e98:	9160      	ld.w      	r3, (r1, 0x0)
-    4e9a:	4248      	lsli      	r2, r2, 8
-    4e9c:	68c9      	andn      	r3, r2
-    4e9e:	3bac      	bseti      	r3, 12
-    4ea0:	3bae      	bseti      	r3, 14
-    4ea2:	07e9      	br      	0x4e74	// 4e74 <TC1_IO_Init+0x16>
-		else if(TC1_IO_G==3)
-    4ea4:	3943      	cmpnei      	r1, 3
-    4ea6:	0be8      	bt      	0x4e76	// 4e76 <TC1_IO_Init+0x18>
-			GPIOA0->CONLR=(GPIOA0->CONLR & 0XFFFFF0FF)|0x00000600;										//T1OUT(PA0.2->AF3)
-    4ea8:	1078      	lrw      	r3, 0x20000014	// 4f08 <TC1_IO_Init+0xaa>
-    4eaa:	32f0      	movi      	r2, 240
-    4eac:	9320      	ld.w      	r1, (r3, 0x0)
-    4eae:	9160      	ld.w      	r3, (r1, 0x0)
-    4eb0:	4244      	lsli      	r2, r2, 4
-    4eb2:	68c9      	andn      	r3, r2
-    4eb4:	3ba9      	bseti      	r3, 9
-    4eb6:	3baa      	bseti      	r3, 10
-    4eb8:	07de      	br      	0x4e74	// 4e74 <TC1_IO_Init+0x16>
-	else if(TC1_IO_MODE_X==TC1_IO_TCLK)
-    4eba:	3842      	cmpnei      	r0, 2
-    4ebc:	0805      	bt      	0x4ec6	// 4ec6 <TC1_IO_Init+0x68>
-		if(TC1_IO_G==0)
-    4ebe:	3940      	cmpnei      	r1, 0
-    4ec0:	0bdb      	bt      	0x4e76	// 4e76 <TC1_IO_Init+0x18>
-			GPIOB0->CONLR=(GPIOB0->CONLR & 0XFFFF0FFF)|0x00005000;										//TCLK(PB0.3->AF2)
-    4ec2:	1071      	lrw      	r3, 0x2000000c	// 4f04 <TC1_IO_Init+0xa6>
-    4ec4:	07e8      	br      	0x4e94	// 4e94 <TC1_IO_Init+0x36>
-	else if(TC1_IO_MODE_X==TC1_IO_TCAPX)
-    4ec6:	3843      	cmpnei      	r0, 3
-    4ec8:	0bd7      	bt      	0x4e76	// 4e76 <TC1_IO_Init+0x18>
-		if(TC1_IO_G==0)
-    4eca:	3940      	cmpnei      	r1, 0
-    4ecc:	080a      	bt      	0x4ee0	// 4ee0 <TC1_IO_Init+0x82>
-			GPIOA1->CONLR=(GPIOA1->CONLR & 0XFFFFFFF0)|0x00000006;										//TCAP1(PA1.0->AF3)
-    4ece:	1071      	lrw      	r3, 0x20000010	// 4f10 <TC1_IO_Init+0xb2>
-    4ed0:	310f      	movi      	r1, 15
-    4ed2:	9340      	ld.w      	r2, (r3, 0x0)
-    4ed4:	9260      	ld.w      	r3, (r2, 0x0)
-    4ed6:	68c5      	andn      	r3, r1
-    4ed8:	3ba1      	bseti      	r3, 1
-    4eda:	3ba2      	bseti      	r3, 2
-			GPIOA1->CONLR=(GPIOA1->CONLR & 0XFFFFFF0F)|0x00000040;										//TCAP1(PA1.1->AF1)
-    4edc:	b260      	st.w      	r3, (r2, 0x0)
-}
-    4ede:	07cc      	br      	0x4e76	// 4e76 <TC1_IO_Init+0x18>
-		else if(TC1_IO_G==1)
-    4ee0:	3941      	cmpnei      	r1, 1
-    4ee2:	0bca      	bt      	0x4e76	// 4e76 <TC1_IO_Init+0x18>
-			GPIOA1->CONLR=(GPIOA1->CONLR & 0XFFFFFF0F)|0x00000040;										//TCAP1(PA1.1->AF1)
-    4ee4:	106b      	lrw      	r3, 0x20000010	// 4f10 <TC1_IO_Init+0xb2>
-    4ee6:	31f0      	movi      	r1, 240
-    4ee8:	9340      	ld.w      	r2, (r3, 0x0)
-    4eea:	9260      	ld.w      	r3, (r2, 0x0)
-    4eec:	68c5      	andn      	r3, r1
-    4eee:	3ba6      	bseti      	r3, 6
-    4ef0:	07f6      	br      	0x4edc	// 4edc <TC1_IO_Init+0x7e>
-    4ef2:	0000      	bkpt
-    4ef4:	20000054 	.long	0x20000054
-    4ef8:	0011000a 	.long	0x0011000a
-    4efc:	80000001 	.long	0x80000001
-    4f00:	20000078 	.long	0x20000078
-    4f04:	2000000c 	.long	0x2000000c
-    4f08:	20000014 	.long	0x20000014
-    4f0c:	20000008 	.long	0x20000008
-    4f10:	20000010 	.long	0x20000010
-
-00004f14 <TC2_RESET_VALUE>:
-//EntryParameter:
-//ReturnValue:NONE
-/*************************************************************/  
-void TC2_RESET_VALUE(void)									//reset value
-{
-  	TC2->IDR=TC2_IDR_RST;          			/**< IDR reset value      */
-    4f14:	106e      	lrw      	r3, 0x20000050	// 4f4c <TC2_RESET_VALUE+0x38>
-    4f16:	104f      	lrw      	r2, 0x41000a	// 4f50 <TC2_RESET_VALUE+0x3c>
-    4f18:	9360      	ld.w      	r3, (r3, 0x0)
-    4f1a:	b340      	st.w      	r2, (r3, 0x0)
-   	TC2->CEDR=TC2_CEDR_RST;		 			/**< CEDR reset value     */	
-    4f1c:	3200      	movi      	r2, 0
-    4f1e:	b341      	st.w      	r2, (r3, 0x4)
-   	TC2->RSSR=TC2_RSSR_RST;					/**< RSSR reset value     */	
-    4f20:	b342      	st.w      	r2, (r3, 0x8)
-   	TC2->IMSCR=TC2_IMSCR_RST;					/**< IMSCR reset value    */	
-    4f22:	b343      	st.w      	r2, (r3, 0xc)
-   	TC2->RISR=TC2_RISR_RST;					/**< RISR reset value     */	
-    4f24:	b344      	st.w      	r2, (r3, 0x10)
-  	TC2->MISR=TC2_MISR_RST;					/**< MISR reset value     */	
-    4f26:	b345      	st.w      	r2, (r3, 0x14)
-   	TC2->ICR=TC2_ICR_RST;						/**< ICR reset value      */	
-    4f28:	b346      	st.w      	r2, (r3, 0x18)
-   	TC2->SR=TC2_SR_RST;						/**< SR reset value       */	
-    4f2a:	b347      	st.w      	r2, (r3, 0x1c)
-   	TC2->MR=TC2_MR_RST;						/**< MR reset value       */	
-    4f2c:	b349      	st.w      	r2, (r3, 0x24)
-  	TC2->CNTBR=TC2_CNTBR_RST;					/**< CNTBR reset value    */
-    4f2e:	b34c      	st.w      	r2, (r3, 0x30)
-   	TC2->CNTR=TC2_CNTR_RST;					/**< CNTR reset value     */
-    4f30:	b34d      	st.w      	r2, (r3, 0x34)
-   	TC2->CDR=TC2_CDR_RST;						/**< CDR reset value      */
-    4f32:	b34e      	st.w      	r2, (r3, 0x38)
-   	TC2->PCNTR=TC2_PCNTR_RST;					/**< PCNTR reset value    */
-    4f34:	b354      	st.w      	r2, (r3, 0x50)
-   	TC2->CRR=TC2_CRR_RST;						/**< CRR reset value      */
-    4f36:	237f      	addi      	r3, 128
-    4f38:	b340      	st.w      	r2, (r3, 0x0)
-   	TC2->CMR=TC2_CMR_RST;						/**< CMR reset value      */
-    4f3a:	b341      	st.w      	r2, (r3, 0x4)
-  	TC2->CIMSCR=TC2_CIMSCR_RST;				/**< CIMSCR reset value   */	
-    4f3c:	b342      	st.w      	r2, (r3, 0x8)
-   	TC2->CRISR=TC2_CRISR_RST;					/**< CRISR reset value    */	
-    4f3e:	b343      	st.w      	r2, (r3, 0xc)
-   	TC2->CMISR=TC2_CMISR_RST;					/**< CMISR reset value    */
-    4f40:	b344      	st.w      	r2, (r3, 0x10)
-   	TC2->CICR=TC2_CICR_RST;					/**< CICR reset value     */	
-    4f42:	b345      	st.w      	r2, (r3, 0x14)
-   	TC2->CAPSR=TC2_CAPSR_RST;					/**< CAPSR reset value    */
-    4f44:	b347      	st.w      	r2, (r3, 0x1c)
-   	TC2->CC0R=TC2_CC0R_RST;					/**< CC0R reset value     */
-    4f46:	b350      	st.w      	r2, (r3, 0x40)
-   	TC2->CC1R=TC2_CC1R_RST;					/**< CC1R reset value     */
-    4f48:	b351      	st.w      	r2, (r3, 0x44)
-}
-    4f4a:	783c      	jmp      	r15
-    4f4c:	20000050 	.long	0x20000050
-    4f50:	0041000a 	.long	0x0041000a
-
-00004f54 <TC2_IO_Init>:
-//TC2_IO_CAP1(0->PA1.2(AF1))
-//ReturnValue:NONE
-/*************************************************************/
-void TC2_IO_Init(TC2_IO_MODE_TypeDef  TC2_IO_MODE_X , U8_T TC2_IO_G )
-{
-	if(TC2_IO_MODE_X==TC2_IO_CAP0)
-    4f54:	3840      	cmpnei      	r0, 0
-    4f56:	0815      	bt      	0x4f80	// 4f80 <TC2_IO_Init+0x2c>
-	{
-		if(TC2_IO_G==0)
-    4f58:	3940      	cmpnei      	r1, 0
-    4f5a:	080a      	bt      	0x4f6e	// 4f6e <TC2_IO_Init+0x1a>
-		{
-			GPIOA0->CONLR=(GPIOA0->CONLR & 0X0FFFFFFF)|0x50000000;										//TC2_IO_CAP0(PA0.7->AF2)
-    4f5c:	136f      	lrw      	r3, 0x20000014	// 5118 <TC2_Wakeup_Disable+0x14>
-    4f5e:	9340      	ld.w      	r2, (r3, 0x0)
-    4f60:	9260      	ld.w      	r3, (r2, 0x0)
-    4f62:	4364      	lsli      	r3, r3, 4
-    4f64:	4b64      	lsri      	r3, r3, 4
-    4f66:	3bbc      	bseti      	r3, 28
-    4f68:	3bbe      	bseti      	r3, 30
-		}
-		else if(TC2_IO_G==1)
-		{
-			GPIOA1->CONLR=(GPIOA1->CONLR & 0XFFFFFFF0)|0x00000004;										//TC2_IO_CAP0(PA1.0->AF1)
-    4f6a:	b260      	st.w      	r3, (r2, 0x0)
-		if(TC2_IO_G==0)
-		{
-			GPIOA1->CONLR=(GPIOA1->CONLR & 0XFFFFF0FF)|0x00000400;										//TC2_IO_CAP0(PA1.2->AF1)
-		}
-	}
-}
-    4f6c:	783c      	jmp      	r15
-		else if(TC2_IO_G==1)
-    4f6e:	3941      	cmpnei      	r1, 1
-    4f70:	0bfe      	bt      	0x4f6c	// 4f6c <TC2_IO_Init+0x18>
-			GPIOA1->CONLR=(GPIOA1->CONLR & 0XFFFFFFF0)|0x00000004;										//TC2_IO_CAP0(PA1.0->AF1)
-    4f72:	136b      	lrw      	r3, 0x20000010	// 511c <TC2_Wakeup_Disable+0x18>
-    4f74:	310f      	movi      	r1, 15
-    4f76:	9340      	ld.w      	r2, (r3, 0x0)
-    4f78:	9260      	ld.w      	r3, (r2, 0x0)
-    4f7a:	68c5      	andn      	r3, r1
-    4f7c:	3ba2      	bseti      	r3, 2
-    4f7e:	07f6      	br      	0x4f6a	// 4f6a <TC2_IO_Init+0x16>
-	else if(TC2_IO_MODE_X==TC2_IO_CAP1)
-    4f80:	3841      	cmpnei      	r0, 1
-    4f82:	0bf5      	bt      	0x4f6c	// 4f6c <TC2_IO_Init+0x18>
-		if(TC2_IO_G==0)
-    4f84:	3940      	cmpnei      	r1, 0
-    4f86:	0bf3      	bt      	0x4f6c	// 4f6c <TC2_IO_Init+0x18>
-			GPIOA1->CONLR=(GPIOA1->CONLR & 0XFFFFF0FF)|0x00000400;										//TC2_IO_CAP0(PA1.2->AF1)
-    4f88:	1365      	lrw      	r3, 0x20000010	// 511c <TC2_Wakeup_Disable+0x18>
-    4f8a:	32f0      	movi      	r2, 240
-    4f8c:	9320      	ld.w      	r1, (r3, 0x0)
-    4f8e:	9160      	ld.w      	r3, (r1, 0x0)
-    4f90:	4244      	lsli      	r2, r2, 4
-    4f92:	68c9      	andn      	r3, r2
-    4f94:	3baa      	bseti      	r3, 10
-    4f96:	b160      	st.w      	r3, (r1, 0x0)
-}
-    4f98:	07ea      	br      	0x4f6c	// 4f6c <TC2_IO_Init+0x18>
-
-00004f9a <TC2_Clk_CMD>:
-//EntryParameter:NewState
-//NewState:DISABLE,ENABLE
-//ReturnValue:NONE
-/*************************************************************/
-void TC2_Clk_CMD(FunctionalStatus NewState)
-{
-    4f9a:	1362      	lrw      	r3, 0x20000050	// 5120 <TC2_Wakeup_Disable+0x1c>
-	if(NewState != DISABLE)
-    4f9c:	3840      	cmpnei      	r0, 0
-	{
-		TC2->CEDR |= 0x01;							//enable TC2 clk 
-    4f9e:	9340      	ld.w      	r2, (r3, 0x0)
-    4fa0:	9261      	ld.w      	r3, (r2, 0x4)
-	if(NewState != DISABLE)
-    4fa2:	0c04      	bf      	0x4faa	// 4faa <TC2_Clk_CMD+0x10>
-		TC2->CEDR |= 0x01;							//enable TC2 clk 
-    4fa4:	3ba0      	bseti      	r3, 0
-	}
-	else
-	{
-		TC2->CEDR &= 0XFFFFFFFE;					//Disable TC2 clk 
-    4fa6:	b261      	st.w      	r3, (r2, 0x4)
-	}
-}
-    4fa8:	783c      	jmp      	r15
-		TC2->CEDR &= 0XFFFFFFFE;					//Disable TC2 clk 
-    4faa:	3b80      	bclri      	r3, 0
-    4fac:	07fd      	br      	0x4fa6	// 4fa6 <TC2_Clk_CMD+0xc>
-
-00004fae <TC2_Softreset>:
-//EntryParameter:
-//ReturnValue:NONE
-/*************************************************************/ 
-void TC2_Softreset(void)
-{
-	TC2->RSSR|=0x80000000;
-    4fae:	127d      	lrw      	r3, 0x20000050	// 5120 <TC2_Wakeup_Disable+0x1c>
-    4fb0:	9340      	ld.w      	r2, (r3, 0x0)
-    4fb2:	9262      	ld.w      	r3, (r2, 0x8)
-    4fb4:	3bbf      	bseti      	r3, 31
-    4fb6:	b262      	st.w      	r3, (r2, 0x8)
-}
-    4fb8:	783c      	jmp      	r15
-
-00004fba <TC2_Start>:
-//EntryParameter:
-//ReturnValue:NONE
-/*************************************************************/ 
-void TC2_Start(void)
-{
-	TC2->RSSR|=0X01;									//TC2 start
-    4fba:	127a      	lrw      	r3, 0x20000050	// 5120 <TC2_Wakeup_Disable+0x1c>
-    4fbc:	9360      	ld.w      	r3, (r3, 0x0)
-    4fbe:	9342      	ld.w      	r2, (r3, 0x8)
-    4fc0:	3aa0      	bseti      	r2, 0
-    4fc2:	b342      	st.w      	r2, (r3, 0x8)
-	while(!(TC2->SR&0X80000000));						//计数器正在工作
-    4fc4:	9347      	ld.w      	r2, (r3, 0x1c)
-    4fc6:	3adf      	btsti      	r2, 31
-    4fc8:	0ffe      	bf      	0x4fc4	// 4fc4 <TC2_Start+0xa>
-}
-    4fca:	783c      	jmp      	r15
-
-00004fcc <TC2_stop>:
-//EntryParameter:
-//ReturnValue:NONE
-/*************************************************************/ 
-void TC2_stop(void)
-{
-	TC2->RSSR|=0X02;									//TC2 stop
-    4fcc:	1275      	lrw      	r3, 0x20000050	// 5120 <TC2_Wakeup_Disable+0x1c>
-    4fce:	9360      	ld.w      	r3, (r3, 0x0)
-    4fd0:	9342      	ld.w      	r2, (r3, 0x8)
-    4fd2:	3aa1      	bseti      	r2, 1
-    4fd4:	b342      	st.w      	r2, (r3, 0x8)
-	while(TC2->SR&0X80000000);							//计数器没有工作
-    4fd6:	9347      	ld.w      	r2, (r3, 0x1c)
-    4fd8:	3adf      	btsti      	r2, 31
-    4fda:	0bfe      	bt      	0x4fd6	// 4fd6 <TC2_stop+0xa>
-}
-    4fdc:	783c      	jmp      	r15
-
-00004fde <TC2_Channel0_CMD>:
-//EntryParameter:NewState
-//NewState:DISABLE,ENABLE
-//ReturnValue:NONE
-/*************************************************************/ 
-void TC2_Channel0_CMD(FunctionalStatus NewState)
-{
-    4fde:	1271      	lrw      	r3, 0x20000050	// 5120 <TC2_Wakeup_Disable+0x1c>
-	if(NewState != DISABLE)
-    4fe0:	3840      	cmpnei      	r0, 0
-	{
-		TC2->CRR |= 0x01;							//enable TC2 Channel0 clk 
-    4fe2:	9360      	ld.w      	r3, (r3, 0x0)
-    4fe4:	237f      	addi      	r3, 128
-    4fe6:	9340      	ld.w      	r2, (r3, 0x0)
-	if(NewState != DISABLE)
-    4fe8:	0c04      	bf      	0x4ff0	// 4ff0 <TC2_Channel0_CMD+0x12>
-		TC2->CRR |= 0x01;							//enable TC2 Channel0 clk 
-    4fea:	3aa0      	bseti      	r2, 0
-	}
-	else
-	{
-		TC2->CRR &= 0XFFFFFFFE;						//Disable TC2 Channel0 clk 
-    4fec:	b340      	st.w      	r2, (r3, 0x0)
-	}
-}
-    4fee:	783c      	jmp      	r15
-		TC2->CRR &= 0XFFFFFFFE;						//Disable TC2 Channel0 clk 
-    4ff0:	3a80      	bclri      	r2, 0
-    4ff2:	07fd      	br      	0x4fec	// 4fec <TC2_Channel0_CMD+0xe>
-
-00004ff4 <TC2_Channel1_CMD>:
-//TC2 Channel1 CMD
-//EntryParameter:
-//ReturnValue:NONE
-/*************************************************************/ 
-void TC2_Channel1_CMD(FunctionalStatus NewState)
-{
-    4ff4:	126b      	lrw      	r3, 0x20000050	// 5120 <TC2_Wakeup_Disable+0x1c>
-	if(NewState != DISABLE)
-    4ff6:	3840      	cmpnei      	r0, 0
-	{
-		TC2->CRR |= 0x02;							//enable TC2 Channel1 clk 
-    4ff8:	9360      	ld.w      	r3, (r3, 0x0)
-    4ffa:	237f      	addi      	r3, 128
-    4ffc:	9340      	ld.w      	r2, (r3, 0x0)
-	if(NewState != DISABLE)
-    4ffe:	0c04      	bf      	0x5006	// 5006 <TC2_Channel1_CMD+0x12>
-		TC2->CRR |= 0x02;							//enable TC2 Channel1 clk 
-    5000:	3aa1      	bseti      	r2, 1
-	}
-	else
-	{
-		TC2->CRR &= 0XFFFFFFFD;						//Disable TC2 Channel1 clk 
-    5002:	b340      	st.w      	r2, (r3, 0x0)
-	}
-}
-    5004:	783c      	jmp      	r15
-		TC2->CRR &= 0XFFFFFFFD;						//Disable TC2 Channel1 clk 
-    5006:	3a81      	bclri      	r2, 1
-    5008:	07fd      	br      	0x5002	// 5002 <TC2_Channel1_CMD+0xe>
-
-0000500a <TC2_MINT_CMD>:
-//TC2_MINT_X:TC2_STARTI,TC2_STOPI,TC2_PENDI,
-//NewState:ENABLE,DISABLE
-//ReturnValue:NONE
-/*************************************************************/ 
-void TC2_MINT_CMD(TC2_MINT_TypeDef TC2_MINT_X , FunctionalStatus NewState)
-{
-    500a:	1266      	lrw      	r3, 0x20000050	// 5120 <TC2_Wakeup_Disable+0x1c>
-	if (NewState != DISABLE)
-    500c:	3940      	cmpnei      	r1, 0
-	{
-		TC2->IMSCR |= TC2_MINT_X;					//SET
-    500e:	9340      	ld.w      	r2, (r3, 0x0)
-    5010:	9263      	ld.w      	r3, (r2, 0xc)
-	if (NewState != DISABLE)
-    5012:	0c04      	bf      	0x501a	// 501a <TC2_MINT_CMD+0x10>
-		TC2->IMSCR |= TC2_MINT_X;					//SET
-    5014:	6c0c      	or      	r0, r3
-    5016:	b203      	st.w      	r0, (r2, 0xc)
-	}
-	else
-	{
-		TC2->IMSCR &= ~ TC2_MINT_X;				//CLR
-	}
-}
-    5018:	783c      	jmp      	r15
-		TC2->IMSCR &= ~ TC2_MINT_X;				//CLR
-    501a:	68c1      	andn      	r3, r0
-    501c:	b263      	st.w      	r3, (r2, 0xc)
-}
-    501e:	07fd      	br      	0x5018	// 5018 <TC2_MINT_CMD+0xe>
-
-00005020 <TC2_CINT_CMD>:
-//TC2_CINT_X:TC2_CC0RI,TC2_CC1RI,TC2_CC0FI,TC2_CC1FI,TC2_Match0,TC2_Match1
-//NewState:ENABLE,DISABLE
-//ReturnValue:NONE
-/*************************************************************/ 
-void TC2_CINT_CMD(TC2_CINT_TypeDef TC2_CINT_X , FunctionalStatus NewState)
-{
-    5020:	1260      	lrw      	r3, 0x20000050	// 5120 <TC2_Wakeup_Disable+0x1c>
-	if (NewState != DISABLE)
-    5022:	3940      	cmpnei      	r1, 0
-	{
-		TC2->CIMSCR |=TC2_CINT_X;					//SET
-    5024:	9360      	ld.w      	r3, (r3, 0x0)
-    5026:	237f      	addi      	r3, 128
-    5028:	9342      	ld.w      	r2, (r3, 0x8)
-	if (NewState != DISABLE)
-    502a:	0c04      	bf      	0x5032	// 5032 <TC2_CINT_CMD+0x12>
-		TC2->CIMSCR |=TC2_CINT_X;					//SET
-    502c:	6c08      	or      	r0, r2
-    502e:	b302      	st.w      	r0, (r3, 0x8)
-	}
-	else
-	{
-		TC2->CIMSCR &=(~TC2_CINT_X);				//CLR
-	}
-}
-    5030:	783c      	jmp      	r15
-		TC2->CIMSCR &=(~TC2_CINT_X);				//CLR
-    5032:	6881      	andn      	r2, r0
-    5034:	b342      	st.w      	r2, (r3, 0x8)
-}
-    5036:	07fd      	br      	0x5030	// 5030 <TC2_CINT_CMD+0x10>
-
-00005038 <TC2_Configure>:
-//TC2_DIVN:0~0x0f
-//ReturnValue:NONE
-/*************************************************************/
-void TC2_Configure(TC2_Count_mode_TypeDef TC2_Count_mode_X , TC2_Count_STOPTYPE_TypeDef TC2_Count_STOPTYPE
-					 , TC2_CM0_Mode_TypeDef TC2_CM0_Mode_X , TC2_CM1_Mode_TypeDef TC2_CM1_Mode_X , int TC2_DIVM , int TC2_DIVN)
-{
-    5038:	14c4      	push      	r4-r7
-    503a:	1421      	subi      	r14, r14, 4
-    503c:	9885      	ld.w      	r4, (r14, 0x14)
-    503e:	6dd3      	mov      	r7, r4
-    5040:	9886      	ld.w      	r4, (r14, 0x18)
-    5042:	b880      	st.w      	r4, (r14, 0x0)
-    TC2->MR&=0xfefffdff;
-	TC2->CDR&=0Xffff8000;
-	TC2->CMR&=0XFFFFFFFA;
-    5044:	3680      	movi      	r6, 128
-    TC2->MR&=0xfefffdff;
-    5046:	1197      	lrw      	r4, 0x20000050	// 5120 <TC2_Wakeup_Disable+0x1c>
-    5048:	9480      	ld.w      	r4, (r4, 0x0)
-    504a:	94a9      	ld.w      	r5, (r4, 0x24)
-    504c:	3d89      	bclri      	r5, 9
-    504e:	3d98      	bclri      	r5, 24
-    5050:	b4a9      	st.w      	r5, (r4, 0x24)
-	TC2->CDR&=0Xffff8000;
-    5052:	94ae      	ld.w      	r5, (r4, 0x38)
-    5054:	4daf      	lsri      	r5, r5, 15
-    5056:	45af      	lsli      	r5, r5, 15
-    5058:	b4ae      	st.w      	r5, (r4, 0x38)
-	TC2->CMR&=0XFFFFFFFA;
-    505a:	6190      	addu      	r6, r4
-    505c:	96a1      	ld.w      	r5, (r6, 0x4)
-    505e:	3d80      	bclri      	r5, 0
-    5060:	3d82      	bclri      	r5, 2
-    5062:	b6a1      	st.w      	r5, (r6, 0x4)
-	TC2->MR|=TC2_Count_mode_X|TC2_Count_STOPTYPE;
-    5064:	94a9      	ld.w      	r5, (r4, 0x24)
-    5066:	6c54      	or      	r1, r5
-    5068:	6c04      	or      	r0, r1
-    506a:	b409      	st.w      	r0, (r4, 0x24)
-	TC2->CDR|=(TC2_DIVM<<4)|TC2_DIVN;
-    506c:	4724      	lsli      	r1, r7, 4
-    506e:	98a0      	ld.w      	r5, (r14, 0x0)
-    5070:	940e      	ld.w      	r0, (r4, 0x38)
-    5072:	6c54      	or      	r1, r5
-    5074:	6c40      	or      	r1, r0
-    5076:	b42e      	st.w      	r1, (r4, 0x38)
-	TC2->CMR|=TC2_CM0_Mode_X|TC2_CM1_Mode_X;
-    5078:	9621      	ld.w      	r1, (r6, 0x4)
-    507a:	6cc4      	or      	r3, r1
-    507c:	6c8c      	or      	r2, r3
-    507e:	b641      	st.w      	r2, (r6, 0x4)
-}
-    5080:	1401      	addi      	r14, r14, 4
-    5082:	1484      	pop      	r4-r7
-
-00005084 <TC2_Channel0_Capture_LoadMode_set>:
-//TC2_C0SR_X:TC2_C0SR_CaptureRise,TC2_C0SR_CaptureFall,TC2_C0SR_CaptureRiseFall
-//ReturnValue:Conter prdr register value
-/*************************************************************/ 
-void TC2_Channel0_Capture_LoadMode_set(TC2_C0SR_TypeDef TC2_C0SR_X)
-{
-	TC2->CRR &= 0XFFFFFFFE;						//Disable TC2 Channel0 clk 
-    5084:	1167      	lrw      	r3, 0x20000050	// 5120 <TC2_Wakeup_Disable+0x1c>
-    5086:	9360      	ld.w      	r3, (r3, 0x0)
-    5088:	237f      	addi      	r3, 128
-    508a:	9340      	ld.w      	r2, (r3, 0x0)
-    508c:	3a80      	bclri      	r2, 0
-    508e:	b340      	st.w      	r2, (r3, 0x0)
-	TC2->CMR&=0XFFFCFFFF;
-    5090:	9341      	ld.w      	r2, (r3, 0x4)
-    5092:	3a90      	bclri      	r2, 16
-    5094:	3a91      	bclri      	r2, 17
-    5096:	b341      	st.w      	r2, (r3, 0x4)
-	TC2->CMR|=TC2_C0SR_X;
-    5098:	9341      	ld.w      	r2, (r3, 0x4)
-    509a:	6c08      	or      	r0, r2
-    509c:	b301      	st.w      	r0, (r3, 0x4)
-	TC2->CRR |= 0x01;							//enable TC2 Channel0 clk
-    509e:	9340      	ld.w      	r2, (r3, 0x0)
-    50a0:	3aa0      	bseti      	r2, 0
-    50a2:	b340      	st.w      	r2, (r3, 0x0)
-}
-    50a4:	783c      	jmp      	r15
-
-000050a6 <TC2_Channel1_Capture_LoadMode_set>:
-//TC2_C1SR_X:TC2_C1SR_CaptureRise,TC2_C1SR_CaptureFall,TC2_C1SR_CaptureRiseFall
-//ReturnValue:Conter prdr register value
-/*************************************************************/ 
-void TC2_Channel1_Capture_LoadMode_set(TC2_C1SR_TypeDef TC2_C1SR_X)
-{
-	TC2->CRR &= 0XFFFFFFFD;						//Disable TC2 Channel0 clk 
-    50a6:	107f      	lrw      	r3, 0x20000050	// 5120 <TC2_Wakeup_Disable+0x1c>
-    50a8:	9360      	ld.w      	r3, (r3, 0x0)
-    50aa:	237f      	addi      	r3, 128
-    50ac:	9340      	ld.w      	r2, (r3, 0x0)
-    50ae:	3a81      	bclri      	r2, 1
-    50b0:	b340      	st.w      	r2, (r3, 0x0)
-	TC2->CMR&=0XFFF3FFFF;
-    50b2:	9341      	ld.w      	r2, (r3, 0x4)
-    50b4:	3a92      	bclri      	r2, 18
-    50b6:	3a93      	bclri      	r2, 19
-    50b8:	b341      	st.w      	r2, (r3, 0x4)
-	TC2->CMR|=TC2_C1SR_X;
-    50ba:	9341      	ld.w      	r2, (r3, 0x4)
-    50bc:	6c08      	or      	r0, r2
-    50be:	b301      	st.w      	r0, (r3, 0x4)
-	TC2->CRR |= 0x02;							//enable TC2 Channel0 clk
-    50c0:	9340      	ld.w      	r2, (r3, 0x0)
-    50c2:	3aa1      	bseti      	r2, 1
-    50c4:	b340      	st.w      	r2, (r3, 0x0)
-}
-    50c6:	783c      	jmp      	r15
-
-000050c8 <TC2_CNR_CC0_CC1_Load>:
-//EntryParameter:loadCounter_PRDR,loadCounter_PULR
-//ReturnValue:Conter prdr register value
-/*************************************************************/ 
-void TC2_CNR_CC0_CC1_Load(U16_T TC2_CNTR, U16_T TC2_CC0R , U16_T TC2_CC1R)
-{
-	TC2->CNTR=TC2_CNTR;
-    50c8:	1076      	lrw      	r3, 0x20000050	// 5120 <TC2_Wakeup_Disable+0x1c>
-    50ca:	9360      	ld.w      	r3, (r3, 0x0)
-    50cc:	b30d      	st.w      	r0, (r3, 0x34)
-	TC2->CC0R=TC2_CC0R;
-    50ce:	237f      	addi      	r3, 128
-    50d0:	b330      	st.w      	r1, (r3, 0x40)
-	TC2->CC1R=TC2_CC1R;
-    50d2:	b351      	st.w      	r2, (r3, 0x44)
-}
-    50d4:	783c      	jmp      	r15
-
-000050d6 <TC2_Int_Enable>:
-//EntryParameter:NONE
-//ReturnValue:NONE
-/*************************************************************/
-void TC2_Int_Enable(void)
-{
-    INTC_ISER_WRITE(TC2_INT);    
-    50d6:	1074      	lrw      	r3, 0x20000078	// 5124 <TC2_Wakeup_Disable+0x20>
-    50d8:	3280      	movi      	r2, 128
-    50da:	9360      	ld.w      	r3, (r3, 0x0)
-    50dc:	23ff      	addi      	r3, 256
-    50de:	4244      	lsli      	r2, r2, 4
-    50e0:	b340      	st.w      	r2, (r3, 0x0)
-}
-    50e2:	783c      	jmp      	r15
-
-000050e4 <TC2_Int_Disable>:
-//EntryParameter:NONE
-//ReturnValue:NONE
-/*************************************************************/
-void TC2_Int_Disable(void)
-{
-    INTC_ICER_WRITE(TC2_INT);    
-    50e4:	1070      	lrw      	r3, 0x20000078	// 5124 <TC2_Wakeup_Disable+0x20>
-    50e6:	32c0      	movi      	r2, 192
-    50e8:	9360      	ld.w      	r3, (r3, 0x0)
-    50ea:	4241      	lsli      	r2, r2, 1
-    50ec:	60c8      	addu      	r3, r2
-    50ee:	3280      	movi      	r2, 128
-    50f0:	4244      	lsli      	r2, r2, 4
-    50f2:	b340      	st.w      	r2, (r3, 0x0)
-}
-    50f4:	783c      	jmp      	r15
-
-000050f6 <TC2_Wakeup_Enable>:
-//EntryParameter:NONE
-//ReturnValue:NONE
-/*************************************************************/
-void TC2_Wakeup_Enable(void)
-{
-    INTC_IWER_WRITE(TC2_INT);    
-    50f6:	106c      	lrw      	r3, 0x20000078	// 5124 <TC2_Wakeup_Disable+0x20>
-    50f8:	3280      	movi      	r2, 128
-    50fa:	9360      	ld.w      	r3, (r3, 0x0)
-    50fc:	23ff      	addi      	r3, 256
-    50fe:	4244      	lsli      	r2, r2, 4
-    5100:	b350      	st.w      	r2, (r3, 0x40)
-}
-    5102:	783c      	jmp      	r15
-
-00005104 <TC2_Wakeup_Disable>:
-//EntryParameter:NONE
-//ReturnValue:NONE
-/*************************************************************/
-void TC2_Wakeup_Disable(void)
-{
-    INTC_IWDR_WRITE(TC2_INT);    
-    5104:	1068      	lrw      	r3, 0x20000078	// 5124 <TC2_Wakeup_Disable+0x20>
-    5106:	32e0      	movi      	r2, 224
-    5108:	9360      	ld.w      	r3, (r3, 0x0)
-    510a:	4241      	lsli      	r2, r2, 1
-    510c:	60c8      	addu      	r3, r2
-    510e:	3280      	movi      	r2, 128
-    5110:	4244      	lsli      	r2, r2, 4
-    5112:	b340      	st.w      	r2, (r3, 0x0)
-}
-    5114:	783c      	jmp      	r15
-    5116:	0000      	bkpt
-    5118:	20000014 	.long	0x20000014
-    511c:	20000010 	.long	0x20000010
-    5120:	20000050 	.long	0x20000050
-    5124:	20000078 	.long	0x20000078
-
-00005128 <CORETHandler>:
+00003aec <CORETHandler>:
 //CORET Interrupt
 //EntryParameter:NONE
 //ReturnValue:NONE
 /*************************************************************/
 void CORETHandler(void) 
 {
-    5128:	1460      	nie
-    512a:	1462      	ipush
+    3aec:	1460      	nie
+    3aee:	1462      	ipush
     // ISR content ...
 	
 	CK802->CORET_CVR = 0;							// Coret CVR 清除
-    512c:	1063      	lrw      	r3, 0x20000078	// 5138 <CORETHandler+0x10>
-    512e:	3200      	movi      	r2, 0
-    5130:	9360      	ld.w      	r3, (r3, 0x0)
-    5132:	b346      	st.w      	r2, (r3, 0x18)
+    3af0:	1063      	lrw      	r3, 0x20000078	// 3afc <CORETHandler+0x10>
+    3af2:	3200      	movi      	r2, 0
+    3af4:	9360      	ld.w      	r3, (r3, 0x0)
+    3af6:	b346      	st.w      	r2, (r3, 0x18)
 }
-    5134:	1463      	ipop
-    5136:	1461      	nir
-    5138:	20000078 	.long	0x20000078
+    3af8:	1463      	ipop
+    3afa:	1461      	nir
+    3afc:	20000078 	.long	0x20000078
 
-0000513c <SYSCONIntHandler>:
+00003b00 <SYSCONIntHandler>:
 //SYSCON Interrupt
 //EntryParameter:NONE
 //ReturnValue:NONE
 /*************************************************************/
 void SYSCONIntHandler(void) 
 {
-    513c:	1460      	nie
-    513e:	1462      	ipush
+    3b00:	1460      	nie
+    3b02:	1462      	ipush
     // ISR content ...
 	if((SYSCON->MISR&ISOSC_ST)==ISOSC_ST)				//ISOSC stable interrupt
-    5140:	0166      	lrw      	r3, 0x20000070	// 54a4 <EPTIntHandler+0x1c>
-    5142:	3280      	movi      	r2, 128
-    5144:	9360      	ld.w      	r3, (r3, 0x0)
-    5146:	60c8      	addu      	r3, r2
-    5148:	9323      	ld.w      	r1, (r3, 0xc)
-    514a:	3001      	movi      	r0, 1
-    514c:	6840      	and      	r1, r0
-    514e:	3940      	cmpnei      	r1, 0
-    5150:	0c04      	bf      	0x5158	// 5158 <SYSCONIntHandler+0x1c>
+    3b04:	0166      	lrw      	r3, 0x20000070	// 3e68 <EPTIntHandler+0x1c>
+    3b06:	3280      	movi      	r2, 128
+    3b08:	9360      	ld.w      	r3, (r3, 0x0)
+    3b0a:	60c8      	addu      	r3, r2
+    3b0c:	9323      	ld.w      	r1, (r3, 0xc)
+    3b0e:	3001      	movi      	r0, 1
+    3b10:	6840      	and      	r1, r0
+    3b12:	3940      	cmpnei      	r1, 0
+    3b14:	0c04      	bf      	0x3b1c	// 3b1c <SYSCONIntHandler+0x1c>
 	{
 		SYSCON->ICR = EMOSC_ST;
 	} 
 	else if((SYSCON->MISR&HFOSC_ST)==HFOSC_ST)			//HFOSC stable interrupt
 	{
 		SYSCON->ICR = HFOSC_ST;
-    5152:	b301      	st.w      	r0, (r3, 0x4)
+    3b16:	b301      	st.w      	r0, (r3, 0x4)
 	}
 	else if((SYSCON->MISR&CMD_ERR_ST)==CMD_ERR_ST)		//Command error interrupt
 	{
 		SYSCON->ICR = CMD_ERR_ST;
 	}
 }
-    5154:	1463      	ipop
-    5156:	1461      	nir
+    3b18:	1463      	ipop
+    3b1a:	1461      	nir
 	else if((SYSCON->MISR&IMOSC_ST)==IMOSC_ST)			//IMOSC stable interrupt
-    5158:	9323      	ld.w      	r1, (r3, 0xc)
-    515a:	3002      	movi      	r0, 2
-    515c:	6840      	and      	r1, r0
-    515e:	3940      	cmpnei      	r1, 0
-    5160:	0bf9      	bt      	0x5152	// 5152 <SYSCONIntHandler+0x16>
+    3b1c:	9323      	ld.w      	r1, (r3, 0xc)
+    3b1e:	3002      	movi      	r0, 2
+    3b20:	6840      	and      	r1, r0
+    3b22:	3940      	cmpnei      	r1, 0
+    3b24:	0bf9      	bt      	0x3b16	// 3b16 <SYSCONIntHandler+0x16>
 	else if((SYSCON->MISR&EMOSC_ST)==EMOSC_ST)			//EMOSC stable interrupt
-    5162:	9323      	ld.w      	r1, (r3, 0xc)
-    5164:	3008      	movi      	r0, 8
-    5166:	6840      	and      	r1, r0
-    5168:	3940      	cmpnei      	r1, 0
-    516a:	0bf4      	bt      	0x5152	// 5152 <SYSCONIntHandler+0x16>
+    3b26:	9323      	ld.w      	r1, (r3, 0xc)
+    3b28:	3008      	movi      	r0, 8
+    3b2a:	6840      	and      	r1, r0
+    3b2c:	3940      	cmpnei      	r1, 0
+    3b2e:	0bf4      	bt      	0x3b16	// 3b16 <SYSCONIntHandler+0x16>
 	else if((SYSCON->MISR&HFOSC_ST)==HFOSC_ST)			//HFOSC stable interrupt
-    516c:	9323      	ld.w      	r1, (r3, 0xc)
-    516e:	3010      	movi      	r0, 16
-    5170:	6840      	and      	r1, r0
-    5172:	3940      	cmpnei      	r1, 0
-    5174:	0bef      	bt      	0x5152	// 5152 <SYSCONIntHandler+0x16>
+    3b30:	9323      	ld.w      	r1, (r3, 0xc)
+    3b32:	3010      	movi      	r0, 16
+    3b34:	6840      	and      	r1, r0
+    3b36:	3940      	cmpnei      	r1, 0
+    3b38:	0bef      	bt      	0x3b16	// 3b16 <SYSCONIntHandler+0x16>
 	else if((SYSCON->MISR&SYSCLK_ST)==SYSCLK_ST)		//SYSCLK change end & stable interrupt
-    5176:	9323      	ld.w      	r1, (r3, 0xc)
-    5178:	6848      	and      	r1, r2
-    517a:	3940      	cmpnei      	r1, 0
-    517c:	0c03      	bf      	0x5182	// 5182 <SYSCONIntHandler+0x46>
+    3b3a:	9323      	ld.w      	r1, (r3, 0xc)
+    3b3c:	6848      	and      	r1, r2
+    3b3e:	3940      	cmpnei      	r1, 0
+    3b40:	0c03      	bf      	0x3b46	// 3b46 <SYSCONIntHandler+0x46>
 		SYSCON->ICR = CMD_ERR_ST;
-    517e:	b341      	st.w      	r2, (r3, 0x4)
+    3b42:	b341      	st.w      	r2, (r3, 0x4)
 }
-    5180:	07ea      	br      	0x5154	// 5154 <SYSCONIntHandler+0x18>
+    3b44:	07ea      	br      	0x3b18	// 3b18 <SYSCONIntHandler+0x18>
 	else if((SYSCON->MISR&IWDT_INT_ST)==IWDT_INT_ST)	//IWDT alarm window interrupt
-    5182:	3280      	movi      	r2, 128
-    5184:	9323      	ld.w      	r1, (r3, 0xc)
-    5186:	4241      	lsli      	r2, r2, 1
-    5188:	6848      	and      	r1, r2
-    518a:	3940      	cmpnei      	r1, 0
-    518c:	0bf9      	bt      	0x517e	// 517e <SYSCONIntHandler+0x42>
+    3b46:	3280      	movi      	r2, 128
+    3b48:	9323      	ld.w      	r1, (r3, 0xc)
+    3b4a:	4241      	lsli      	r2, r2, 1
+    3b4c:	6848      	and      	r1, r2
+    3b4e:	3940      	cmpnei      	r1, 0
+    3b50:	0bf9      	bt      	0x3b42	// 3b42 <SYSCONIntHandler+0x42>
 	else if((SYSCON->MISR&WKI_INT_ST)==WKI_INT_ST)
-    518e:	3280      	movi      	r2, 128
-    5190:	9323      	ld.w      	r1, (r3, 0xc)
-    5192:	4242      	lsli      	r2, r2, 2
-    5194:	6848      	and      	r1, r2
-    5196:	3940      	cmpnei      	r1, 0
-    5198:	0bf3      	bt      	0x517e	// 517e <SYSCONIntHandler+0x42>
+    3b52:	3280      	movi      	r2, 128
+    3b54:	9323      	ld.w      	r1, (r3, 0xc)
+    3b56:	4242      	lsli      	r2, r2, 2
+    3b58:	6848      	and      	r1, r2
+    3b5a:	3940      	cmpnei      	r1, 0
+    3b5c:	0bf3      	bt      	0x3b42	// 3b42 <SYSCONIntHandler+0x42>
 	else if((SYSCON->MISR&RAMERRINT_ST)==RAMERRINT_ST)	//SRAM check fail interrupt
-    519a:	3280      	movi      	r2, 128
-    519c:	9323      	ld.w      	r1, (r3, 0xc)
-    519e:	4243      	lsli      	r2, r2, 3
-    51a0:	6848      	and      	r1, r2
-    51a2:	3940      	cmpnei      	r1, 0
-    51a4:	0bed      	bt      	0x517e	// 517e <SYSCONIntHandler+0x42>
+    3b5e:	3280      	movi      	r2, 128
+    3b60:	9323      	ld.w      	r1, (r3, 0xc)
+    3b62:	4243      	lsli      	r2, r2, 3
+    3b64:	6848      	and      	r1, r2
+    3b66:	3940      	cmpnei      	r1, 0
+    3b68:	0bed      	bt      	0x3b42	// 3b42 <SYSCONIntHandler+0x42>
 	else if((SYSCON->MISR&LVD_INT_ST)==LVD_INT_ST)		//LVD threshold interrupt
-    51a6:	3280      	movi      	r2, 128
-    51a8:	9323      	ld.w      	r1, (r3, 0xc)
-    51aa:	4244      	lsli      	r2, r2, 4
-    51ac:	6848      	and      	r1, r2
-    51ae:	3940      	cmpnei      	r1, 0
-    51b0:	0be7      	bt      	0x517e	// 517e <SYSCONIntHandler+0x42>
+    3b6a:	3280      	movi      	r2, 128
+    3b6c:	9323      	ld.w      	r1, (r3, 0xc)
+    3b6e:	4244      	lsli      	r2, r2, 4
+    3b70:	6848      	and      	r1, r2
+    3b72:	3940      	cmpnei      	r1, 0
+    3b74:	0be7      	bt      	0x3b42	// 3b42 <SYSCONIntHandler+0x42>
 	else if((SYSCON->MISR&HWD_ERR_ST)==HWD_ERR_ST)		//Hardware Divider divisor = 0 interrupt
-    51b2:	3280      	movi      	r2, 128
-    51b4:	9323      	ld.w      	r1, (r3, 0xc)
-    51b6:	4245      	lsli      	r2, r2, 5
-    51b8:	6848      	and      	r1, r2
-    51ba:	3940      	cmpnei      	r1, 0
-    51bc:	0be1      	bt      	0x517e	// 517e <SYSCONIntHandler+0x42>
+    3b76:	3280      	movi      	r2, 128
+    3b78:	9323      	ld.w      	r1, (r3, 0xc)
+    3b7a:	4245      	lsli      	r2, r2, 5
+    3b7c:	6848      	and      	r1, r2
+    3b7e:	3940      	cmpnei      	r1, 0
+    3b80:	0be1      	bt      	0x3b42	// 3b42 <SYSCONIntHandler+0x42>
 	else if((SYSCON->MISR&EFL_ERR_ST)==EFL_ERR_ST)		//Flash check fail interrupt
-    51be:	3280      	movi      	r2, 128
-    51c0:	9323      	ld.w      	r1, (r3, 0xc)
-    51c2:	4246      	lsli      	r2, r2, 6
-    51c4:	6848      	and      	r1, r2
-    51c6:	3940      	cmpnei      	r1, 0
-    51c8:	0bdb      	bt      	0x517e	// 517e <SYSCONIntHandler+0x42>
+    3b82:	3280      	movi      	r2, 128
+    3b84:	9323      	ld.w      	r1, (r3, 0xc)
+    3b86:	4246      	lsli      	r2, r2, 6
+    3b88:	6848      	and      	r1, r2
+    3b8a:	3940      	cmpnei      	r1, 0
+    3b8c:	0bdb      	bt      	0x3b42	// 3b42 <SYSCONIntHandler+0x42>
 	else if((SYSCON->MISR&OPTERR_INT)==OPTERR_INT)		//Option load fail interrupt
-    51ca:	3280      	movi      	r2, 128
-    51cc:	9323      	ld.w      	r1, (r3, 0xc)
-    51ce:	4247      	lsli      	r2, r2, 7
-    51d0:	6848      	and      	r1, r2
-    51d2:	3940      	cmpnei      	r1, 0
-    51d4:	0bd5      	bt      	0x517e	// 517e <SYSCONIntHandler+0x42>
+    3b8e:	3280      	movi      	r2, 128
+    3b90:	9323      	ld.w      	r1, (r3, 0xc)
+    3b92:	4247      	lsli      	r2, r2, 7
+    3b94:	6848      	and      	r1, r2
+    3b96:	3940      	cmpnei      	r1, 0
+    3b98:	0bd5      	bt      	0x3b42	// 3b42 <SYSCONIntHandler+0x42>
 	else if((SYSCON->MISR&EM_CMLST_ST)==EM_CMLST_ST)	//EMOSC clock monitor fail interrupt
-    51d6:	3280      	movi      	r2, 128
-    51d8:	9323      	ld.w      	r1, (r3, 0xc)
-    51da:	424b      	lsli      	r2, r2, 11
-    51dc:	6848      	and      	r1, r2
-    51de:	3940      	cmpnei      	r1, 0
-    51e0:	0bcf      	bt      	0x517e	// 517e <SYSCONIntHandler+0x42>
+    3b9a:	3280      	movi      	r2, 128
+    3b9c:	9323      	ld.w      	r1, (r3, 0xc)
+    3b9e:	424b      	lsli      	r2, r2, 11
+    3ba0:	6848      	and      	r1, r2
+    3ba2:	3940      	cmpnei      	r1, 0
+    3ba4:	0bcf      	bt      	0x3b42	// 3b42 <SYSCONIntHandler+0x42>
 	else if((SYSCON->MISR&EM_EVTRG0_ST)==EM_EVTRG0_ST)	//Event Trigger Channel 0 Interrupt
-    51e2:	3280      	movi      	r2, 128
-    51e4:	9323      	ld.w      	r1, (r3, 0xc)
-    51e6:	424c      	lsli      	r2, r2, 12
-    51e8:	6848      	and      	r1, r2
-    51ea:	3940      	cmpnei      	r1, 0
-    51ec:	0bc9      	bt      	0x517e	// 517e <SYSCONIntHandler+0x42>
+    3ba6:	3280      	movi      	r2, 128
+    3ba8:	9323      	ld.w      	r1, (r3, 0xc)
+    3baa:	424c      	lsli      	r2, r2, 12
+    3bac:	6848      	and      	r1, r2
+    3bae:	3940      	cmpnei      	r1, 0
+    3bb0:	0bc9      	bt      	0x3b42	// 3b42 <SYSCONIntHandler+0x42>
 	else if((SYSCON->MISR&EM_EVTRG1_ST)==EM_EVTRG1_ST)	//Event Trigger Channel 1 Interrupt
-    51ee:	3280      	movi      	r2, 128
-    51f0:	9323      	ld.w      	r1, (r3, 0xc)
-    51f2:	424d      	lsli      	r2, r2, 13
-    51f4:	6848      	and      	r1, r2
-    51f6:	3940      	cmpnei      	r1, 0
-    51f8:	0bc3      	bt      	0x517e	// 517e <SYSCONIntHandler+0x42>
+    3bb2:	3280      	movi      	r2, 128
+    3bb4:	9323      	ld.w      	r1, (r3, 0xc)
+    3bb6:	424d      	lsli      	r2, r2, 13
+    3bb8:	6848      	and      	r1, r2
+    3bba:	3940      	cmpnei      	r1, 0
+    3bbc:	0bc3      	bt      	0x3b42	// 3b42 <SYSCONIntHandler+0x42>
 	else if((SYSCON->MISR&EM_EVTRG2_ST)==EM_EVTRG2_ST)	//Event Trigger Channel 2 Interrupt
-    51fa:	3280      	movi      	r2, 128
-    51fc:	9323      	ld.w      	r1, (r3, 0xc)
-    51fe:	424e      	lsli      	r2, r2, 14
-    5200:	6848      	and      	r1, r2
-    5202:	3940      	cmpnei      	r1, 0
-    5204:	0bbd      	bt      	0x517e	// 517e <SYSCONIntHandler+0x42>
+    3bbe:	3280      	movi      	r2, 128
+    3bc0:	9323      	ld.w      	r1, (r3, 0xc)
+    3bc2:	424e      	lsli      	r2, r2, 14
+    3bc4:	6848      	and      	r1, r2
+    3bc6:	3940      	cmpnei      	r1, 0
+    3bc8:	0bbd      	bt      	0x3b42	// 3b42 <SYSCONIntHandler+0x42>
 	else if((SYSCON->MISR&EM_EVTRG3_ST)==EM_EVTRG3_ST)	//Event Trigger Channel 3 Interrupt
-    5206:	3280      	movi      	r2, 128
-    5208:	9323      	ld.w      	r1, (r3, 0xc)
-    520a:	424f      	lsli      	r2, r2, 15
-    520c:	6848      	and      	r1, r2
-    520e:	3940      	cmpnei      	r1, 0
-    5210:	0bb7      	bt      	0x517e	// 517e <SYSCONIntHandler+0x42>
+    3bca:	3280      	movi      	r2, 128
+    3bcc:	9323      	ld.w      	r1, (r3, 0xc)
+    3bce:	424f      	lsli      	r2, r2, 15
+    3bd0:	6848      	and      	r1, r2
+    3bd2:	3940      	cmpnei      	r1, 0
+    3bd4:	0bb7      	bt      	0x3b42	// 3b42 <SYSCONIntHandler+0x42>
 	else if((SYSCON->MISR&CMD_ERR_ST)==CMD_ERR_ST)		//Command error interrupt
-    5212:	3280      	movi      	r2, 128
-    5214:	9323      	ld.w      	r1, (r3, 0xc)
-    5216:	4256      	lsli      	r2, r2, 22
-    5218:	6848      	and      	r1, r2
-    521a:	3940      	cmpnei      	r1, 0
-    521c:	0bb1      	bt      	0x517e	// 517e <SYSCONIntHandler+0x42>
-    521e:	079b      	br      	0x5154	// 5154 <SYSCONIntHandler+0x18>
+    3bd6:	3280      	movi      	r2, 128
+    3bd8:	9323      	ld.w      	r1, (r3, 0xc)
+    3bda:	4256      	lsli      	r2, r2, 22
+    3bdc:	6848      	and      	r1, r2
+    3bde:	3940      	cmpnei      	r1, 0
+    3be0:	0bb1      	bt      	0x3b42	// 3b42 <SYSCONIntHandler+0x42>
+    3be2:	079b      	br      	0x3b18	// 3b18 <SYSCONIntHandler+0x18>
 
-00005220 <IFCIntHandler>:
+00003be4 <IFCIntHandler>:
 //IFC Interrupt
 //EntryParameter:NONE
 //ReturnValue:NONE
 /*************************************************************/
 void IFCIntHandler(void) 
 {
-    5220:	1460      	nie
-    5222:	1462      	ipush
+    3be4:	1460      	nie
+    3be6:	1462      	ipush
     // ISR content ...
 	if(IFC->MISR&ERS_END_INT)			
-    5224:	027e      	lrw      	r3, 0x20000074	// 54a8 <EPTIntHandler+0x20>
-    5226:	3101      	movi      	r1, 1
-    5228:	9360      	ld.w      	r3, (r3, 0x0)
-    522a:	934b      	ld.w      	r2, (r3, 0x2c)
-    522c:	6884      	and      	r2, r1
-    522e:	3a40      	cmpnei      	r2, 0
-    5230:	0c04      	bf      	0x5238	// 5238 <IFCIntHandler+0x18>
+    3be8:	027e      	lrw      	r3, 0x20000074	// 3e6c <EPTIntHandler+0x20>
+    3bea:	3101      	movi      	r1, 1
+    3bec:	9360      	ld.w      	r3, (r3, 0x0)
+    3bee:	934b      	ld.w      	r2, (r3, 0x2c)
+    3bf0:	6884      	and      	r2, r1
+    3bf2:	3a40      	cmpnei      	r2, 0
+    3bf4:	0c04      	bf      	0x3bfc	// 3bfc <IFCIntHandler+0x18>
 	{
 		IFC->ICR=RGM_END_INT;
 	}
 	else if(IFC->MISR&PEP_END_INT)		
 	{
 		IFC->ICR=PEP_END_INT;
-    5232:	b32c      	st.w      	r1, (r3, 0x30)
+    3bf6:	b32c      	st.w      	r1, (r3, 0x30)
 	}
 	else if(IFC->MISR&OVW_ERR_INT)		
 	{
 		IFC->ICR=OVW_ERR_INT;
 	}
 }
-    5234:	1463      	ipop
-    5236:	1461      	nir
+    3bf8:	1463      	ipop
+    3bfa:	1461      	nir
 	else if(IFC->MISR&RGM_END_INT)		
-    5238:	934b      	ld.w      	r2, (r3, 0x2c)
-    523a:	3102      	movi      	r1, 2
-    523c:	6884      	and      	r2, r1
-    523e:	3a40      	cmpnei      	r2, 0
-    5240:	0bf9      	bt      	0x5232	// 5232 <IFCIntHandler+0x12>
+    3bfc:	934b      	ld.w      	r2, (r3, 0x2c)
+    3bfe:	3102      	movi      	r1, 2
+    3c00:	6884      	and      	r2, r1
+    3c02:	3a40      	cmpnei      	r2, 0
+    3c04:	0bf9      	bt      	0x3bf6	// 3bf6 <IFCIntHandler+0x12>
 	else if(IFC->MISR&PEP_END_INT)		
-    5242:	934b      	ld.w      	r2, (r3, 0x2c)
-    5244:	3104      	movi      	r1, 4
-    5246:	6884      	and      	r2, r1
-    5248:	3a40      	cmpnei      	r2, 0
-    524a:	0bf4      	bt      	0x5232	// 5232 <IFCIntHandler+0x12>
+    3c06:	934b      	ld.w      	r2, (r3, 0x2c)
+    3c08:	3104      	movi      	r1, 4
+    3c0a:	6884      	and      	r2, r1
+    3c0c:	3a40      	cmpnei      	r2, 0
+    3c0e:	0bf4      	bt      	0x3bf6	// 3bf6 <IFCIntHandler+0x12>
 	else if(IFC->MISR&PROT_ERR_INT)		
-    524c:	3280      	movi      	r2, 128
-    524e:	932b      	ld.w      	r1, (r3, 0x2c)
-    5250:	4245      	lsli      	r2, r2, 5
-    5252:	6848      	and      	r1, r2
-    5254:	3940      	cmpnei      	r1, 0
-    5256:	0c03      	bf      	0x525c	// 525c <IFCIntHandler+0x3c>
+    3c10:	3280      	movi      	r2, 128
+    3c12:	932b      	ld.w      	r1, (r3, 0x2c)
+    3c14:	4245      	lsli      	r2, r2, 5
+    3c16:	6848      	and      	r1, r2
+    3c18:	3940      	cmpnei      	r1, 0
+    3c1a:	0c03      	bf      	0x3c20	// 3c20 <IFCIntHandler+0x3c>
 		IFC->ICR=OVW_ERR_INT;
-    5258:	b34c      	st.w      	r2, (r3, 0x30)
+    3c1c:	b34c      	st.w      	r2, (r3, 0x30)
 }
-    525a:	07ed      	br      	0x5234	// 5234 <IFCIntHandler+0x14>
+    3c1e:	07ed      	br      	0x3bf8	// 3bf8 <IFCIntHandler+0x14>
 	else if(IFC->MISR&UDEF_ERR_INT)		
-    525c:	3280      	movi      	r2, 128
-    525e:	932b      	ld.w      	r1, (r3, 0x2c)
-    5260:	4246      	lsli      	r2, r2, 6
-    5262:	6848      	and      	r1, r2
-    5264:	3940      	cmpnei      	r1, 0
-    5266:	0bf9      	bt      	0x5258	// 5258 <IFCIntHandler+0x38>
+    3c20:	3280      	movi      	r2, 128
+    3c22:	932b      	ld.w      	r1, (r3, 0x2c)
+    3c24:	4246      	lsli      	r2, r2, 6
+    3c26:	6848      	and      	r1, r2
+    3c28:	3940      	cmpnei      	r1, 0
+    3c2a:	0bf9      	bt      	0x3c1c	// 3c1c <IFCIntHandler+0x38>
 	else if(IFC->MISR&ADDR_ERR_INT)		
-    5268:	3280      	movi      	r2, 128
-    526a:	932b      	ld.w      	r1, (r3, 0x2c)
-    526c:	4247      	lsli      	r2, r2, 7
-    526e:	6848      	and      	r1, r2
-    5270:	3940      	cmpnei      	r1, 0
-    5272:	0bf3      	bt      	0x5258	// 5258 <IFCIntHandler+0x38>
+    3c2c:	3280      	movi      	r2, 128
+    3c2e:	932b      	ld.w      	r1, (r3, 0x2c)
+    3c30:	4247      	lsli      	r2, r2, 7
+    3c32:	6848      	and      	r1, r2
+    3c34:	3940      	cmpnei      	r1, 0
+    3c36:	0bf3      	bt      	0x3c1c	// 3c1c <IFCIntHandler+0x38>
 	else if(IFC->MISR&OVW_ERR_INT)		
-    5274:	3280      	movi      	r2, 128
-    5276:	932b      	ld.w      	r1, (r3, 0x2c)
-    5278:	4248      	lsli      	r2, r2, 8
-    527a:	6848      	and      	r1, r2
-    527c:	3940      	cmpnei      	r1, 0
-    527e:	0bed      	bt      	0x5258	// 5258 <IFCIntHandler+0x38>
-    5280:	07da      	br      	0x5234	// 5234 <IFCIntHandler+0x14>
+    3c38:	3280      	movi      	r2, 128
+    3c3a:	932b      	ld.w      	r1, (r3, 0x2c)
+    3c3c:	4248      	lsli      	r2, r2, 8
+    3c3e:	6848      	and      	r1, r2
+    3c40:	3940      	cmpnei      	r1, 0
+    3c42:	0bed      	bt      	0x3c1c	// 3c1c <IFCIntHandler+0x38>
+    3c44:	07da      	br      	0x3bf8	// 3bf8 <IFCIntHandler+0x14>
 
-00005282 <ADCIntHandler>:
+00003c46 <ADCIntHandler>:
 //ADC Interrupt
 //EntryParameter:NONE
 //ReturnValue:NONE
 /*************************************************************/
 void ADCIntHandler(void) 
 {
-    5282:	1460      	nie
-    5284:	1462      	ipush
+    3c46:	1460      	nie
+    3c48:	1462      	ipush
     // ISR content ...
 	if((ADC0->SR&ADC12_EOC)==ADC12_EOC)
-    5286:	0375      	lrw      	r3, 0x20000068	// 54ac <EPTIntHandler+0x24>
-    5288:	3101      	movi      	r1, 1
-    528a:	9360      	ld.w      	r3, (r3, 0x0)
-    528c:	9348      	ld.w      	r2, (r3, 0x20)
-    528e:	6884      	and      	r2, r1
-    5290:	3a40      	cmpnei      	r2, 0
-    5292:	0c03      	bf      	0x5298	// 5298 <ADCIntHandler+0x16>
+    3c4a:	0375      	lrw      	r3, 0x20000068	// 3e70 <EPTIntHandler+0x24>
+    3c4c:	3101      	movi      	r1, 1
+    3c4e:	9360      	ld.w      	r3, (r3, 0x0)
+    3c50:	9348      	ld.w      	r2, (r3, 0x20)
+    3c52:	6884      	and      	r2, r1
+    3c54:	3a40      	cmpnei      	r2, 0
+    3c56:	0c03      	bf      	0x3c5c	// 3c5c <ADCIntHandler+0x16>
 	{
 		ADC0->CSR = ADC12_CMP1H;
 	}
 	else if((ADC0->SR&ADC12_CMP1L)==ADC12_CMP1L)
 	{
 		ADC0->CSR = ADC12_CMP1L;
-    5294:	b327      	st.w      	r1, (r3, 0x1c)
+    3c58:	b327      	st.w      	r1, (r3, 0x1c)
 	}
 }
-    5296:	041f      	br      	0x52d4	// 52d4 <ADCIntHandler+0x52>
+    3c5a:	041f      	br      	0x3c98	// 3c98 <ADCIntHandler+0x52>
 	else if((ADC0->SR&ADC12_READY)==ADC12_READY)
-    5298:	9348      	ld.w      	r2, (r3, 0x20)
-    529a:	3102      	movi      	r1, 2
-    529c:	6884      	and      	r2, r1
-    529e:	3a40      	cmpnei      	r2, 0
-    52a0:	0bfa      	bt      	0x5294	// 5294 <ADCIntHandler+0x12>
+    3c5c:	9348      	ld.w      	r2, (r3, 0x20)
+    3c5e:	3102      	movi      	r1, 2
+    3c60:	6884      	and      	r2, r1
+    3c62:	3a40      	cmpnei      	r2, 0
+    3c64:	0bfa      	bt      	0x3c58	// 3c58 <ADCIntHandler+0x12>
 	else if((ADC0->SR&ADC12_OVR)==ADC12_OVR)
-    52a2:	9348      	ld.w      	r2, (r3, 0x20)
-    52a4:	3104      	movi      	r1, 4
-    52a6:	6884      	and      	r2, r1
-    52a8:	3a40      	cmpnei      	r2, 0
-    52aa:	0bf5      	bt      	0x5294	// 5294 <ADCIntHandler+0x12>
+    3c66:	9348      	ld.w      	r2, (r3, 0x20)
+    3c68:	3104      	movi      	r1, 4
+    3c6a:	6884      	and      	r2, r1
+    3c6c:	3a40      	cmpnei      	r2, 0
+    3c6e:	0bf5      	bt      	0x3c58	// 3c58 <ADCIntHandler+0x12>
 	else if((ADC0->SR&ADC12_CMP0H)==ADC12_CMP0H)
-    52ac:	9348      	ld.w      	r2, (r3, 0x20)
-    52ae:	3110      	movi      	r1, 16
-    52b0:	6884      	and      	r2, r1
-    52b2:	3a40      	cmpnei      	r2, 0
-    52b4:	0bf0      	bt      	0x5294	// 5294 <ADCIntHandler+0x12>
+    3c70:	9348      	ld.w      	r2, (r3, 0x20)
+    3c72:	3110      	movi      	r1, 16
+    3c74:	6884      	and      	r2, r1
+    3c76:	3a40      	cmpnei      	r2, 0
+    3c78:	0bf0      	bt      	0x3c58	// 3c58 <ADCIntHandler+0x12>
 	else if((ADC0->SR&ADC12_CMP0L)==ADC12_CMP0L)
-    52b6:	9348      	ld.w      	r2, (r3, 0x20)
-    52b8:	3120      	movi      	r1, 32
-    52ba:	6884      	and      	r2, r1
-    52bc:	3a40      	cmpnei      	r2, 0
-    52be:	0beb      	bt      	0x5294	// 5294 <ADCIntHandler+0x12>
+    3c7a:	9348      	ld.w      	r2, (r3, 0x20)
+    3c7c:	3120      	movi      	r1, 32
+    3c7e:	6884      	and      	r2, r1
+    3c80:	3a40      	cmpnei      	r2, 0
+    3c82:	0beb      	bt      	0x3c58	// 3c58 <ADCIntHandler+0x12>
 	else if((ADC0->SR&ADC12_CMP1H)==ADC12_CMP1H)
-    52c0:	9348      	ld.w      	r2, (r3, 0x20)
-    52c2:	3140      	movi      	r1, 64
-    52c4:	6884      	and      	r2, r1
-    52c6:	3a40      	cmpnei      	r2, 0
-    52c8:	0be6      	bt      	0x5294	// 5294 <ADCIntHandler+0x12>
+    3c84:	9348      	ld.w      	r2, (r3, 0x20)
+    3c86:	3140      	movi      	r1, 64
+    3c88:	6884      	and      	r2, r1
+    3c8a:	3a40      	cmpnei      	r2, 0
+    3c8c:	0be6      	bt      	0x3c58	// 3c58 <ADCIntHandler+0x12>
 	else if((ADC0->SR&ADC12_CMP1L)==ADC12_CMP1L)
-    52ca:	9348      	ld.w      	r2, (r3, 0x20)
-    52cc:	3180      	movi      	r1, 128
-    52ce:	6884      	and      	r2, r1
-    52d0:	3a40      	cmpnei      	r2, 0
-    52d2:	0be1      	bt      	0x5294	// 5294 <ADCIntHandler+0x12>
+    3c8e:	9348      	ld.w      	r2, (r3, 0x20)
+    3c90:	3180      	movi      	r1, 128
+    3c92:	6884      	and      	r2, r1
+    3c94:	3a40      	cmpnei      	r2, 0
+    3c96:	0be1      	bt      	0x3c58	// 3c58 <ADCIntHandler+0x12>
 }
-    52d4:	1463      	ipop
-    52d6:	1461      	nir
+    3c98:	1463      	ipop
+    3c9a:	1461      	nir
 
-000052d8 <EXI0IntHandler>:
+00003c9c <EXI0IntHandler>:
 //EXI0 Interrupt
 //EntryParameter:NONE
 //ReturnValue:NONE
 /*************************************************************/
 void EXI0IntHandler(void) 
 {
-    52d8:	1460      	nie
-    52da:	1462      	ipush
+    3c9c:	1460      	nie
+    3c9e:	1462      	ipush
     // ISR content ...
 	if ((SYSCON->EXIRS&EXI_PIN0)==EXI_PIN0) 
-    52dc:	1372      	lrw      	r3, 0x20000070	// 54a4 <EPTIntHandler+0x1c>
-    52de:	3101      	movi      	r1, 1
-    52e0:	9360      	ld.w      	r3, (r3, 0x0)
-    52e2:	237f      	addi      	r3, 128
-    52e4:	934c      	ld.w      	r2, (r3, 0x30)
-    52e6:	6884      	and      	r2, r1
-    52e8:	3a40      	cmpnei      	r2, 0
-    52ea:	0c04      	bf      	0x52f2	// 52f2 <EXI0IntHandler+0x1a>
+    3ca0:	1372      	lrw      	r3, 0x20000070	// 3e68 <EPTIntHandler+0x1c>
+    3ca2:	3101      	movi      	r1, 1
+    3ca4:	9360      	ld.w      	r3, (r3, 0x0)
+    3ca6:	237f      	addi      	r3, 128
+    3ca8:	934c      	ld.w      	r2, (r3, 0x30)
+    3caa:	6884      	and      	r2, r1
+    3cac:	3a40      	cmpnei      	r2, 0
+    3cae:	0c04      	bf      	0x3cb6	// 3cb6 <EXI0IntHandler+0x1a>
     {
         SYSCON->EXICR = EXI_PIN0;
-    52ec:	b32b      	st.w      	r1, (r3, 0x2c)
+    3cb0:	b32b      	st.w      	r1, (r3, 0x2c)
     }
 	else if ((SYSCON->EXIRS&EXI_PIN16)==EXI_PIN16) 		//EXT16 Interrupt
 	{
 		SYSCON->EXICR = EXI_PIN16;
 	}
 }
-    52ee:	1463      	ipop
-    52f0:	1461      	nir
+    3cb2:	1463      	ipop
+    3cb4:	1461      	nir
 	else if ((SYSCON->EXIRS&EXI_PIN16)==EXI_PIN16) 		//EXT16 Interrupt
-    52f2:	3280      	movi      	r2, 128
-    52f4:	932c      	ld.w      	r1, (r3, 0x30)
-    52f6:	4249      	lsli      	r2, r2, 9
-    52f8:	6848      	and      	r1, r2
-    52fa:	3940      	cmpnei      	r1, 0
-    52fc:	0ff9      	bf      	0x52ee	// 52ee <EXI0IntHandler+0x16>
+    3cb6:	3280      	movi      	r2, 128
+    3cb8:	932c      	ld.w      	r1, (r3, 0x30)
+    3cba:	4249      	lsli      	r2, r2, 9
+    3cbc:	6848      	and      	r1, r2
+    3cbe:	3940      	cmpnei      	r1, 0
+    3cc0:	0ff9      	bf      	0x3cb2	// 3cb2 <EXI0IntHandler+0x16>
 		SYSCON->EXICR = EXI_PIN16;
-    52fe:	b34b      	st.w      	r2, (r3, 0x2c)
+    3cc2:	b34b      	st.w      	r2, (r3, 0x2c)
 }
-    5300:	07f7      	br      	0x52ee	// 52ee <EXI0IntHandler+0x16>
+    3cc4:	07f7      	br      	0x3cb2	// 3cb2 <EXI0IntHandler+0x16>
 
-00005302 <EXI1IntHandler>:
+00003cc6 <EXI1IntHandler>:
 //EXI1 Interrupt
 //EntryParameter:NONE
 //ReturnValue:NONE
 /*************************************************************/
 void EXI1IntHandler(void) 
 {
-    5302:	1460      	nie
-    5304:	1462      	ipush
+    3cc6:	1460      	nie
+    3cc8:	1462      	ipush
     // ISR content ...
 	if ((SYSCON->EXIRS&EXI_PIN1)==EXI_PIN1) 
-    5306:	1368      	lrw      	r3, 0x20000070	// 54a4 <EPTIntHandler+0x1c>
-    5308:	3102      	movi      	r1, 2
-    530a:	9360      	ld.w      	r3, (r3, 0x0)
-    530c:	237f      	addi      	r3, 128
-    530e:	934c      	ld.w      	r2, (r3, 0x30)
-    5310:	6884      	and      	r2, r1
-    5312:	3a40      	cmpnei      	r2, 0
-    5314:	0c04      	bf      	0x531c	// 531c <EXI1IntHandler+0x1a>
+    3cca:	1368      	lrw      	r3, 0x20000070	// 3e68 <EPTIntHandler+0x1c>
+    3ccc:	3102      	movi      	r1, 2
+    3cce:	9360      	ld.w      	r3, (r3, 0x0)
+    3cd0:	237f      	addi      	r3, 128
+    3cd2:	934c      	ld.w      	r2, (r3, 0x30)
+    3cd4:	6884      	and      	r2, r1
+    3cd6:	3a40      	cmpnei      	r2, 0
+    3cd8:	0c04      	bf      	0x3ce0	// 3ce0 <EXI1IntHandler+0x1a>
     {
         SYSCON->EXICR = EXI_PIN1;
-    5316:	b32b      	st.w      	r1, (r3, 0x2c)
+    3cda:	b32b      	st.w      	r1, (r3, 0x2c)
     }
 	else if ((SYSCON->EXIRS&EXI_PIN17)==EXI_PIN17) 		//EXT17 Interrupt
 	{
 		SYSCON->EXICR = EXI_PIN17;
 	}
 }
-    5318:	1463      	ipop
-    531a:	1461      	nir
+    3cdc:	1463      	ipop
+    3cde:	1461      	nir
 	else if ((SYSCON->EXIRS&EXI_PIN17)==EXI_PIN17) 		//EXT17 Interrupt
-    531c:	3280      	movi      	r2, 128
-    531e:	932c      	ld.w      	r1, (r3, 0x30)
-    5320:	424a      	lsli      	r2, r2, 10
-    5322:	6848      	and      	r1, r2
-    5324:	3940      	cmpnei      	r1, 0
-    5326:	0ff9      	bf      	0x5318	// 5318 <EXI1IntHandler+0x16>
+    3ce0:	3280      	movi      	r2, 128
+    3ce2:	932c      	ld.w      	r1, (r3, 0x30)
+    3ce4:	424a      	lsli      	r2, r2, 10
+    3ce6:	6848      	and      	r1, r2
+    3ce8:	3940      	cmpnei      	r1, 0
+    3cea:	0ff9      	bf      	0x3cdc	// 3cdc <EXI1IntHandler+0x16>
 		SYSCON->EXICR = EXI_PIN17;
-    5328:	b34b      	st.w      	r2, (r3, 0x2c)
+    3cec:	b34b      	st.w      	r2, (r3, 0x2c)
 }
-    532a:	07f7      	br      	0x5318	// 5318 <EXI1IntHandler+0x16>
+    3cee:	07f7      	br      	0x3cdc	// 3cdc <EXI1IntHandler+0x16>
 
-0000532c <EXI2to3IntHandler>:
+00003cf0 <EXI2to3IntHandler>:
 //EXI2~EXI3 Interrupt
 //EntryParameter:NONE
 //ReturnValue:NONE
 /*************************************************************/
 void EXI2to3IntHandler(void) 
 {
-    532c:	1460      	nie
-    532e:	1462      	ipush
+    3cf0:	1460      	nie
+    3cf2:	1462      	ipush
     // ISR content ...
 	if ((SYSCON->EXIRS&EXI_PIN2)==EXI_PIN2) 
-    5330:	127d      	lrw      	r3, 0x20000070	// 54a4 <EPTIntHandler+0x1c>
-    5332:	3104      	movi      	r1, 4
-    5334:	9360      	ld.w      	r3, (r3, 0x0)
-    5336:	237f      	addi      	r3, 128
-    5338:	934c      	ld.w      	r2, (r3, 0x30)
-    533a:	6884      	and      	r2, r1
-    533c:	3a40      	cmpnei      	r2, 0
-    533e:	0c04      	bf      	0x5346	// 5346 <EXI2to3IntHandler+0x1a>
+    3cf4:	127d      	lrw      	r3, 0x20000070	// 3e68 <EPTIntHandler+0x1c>
+    3cf6:	3104      	movi      	r1, 4
+    3cf8:	9360      	ld.w      	r3, (r3, 0x0)
+    3cfa:	237f      	addi      	r3, 128
+    3cfc:	934c      	ld.w      	r2, (r3, 0x30)
+    3cfe:	6884      	and      	r2, r1
+    3d00:	3a40      	cmpnei      	r2, 0
+    3d02:	0c04      	bf      	0x3d0a	// 3d0a <EXI2to3IntHandler+0x1a>
     {
         SYSCON->EXICR = EXI_PIN2;
     } 
     else if ((SYSCON->EXIRS&EXI_PIN3)==EXI_PIN3) 
     {
         SYSCON->EXICR = EXI_PIN3;
-    5340:	b32b      	st.w      	r1, (r3, 0x2c)
+    3d04:	b32b      	st.w      	r1, (r3, 0x2c)
 	}
 	else if ((SYSCON->EXIRS&EXI_PIN19)==EXI_PIN19) 		//EXT19 Interrupt
 	{
 		SYSCON->EXICR = EXI_PIN19;
 	}
 }
-    5342:	1463      	ipop
-    5344:	1461      	nir
+    3d06:	1463      	ipop
+    3d08:	1461      	nir
     else if ((SYSCON->EXIRS&EXI_PIN3)==EXI_PIN3) 
-    5346:	934c      	ld.w      	r2, (r3, 0x30)
-    5348:	3108      	movi      	r1, 8
-    534a:	6884      	and      	r2, r1
-    534c:	3a40      	cmpnei      	r2, 0
-    534e:	0bf9      	bt      	0x5340	// 5340 <EXI2to3IntHandler+0x14>
+    3d0a:	934c      	ld.w      	r2, (r3, 0x30)
+    3d0c:	3108      	movi      	r1, 8
+    3d0e:	6884      	and      	r2, r1
+    3d10:	3a40      	cmpnei      	r2, 0
+    3d12:	0bf9      	bt      	0x3d04	// 3d04 <EXI2to3IntHandler+0x14>
 	else if ((SYSCON->EXIRS&EXI_PIN18)==EXI_PIN18) 		//EXT18 Interrupt
-    5350:	3280      	movi      	r2, 128
-    5352:	932c      	ld.w      	r1, (r3, 0x30)
-    5354:	424b      	lsli      	r2, r2, 11
-    5356:	6848      	and      	r1, r2
-    5358:	3940      	cmpnei      	r1, 0
-    535a:	0c03      	bf      	0x5360	// 5360 <EXI2to3IntHandler+0x34>
+    3d14:	3280      	movi      	r2, 128
+    3d16:	932c      	ld.w      	r1, (r3, 0x30)
+    3d18:	424b      	lsli      	r2, r2, 11
+    3d1a:	6848      	and      	r1, r2
+    3d1c:	3940      	cmpnei      	r1, 0
+    3d1e:	0c03      	bf      	0x3d24	// 3d24 <EXI2to3IntHandler+0x34>
 		SYSCON->EXICR = EXI_PIN19;
-    535c:	b34b      	st.w      	r2, (r3, 0x2c)
+    3d20:	b34b      	st.w      	r2, (r3, 0x2c)
 }
-    535e:	07f2      	br      	0x5342	// 5342 <EXI2to3IntHandler+0x16>
+    3d22:	07f2      	br      	0x3d06	// 3d06 <EXI2to3IntHandler+0x16>
 	else if ((SYSCON->EXIRS&EXI_PIN19)==EXI_PIN19) 		//EXT19 Interrupt
-    5360:	3280      	movi      	r2, 128
-    5362:	932c      	ld.w      	r1, (r3, 0x30)
-    5364:	424c      	lsli      	r2, r2, 12
-    5366:	6848      	and      	r1, r2
-    5368:	3940      	cmpnei      	r1, 0
-    536a:	0bf9      	bt      	0x535c	// 535c <EXI2to3IntHandler+0x30>
-    536c:	07eb      	br      	0x5342	// 5342 <EXI2to3IntHandler+0x16>
+    3d24:	3280      	movi      	r2, 128
+    3d26:	932c      	ld.w      	r1, (r3, 0x30)
+    3d28:	424c      	lsli      	r2, r2, 12
+    3d2a:	6848      	and      	r1, r2
+    3d2c:	3940      	cmpnei      	r1, 0
+    3d2e:	0bf9      	bt      	0x3d20	// 3d20 <EXI2to3IntHandler+0x30>
+    3d30:	07eb      	br      	0x3d06	// 3d06 <EXI2to3IntHandler+0x16>
 
-0000536e <EXI4to9IntHandler>:
+00003d32 <EXI4to9IntHandler>:
 //EXI4~EXI9 Interrupt
 //EntryParameter:NONE
 //ReturnValue:NONE
 /*************************************************************/
 void EXI4to9IntHandler(void) 
 {
-    536e:	1460      	nie
-    5370:	1462      	ipush
+    3d32:	1460      	nie
+    3d34:	1462      	ipush
     // ISR content ...
 	if ((SYSCON->EXIRS&EXI_PIN4)==EXI_PIN4) 
-    5372:	126d      	lrw      	r3, 0x20000070	// 54a4 <EPTIntHandler+0x1c>
-    5374:	3280      	movi      	r2, 128
-    5376:	9360      	ld.w      	r3, (r3, 0x0)
-    5378:	60c8      	addu      	r3, r2
-    537a:	932c      	ld.w      	r1, (r3, 0x30)
-    537c:	3010      	movi      	r0, 16
-    537e:	6840      	and      	r1, r0
-    5380:	3940      	cmpnei      	r1, 0
-    5382:	0c04      	bf      	0x538a	// 538a <EXI4to9IntHandler+0x1c>
+    3d36:	126d      	lrw      	r3, 0x20000070	// 3e68 <EPTIntHandler+0x1c>
+    3d38:	3280      	movi      	r2, 128
+    3d3a:	9360      	ld.w      	r3, (r3, 0x0)
+    3d3c:	60c8      	addu      	r3, r2
+    3d3e:	932c      	ld.w      	r1, (r3, 0x30)
+    3d40:	3010      	movi      	r0, 16
+    3d42:	6840      	and      	r1, r0
+    3d44:	3940      	cmpnei      	r1, 0
+    3d46:	0c04      	bf      	0x3d4e	// 3d4e <EXI4to9IntHandler+0x1c>
     {
         SYSCON->EXICR = EXI_PIN5;
     } 
     else if ((SYSCON->EXIRS&EXI_PIN6)==EXI_PIN6) 
     {
         SYSCON->EXICR = EXI_PIN6;
-    5384:	b30b      	st.w      	r0, (r3, 0x2c)
+    3d48:	b30b      	st.w      	r0, (r3, 0x2c)
     }
 	else if ((SYSCON->EXIRS&EXI_PIN9)==EXI_PIN9) 
 	{
         SYSCON->EXICR = EXI_PIN9;
 	}
 }
-    5386:	1463      	ipop
-    5388:	1461      	nir
+    3d4a:	1463      	ipop
+    3d4c:	1461      	nir
     else if ((SYSCON->EXIRS&EXI_PIN5)==EXI_PIN5) 
-    538a:	932c      	ld.w      	r1, (r3, 0x30)
-    538c:	3020      	movi      	r0, 32
-    538e:	6840      	and      	r1, r0
-    5390:	3940      	cmpnei      	r1, 0
-    5392:	0bf9      	bt      	0x5384	// 5384 <EXI4to9IntHandler+0x16>
+    3d4e:	932c      	ld.w      	r1, (r3, 0x30)
+    3d50:	3020      	movi      	r0, 32
+    3d52:	6840      	and      	r1, r0
+    3d54:	3940      	cmpnei      	r1, 0
+    3d56:	0bf9      	bt      	0x3d48	// 3d48 <EXI4to9IntHandler+0x16>
     else if ((SYSCON->EXIRS&EXI_PIN6)==EXI_PIN6) 
-    5394:	932c      	ld.w      	r1, (r3, 0x30)
-    5396:	3040      	movi      	r0, 64
-    5398:	6840      	and      	r1, r0
-    539a:	3940      	cmpnei      	r1, 0
-    539c:	0bf4      	bt      	0x5384	// 5384 <EXI4to9IntHandler+0x16>
+    3d58:	932c      	ld.w      	r1, (r3, 0x30)
+    3d5a:	3040      	movi      	r0, 64
+    3d5c:	6840      	and      	r1, r0
+    3d5e:	3940      	cmpnei      	r1, 0
+    3d60:	0bf4      	bt      	0x3d48	// 3d48 <EXI4to9IntHandler+0x16>
     else if ((SYSCON->EXIRS&EXI_PIN7)==EXI_PIN7) 
-    539e:	932c      	ld.w      	r1, (r3, 0x30)
-    53a0:	6848      	and      	r1, r2
-    53a2:	3940      	cmpnei      	r1, 0
-    53a4:	0c03      	bf      	0x53aa	// 53aa <EXI4to9IntHandler+0x3c>
+    3d62:	932c      	ld.w      	r1, (r3, 0x30)
+    3d64:	6848      	and      	r1, r2
+    3d66:	3940      	cmpnei      	r1, 0
+    3d68:	0c03      	bf      	0x3d6e	// 3d6e <EXI4to9IntHandler+0x3c>
         SYSCON->EXICR = EXI_PIN9;
-    53a6:	b34b      	st.w      	r2, (r3, 0x2c)
+    3d6a:	b34b      	st.w      	r2, (r3, 0x2c)
 }
-    53a8:	07ef      	br      	0x5386	// 5386 <EXI4to9IntHandler+0x18>
+    3d6c:	07ef      	br      	0x3d4a	// 3d4a <EXI4to9IntHandler+0x18>
     else if ((SYSCON->EXIRS&EXI_PIN8)==EXI_PIN8) 
-    53aa:	3280      	movi      	r2, 128
-    53ac:	932c      	ld.w      	r1, (r3, 0x30)
-    53ae:	4241      	lsli      	r2, r2, 1
-    53b0:	6848      	and      	r1, r2
-    53b2:	3940      	cmpnei      	r1, 0
-    53b4:	0bf9      	bt      	0x53a6	// 53a6 <EXI4to9IntHandler+0x38>
+    3d6e:	3280      	movi      	r2, 128
+    3d70:	932c      	ld.w      	r1, (r3, 0x30)
+    3d72:	4241      	lsli      	r2, r2, 1
+    3d74:	6848      	and      	r1, r2
+    3d76:	3940      	cmpnei      	r1, 0
+    3d78:	0bf9      	bt      	0x3d6a	// 3d6a <EXI4to9IntHandler+0x38>
 	else if ((SYSCON->EXIRS&EXI_PIN9)==EXI_PIN9) 
-    53b6:	3280      	movi      	r2, 128
-    53b8:	932c      	ld.w      	r1, (r3, 0x30)
-    53ba:	4242      	lsli      	r2, r2, 2
-    53bc:	6848      	and      	r1, r2
-    53be:	3940      	cmpnei      	r1, 0
-    53c0:	0bf3      	bt      	0x53a6	// 53a6 <EXI4to9IntHandler+0x38>
-    53c2:	07e2      	br      	0x5386	// 5386 <EXI4to9IntHandler+0x18>
+    3d7a:	3280      	movi      	r2, 128
+    3d7c:	932c      	ld.w      	r1, (r3, 0x30)
+    3d7e:	4242      	lsli      	r2, r2, 2
+    3d80:	6848      	and      	r1, r2
+    3d82:	3940      	cmpnei      	r1, 0
+    3d84:	0bf3      	bt      	0x3d6a	// 3d6a <EXI4to9IntHandler+0x38>
+    3d86:	07e2      	br      	0x3d4a	// 3d4a <EXI4to9IntHandler+0x18>
 
-000053c4 <EXI10to15IntHandler>:
+00003d88 <EXI10to15IntHandler>:
 //EXI10~EXI15 Interrupt
 //EntryParameter:NONE
 //ReturnValue:NONE
 /*************************************************************/
 void EXI10to15IntHandler(void) 
 {
-    53c4:	1460      	nie
-    53c6:	1462      	ipush
+    3d88:	1460      	nie
+    3d8a:	1462      	ipush
     if ((SYSCON->EXIRS&EXI_PIN10)==EXI_PIN10) 
-    53c8:	1177      	lrw      	r3, 0x20000070	// 54a4 <EPTIntHandler+0x1c>
-    53ca:	3280      	movi      	r2, 128
-    53cc:	9360      	ld.w      	r3, (r3, 0x0)
-    53ce:	237f      	addi      	r3, 128
-    53d0:	932c      	ld.w      	r1, (r3, 0x30)
-    53d2:	4243      	lsli      	r2, r2, 3
-    53d4:	6848      	and      	r1, r2
-    53d6:	3940      	cmpnei      	r1, 0
-    53d8:	0c03      	bf      	0x53de	// 53de <EXI10to15IntHandler+0x1a>
+    3d8c:	1177      	lrw      	r3, 0x20000070	// 3e68 <EPTIntHandler+0x1c>
+    3d8e:	3280      	movi      	r2, 128
+    3d90:	9360      	ld.w      	r3, (r3, 0x0)
+    3d92:	237f      	addi      	r3, 128
+    3d94:	932c      	ld.w      	r1, (r3, 0x30)
+    3d96:	4243      	lsli      	r2, r2, 3
+    3d98:	6848      	and      	r1, r2
+    3d9a:	3940      	cmpnei      	r1, 0
+    3d9c:	0c03      	bf      	0x3da2	// 3da2 <EXI10to15IntHandler+0x1a>
     {
         SYSCON->EXICR = EXI_PIN14;
     }
 	else if ((SYSCON->EXIRS&EXI_PIN15)==EXI_PIN15) 
 	{
         SYSCON->EXICR = EXI_PIN15;
-    53da:	b34b      	st.w      	r2, (r3, 0x2c)
+    3d9e:	b34b      	st.w      	r2, (r3, 0x2c)
     }
 }
-    53dc:	041f      	br      	0x541a	// 541a <EXI10to15IntHandler+0x56>
+    3da0:	041f      	br      	0x3dde	// 3dde <EXI10to15IntHandler+0x56>
     else if ((SYSCON->EXIRS&EXI_PIN11)==EXI_PIN11) 
-    53de:	3280      	movi      	r2, 128
-    53e0:	932c      	ld.w      	r1, (r3, 0x30)
-    53e2:	4244      	lsli      	r2, r2, 4
-    53e4:	6848      	and      	r1, r2
-    53e6:	3940      	cmpnei      	r1, 0
-    53e8:	0bf9      	bt      	0x53da	// 53da <EXI10to15IntHandler+0x16>
+    3da2:	3280      	movi      	r2, 128
+    3da4:	932c      	ld.w      	r1, (r3, 0x30)
+    3da6:	4244      	lsli      	r2, r2, 4
+    3da8:	6848      	and      	r1, r2
+    3daa:	3940      	cmpnei      	r1, 0
+    3dac:	0bf9      	bt      	0x3d9e	// 3d9e <EXI10to15IntHandler+0x16>
     else if ((SYSCON->EXIRS&EXI_PIN12)==EXI_PIN12) 
-    53ea:	3280      	movi      	r2, 128
-    53ec:	932c      	ld.w      	r1, (r3, 0x30)
-    53ee:	4245      	lsli      	r2, r2, 5
-    53f0:	6848      	and      	r1, r2
-    53f2:	3940      	cmpnei      	r1, 0
-    53f4:	0bf3      	bt      	0x53da	// 53da <EXI10to15IntHandler+0x16>
+    3dae:	3280      	movi      	r2, 128
+    3db0:	932c      	ld.w      	r1, (r3, 0x30)
+    3db2:	4245      	lsli      	r2, r2, 5
+    3db4:	6848      	and      	r1, r2
+    3db6:	3940      	cmpnei      	r1, 0
+    3db8:	0bf3      	bt      	0x3d9e	// 3d9e <EXI10to15IntHandler+0x16>
     else if ((SYSCON->EXIRS&EXI_PIN13)==EXI_PIN13) 
-    53f6:	3280      	movi      	r2, 128
-    53f8:	932c      	ld.w      	r1, (r3, 0x30)
-    53fa:	4246      	lsli      	r2, r2, 6
-    53fc:	6848      	and      	r1, r2
-    53fe:	3940      	cmpnei      	r1, 0
-    5400:	0bed      	bt      	0x53da	// 53da <EXI10to15IntHandler+0x16>
+    3dba:	3280      	movi      	r2, 128
+    3dbc:	932c      	ld.w      	r1, (r3, 0x30)
+    3dbe:	4246      	lsli      	r2, r2, 6
+    3dc0:	6848      	and      	r1, r2
+    3dc2:	3940      	cmpnei      	r1, 0
+    3dc4:	0bed      	bt      	0x3d9e	// 3d9e <EXI10to15IntHandler+0x16>
 	else if ((SYSCON->EXIRS&EXI_PIN14)==EXI_PIN14) 
-    5402:	3280      	movi      	r2, 128
-    5404:	932c      	ld.w      	r1, (r3, 0x30)
-    5406:	4247      	lsli      	r2, r2, 7
-    5408:	6848      	and      	r1, r2
-    540a:	3940      	cmpnei      	r1, 0
-    540c:	0be7      	bt      	0x53da	// 53da <EXI10to15IntHandler+0x16>
+    3dc6:	3280      	movi      	r2, 128
+    3dc8:	932c      	ld.w      	r1, (r3, 0x30)
+    3dca:	4247      	lsli      	r2, r2, 7
+    3dcc:	6848      	and      	r1, r2
+    3dce:	3940      	cmpnei      	r1, 0
+    3dd0:	0be7      	bt      	0x3d9e	// 3d9e <EXI10to15IntHandler+0x16>
 	else if ((SYSCON->EXIRS&EXI_PIN15)==EXI_PIN15) 
-    540e:	3280      	movi      	r2, 128
-    5410:	932c      	ld.w      	r1, (r3, 0x30)
-    5412:	4248      	lsli      	r2, r2, 8
-    5414:	6848      	and      	r1, r2
-    5416:	3940      	cmpnei      	r1, 0
-    5418:	0be1      	bt      	0x53da	// 53da <EXI10to15IntHandler+0x16>
+    3dd2:	3280      	movi      	r2, 128
+    3dd4:	932c      	ld.w      	r1, (r3, 0x30)
+    3dd6:	4248      	lsli      	r2, r2, 8
+    3dd8:	6848      	and      	r1, r2
+    3dda:	3940      	cmpnei      	r1, 0
+    3ddc:	0be1      	bt      	0x3d9e	// 3d9e <EXI10to15IntHandler+0x16>
 }
-    541a:	1463      	ipop
-    541c:	1461      	nir
+    3dde:	1463      	ipop
+    3de0:	1461      	nir
 
-0000541e <WWDTHandler>:
+00003de2 <WWDTHandler>:
 //WWDT Interrupt
 //EntryParameter:NONE
 //ReturnValue:NONE
 /*************************************************************/
 void WWDTHandler(void)
 {
-    541e:	1460      	nie
-    5420:	1462      	ipush
-    5422:	14d0      	push      	r15
+    3de2:	1460      	nie
+    3de4:	1462      	ipush
+    3de6:	14d0      	push      	r15
 	
 	WWDT_CNT_Load(0xFF);
-    5424:	30ff      	movi      	r0, 255
-    5426:	e3ffe0b2 	bsr      	0x158a	// 158a <WWDT_CNT_Load>
+    3de8:	30ff      	movi      	r0, 255
+    3dea:	e3ffebd0 	bsr      	0x158a	// 158a <WWDT_CNT_Load>
 	if((WWDT->MISR&WWDT_EVI)==WWDT_EVI)					//WWDT EVI interrupt
-    542a:	1162      	lrw      	r3, 0x20000030	// 54b0 <EPTIntHandler+0x28>
-    542c:	3101      	movi      	r1, 1
-    542e:	9360      	ld.w      	r3, (r3, 0x0)
-    5430:	9343      	ld.w      	r2, (r3, 0xc)
-    5432:	6884      	and      	r2, r1
-    5434:	3a40      	cmpnei      	r2, 0
-    5436:	0c02      	bf      	0x543a	// 543a <WWDTHandler+0x1c>
+    3dee:	1162      	lrw      	r3, 0x20000030	// 3e74 <EPTIntHandler+0x28>
+    3df0:	3101      	movi      	r1, 1
+    3df2:	9360      	ld.w      	r3, (r3, 0x0)
+    3df4:	9343      	ld.w      	r2, (r3, 0xc)
+    3df6:	6884      	and      	r2, r1
+    3df8:	3a40      	cmpnei      	r2, 0
+    3dfa:	0c02      	bf      	0x3dfe	// 3dfe <WWDTHandler+0x1c>
 	{
 		WWDT->ICR = WWDT_EVI;
-    5438:	b325      	st.w      	r1, (r3, 0x14)
+    3dfc:	b325      	st.w      	r1, (r3, 0x14)
 	} 
 	WWDT->ICR=0X01;
-    543a:	3201      	movi      	r2, 1
-    543c:	b345      	st.w      	r2, (r3, 0x14)
+    3dfe:	3201      	movi      	r2, 1
+    3e00:	b345      	st.w      	r2, (r3, 0x14)
 }
-    543e:	d9ee2000 	ld.w      	r15, (r14, 0x0)
-    5442:	1401      	addi      	r14, r14, 4
-    5444:	1463      	ipop
-    5446:	1461      	nir
+    3e02:	d9ee2000 	ld.w      	r15, (r14, 0x0)
+    3e06:	1401      	addi      	r14, r14, 4
+    3e08:	1463      	ipop
+    3e0a:	1461      	nir
 
-00005448 <USART0IntHandler>:
+00003e0c <USART0IntHandler>:
 //USART0 Interrupt
 //EntryParameter:NONE
 //ReturnValue:NONE
 /*************************************************************/
 void USART0IntHandler(void) 
 {
-    5448:	1460      	nie
-    544a:	1462      	ipush
+    3e0c:	1460      	nie
+    3e0e:	1462      	ipush
     // ISR content ...
 	unsigned int status;
 	status = USART0->MISR & USART0->IMSCR ;
-    544c:	107a      	lrw      	r3, 0x2000002c	// 54b4 <EPTIntHandler+0x2c>
-    544e:	9320      	ld.w      	r1, (r3, 0x0)
-    5450:	9167      	ld.w      	r3, (r1, 0x1c)
-    5452:	9145      	ld.w      	r2, (r1, 0x14)
-    5454:	68c8      	and      	r3, r2
+    3e10:	107a      	lrw      	r3, 0x2000002c	// 3e78 <EPTIntHandler+0x2c>
+    3e12:	9320      	ld.w      	r1, (r3, 0x0)
+    3e14:	9167      	ld.w      	r3, (r1, 0x1c)
+    3e16:	9145      	ld.w      	r2, (r1, 0x14)
+    3e18:	68c8      	and      	r3, r2
 	if( status & USART_RXRDY ) 
-    5456:	3201      	movi      	r2, 1
-    5458:	68c8      	and      	r3, r2
-    545a:	3b40      	cmpnei      	r3, 0
-    545c:	0c14      	bf      	0x5484	// 5484 <USART0IntHandler+0x3c>
+    3e1a:	3201      	movi      	r2, 1
+    3e1c:	68c8      	and      	r3, r2
+    3e1e:	3b40      	cmpnei      	r3, 0
+    3e20:	0c14      	bf      	0x3e48	// 3e48 <USART0IntHandler+0x3c>
 	{
 	   r_usrat_cont++;
-    545e:	1077      	lrw      	r3, 0x200000f8	// 54b8 <EPTIntHandler+0x30>
-    5460:	8340      	ld.b      	r2, (r3, 0x0)
-    5462:	2200      	addi      	r2, 1
-    5464:	7488      	zextb      	r2, r2
-    5466:	a340      	st.b      	r2, (r3, 0x0)
+    3e22:	1077      	lrw      	r3, 0x200000f4	// 3e7c <EPTIntHandler+0x30>
+    3e24:	8340      	ld.b      	r2, (r3, 0x0)
+    3e26:	2200      	addi      	r2, 1
+    3e28:	7488      	zextb      	r2, r2
+    3e2a:	a340      	st.b      	r2, (r3, 0x0)
 		if(r_usrat_cont>=3)
-    5468:	8340      	ld.b      	r2, (r3, 0x0)
-    546a:	7488      	zextb      	r2, r2
-    546c:	3a02      	cmphsi      	r2, 3
-    546e:	0c03      	bf      	0x5474	// 5474 <USART0IntHandler+0x2c>
+    3e2c:	8340      	ld.b      	r2, (r3, 0x0)
+    3e2e:	7488      	zextb      	r2, r2
+    3e30:	3a02      	cmphsi      	r2, 3
+    3e32:	0c03      	bf      	0x3e38	// 3e38 <USART0IntHandler+0x2c>
 		{
 			r_usrat_cont=0;
-    5470:	3200      	movi      	r2, 0
-    5472:	a340      	st.b      	r2, (r3, 0x0)
+    3e34:	3200      	movi      	r2, 0
+    3e36:	a340      	st.b      	r2, (r3, 0x0)
 		}
 		r_usart_buf[r_usrat_cont]=CSP_USART_GET_RHR(USART0);
-    5474:	8360      	ld.b      	r3, (r3, 0x0)
-    5476:	1012      	lrw      	r0, 0x200000c7	// 54bc <EPTIntHandler+0x34>
-    5478:	60c0      	addu      	r3, r0
-    547a:	914a      	ld.w      	r2, (r1, 0x28)
-    547c:	7488      	zextb      	r2, r2
-    547e:	a340      	st.b      	r2, (r3, 0x0)
+    3e38:	8360      	ld.b      	r3, (r3, 0x0)
+    3e3a:	1012      	lrw      	r0, 0x200000c3	// 3e80 <EPTIntHandler+0x34>
+    3e3c:	60c0      	addu      	r3, r0
+    3e3e:	914a      	ld.w      	r2, (r1, 0x28)
+    3e40:	7488      	zextb      	r2, r2
+    3e42:	a340      	st.b      	r2, (r3, 0x0)
 		CSP_USART_SET_ICR(USART0, USART_RXRDY);
-    5480:	3301      	movi      	r3, 1
-    5482:	b168      	st.w      	r3, (r1, 0x20)
+    3e44:	3301      	movi      	r3, 1
+    3e46:	b168      	st.w      	r3, (r1, 0x20)
 	}
 	if (status & USART_TXRDY) 
 	{
 		//CSP_USART_SET_ICR(USART0, USART_TXRDY);
 	}
 }
-    5484:	1463      	ipop
-    5486:	1461      	nir
+    3e48:	1463      	ipop
+    3e4a:	1461      	nir
 
-00005488 <EPTIntHandler>:
+00003e4c <EPTIntHandler>:
 //EPT0 Interrupt
 //EntryParameter:NONE
 //ReturnValue:NONE
 /*************************************************************/
 void EPTIntHandler(void) 
 {
-    5488:	1460      	nie
-    548a:	1462      	ipush
-    548c:	14d1      	push      	r4, r15
+    3e4c:	1460      	nie
+    3e4e:	1462      	ipush
+    3e50:	14d1      	push      	r4, r15
     // ISR content ...
 	if((EPT0->MISR&EPT_TRGEV0_INT)==EPT_TRGEV0_INT)			//TRGEV0 interrupt
-    548e:	108d      	lrw      	r4, 0x20000034	// 54c0 <EPTIntHandler+0x38>
-    5490:	3280      	movi      	r2, 128
-    5492:	9460      	ld.w      	r3, (r4, 0x0)
-    5494:	60c8      	addu      	r3, r2
-    5496:	9335      	ld.w      	r1, (r3, 0x54)
-    5498:	3001      	movi      	r0, 1
-    549a:	6840      	and      	r1, r0
-    549c:	3940      	cmpnei      	r1, 0
-    549e:	0c13      	bf      	0x54c4	// 54c4 <EPTIntHandler+0x3c>
+    3e52:	108d      	lrw      	r4, 0x20000034	// 3e84 <EPTIntHandler+0x38>
+    3e54:	3280      	movi      	r2, 128
+    3e56:	9460      	ld.w      	r3, (r4, 0x0)
+    3e58:	60c8      	addu      	r3, r2
+    3e5a:	9335      	ld.w      	r1, (r3, 0x54)
+    3e5c:	3001      	movi      	r0, 1
+    3e5e:	6840      	and      	r1, r0
+    3e60:	3940      	cmpnei      	r1, 0
+    3e62:	0c13      	bf      	0x3e88	// 3e88 <EPTIntHandler+0x3c>
 		EXTI_trigger_CMD(DISABLE,EXI_PIN0,_EXIFT);
 		R_CMPB_BUF=EPT0->CMPB;			//Duty counter
 	}
 	else if((EPT0->MISR&EPT_CAP_LD2)==EPT_CAP_LD2)			//Capture Load to CMPC interrupt
 	{
 		EPT0->ICR=EPT_CAP_LD2;
-    54a0:	b317      	st.w      	r0, (r3, 0x5c)
-    54a2:	0434      	br      	0x550a	// 550a <EPTIntHandler+0x82>
-    54a4:	20000070 	.long	0x20000070
-    54a8:	20000074 	.long	0x20000074
-    54ac:	20000068 	.long	0x20000068
-    54b0:	20000030 	.long	0x20000030
-    54b4:	2000002c 	.long	0x2000002c
-    54b8:	200000f8 	.long	0x200000f8
-    54bc:	200000c7 	.long	0x200000c7
-    54c0:	20000034 	.long	0x20000034
+    3e64:	b317      	st.w      	r0, (r3, 0x5c)
+    3e66:	0434      	br      	0x3ece	// 3ece <EPTIntHandler+0x82>
+    3e68:	20000070 	.long	0x20000070
+    3e6c:	20000074 	.long	0x20000074
+    3e70:	20000068 	.long	0x20000068
+    3e74:	20000030 	.long	0x20000030
+    3e78:	2000002c 	.long	0x2000002c
+    3e7c:	200000f4 	.long	0x200000f4
+    3e80:	200000c3 	.long	0x200000c3
+    3e84:	20000034 	.long	0x20000034
 	else if((EPT0->MISR&EPT_TRGEV1_INT)==EPT_TRGEV1_INT)	//TRGEV1 interrupt
-    54c4:	9335      	ld.w      	r1, (r3, 0x54)
-    54c6:	3002      	movi      	r0, 2
-    54c8:	6840      	and      	r1, r0
-    54ca:	3940      	cmpnei      	r1, 0
-    54cc:	0bea      	bt      	0x54a0	// 54a0 <EPTIntHandler+0x18>
+    3e88:	9335      	ld.w      	r1, (r3, 0x54)
+    3e8a:	3002      	movi      	r0, 2
+    3e8c:	6840      	and      	r1, r0
+    3e8e:	3940      	cmpnei      	r1, 0
+    3e90:	0bea      	bt      	0x3e64	// 3e64 <EPTIntHandler+0x18>
 	else if((EPT0->MISR&EPT_TRGEV2_INT)==EPT_TRGEV2_INT)	//TRGEV2 interrupt
-    54ce:	9335      	ld.w      	r1, (r3, 0x54)
-    54d0:	3004      	movi      	r0, 4
-    54d2:	6840      	and      	r1, r0
-    54d4:	3940      	cmpnei      	r1, 0
-    54d6:	0be5      	bt      	0x54a0	// 54a0 <EPTIntHandler+0x18>
+    3e92:	9335      	ld.w      	r1, (r3, 0x54)
+    3e94:	3004      	movi      	r0, 4
+    3e96:	6840      	and      	r1, r0
+    3e98:	3940      	cmpnei      	r1, 0
+    3e9a:	0be5      	bt      	0x3e64	// 3e64 <EPTIntHandler+0x18>
 	else if((EPT0->MISR&EPT_TRGEV3_INT)==EPT_TRGEV3_INT)	//TRGEV3 interrupt
-    54d8:	9335      	ld.w      	r1, (r3, 0x54)
-    54da:	3008      	movi      	r0, 8
-    54dc:	6840      	and      	r1, r0
-    54de:	3940      	cmpnei      	r1, 0
-    54e0:	0be0      	bt      	0x54a0	// 54a0 <EPTIntHandler+0x18>
+    3e9c:	9335      	ld.w      	r1, (r3, 0x54)
+    3e9e:	3008      	movi      	r0, 8
+    3ea0:	6840      	and      	r1, r0
+    3ea2:	3940      	cmpnei      	r1, 0
+    3ea4:	0be0      	bt      	0x3e64	// 3e64 <EPTIntHandler+0x18>
 	else if((EPT0->MISR&EPT_CAP_LD0)==EPT_CAP_LD0)			//Capture Load to CMPA interrupt
-    54e2:	9335      	ld.w      	r1, (r3, 0x54)
-    54e4:	3010      	movi      	r0, 16
-    54e6:	6840      	and      	r1, r0
-    54e8:	3940      	cmpnei      	r1, 0
-    54ea:	0c1f      	bf      	0x5528	// 5528 <EPTIntHandler+0xa0>
+    3ea6:	9335      	ld.w      	r1, (r3, 0x54)
+    3ea8:	3010      	movi      	r0, 16
+    3eaa:	6840      	and      	r1, r0
+    3eac:	3940      	cmpnei      	r1, 0
+    3eae:	0c1f      	bf      	0x3eec	// 3eec <EPTIntHandler+0xa0>
 		EPT0->ICR=EPT_CAP_LD0;
-    54ec:	b317      	st.w      	r0, (r3, 0x5c)
+    3eb0:	b317      	st.w      	r0, (r3, 0x5c)
 		EXTI_trigger_CMD(DISABLE,EXI_PIN0,_EXIRT);
-    54ee:	3200      	movi      	r2, 0
-    54f0:	3101      	movi      	r1, 1
-    54f2:	3000      	movi      	r0, 0
-    54f4:	e3ffe1a0 	bsr      	0x1834	// 1834 <EXTI_trigger_CMD>
+    3eb2:	3200      	movi      	r2, 0
+    3eb4:	3101      	movi      	r1, 1
+    3eb6:	3000      	movi      	r0, 0
+    3eb8:	e3ffecbe 	bsr      	0x1834	// 1834 <EXTI_trigger_CMD>
 		EXTI_trigger_CMD(ENABLE,EXI_PIN0,_EXIFT);
-    54f8:	3201      	movi      	r2, 1
-    54fa:	3101      	movi      	r1, 1
-    54fc:	3001      	movi      	r0, 1
-    54fe:	e3ffe19b 	bsr      	0x1834	// 1834 <EXTI_trigger_CMD>
+    3ebc:	3201      	movi      	r2, 1
+    3ebe:	3101      	movi      	r1, 1
+    3ec0:	3001      	movi      	r0, 1
+    3ec2:	e3ffecb9 	bsr      	0x1834	// 1834 <EXTI_trigger_CMD>
 		R_CMPA_BUF=EPT0->CMPA;			//Low voltage counter
-    5502:	9460      	ld.w      	r3, (r4, 0x0)
-    5504:	934b      	ld.w      	r2, (r3, 0x2c)
-    5506:	007f      	lrw      	r3, 0x200000fc	// 5884 <EPWMIntHandler+0x10>
+    3ec6:	9460      	ld.w      	r3, (r4, 0x0)
+    3ec8:	934b      	ld.w      	r2, (r3, 0x2c)
+    3eca:	007d      	lrw      	r3, 0x200000f8	// 4250 <Trap3Handler+0xe>
 		R_CMPB_BUF=EPT0->CMPB;			//Duty counter
-    5508:	b340      	st.w      	r2, (r3, 0x0)
+    3ecc:	b340      	st.w      	r2, (r3, 0x0)
 	else if((EPT0->MISR&EPT_PEND)==EPT_PEND)				//End of cycle interrupt
 	{
 		EPT0->ICR=EPT_PEND;
 	}
 	//Emergency interruption
 	if((EPT0->EMMISR&EPT_EP0_EMINT)==EPT_EP0_EMINT)			//interrupt flag of EP0 event
-    550a:	9460      	ld.w      	r3, (r4, 0x0)
-    550c:	3280      	movi      	r2, 128
-    550e:	60c8      	addu      	r3, r2
-    5510:	932b      	ld.w      	r1, (r3, 0x2c)
-    5512:	3001      	movi      	r0, 1
-    5514:	6840      	and      	r1, r0
-    5516:	3940      	cmpnei      	r1, 0
-    5518:	0c5e      	bf      	0x55d4	// 55d4 <EPTIntHandler+0x14c>
+    3ece:	9460      	ld.w      	r3, (r4, 0x0)
+    3ed0:	3280      	movi      	r2, 128
+    3ed2:	60c8      	addu      	r3, r2
+    3ed4:	932b      	ld.w      	r1, (r3, 0x2c)
+    3ed6:	3001      	movi      	r0, 1
+    3ed8:	6840      	and      	r1, r0
+    3eda:	3940      	cmpnei      	r1, 0
+    3edc:	0c5e      	bf      	0x3f98	// 3f98 <EPTIntHandler+0x14c>
 	{
 		EPT0->EMICR=EPT_EP5_EMINT;
 	}
 	else if((EPT0->EMMISR&EPT_EP6_EMINT)==EPT_EP6_EMINT)	//interrupt flag of EP6 event
 	{
 		EPT0->EMICR=EPT_EP6_EMINT;
-    551a:	b30d      	st.w      	r0, (r3, 0x34)
+    3ede:	b30d      	st.w      	r0, (r3, 0x34)
 	}
 	else if((EPT0->EMMISR&EPT_EOM_FAULT_EMINT)==EPT_EOM_FAULT_EMINT)	//interrupt flag of EOM_FAULT event
 	{
 		EPT0->EMICR=EPT_EOM_FAULT_EMINT;
 	}
 }
-    551c:	d9ee2001 	ld.w      	r15, (r14, 0x4)
-    5520:	9880      	ld.w      	r4, (r14, 0x0)
-    5522:	1402      	addi      	r14, r14, 8
-    5524:	1463      	ipop
-    5526:	1461      	nir
+    3ee0:	d9ee2001 	ld.w      	r15, (r14, 0x4)
+    3ee4:	9880      	ld.w      	r4, (r14, 0x0)
+    3ee6:	1402      	addi      	r14, r14, 8
+    3ee8:	1463      	ipop
+    3eea:	1461      	nir
 	else if((EPT0->MISR&EPT_CAP_LD1)==EPT_CAP_LD1)			//Capture Load to CMPB interrupt
-    5528:	9335      	ld.w      	r1, (r3, 0x54)
-    552a:	3020      	movi      	r0, 32
-    552c:	6840      	and      	r1, r0
-    552e:	3940      	cmpnei      	r1, 0
-    5530:	0c10      	bf      	0x5550	// 5550 <EPTIntHandler+0xc8>
+    3eec:	9335      	ld.w      	r1, (r3, 0x54)
+    3eee:	3020      	movi      	r0, 32
+    3ef0:	6840      	and      	r1, r0
+    3ef2:	3940      	cmpnei      	r1, 0
+    3ef4:	0c10      	bf      	0x3f14	// 3f14 <EPTIntHandler+0xc8>
 		EPT0->ICR=EPT_CAP_LD1;
-    5532:	b317      	st.w      	r0, (r3, 0x5c)
+    3ef6:	b317      	st.w      	r0, (r3, 0x5c)
 		EXTI_trigger_CMD(ENABLE,EXI_PIN0,_EXIRT);
-    5534:	3200      	movi      	r2, 0
-    5536:	3101      	movi      	r1, 1
-    5538:	3001      	movi      	r0, 1
-    553a:	e3ffe17d 	bsr      	0x1834	// 1834 <EXTI_trigger_CMD>
+    3ef8:	3200      	movi      	r2, 0
+    3efa:	3101      	movi      	r1, 1
+    3efc:	3001      	movi      	r0, 1
+    3efe:	e3ffec9b 	bsr      	0x1834	// 1834 <EXTI_trigger_CMD>
 		EXTI_trigger_CMD(DISABLE,EXI_PIN0,_EXIFT);
-    553e:	3201      	movi      	r2, 1
-    5540:	3101      	movi      	r1, 1
-    5542:	3000      	movi      	r0, 0
-    5544:	e3ffe178 	bsr      	0x1834	// 1834 <EXTI_trigger_CMD>
+    3f02:	3201      	movi      	r2, 1
+    3f04:	3101      	movi      	r1, 1
+    3f06:	3000      	movi      	r0, 0
+    3f08:	e3ffec96 	bsr      	0x1834	// 1834 <EXTI_trigger_CMD>
 		R_CMPB_BUF=EPT0->CMPB;			//Duty counter
-    5548:	9460      	ld.w      	r3, (r4, 0x0)
-    554a:	934c      	ld.w      	r2, (r3, 0x30)
-    554c:	0170      	lrw      	r3, 0x200000b0	// 5888 <EPWMIntHandler+0x14>
-    554e:	07dd      	br      	0x5508	// 5508 <EPTIntHandler+0x80>
+    3f0c:	9460      	ld.w      	r3, (r4, 0x0)
+    3f0e:	934c      	ld.w      	r2, (r3, 0x30)
+    3f10:	016e      	lrw      	r3, 0x200000ac	// 4254 <Trap3Handler+0x12>
+    3f12:	07dd      	br      	0x3ecc	// 3ecc <EPTIntHandler+0x80>
 	else if((EPT0->MISR&EPT_CAP_LD2)==EPT_CAP_LD2)			//Capture Load to CMPC interrupt
-    5550:	9335      	ld.w      	r1, (r3, 0x54)
-    5552:	3040      	movi      	r0, 64
-    5554:	6840      	and      	r1, r0
-    5556:	3940      	cmpnei      	r1, 0
-    5558:	0ba4      	bt      	0x54a0	// 54a0 <EPTIntHandler+0x18>
+    3f14:	9335      	ld.w      	r1, (r3, 0x54)
+    3f16:	3040      	movi      	r0, 64
+    3f18:	6840      	and      	r1, r0
+    3f1a:	3940      	cmpnei      	r1, 0
+    3f1c:	0ba4      	bt      	0x3e64	// 3e64 <EPTIntHandler+0x18>
 	else if((EPT0->MISR&EPT_CAP_LD3)==EPT_CAP_LD3)			//Capture Load to CMPD interrupt
-    555a:	9335      	ld.w      	r1, (r3, 0x54)
-    555c:	6848      	and      	r1, r2
-    555e:	3940      	cmpnei      	r1, 0
-    5560:	0c03      	bf      	0x5566	// 5566 <EPTIntHandler+0xde>
+    3f1e:	9335      	ld.w      	r1, (r3, 0x54)
+    3f20:	6848      	and      	r1, r2
+    3f22:	3940      	cmpnei      	r1, 0
+    3f24:	0c03      	bf      	0x3f2a	// 3f2a <EPTIntHandler+0xde>
 		EPT0->ICR=EPT_PEND;
-    5562:	b357      	st.w      	r2, (r3, 0x5c)
-    5564:	07d3      	br      	0x550a	// 550a <EPTIntHandler+0x82>
+    3f26:	b357      	st.w      	r2, (r3, 0x5c)
+    3f28:	07d3      	br      	0x3ece	// 3ece <EPTIntHandler+0x82>
 	else if((EPT0->MISR&EPT_CAU)==EPT_CAU)					//Up-Counting phase CNT = CMPA interrupt
-    5566:	3280      	movi      	r2, 128
-    5568:	9335      	ld.w      	r1, (r3, 0x54)
-    556a:	4241      	lsli      	r2, r2, 1
-    556c:	6848      	and      	r1, r2
-    556e:	3940      	cmpnei      	r1, 0
-    5570:	0bf9      	bt      	0x5562	// 5562 <EPTIntHandler+0xda>
+    3f2a:	3280      	movi      	r2, 128
+    3f2c:	9335      	ld.w      	r1, (r3, 0x54)
+    3f2e:	4241      	lsli      	r2, r2, 1
+    3f30:	6848      	and      	r1, r2
+    3f32:	3940      	cmpnei      	r1, 0
+    3f34:	0bf9      	bt      	0x3f26	// 3f26 <EPTIntHandler+0xda>
 	else if((EPT0->MISR&EPT_CAD)==EPT_CAD)					//Down-Counting phase CNT = CMPA interrupt
-    5572:	3280      	movi      	r2, 128
-    5574:	9335      	ld.w      	r1, (r3, 0x54)
-    5576:	4242      	lsli      	r2, r2, 2
-    5578:	6848      	and      	r1, r2
-    557a:	3940      	cmpnei      	r1, 0
-    557c:	0bf3      	bt      	0x5562	// 5562 <EPTIntHandler+0xda>
+    3f36:	3280      	movi      	r2, 128
+    3f38:	9335      	ld.w      	r1, (r3, 0x54)
+    3f3a:	4242      	lsli      	r2, r2, 2
+    3f3c:	6848      	and      	r1, r2
+    3f3e:	3940      	cmpnei      	r1, 0
+    3f40:	0bf3      	bt      	0x3f26	// 3f26 <EPTIntHandler+0xda>
 	else if((EPT0->MISR&EPT_CBU)==EPT_CBU)					//Up-Counting phase CNT = CMPB interrupt 
-    557e:	3280      	movi      	r2, 128
-    5580:	9335      	ld.w      	r1, (r3, 0x54)
-    5582:	4243      	lsli      	r2, r2, 3
-    5584:	6848      	and      	r1, r2
-    5586:	3940      	cmpnei      	r1, 0
-    5588:	0bed      	bt      	0x5562	// 5562 <EPTIntHandler+0xda>
+    3f42:	3280      	movi      	r2, 128
+    3f44:	9335      	ld.w      	r1, (r3, 0x54)
+    3f46:	4243      	lsli      	r2, r2, 3
+    3f48:	6848      	and      	r1, r2
+    3f4a:	3940      	cmpnei      	r1, 0
+    3f4c:	0bed      	bt      	0x3f26	// 3f26 <EPTIntHandler+0xda>
 	else if((EPT0->MISR&EPT_CBD)==EPT_CBD)					//Down-Counting phase CNT = CMPB interrupt
-    558a:	3280      	movi      	r2, 128
-    558c:	9335      	ld.w      	r1, (r3, 0x54)
-    558e:	4244      	lsli      	r2, r2, 4
-    5590:	6848      	and      	r1, r2
-    5592:	3940      	cmpnei      	r1, 0
-    5594:	0be7      	bt      	0x5562	// 5562 <EPTIntHandler+0xda>
+    3f4e:	3280      	movi      	r2, 128
+    3f50:	9335      	ld.w      	r1, (r3, 0x54)
+    3f52:	4244      	lsli      	r2, r2, 4
+    3f54:	6848      	and      	r1, r2
+    3f56:	3940      	cmpnei      	r1, 0
+    3f58:	0be7      	bt      	0x3f26	// 3f26 <EPTIntHandler+0xda>
 	else if((EPT0->MISR&EPT_CCU)==EPT_CCU)					//Up-Counting phase CNT = CMPC interrupt 
-    5596:	3280      	movi      	r2, 128
-    5598:	9335      	ld.w      	r1, (r3, 0x54)
-    559a:	4245      	lsli      	r2, r2, 5
-    559c:	6848      	and      	r1, r2
-    559e:	3940      	cmpnei      	r1, 0
-    55a0:	0be1      	bt      	0x5562	// 5562 <EPTIntHandler+0xda>
+    3f5a:	3280      	movi      	r2, 128
+    3f5c:	9335      	ld.w      	r1, (r3, 0x54)
+    3f5e:	4245      	lsli      	r2, r2, 5
+    3f60:	6848      	and      	r1, r2
+    3f62:	3940      	cmpnei      	r1, 0
+    3f64:	0be1      	bt      	0x3f26	// 3f26 <EPTIntHandler+0xda>
 	else if((EPT0->MISR&EPT_CCD)==EPT_CCD)					//Down-Counting phase CNT = CMPC interrupt
-    55a2:	3280      	movi      	r2, 128
-    55a4:	9335      	ld.w      	r1, (r3, 0x54)
-    55a6:	4246      	lsli      	r2, r2, 6
-    55a8:	6848      	and      	r1, r2
-    55aa:	3940      	cmpnei      	r1, 0
-    55ac:	0bdb      	bt      	0x5562	// 5562 <EPTIntHandler+0xda>
+    3f66:	3280      	movi      	r2, 128
+    3f68:	9335      	ld.w      	r1, (r3, 0x54)
+    3f6a:	4246      	lsli      	r2, r2, 6
+    3f6c:	6848      	and      	r1, r2
+    3f6e:	3940      	cmpnei      	r1, 0
+    3f70:	0bdb      	bt      	0x3f26	// 3f26 <EPTIntHandler+0xda>
 	else if((EPT0->MISR&EPT_CDU)==EPT_CDU)					//Up-Counting phase CNT = CMPD interrupt
-    55ae:	3280      	movi      	r2, 128
-    55b0:	9335      	ld.w      	r1, (r3, 0x54)
-    55b2:	4247      	lsli      	r2, r2, 7
-    55b4:	6848      	and      	r1, r2
-    55b6:	3940      	cmpnei      	r1, 0
-    55b8:	0bd5      	bt      	0x5562	// 5562 <EPTIntHandler+0xda>
+    3f72:	3280      	movi      	r2, 128
+    3f74:	9335      	ld.w      	r1, (r3, 0x54)
+    3f76:	4247      	lsli      	r2, r2, 7
+    3f78:	6848      	and      	r1, r2
+    3f7a:	3940      	cmpnei      	r1, 0
+    3f7c:	0bd5      	bt      	0x3f26	// 3f26 <EPTIntHandler+0xda>
 	else if((EPT0->MISR&EPT_CDD)==EPT_CDD)					//Down-Counting phase CNT = CMPD interrupt
-    55ba:	3280      	movi      	r2, 128
-    55bc:	9335      	ld.w      	r1, (r3, 0x54)
-    55be:	4248      	lsli      	r2, r2, 8
-    55c0:	6848      	and      	r1, r2
-    55c2:	3940      	cmpnei      	r1, 0
-    55c4:	0bcf      	bt      	0x5562	// 5562 <EPTIntHandler+0xda>
+    3f7e:	3280      	movi      	r2, 128
+    3f80:	9335      	ld.w      	r1, (r3, 0x54)
+    3f82:	4248      	lsli      	r2, r2, 8
+    3f84:	6848      	and      	r1, r2
+    3f86:	3940      	cmpnei      	r1, 0
+    3f88:	0bcf      	bt      	0x3f26	// 3f26 <EPTIntHandler+0xda>
 	else if((EPT0->MISR&EPT_PEND)==EPT_PEND)				//End of cycle interrupt
-    55c6:	3280      	movi      	r2, 128
-    55c8:	9335      	ld.w      	r1, (r3, 0x54)
-    55ca:	4249      	lsli      	r2, r2, 9
-    55cc:	6848      	and      	r1, r2
-    55ce:	3940      	cmpnei      	r1, 0
-    55d0:	0f9d      	bf      	0x550a	// 550a <EPTIntHandler+0x82>
-    55d2:	07c8      	br      	0x5562	// 5562 <EPTIntHandler+0xda>
+    3f8a:	3280      	movi      	r2, 128
+    3f8c:	9335      	ld.w      	r1, (r3, 0x54)
+    3f8e:	4249      	lsli      	r2, r2, 9
+    3f90:	6848      	and      	r1, r2
+    3f92:	3940      	cmpnei      	r1, 0
+    3f94:	0f9d      	bf      	0x3ece	// 3ece <EPTIntHandler+0x82>
+    3f96:	07c8      	br      	0x3f26	// 3f26 <EPTIntHandler+0xda>
 	else if((EPT0->EMMISR&EPT_EP1_EMINT)==EPT_EP1_EMINT)	//interrupt flag of EP1 event
-    55d4:	932b      	ld.w      	r1, (r3, 0x2c)
-    55d6:	3002      	movi      	r0, 2
-    55d8:	6840      	and      	r1, r0
-    55da:	3940      	cmpnei      	r1, 0
-    55dc:	0b9f      	bt      	0x551a	// 551a <EPTIntHandler+0x92>
+    3f98:	932b      	ld.w      	r1, (r3, 0x2c)
+    3f9a:	3002      	movi      	r0, 2
+    3f9c:	6840      	and      	r1, r0
+    3f9e:	3940      	cmpnei      	r1, 0
+    3fa0:	0b9f      	bt      	0x3ede	// 3ede <EPTIntHandler+0x92>
 	else if((EPT0->EMMISR&EPT_EP2_EMINT)==EPT_EP2_EMINT)	//interrupt flag of EP2 event
-    55de:	932b      	ld.w      	r1, (r3, 0x2c)
-    55e0:	3004      	movi      	r0, 4
-    55e2:	6840      	and      	r1, r0
-    55e4:	3940      	cmpnei      	r1, 0
-    55e6:	0b9a      	bt      	0x551a	// 551a <EPTIntHandler+0x92>
+    3fa2:	932b      	ld.w      	r1, (r3, 0x2c)
+    3fa4:	3004      	movi      	r0, 4
+    3fa6:	6840      	and      	r1, r0
+    3fa8:	3940      	cmpnei      	r1, 0
+    3faa:	0b9a      	bt      	0x3ede	// 3ede <EPTIntHandler+0x92>
 	else if((EPT0->EMMISR&EPT_EP3_EMINT)==EPT_EP3_EMINT)	//interrupt flag of EP3 event
-    55e8:	932b      	ld.w      	r1, (r3, 0x2c)
-    55ea:	3008      	movi      	r0, 8
-    55ec:	6840      	and      	r1, r0
-    55ee:	3940      	cmpnei      	r1, 0
-    55f0:	0b95      	bt      	0x551a	// 551a <EPTIntHandler+0x92>
+    3fac:	932b      	ld.w      	r1, (r3, 0x2c)
+    3fae:	3008      	movi      	r0, 8
+    3fb0:	6840      	and      	r1, r0
+    3fb2:	3940      	cmpnei      	r1, 0
+    3fb4:	0b95      	bt      	0x3ede	// 3ede <EPTIntHandler+0x92>
 	else if((EPT0->EMMISR&EPT_EP4_EMINT)==EPT_EP4_EMINT)	//interrupt flag of EP4 event
-    55f2:	932b      	ld.w      	r1, (r3, 0x2c)
-    55f4:	3010      	movi      	r0, 16
-    55f6:	6840      	and      	r1, r0
-    55f8:	3940      	cmpnei      	r1, 0
-    55fa:	0b90      	bt      	0x551a	// 551a <EPTIntHandler+0x92>
+    3fb6:	932b      	ld.w      	r1, (r3, 0x2c)
+    3fb8:	3010      	movi      	r0, 16
+    3fba:	6840      	and      	r1, r0
+    3fbc:	3940      	cmpnei      	r1, 0
+    3fbe:	0b90      	bt      	0x3ede	// 3ede <EPTIntHandler+0x92>
 	else if((EPT0->EMMISR&EPT_EP5_EMINT)==EPT_EP5_EMINT)	//interrupt flag of EP5 event
-    55fc:	932b      	ld.w      	r1, (r3, 0x2c)
-    55fe:	3020      	movi      	r0, 32
-    5600:	6840      	and      	r1, r0
-    5602:	3940      	cmpnei      	r1, 0
-    5604:	0b8b      	bt      	0x551a	// 551a <EPTIntHandler+0x92>
+    3fc0:	932b      	ld.w      	r1, (r3, 0x2c)
+    3fc2:	3020      	movi      	r0, 32
+    3fc4:	6840      	and      	r1, r0
+    3fc6:	3940      	cmpnei      	r1, 0
+    3fc8:	0b8b      	bt      	0x3ede	// 3ede <EPTIntHandler+0x92>
 	else if((EPT0->EMMISR&EPT_EP6_EMINT)==EPT_EP6_EMINT)	//interrupt flag of EP6 event
-    5606:	932b      	ld.w      	r1, (r3, 0x2c)
-    5608:	3040      	movi      	r0, 64
-    560a:	6840      	and      	r1, r0
-    560c:	3940      	cmpnei      	r1, 0
-    560e:	0b86      	bt      	0x551a	// 551a <EPTIntHandler+0x92>
+    3fca:	932b      	ld.w      	r1, (r3, 0x2c)
+    3fcc:	3040      	movi      	r0, 64
+    3fce:	6840      	and      	r1, r0
+    3fd0:	3940      	cmpnei      	r1, 0
+    3fd2:	0b86      	bt      	0x3ede	// 3ede <EPTIntHandler+0x92>
 	else if((EPT0->EMMISR&EPT_EP7_EMINT)==EPT_EP7_EMINT)	//interrupt flag of EP7 event
-    5610:	932b      	ld.w      	r1, (r3, 0x2c)
-    5612:	6848      	and      	r1, r2
-    5614:	3940      	cmpnei      	r1, 0
-    5616:	0c03      	bf      	0x561c	// 561c <EPTIntHandler+0x194>
+    3fd4:	932b      	ld.w      	r1, (r3, 0x2c)
+    3fd6:	6848      	and      	r1, r2
+    3fd8:	3940      	cmpnei      	r1, 0
+    3fda:	0c03      	bf      	0x3fe0	// 3fe0 <EPTIntHandler+0x194>
 		EPT0->EMICR=EPT_EOM_FAULT_EMINT;
-    5618:	b34d      	st.w      	r2, (r3, 0x34)
+    3fdc:	b34d      	st.w      	r2, (r3, 0x34)
 }
-    561a:	0781      	br      	0x551c	// 551c <EPTIntHandler+0x94>
+    3fde:	0781      	br      	0x3ee0	// 3ee0 <EPTIntHandler+0x94>
 	else if((EPT0->EMMISR&EPT_CPU_FAULT_EMINT)==EPT_CPU_FAULT_EMINT)	//interrupt flag of CPU_FAULT event
-    561c:	3280      	movi      	r2, 128
-    561e:	932b      	ld.w      	r1, (r3, 0x2c)
-    5620:	4241      	lsli      	r2, r2, 1
-    5622:	6848      	and      	r1, r2
-    5624:	3940      	cmpnei      	r1, 0
-    5626:	0bf9      	bt      	0x5618	// 5618 <EPTIntHandler+0x190>
+    3fe0:	3280      	movi      	r2, 128
+    3fe2:	932b      	ld.w      	r1, (r3, 0x2c)
+    3fe4:	4241      	lsli      	r2, r2, 1
+    3fe6:	6848      	and      	r1, r2
+    3fe8:	3940      	cmpnei      	r1, 0
+    3fea:	0bf9      	bt      	0x3fdc	// 3fdc <EPTIntHandler+0x190>
 	else if((EPT0->EMMISR&EPT_MEM_FAULT_EMINT)==EPT_MEM_FAULT_EMINT)	//interrupt flag of MEM_FAULT event
-    5628:	3280      	movi      	r2, 128
-    562a:	932b      	ld.w      	r1, (r3, 0x2c)
-    562c:	4242      	lsli      	r2, r2, 2
-    562e:	6848      	and      	r1, r2
-    5630:	3940      	cmpnei      	r1, 0
-    5632:	0bf3      	bt      	0x5618	// 5618 <EPTIntHandler+0x190>
+    3fec:	3280      	movi      	r2, 128
+    3fee:	932b      	ld.w      	r1, (r3, 0x2c)
+    3ff0:	4242      	lsli      	r2, r2, 2
+    3ff2:	6848      	and      	r1, r2
+    3ff4:	3940      	cmpnei      	r1, 0
+    3ff6:	0bf3      	bt      	0x3fdc	// 3fdc <EPTIntHandler+0x190>
 	else if((EPT0->EMMISR&EPT_EOM_FAULT_EMINT)==EPT_EOM_FAULT_EMINT)	//interrupt flag of EOM_FAULT event
-    5634:	3280      	movi      	r2, 128
-    5636:	932b      	ld.w      	r1, (r3, 0x2c)
-    5638:	4243      	lsli      	r2, r2, 3
-    563a:	6848      	and      	r1, r2
-    563c:	3940      	cmpnei      	r1, 0
-    563e:	0bed      	bt      	0x5618	// 5618 <EPTIntHandler+0x190>
-    5640:	076e      	br      	0x551c	// 551c <EPTIntHandler+0x94>
+    3ff8:	3280      	movi      	r2, 128
+    3ffa:	932b      	ld.w      	r1, (r3, 0x2c)
+    3ffc:	4243      	lsli      	r2, r2, 3
+    3ffe:	6848      	and      	r1, r2
+    4000:	3940      	cmpnei      	r1, 0
+    4002:	0bed      	bt      	0x3fdc	// 3fdc <EPTIntHandler+0x190>
+    4004:	076e      	br      	0x3ee0	// 3ee0 <EPTIntHandler+0x94>
 
-00005642 <GPTAIntHandler>:
+00004006 <GPTAIntHandler>:
 //GPT0 Interrupt
 //EntryParameter:NONE
 //ReturnValue:NONE
 /*************************************************************/
 void GPTAIntHandler(void) 
 {
-    5642:	1460      	nie
-    5644:	1462      	ipush
+    4006:	1460      	nie
+    4008:	1462      	ipush
     // ISR content ...
 	if((GPTA0->MISR&GPT_INT_TRGEV0)==GPT_INT_TRGEV0)			//TRGEV0 interrupt
-    5646:	036d      	lrw      	r3, 0x20000038	// 588c <EPWMIntHandler+0x18>
-    5648:	3101      	movi      	r1, 1
-    564a:	9360      	ld.w      	r3, (r3, 0x0)
-    564c:	237f      	addi      	r3, 128
-    564e:	9355      	ld.w      	r2, (r3, 0x54)
-    5650:	6884      	and      	r2, r1
-    5652:	3a40      	cmpnei      	r2, 0
-    5654:	0c04      	bf      	0x565c	// 565c <GPTAIntHandler+0x1a>
+    400a:	036b      	lrw      	r3, 0x20000038	// 4258 <Trap3Handler+0x16>
+    400c:	3101      	movi      	r1, 1
+    400e:	9360      	ld.w      	r3, (r3, 0x0)
+    4010:	237f      	addi      	r3, 128
+    4012:	9355      	ld.w      	r2, (r3, 0x54)
+    4014:	6884      	and      	r2, r1
+    4016:	3a40      	cmpnei      	r2, 0
+    4018:	0c04      	bf      	0x4020	// 4020 <GPTAIntHandler+0x1a>
 	{
 		GPTA0->ICR = GPT_INT_CAPLD0;
 	}
 	else if((GPTA0->MISR&GPT_INT_CAPLD1)==GPT_INT_CAPLD1)		//Capture Load to CMPB interrupt
 	{
 		GPTA0->ICR = GPT_INT_CAPLD1;
-    5656:	b337      	st.w      	r1, (r3, 0x5c)
+    401a:	b337      	st.w      	r1, (r3, 0x5c)
 	}
 	else if((GPTA0->MISR&GPT_INT_PEND)==GPT_INT_PEND)		//End of cycle interrupt 
 	{
 		GPTA0->ICR = GPT_INT_PEND;
 	}
 }
-    5658:	1463      	ipop
-    565a:	1461      	nir
+    401c:	1463      	ipop
+    401e:	1461      	nir
 	else if((GPTA0->MISR&GPT_INT_TRGEV1)==GPT_INT_TRGEV1)	//TRGEV1 interrupt
-    565c:	9355      	ld.w      	r2, (r3, 0x54)
-    565e:	3102      	movi      	r1, 2
-    5660:	6884      	and      	r2, r1
-    5662:	3a40      	cmpnei      	r2, 0
-    5664:	0bf9      	bt      	0x5656	// 5656 <GPTAIntHandler+0x14>
+    4020:	9355      	ld.w      	r2, (r3, 0x54)
+    4022:	3102      	movi      	r1, 2
+    4024:	6884      	and      	r2, r1
+    4026:	3a40      	cmpnei      	r2, 0
+    4028:	0bf9      	bt      	0x401a	// 401a <GPTAIntHandler+0x14>
 	else if((GPTA0->MISR&GPT_INT_CAPLD0)==GPT_INT_CAPLD0)		//Capture Load to CMPA interrupt
-    5666:	9355      	ld.w      	r2, (r3, 0x54)
-    5668:	3110      	movi      	r1, 16
-    566a:	6884      	and      	r2, r1
-    566c:	3a40      	cmpnei      	r2, 0
-    566e:	0bf4      	bt      	0x5656	// 5656 <GPTAIntHandler+0x14>
+    402a:	9355      	ld.w      	r2, (r3, 0x54)
+    402c:	3110      	movi      	r1, 16
+    402e:	6884      	and      	r2, r1
+    4030:	3a40      	cmpnei      	r2, 0
+    4032:	0bf4      	bt      	0x401a	// 401a <GPTAIntHandler+0x14>
 	else if((GPTA0->MISR&GPT_INT_CAPLD1)==GPT_INT_CAPLD1)		//Capture Load to CMPB interrupt
-    5670:	9355      	ld.w      	r2, (r3, 0x54)
-    5672:	3120      	movi      	r1, 32
-    5674:	6884      	and      	r2, r1
-    5676:	3a40      	cmpnei      	r2, 0
-    5678:	0bef      	bt      	0x5656	// 5656 <GPTAIntHandler+0x14>
+    4034:	9355      	ld.w      	r2, (r3, 0x54)
+    4036:	3120      	movi      	r1, 32
+    4038:	6884      	and      	r2, r1
+    403a:	3a40      	cmpnei      	r2, 0
+    403c:	0bef      	bt      	0x401a	// 401a <GPTAIntHandler+0x14>
 	else if((GPTA0->MISR&GPT_INT_CAU)==GPT_INT_CAU)			//Up-Counting phase CNT = CMPA Interrupt
-    567a:	3280      	movi      	r2, 128
-    567c:	9335      	ld.w      	r1, (r3, 0x54)
-    567e:	4241      	lsli      	r2, r2, 1
-    5680:	6848      	and      	r1, r2
-    5682:	3940      	cmpnei      	r1, 0
-    5684:	0c03      	bf      	0x568a	// 568a <GPTAIntHandler+0x48>
+    403e:	3280      	movi      	r2, 128
+    4040:	9335      	ld.w      	r1, (r3, 0x54)
+    4042:	4241      	lsli      	r2, r2, 1
+    4044:	6848      	and      	r1, r2
+    4046:	3940      	cmpnei      	r1, 0
+    4048:	0c03      	bf      	0x404e	// 404e <GPTAIntHandler+0x48>
 		GPTA0->ICR = GPT_INT_PEND;
-    5686:	b357      	st.w      	r2, (r3, 0x5c)
+    404a:	b357      	st.w      	r2, (r3, 0x5c)
 }
-    5688:	07e8      	br      	0x5658	// 5658 <GPTAIntHandler+0x16>
+    404c:	07e8      	br      	0x401c	// 401c <GPTAIntHandler+0x16>
 	else if((GPTA0->MISR&GPT_INT_CAD)==GPT_INT_CAD)			//Down-Counting phase CNT = CMPA Interrupt
-    568a:	3280      	movi      	r2, 128
-    568c:	9335      	ld.w      	r1, (r3, 0x54)
-    568e:	4242      	lsli      	r2, r2, 2
-    5690:	6848      	and      	r1, r2
-    5692:	3940      	cmpnei      	r1, 0
-    5694:	0bf9      	bt      	0x5686	// 5686 <GPTAIntHandler+0x44>
+    404e:	3280      	movi      	r2, 128
+    4050:	9335      	ld.w      	r1, (r3, 0x54)
+    4052:	4242      	lsli      	r2, r2, 2
+    4054:	6848      	and      	r1, r2
+    4056:	3940      	cmpnei      	r1, 0
+    4058:	0bf9      	bt      	0x404a	// 404a <GPTAIntHandler+0x44>
 	else if((GPTA0->MISR&GPT_INT_CBU)==GPT_INT_CBU)			//Up-Counting phase CNT = CMPB Interrupt
-    5696:	3280      	movi      	r2, 128
-    5698:	9335      	ld.w      	r1, (r3, 0x54)
-    569a:	4243      	lsli      	r2, r2, 3
-    569c:	6848      	and      	r1, r2
-    569e:	3940      	cmpnei      	r1, 0
-    56a0:	0bf3      	bt      	0x5686	// 5686 <GPTAIntHandler+0x44>
+    405a:	3280      	movi      	r2, 128
+    405c:	9335      	ld.w      	r1, (r3, 0x54)
+    405e:	4243      	lsli      	r2, r2, 3
+    4060:	6848      	and      	r1, r2
+    4062:	3940      	cmpnei      	r1, 0
+    4064:	0bf3      	bt      	0x404a	// 404a <GPTAIntHandler+0x44>
 	else if((GPTA0->MISR&GPT_INT_CBD)==GPT_INT_CBD)			//Down-Counting phase CNT = CMPB Interrupt
-    56a2:	3280      	movi      	r2, 128
-    56a4:	9335      	ld.w      	r1, (r3, 0x54)
-    56a6:	4244      	lsli      	r2, r2, 4
-    56a8:	6848      	and      	r1, r2
-    56aa:	3940      	cmpnei      	r1, 0
-    56ac:	0bed      	bt      	0x5686	// 5686 <GPTAIntHandler+0x44>
+    4066:	3280      	movi      	r2, 128
+    4068:	9335      	ld.w      	r1, (r3, 0x54)
+    406a:	4244      	lsli      	r2, r2, 4
+    406c:	6848      	and      	r1, r2
+    406e:	3940      	cmpnei      	r1, 0
+    4070:	0bed      	bt      	0x404a	// 404a <GPTAIntHandler+0x44>
 	else if((GPTA0->MISR&GPT_INT_PEND)==GPT_INT_PEND)		//End of cycle interrupt 
-    56ae:	3280      	movi      	r2, 128
-    56b0:	9335      	ld.w      	r1, (r3, 0x54)
-    56b2:	4249      	lsli      	r2, r2, 9
-    56b4:	6848      	and      	r1, r2
-    56b6:	3940      	cmpnei      	r1, 0
-    56b8:	0be7      	bt      	0x5686	// 5686 <GPTAIntHandler+0x44>
-    56ba:	07cf      	br      	0x5658	// 5658 <GPTAIntHandler+0x16>
+    4072:	3280      	movi      	r2, 128
+    4074:	9335      	ld.w      	r1, (r3, 0x54)
+    4076:	4249      	lsli      	r2, r2, 9
+    4078:	6848      	and      	r1, r2
+    407a:	3940      	cmpnei      	r1, 0
+    407c:	0be7      	bt      	0x404a	// 404a <GPTAIntHandler+0x44>
+    407e:	07cf      	br      	0x401c	// 401c <GPTAIntHandler+0x16>
 
-000056bc <BT0IntHandler>:
+00004080 <BT0IntHandler>:
 //BT0 Interrupt
 //EntryParameter:NONE
 //ReturnValue:NONE
 /*************************************************************/
 void BT0IntHandler(void) 
 {
-    56bc:	1460      	nie
-    56be:	1462      	ipush
+    4080:	1460      	nie
+    4082:	1462      	ipush
     // ISR content ...
 	if((BT0->MISR&BT_PEND)==BT_PEND)
-    56c0:	1374      	lrw      	r3, 0x20000048	// 5890 <EPWMIntHandler+0x1c>
-    56c2:	3101      	movi      	r1, 1
-    56c4:	9360      	ld.w      	r3, (r3, 0x0)
-    56c6:	934c      	ld.w      	r2, (r3, 0x30)
-    56c8:	6884      	and      	r2, r1
-    56ca:	3a40      	cmpnei      	r2, 0
-    56cc:	0c03      	bf      	0x56d2	// 56d2 <BT0IntHandler+0x16>
+    4084:	1376      	lrw      	r3, 0x20000048	// 425c <Trap3Handler+0x1a>
+    4086:	3101      	movi      	r1, 1
+    4088:	9360      	ld.w      	r3, (r3, 0x0)
+    408a:	934c      	ld.w      	r2, (r3, 0x30)
+    408c:	6884      	and      	r2, r1
+    408e:	3a40      	cmpnei      	r2, 0
+    4090:	0c03      	bf      	0x4096	// 4096 <BT0IntHandler+0x16>
 	{
 		BT0->ICR = BT_OVF;
 	} 
 	else if((BT0->MISR&BT_EVTRG)==BT_EVTRG)
 	{
 		BT0->ICR = BT_EVTRG;
-    56ce:	b32d      	st.w      	r1, (r3, 0x34)
+    4092:	b32d      	st.w      	r1, (r3, 0x34)
 	} 
 }
-    56d0:	0410      	br      	0x56f0	// 56f0 <BT0IntHandler+0x34>
+    4094:	0410      	br      	0x40b4	// 40b4 <BT0IntHandler+0x34>
 	else if((BT0->MISR&BT_CMP)==BT_CMP)
-    56d2:	934c      	ld.w      	r2, (r3, 0x30)
-    56d4:	3102      	movi      	r1, 2
-    56d6:	6884      	and      	r2, r1
-    56d8:	3a40      	cmpnei      	r2, 0
-    56da:	0bfa      	bt      	0x56ce	// 56ce <BT0IntHandler+0x12>
+    4096:	934c      	ld.w      	r2, (r3, 0x30)
+    4098:	3102      	movi      	r1, 2
+    409a:	6884      	and      	r2, r1
+    409c:	3a40      	cmpnei      	r2, 0
+    409e:	0bfa      	bt      	0x4092	// 4092 <BT0IntHandler+0x12>
 	else if((BT0->MISR&BT_OVF)==BT_OVF)
-    56dc:	934c      	ld.w      	r2, (r3, 0x30)
-    56de:	3104      	movi      	r1, 4
-    56e0:	6884      	and      	r2, r1
-    56e2:	3a40      	cmpnei      	r2, 0
-    56e4:	0bf5      	bt      	0x56ce	// 56ce <BT0IntHandler+0x12>
+    40a0:	934c      	ld.w      	r2, (r3, 0x30)
+    40a2:	3104      	movi      	r1, 4
+    40a4:	6884      	and      	r2, r1
+    40a6:	3a40      	cmpnei      	r2, 0
+    40a8:	0bf5      	bt      	0x4092	// 4092 <BT0IntHandler+0x12>
 	else if((BT0->MISR&BT_EVTRG)==BT_EVTRG)
-    56e6:	934c      	ld.w      	r2, (r3, 0x30)
-    56e8:	3108      	movi      	r1, 8
-    56ea:	6884      	and      	r2, r1
-    56ec:	3a40      	cmpnei      	r2, 0
-    56ee:	0bf0      	bt      	0x56ce	// 56ce <BT0IntHandler+0x12>
+    40aa:	934c      	ld.w      	r2, (r3, 0x30)
+    40ac:	3108      	movi      	r1, 8
+    40ae:	6884      	and      	r2, r1
+    40b0:	3a40      	cmpnei      	r2, 0
+    40b2:	0bf0      	bt      	0x4092	// 4092 <BT0IntHandler+0x12>
 }
-    56f0:	1463      	ipop
-    56f2:	1461      	nir
+    40b4:	1463      	ipop
+    40b6:	1461      	nir
 
-000056f4 <BT1IntHandler>:
+000040b8 <BT1IntHandler>:
 //BT1 Interrupt
 //EntryParameter:NONE
 //ReturnValue:NONE
 /*************************************************************/
 void BT1IntHandler(void) 
 {
-    56f4:	1460      	nie
-    56f6:	1462      	ipush
+    40b8:	1460      	nie
+    40ba:	1462      	ipush
     // ISR content ...
 	if((BT1->MISR&BT_PEND)==BT_PEND)
-    56f8:	1367      	lrw      	r3, 0x20000044	// 5894 <EPWMIntHandler+0x20>
-    56fa:	3101      	movi      	r1, 1
-    56fc:	9360      	ld.w      	r3, (r3, 0x0)
-    56fe:	934c      	ld.w      	r2, (r3, 0x30)
-    5700:	6884      	and      	r2, r1
-    5702:	3a40      	cmpnei      	r2, 0
-    5704:	0c03      	bf      	0x570a	// 570a <BT1IntHandler+0x16>
+    40bc:	1369      	lrw      	r3, 0x20000044	// 4260 <Trap3Handler+0x1e>
+    40be:	3101      	movi      	r1, 1
+    40c0:	9360      	ld.w      	r3, (r3, 0x0)
+    40c2:	934c      	ld.w      	r2, (r3, 0x30)
+    40c4:	6884      	and      	r2, r1
+    40c6:	3a40      	cmpnei      	r2, 0
+    40c8:	0c03      	bf      	0x40ce	// 40ce <BT1IntHandler+0x16>
 	{
 		BT1->ICR = BT_OVF;
 	} 
 	else if((BT1->MISR&BT_EVTRG)==BT_EVTRG)
 	{
 		BT1->ICR = BT_EVTRG;
-    5706:	b32d      	st.w      	r1, (r3, 0x34)
+    40ca:	b32d      	st.w      	r1, (r3, 0x34)
 	} 
 }
-    5708:	0410      	br      	0x5728	// 5728 <BT1IntHandler+0x34>
+    40cc:	0410      	br      	0x40ec	// 40ec <BT1IntHandler+0x34>
 	else if((BT1->MISR&BT_CMP)==BT_CMP)
-    570a:	934c      	ld.w      	r2, (r3, 0x30)
-    570c:	3102      	movi      	r1, 2
-    570e:	6884      	and      	r2, r1
-    5710:	3a40      	cmpnei      	r2, 0
-    5712:	0bfa      	bt      	0x5706	// 5706 <BT1IntHandler+0x12>
+    40ce:	934c      	ld.w      	r2, (r3, 0x30)
+    40d0:	3102      	movi      	r1, 2
+    40d2:	6884      	and      	r2, r1
+    40d4:	3a40      	cmpnei      	r2, 0
+    40d6:	0bfa      	bt      	0x40ca	// 40ca <BT1IntHandler+0x12>
 	else if((BT1->MISR&BT_OVF)==BT_OVF)
-    5714:	934c      	ld.w      	r2, (r3, 0x30)
-    5716:	3104      	movi      	r1, 4
-    5718:	6884      	and      	r2, r1
-    571a:	3a40      	cmpnei      	r2, 0
-    571c:	0bf5      	bt      	0x5706	// 5706 <BT1IntHandler+0x12>
+    40d8:	934c      	ld.w      	r2, (r3, 0x30)
+    40da:	3104      	movi      	r1, 4
+    40dc:	6884      	and      	r2, r1
+    40de:	3a40      	cmpnei      	r2, 0
+    40e0:	0bf5      	bt      	0x40ca	// 40ca <BT1IntHandler+0x12>
 	else if((BT1->MISR&BT_EVTRG)==BT_EVTRG)
-    571e:	934c      	ld.w      	r2, (r3, 0x30)
-    5720:	3108      	movi      	r1, 8
-    5722:	6884      	and      	r2, r1
-    5724:	3a40      	cmpnei      	r2, 0
-    5726:	0bf0      	bt      	0x5706	// 5706 <BT1IntHandler+0x12>
+    40e2:	934c      	ld.w      	r2, (r3, 0x30)
+    40e4:	3108      	movi      	r1, 8
+    40e6:	6884      	and      	r2, r1
+    40e8:	3a40      	cmpnei      	r2, 0
+    40ea:	0bf0      	bt      	0x40ca	// 40ca <BT1IntHandler+0x12>
 }
-    5728:	1463      	ipop
-    572a:	1461      	nir
+    40ec:	1463      	ipop
+    40ee:	1461      	nir
 
-0000572c <BT2IntHandler>:
+000040f0 <BT2IntHandler>:
 //BT1 Interrupt
 //EntryParameter:NONE
 //ReturnValue:NONE
 /*************************************************************/
 void BT2IntHandler(void) 
 {
-    572c:	1460      	nie
-    572e:	1462      	ipush
+    40f0:	1460      	nie
+    40f2:	1462      	ipush
     // ISR content ...
 	if((BT2->MISR&BT_PEND)==BT_PEND)
-    5730:	127a      	lrw      	r3, 0x20000040	// 5898 <EPWMIntHandler+0x24>
-    5732:	3101      	movi      	r1, 1
-    5734:	9360      	ld.w      	r3, (r3, 0x0)
-    5736:	934c      	ld.w      	r2, (r3, 0x30)
-    5738:	6884      	and      	r2, r1
-    573a:	3a40      	cmpnei      	r2, 0
-    573c:	0c03      	bf      	0x5742	// 5742 <BT2IntHandler+0x16>
+    40f4:	127c      	lrw      	r3, 0x20000040	// 4264 <Trap3Handler+0x22>
+    40f6:	3101      	movi      	r1, 1
+    40f8:	9360      	ld.w      	r3, (r3, 0x0)
+    40fa:	934c      	ld.w      	r2, (r3, 0x30)
+    40fc:	6884      	and      	r2, r1
+    40fe:	3a40      	cmpnei      	r2, 0
+    4100:	0c03      	bf      	0x4106	// 4106 <BT2IntHandler+0x16>
 	{
 		BT2->ICR = BT_OVF;
 	} 
 	else if((BT2->MISR&BT_EVTRG)==BT_EVTRG)
 	{
 		BT2->ICR = BT_EVTRG;
-    573e:	b32d      	st.w      	r1, (r3, 0x34)
+    4102:	b32d      	st.w      	r1, (r3, 0x34)
 	} 
 }
-    5740:	0410      	br      	0x5760	// 5760 <BT2IntHandler+0x34>
+    4104:	0410      	br      	0x4124	// 4124 <BT2IntHandler+0x34>
 	else if((BT2->MISR&BT_CMP)==BT_CMP)
-    5742:	934c      	ld.w      	r2, (r3, 0x30)
-    5744:	3102      	movi      	r1, 2
-    5746:	6884      	and      	r2, r1
-    5748:	3a40      	cmpnei      	r2, 0
-    574a:	0bfa      	bt      	0x573e	// 573e <BT2IntHandler+0x12>
+    4106:	934c      	ld.w      	r2, (r3, 0x30)
+    4108:	3102      	movi      	r1, 2
+    410a:	6884      	and      	r2, r1
+    410c:	3a40      	cmpnei      	r2, 0
+    410e:	0bfa      	bt      	0x4102	// 4102 <BT2IntHandler+0x12>
 	else if((BT2->MISR&BT_OVF)==BT_OVF)
-    574c:	934c      	ld.w      	r2, (r3, 0x30)
-    574e:	3104      	movi      	r1, 4
-    5750:	6884      	and      	r2, r1
-    5752:	3a40      	cmpnei      	r2, 0
-    5754:	0bf5      	bt      	0x573e	// 573e <BT2IntHandler+0x12>
+    4110:	934c      	ld.w      	r2, (r3, 0x30)
+    4112:	3104      	movi      	r1, 4
+    4114:	6884      	and      	r2, r1
+    4116:	3a40      	cmpnei      	r2, 0
+    4118:	0bf5      	bt      	0x4102	// 4102 <BT2IntHandler+0x12>
 	else if((BT2->MISR&BT_EVTRG)==BT_EVTRG)
-    5756:	934c      	ld.w      	r2, (r3, 0x30)
-    5758:	3108      	movi      	r1, 8
-    575a:	6884      	and      	r2, r1
-    575c:	3a40      	cmpnei      	r2, 0
-    575e:	0bf0      	bt      	0x573e	// 573e <BT2IntHandler+0x12>
+    411a:	934c      	ld.w      	r2, (r3, 0x30)
+    411c:	3108      	movi      	r1, 8
+    411e:	6884      	and      	r2, r1
+    4120:	3a40      	cmpnei      	r2, 0
+    4122:	0bf0      	bt      	0x4102	// 4102 <BT2IntHandler+0x12>
 }
-    5760:	1463      	ipop
-    5762:	1461      	nir
+    4124:	1463      	ipop
+    4126:	1461      	nir
 
-00005764 <BT3IntHandler>:
+00004128 <BT3IntHandler>:
 //BT1 Interrupt
 //EntryParameter:NONE
 //ReturnValue:NONE
 /*************************************************************/
 void BT3IntHandler(void) 
 {
-    5764:	1460      	nie
-    5766:	1462      	ipush
+    4128:	1460      	nie
+    412a:	1462      	ipush
     // ISR content ...
 	if((BT3->MISR&BT_PEND)==BT_PEND)
-    5768:	126d      	lrw      	r3, 0x2000003c	// 589c <EPWMIntHandler+0x28>
-    576a:	3101      	movi      	r1, 1
-    576c:	9360      	ld.w      	r3, (r3, 0x0)
-    576e:	934c      	ld.w      	r2, (r3, 0x30)
-    5770:	6884      	and      	r2, r1
-    5772:	3a40      	cmpnei      	r2, 0
-    5774:	0c03      	bf      	0x577a	// 577a <BT3IntHandler+0x16>
+    412c:	126f      	lrw      	r3, 0x2000003c	// 4268 <Trap3Handler+0x26>
+    412e:	3101      	movi      	r1, 1
+    4130:	9360      	ld.w      	r3, (r3, 0x0)
+    4132:	934c      	ld.w      	r2, (r3, 0x30)
+    4134:	6884      	and      	r2, r1
+    4136:	3a40      	cmpnei      	r2, 0
+    4138:	0c03      	bf      	0x413e	// 413e <BT3IntHandler+0x16>
 	{
 		BT3->ICR = BT_OVF;
 	} 
 	else if((BT3->MISR&BT_EVTRG)==BT_EVTRG)
 	{
 		BT3->ICR = BT_EVTRG;
-    5776:	b32d      	st.w      	r1, (r3, 0x34)
+    413a:	b32d      	st.w      	r1, (r3, 0x34)
 	} 
 }
-    5778:	0410      	br      	0x5798	// 5798 <BT3IntHandler+0x34>
+    413c:	0410      	br      	0x415c	// 415c <BT3IntHandler+0x34>
 	else if((BT3->MISR&BT_CMP)==BT_CMP)
-    577a:	934c      	ld.w      	r2, (r3, 0x30)
-    577c:	3102      	movi      	r1, 2
-    577e:	6884      	and      	r2, r1
-    5780:	3a40      	cmpnei      	r2, 0
-    5782:	0bfa      	bt      	0x5776	// 5776 <BT3IntHandler+0x12>
+    413e:	934c      	ld.w      	r2, (r3, 0x30)
+    4140:	3102      	movi      	r1, 2
+    4142:	6884      	and      	r2, r1
+    4144:	3a40      	cmpnei      	r2, 0
+    4146:	0bfa      	bt      	0x413a	// 413a <BT3IntHandler+0x12>
 	else if((BT3->MISR&BT_OVF)==BT_OVF)
-    5784:	934c      	ld.w      	r2, (r3, 0x30)
-    5786:	3104      	movi      	r1, 4
-    5788:	6884      	and      	r2, r1
-    578a:	3a40      	cmpnei      	r2, 0
-    578c:	0bf5      	bt      	0x5776	// 5776 <BT3IntHandler+0x12>
+    4148:	934c      	ld.w      	r2, (r3, 0x30)
+    414a:	3104      	movi      	r1, 4
+    414c:	6884      	and      	r2, r1
+    414e:	3a40      	cmpnei      	r2, 0
+    4150:	0bf5      	bt      	0x413a	// 413a <BT3IntHandler+0x12>
 	else if((BT3->MISR&BT_EVTRG)==BT_EVTRG)
-    578e:	934c      	ld.w      	r2, (r3, 0x30)
-    5790:	3108      	movi      	r1, 8
-    5792:	6884      	and      	r2, r1
-    5794:	3a40      	cmpnei      	r2, 0
-    5796:	0bf0      	bt      	0x5776	// 5776 <BT3IntHandler+0x12>
+    4152:	934c      	ld.w      	r2, (r3, 0x30)
+    4154:	3108      	movi      	r1, 8
+    4156:	6884      	and      	r2, r1
+    4158:	3a40      	cmpnei      	r2, 0
+    415a:	0bf0      	bt      	0x413a	// 413a <BT3IntHandler+0x12>
 }
-    5798:	1463      	ipop
-    579a:	1461      	nir
+    415c:	1463      	ipop
+    415e:	1461      	nir
 
-0000579c <UART0IntHandler>:
+00004160 <UART0IntHandler>:
 //UART0 Interrupt
 //EntryParameter:NONE
 //ReturnValue:NONE
 /*************************************************************/
 void UART0IntHandler(void) 
 {
-    579c:	1460      	nie
-    579e:	1462      	ipush
+    4160:	1460      	nie
+    4162:	1462      	ipush
     // ISR content ...
 	if ((UART0->ISR&UART_RX_INT_S)==UART_RX_INT_S)				//RX interrupt
-    57a0:	1260      	lrw      	r3, 0x20000028	// 58a0 <EPWMIntHandler+0x2c>
-    57a2:	3102      	movi      	r1, 2
-    57a4:	9360      	ld.w      	r3, (r3, 0x0)
-    57a6:	9343      	ld.w      	r2, (r3, 0xc)
-    57a8:	6884      	and      	r2, r1
-    57aa:	3a40      	cmpnei      	r2, 0
-    57ac:	0c07      	bf      	0x57ba	// 57ba <UART0IntHandler+0x1e>
+    4164:	1262      	lrw      	r3, 0x20000028	// 426c <Trap3Handler+0x2a>
+    4166:	3102      	movi      	r1, 2
+    4168:	9360      	ld.w      	r3, (r3, 0x0)
+    416a:	9343      	ld.w      	r2, (r3, 0xc)
+    416c:	6884      	and      	r2, r1
+    416e:	3a40      	cmpnei      	r2, 0
+    4170:	0c07      	bf      	0x417e	// 417e <UART0IntHandler+0x1e>
 	{
 		UART0->ISR=UART_RX_INT_S;
-    57ae:	b323      	st.w      	r1, (r3, 0xc)
+    4172:	b323      	st.w      	r1, (r3, 0xc)
 		RxDataFlag = TRUE;
-    57b0:	117d      	lrw      	r3, 0x2000007c	// 58a4 <EPWMIntHandler+0x30>
+    4174:	117f      	lrw      	r3, 0x2000007c	// 4270 <Trap3Handler+0x2e>
 	}
 	else if( (UART0->ISR&UART_TX_INT_S)==UART_TX_INT_S ) 		//TX interrupt
     {
 		UART0->ISR=UART_TX_INT_S;
 		TxDataFlag = TRUE;
-    57b2:	3201      	movi      	r2, 1
-    57b4:	a340      	st.b      	r2, (r3, 0x0)
+    4176:	3201      	movi      	r2, 1
+    4178:	a340      	st.b      	r2, (r3, 0x0)
 	}
 	else if ((UART0->ISR&UART_TX_IOV_S)==UART_TX_IOV_S)			//TX overrun interrupt
 	{
 		UART0->ISR=UART_TX_IOV_S;
 	}
 }
-    57b6:	1463      	ipop
-    57b8:	1461      	nir
+    417a:	1463      	ipop
+    417c:	1461      	nir
 	else if( (UART0->ISR&UART_TX_INT_S)==UART_TX_INT_S ) 		//TX interrupt
-    57ba:	9343      	ld.w      	r2, (r3, 0xc)
-    57bc:	3101      	movi      	r1, 1
-    57be:	6884      	and      	r2, r1
-    57c0:	3a40      	cmpnei      	r2, 0
-    57c2:	0c04      	bf      	0x57ca	// 57ca <UART0IntHandler+0x2e>
+    417e:	9343      	ld.w      	r2, (r3, 0xc)
+    4180:	3101      	movi      	r1, 1
+    4182:	6884      	and      	r2, r1
+    4184:	3a40      	cmpnei      	r2, 0
+    4186:	0c04      	bf      	0x418e	// 418e <UART0IntHandler+0x2e>
 		UART0->ISR=UART_TX_INT_S;
-    57c4:	b323      	st.w      	r1, (r3, 0xc)
+    4188:	b323      	st.w      	r1, (r3, 0xc)
 		TxDataFlag = TRUE;
-    57c6:	1179      	lrw      	r3, 0x2000007d	// 58a8 <EPWMIntHandler+0x34>
-    57c8:	07f5      	br      	0x57b2	// 57b2 <UART0IntHandler+0x16>
+    418a:	117b      	lrw      	r3, 0x2000007d	// 4274 <Trap3Handler+0x32>
+    418c:	07f5      	br      	0x4176	// 4176 <UART0IntHandler+0x16>
 	else if ((UART0->ISR&UART_RX_IOV_S)==UART_RX_IOV_S)			//RX overrun interrupt
-    57ca:	9343      	ld.w      	r2, (r3, 0xc)
-    57cc:	3108      	movi      	r1, 8
-    57ce:	6884      	and      	r2, r1
-    57d0:	3a40      	cmpnei      	r2, 0
-    57d2:	0c03      	bf      	0x57d8	// 57d8 <UART0IntHandler+0x3c>
+    418e:	9343      	ld.w      	r2, (r3, 0xc)
+    4190:	3108      	movi      	r1, 8
+    4192:	6884      	and      	r2, r1
+    4194:	3a40      	cmpnei      	r2, 0
+    4196:	0c03      	bf      	0x419c	// 419c <UART0IntHandler+0x3c>
 		UART0->ISR=UART_TX_IOV_S;
-    57d4:	b323      	st.w      	r1, (r3, 0xc)
+    4198:	b323      	st.w      	r1, (r3, 0xc)
 }
-    57d6:	07f0      	br      	0x57b6	// 57b6 <UART0IntHandler+0x1a>
+    419a:	07f0      	br      	0x417a	// 417a <UART0IntHandler+0x1a>
 	else if ((UART0->ISR&UART_TX_IOV_S)==UART_TX_IOV_S)			//TX overrun interrupt
-    57d8:	9343      	ld.w      	r2, (r3, 0xc)
-    57da:	3104      	movi      	r1, 4
-    57dc:	6884      	and      	r2, r1
-    57de:	3a40      	cmpnei      	r2, 0
-    57e0:	0bfa      	bt      	0x57d4	// 57d4 <UART0IntHandler+0x38>
-    57e2:	07ea      	br      	0x57b6	// 57b6 <UART0IntHandler+0x1a>
+    419c:	9343      	ld.w      	r2, (r3, 0xc)
+    419e:	3104      	movi      	r1, 4
+    41a0:	6884      	and      	r2, r1
+    41a2:	3a40      	cmpnei      	r2, 0
+    41a4:	0bfa      	bt      	0x4198	// 4198 <UART0IntHandler+0x38>
+    41a6:	07ea      	br      	0x417a	// 417a <UART0IntHandler+0x1a>
 
-000057e4 <CMP0IntHandler>:
+000041a8 <CMP0IntHandler>:
 //CMP0,CMP2 interrupt
 //EntryParameter:NONE
 //ReturnValue:NONE
 /*************************************************************/
 void CMP0IntHandler(void) 
 {
-    57e4:	1460      	nie
-    57e6:	1462      	ipush
+    41a8:	1460      	nie
+    41aa:	1462      	ipush
     // ISR content ...
 	if ((CMP->MISR & EDGEDET0)==EDGEDET0) 
-    57e8:	1171      	lrw      	r3, 0x20000024	// 58ac <EPWMIntHandler+0x38>
-    57ea:	3101      	movi      	r1, 1
-    57ec:	9340      	ld.w      	r2, (r3, 0x0)
-    57ee:	9279      	ld.w      	r3, (r2, 0x64)
-    57f0:	68c4      	and      	r3, r1
-    57f2:	3b40      	cmpnei      	r3, 0
-    57f4:	0c02      	bf      	0x57f8	// 57f8 <CMP0IntHandler+0x14>
+    41ac:	1173      	lrw      	r3, 0x20000024	// 4278 <Trap3Handler+0x36>
+    41ae:	3101      	movi      	r1, 1
+    41b0:	9340      	ld.w      	r2, (r3, 0x0)
+    41b2:	9279      	ld.w      	r3, (r2, 0x64)
+    41b4:	68c4      	and      	r3, r1
+    41b6:	3b40      	cmpnei      	r3, 0
+    41b8:	0c02      	bf      	0x41bc	// 41bc <CMP0IntHandler+0x14>
 	{
 		CMP->ICR =	EDGEDET0;
-    57f6:	b23a      	st.w      	r1, (r2, 0x68)
+    41ba:	b23a      	st.w      	r1, (r2, 0x68)
 	}
 }
-    57f8:	1463      	ipop
-    57fa:	1461      	nir
+    41bc:	1463      	ipop
+    41be:	1461      	nir
 
-000057fc <CMP1IntHandler>:
+000041c0 <CMP1IntHandler>:
 //CMP1,CMP3,CMP4 interrupt
 //EntryParameter:NONE
 //ReturnValue:NONE
 /*************************************************************/
 void CMP1IntHandler(void) 
 {
-    57fc:	1460      	nie
-    57fe:	1462      	ipush
+    41c0:	1460      	nie
+    41c2:	1462      	ipush
     // ISR content ...
 	if((CMP->MISR & EDGEDET1)==EDGEDET1)
-    5800:	116b      	lrw      	r3, 0x20000024	// 58ac <EPWMIntHandler+0x38>
-    5802:	3102      	movi      	r1, 2
-    5804:	9340      	ld.w      	r2, (r3, 0x0)
-    5806:	9279      	ld.w      	r3, (r2, 0x64)
-    5808:	68c4      	and      	r3, r1
-    580a:	3b40      	cmpnei      	r3, 0
-    580c:	0c02      	bf      	0x5810	// 5810 <CMP1IntHandler+0x14>
+    41c4:	116d      	lrw      	r3, 0x20000024	// 4278 <Trap3Handler+0x36>
+    41c6:	3102      	movi      	r1, 2
+    41c8:	9340      	ld.w      	r2, (r3, 0x0)
+    41ca:	9279      	ld.w      	r3, (r2, 0x64)
+    41cc:	68c4      	and      	r3, r1
+    41ce:	3b40      	cmpnei      	r3, 0
+    41d0:	0c02      	bf      	0x41d4	// 41d4 <CMP1IntHandler+0x14>
 	{
 		CMP->ICR =	EDGEDET1;
-    580e:	b23a      	st.w      	r1, (r2, 0x68)
+    41d2:	b23a      	st.w      	r1, (r2, 0x68)
 	}
 }
-    5810:	1463      	ipop
-    5812:	1461      	nir
+    41d4:	1463      	ipop
+    41d6:	1461      	nir
 
-00005814 <CMP2IntHandler>:
+000041d8 <CMP2IntHandler>:
 //CMP0,CMP2 interrupt
 //EntryParameter:NONE
 //ReturnValue:NONE
 /*************************************************************/
 void CMP2IntHandler(void) 
 {
-    5814:	1460      	nie
-    5816:	1462      	ipush
+    41d8:	1460      	nie
+    41da:	1462      	ipush
     // ISR content ...
 	if ((CMP->MISR & EDGEDET2)==EDGEDET2) 
-    5818:	1165      	lrw      	r3, 0x20000024	// 58ac <EPWMIntHandler+0x38>
-    581a:	3104      	movi      	r1, 4
-    581c:	9340      	ld.w      	r2, (r3, 0x0)
-    581e:	9279      	ld.w      	r3, (r2, 0x64)
-    5820:	68c4      	and      	r3, r1
-    5822:	3b40      	cmpnei      	r3, 0
-    5824:	0c02      	bf      	0x5828	// 5828 <CMP2IntHandler+0x14>
+    41dc:	1167      	lrw      	r3, 0x20000024	// 4278 <Trap3Handler+0x36>
+    41de:	3104      	movi      	r1, 4
+    41e0:	9340      	ld.w      	r2, (r3, 0x0)
+    41e2:	9279      	ld.w      	r3, (r2, 0x64)
+    41e4:	68c4      	and      	r3, r1
+    41e6:	3b40      	cmpnei      	r3, 0
+    41e8:	0c02      	bf      	0x41ec	// 41ec <CMP2IntHandler+0x14>
 	{
 		CMP->ICR =	EDGEDET2;
-    5826:	b23a      	st.w      	r1, (r2, 0x68)
+    41ea:	b23a      	st.w      	r1, (r2, 0x68)
 	}
 }
-    5828:	1463      	ipop
-    582a:	1461      	nir
+    41ec:	1463      	ipop
+    41ee:	1461      	nir
 
-0000582c <CMP3IntHandler>:
+000041f0 <CMP3IntHandler>:
 //CMP0,CMP2 interrupt
 //EntryParameter:NONE
 //ReturnValue:NONE
 /*************************************************************/
 void CMP3IntHandler(void) 
 {
-    582c:	1460      	nie
-    582e:	1462      	ipush
+    41f0:	1460      	nie
+    41f2:	1462      	ipush
     // ISR content ...
 	if((CMP->MISR & EDGEDET3)==EDGEDET3)
-    5830:	107f      	lrw      	r3, 0x20000024	// 58ac <EPWMIntHandler+0x38>
-    5832:	3108      	movi      	r1, 8
-    5834:	9340      	ld.w      	r2, (r3, 0x0)
-    5836:	9279      	ld.w      	r3, (r2, 0x64)
-    5838:	68c4      	and      	r3, r1
-    583a:	3b40      	cmpnei      	r3, 0
-    583c:	0c02      	bf      	0x5840	// 5840 <CMP3IntHandler+0x14>
+    41f4:	1161      	lrw      	r3, 0x20000024	// 4278 <Trap3Handler+0x36>
+    41f6:	3108      	movi      	r1, 8
+    41f8:	9340      	ld.w      	r2, (r3, 0x0)
+    41fa:	9279      	ld.w      	r3, (r2, 0x64)
+    41fc:	68c4      	and      	r3, r1
+    41fe:	3b40      	cmpnei      	r3, 0
+    4200:	0c02      	bf      	0x4204	// 4204 <CMP3IntHandler+0x14>
 	{
 		CMP->ICR =	EDGEDET3;				
-    583e:	b23a      	st.w      	r1, (r2, 0x68)
+    4202:	b23a      	st.w      	r1, (r2, 0x68)
 	}
 }
-    5840:	1463      	ipop
-    5842:	1461      	nir
+    4204:	1463      	ipop
+    4206:	1461      	nir
 
-00005844 <CMP4IntHandler>:
+00004208 <CMP4IntHandler>:
 //CMP0,CMP2 interrupt
 //EntryParameter:NONE
 //ReturnValue:NONE
 /*************************************************************/
 void CMP4IntHandler(void) 
 {
-    5844:	1460      	nie
-    5846:	1462      	ipush
+    4208:	1460      	nie
+    420a:	1462      	ipush
     // ISR content ...
 	if((CMP->MISR & EDGEDET4)==EDGEDET4)
-    5848:	1079      	lrw      	r3, 0x20000024	// 58ac <EPWMIntHandler+0x38>
-    584a:	3110      	movi      	r1, 16
-    584c:	9340      	ld.w      	r2, (r3, 0x0)
-    584e:	9279      	ld.w      	r3, (r2, 0x64)
-    5850:	68c4      	and      	r3, r1
-    5852:	3b40      	cmpnei      	r3, 0
-    5854:	0c02      	bf      	0x5858	// 5858 <CMP4IntHandler+0x14>
+    420c:	107b      	lrw      	r3, 0x20000024	// 4278 <Trap3Handler+0x36>
+    420e:	3110      	movi      	r1, 16
+    4210:	9340      	ld.w      	r2, (r3, 0x0)
+    4212:	9279      	ld.w      	r3, (r2, 0x64)
+    4214:	68c4      	and      	r3, r1
+    4216:	3b40      	cmpnei      	r3, 0
+    4218:	0c02      	bf      	0x421c	// 421c <CMP4IntHandler+0x14>
 	{
 		CMP->ICR =	EDGEDET4;
-    5856:	b23a      	st.w      	r1, (r2, 0x68)
+    421a:	b23a      	st.w      	r1, (r2, 0x68)
 	}
 }
-    5858:	1463      	ipop
-    585a:	1461      	nir
+    421c:	1463      	ipop
+    421e:	1461      	nir
 
-0000585c <CMP5IntHandler>:
+00004220 <CMP5IntHandler>:
 //CMP0,CMP2 interrupt
 //EntryParameter:NONE
 //ReturnValue:NONE
 /*************************************************************/
 void CMP5IntHandler(void) 
 {
-    585c:	1460      	nie
-    585e:	1462      	ipush
+    4220:	1460      	nie
+    4222:	1462      	ipush
     // ISR content ...
 	if((CMP->MISR & EDGEDET5)==EDGEDET5)
-    5860:	1073      	lrw      	r3, 0x20000024	// 58ac <EPWMIntHandler+0x38>
-    5862:	3120      	movi      	r1, 32
-    5864:	9340      	ld.w      	r2, (r3, 0x0)
-    5866:	9279      	ld.w      	r3, (r2, 0x64)
-    5868:	68c4      	and      	r3, r1
-    586a:	3b40      	cmpnei      	r3, 0
-    586c:	0c02      	bf      	0x5870	// 5870 <CMP5IntHandler+0x14>
+    4224:	1075      	lrw      	r3, 0x20000024	// 4278 <Trap3Handler+0x36>
+    4226:	3120      	movi      	r1, 32
+    4228:	9340      	ld.w      	r2, (r3, 0x0)
+    422a:	9279      	ld.w      	r3, (r2, 0x64)
+    422c:	68c4      	and      	r3, r1
+    422e:	3b40      	cmpnei      	r3, 0
+    4230:	0c02      	bf      	0x4234	// 4234 <CMP5IntHandler+0x14>
 	{
 		CMP->ICR =	EDGEDET5;
-    586e:	b23a      	st.w      	r1, (r2, 0x68)
+    4232:	b23a      	st.w      	r1, (r2, 0x68)
 	}
 }
-    5870:	1463      	ipop
-    5872:	1461      	nir
+    4234:	1463      	ipop
+    4236:	1461      	nir
 
-00005874 <EPWMIntHandler>:
-//EPWM Interrupt
-//EntryParameter:NONE
-//ReturnValue:NONE
-/*************************************************************/
-void EPWMIntHandler(void) 
-{
-    5874:	1460      	nie
-    5876:	1462      	ipush
-    // ISR content ...
-	if ((EPWM->MISR & EPWM_START0)==EPWM_START0) 
-    5878:	106e      	lrw      	r3, 0x2000004c	// 58b0 <EPWMIntHandler+0x3c>
-    587a:	3280      	movi      	r2, 128
-    587c:	9360      	ld.w      	r3, (r3, 0x0)
-    587e:	60c8      	addu      	r3, r2
-    5880:	041a      	br      	0x58b4	// 58b4 <EPWMIntHandler+0x40>
-    5882:	0000      	bkpt
-    5884:	200000fc 	.long	0x200000fc
-    5888:	200000b0 	.long	0x200000b0
-    588c:	20000038 	.long	0x20000038
-    5890:	20000048 	.long	0x20000048
-    5894:	20000044 	.long	0x20000044
-    5898:	20000040 	.long	0x20000040
-    589c:	2000003c 	.long	0x2000003c
-    58a0:	20000028 	.long	0x20000028
-    58a4:	2000007c 	.long	0x2000007c
-    58a8:	2000007d 	.long	0x2000007d
-    58ac:	20000024 	.long	0x20000024
-    58b0:	2000004c 	.long	0x2000004c
-    58b4:	9331      	ld.w      	r1, (r3, 0x44)
-    58b6:	3001      	movi      	r0, 1
-    58b8:	6840      	and      	r1, r0
-    58ba:	3940      	cmpnei      	r1, 0
-    58bc:	0c04      	bf      	0x58c4	// 58c4 <EPWMIntHandler+0x50>
-    {
-        EPWM->ICR = EPWM_STOP1;
-    }
-	else if((EPWM->MISR & EPWM_PEND1)==EPWM_PEND1) 
-    {
-        EPWM->ICR = EPWM_PEND1;
-    58be:	b30f      	st.w      	r0, (r3, 0x3c)
-    }
-	else if((EPWM->MISR & EPWM1_SLPB_OVF)==EPWM1_SLPB_OVF) 
-    {
-        EPWM->ICR = EPWM1_SLPB_OVF;
-    }
-}
-    58c0:	1463      	ipop
-    58c2:	1461      	nir
-    else if((EPWM->MISR & EPWM_STOP0)==EPWM_STOP0) 
-    58c4:	9331      	ld.w      	r1, (r3, 0x44)
-    58c6:	3002      	movi      	r0, 2
-    58c8:	6840      	and      	r1, r0
-    58ca:	3940      	cmpnei      	r1, 0
-    58cc:	0bf9      	bt      	0x58be	// 58be <EPWMIntHandler+0x4a>
-	else if((EPWM->MISR & EPWM_PEND0)==EPWM_PEND0) 
-    58ce:	9331      	ld.w      	r1, (r3, 0x44)
-    58d0:	3004      	movi      	r0, 4
-    58d2:	6840      	and      	r1, r0
-    58d4:	3940      	cmpnei      	r1, 0
-    58d6:	0bf4      	bt      	0x58be	// 58be <EPWMIntHandler+0x4a>
-	else if((EPWM->MISR & EPWM_CENTER0)==EPWM_CENTER0) 
-    58d8:	9331      	ld.w      	r1, (r3, 0x44)
-    58da:	3008      	movi      	r0, 8
-    58dc:	6840      	and      	r1, r0
-    58de:	3940      	cmpnei      	r1, 0
-    58e0:	0bef      	bt      	0x58be	// 58be <EPWMIntHandler+0x4a>
-	else if ((EPWM->MISR & EPWM_START1)==EPWM_START1) 
-    58e2:	9331      	ld.w      	r1, (r3, 0x44)
-    58e4:	3010      	movi      	r0, 16
-    58e6:	6840      	and      	r1, r0
-    58e8:	3940      	cmpnei      	r1, 0
-    58ea:	0bea      	bt      	0x58be	// 58be <EPWMIntHandler+0x4a>
-    else if((EPWM->MISR & EPWM_STOP1)==EPWM_STOP1) 
-    58ec:	9331      	ld.w      	r1, (r3, 0x44)
-    58ee:	3020      	movi      	r0, 32
-    58f0:	6840      	and      	r1, r0
-    58f2:	3940      	cmpnei      	r1, 0
-    58f4:	0be5      	bt      	0x58be	// 58be <EPWMIntHandler+0x4a>
-	else if((EPWM->MISR & EPWM_PEND1)==EPWM_PEND1) 
-    58f6:	9331      	ld.w      	r1, (r3, 0x44)
-    58f8:	3040      	movi      	r0, 64
-    58fa:	6840      	and      	r1, r0
-    58fc:	3940      	cmpnei      	r1, 0
-    58fe:	0be0      	bt      	0x58be	// 58be <EPWMIntHandler+0x4a>
-	else if((EPWM->MISR & EPWM_CENTER1)==EPWM_CENTER1) 
-    5900:	9331      	ld.w      	r1, (r3, 0x44)
-    5902:	6848      	and      	r1, r2
-    5904:	3940      	cmpnei      	r1, 0
-    5906:	0c03      	bf      	0x590c	// 590c <EPWMIntHandler+0x98>
-        EPWM->ICR = EPWM1_SLPB_OVF;
-    5908:	b34f      	st.w      	r2, (r3, 0x3c)
-}
-    590a:	07db      	br      	0x58c0	// 58c0 <EPWMIntHandler+0x4c>
-	else if ((EPWM->MISR & EPWM_START2)==EPWM_START2) 
-    590c:	3280      	movi      	r2, 128
-    590e:	9331      	ld.w      	r1, (r3, 0x44)
-    5910:	4241      	lsli      	r2, r2, 1
-    5912:	6848      	and      	r1, r2
-    5914:	3940      	cmpnei      	r1, 0
-    5916:	0bf9      	bt      	0x5908	// 5908 <EPWMIntHandler+0x94>
-    else if((EPWM->MISR & EPWM_STOP2)==EPWM_STOP2) 
-    5918:	3280      	movi      	r2, 128
-    591a:	9331      	ld.w      	r1, (r3, 0x44)
-    591c:	4242      	lsli      	r2, r2, 2
-    591e:	6848      	and      	r1, r2
-    5920:	3940      	cmpnei      	r1, 0
-    5922:	0bf3      	bt      	0x5908	// 5908 <EPWMIntHandler+0x94>
-	else if((EPWM->MISR & EPWM_PEND2)==EPWM_PEND2) 
-    5924:	3280      	movi      	r2, 128
-    5926:	9331      	ld.w      	r1, (r3, 0x44)
-    5928:	4243      	lsli      	r2, r2, 3
-    592a:	6848      	and      	r1, r2
-    592c:	3940      	cmpnei      	r1, 0
-    592e:	0bed      	bt      	0x5908	// 5908 <EPWMIntHandler+0x94>
-	else if((EPWM->MISR & EPWM_CENTER2)==EPWM_CENTER2) 
-    5930:	3280      	movi      	r2, 128
-    5932:	9331      	ld.w      	r1, (r3, 0x44)
-    5934:	4244      	lsli      	r2, r2, 4
-    5936:	6848      	and      	r1, r2
-    5938:	3940      	cmpnei      	r1, 0
-    593a:	0be7      	bt      	0x5908	// 5908 <EPWMIntHandler+0x94>
-	else if((EPWM->MISR & EPWM0_CMPAUM)==EPWM0_CMPAUM) 
-    593c:	3280      	movi      	r2, 128
-    593e:	9331      	ld.w      	r1, (r3, 0x44)
-    5940:	4245      	lsli      	r2, r2, 5
-    5942:	6848      	and      	r1, r2
-    5944:	3940      	cmpnei      	r1, 0
-    5946:	0be1      	bt      	0x5908	// 5908 <EPWMIntHandler+0x94>
-	else if((EPWM->MISR & EPWM0_CMPADM)==EPWM0_CMPADM) 
-    5948:	3280      	movi      	r2, 128
-    594a:	9331      	ld.w      	r1, (r3, 0x44)
-    594c:	4246      	lsli      	r2, r2, 6
-    594e:	6848      	and      	r1, r2
-    5950:	3940      	cmpnei      	r1, 0
-    5952:	0bdb      	bt      	0x5908	// 5908 <EPWMIntHandler+0x94>
-	else if((EPWM->MISR & EPWM0_CMPBUM)==EPWM0_CMPBUM) 
-    5954:	3280      	movi      	r2, 128
-    5956:	9331      	ld.w      	r1, (r3, 0x44)
-    5958:	4247      	lsli      	r2, r2, 7
-    595a:	6848      	and      	r1, r2
-    595c:	3940      	cmpnei      	r1, 0
-    595e:	0bd5      	bt      	0x5908	// 5908 <EPWMIntHandler+0x94>
-	else if((EPWM->MISR & EPWM0_CMPBDM)==EPWM0_CMPBDM) 
-    5960:	3280      	movi      	r2, 128
-    5962:	9331      	ld.w      	r1, (r3, 0x44)
-    5964:	4248      	lsli      	r2, r2, 8
-    5966:	6848      	and      	r1, r2
-    5968:	3940      	cmpnei      	r1, 0
-    596a:	0bcf      	bt      	0x5908	// 5908 <EPWMIntHandler+0x94>
-	else if((EPWM->MISR & EPWM1_CMPAUM)==EPWM1_CMPAUM) 
-    596c:	3280      	movi      	r2, 128
-    596e:	9331      	ld.w      	r1, (r3, 0x44)
-    5970:	4249      	lsli      	r2, r2, 9
-    5972:	6848      	and      	r1, r2
-    5974:	3940      	cmpnei      	r1, 0
-    5976:	0bc9      	bt      	0x5908	// 5908 <EPWMIntHandler+0x94>
-	else if((EPWM->MISR & EPWM1_CMPADM)==EPWM1_CMPADM) 
-    5978:	3280      	movi      	r2, 128
-    597a:	9331      	ld.w      	r1, (r3, 0x44)
-    597c:	424a      	lsli      	r2, r2, 10
-    597e:	6848      	and      	r1, r2
-    5980:	3940      	cmpnei      	r1, 0
-    5982:	0bc3      	bt      	0x5908	// 5908 <EPWMIntHandler+0x94>
-	else if((EPWM->MISR & EPWM1_CMPBUM)==EPWM1_CMPBUM) 
-    5984:	3280      	movi      	r2, 128
-    5986:	9331      	ld.w      	r1, (r3, 0x44)
-    5988:	424b      	lsli      	r2, r2, 11
-    598a:	6848      	and      	r1, r2
-    598c:	3940      	cmpnei      	r1, 0
-    598e:	0bbd      	bt      	0x5908	// 5908 <EPWMIntHandler+0x94>
-	else if((EPWM->MISR & EPWM1_CMPBDM)==EPWM1_CMPBDM) 
-    5990:	3280      	movi      	r2, 128
-    5992:	9331      	ld.w      	r1, (r3, 0x44)
-    5994:	424c      	lsli      	r2, r2, 12
-    5996:	6848      	and      	r1, r2
-    5998:	3940      	cmpnei      	r1, 0
-    599a:	0bb7      	bt      	0x5908	// 5908 <EPWMIntHandler+0x94>
-	else if((EPWM->MISR & EPWM2_CMPAUM)==EPWM2_CMPAUM) 
-    599c:	3280      	movi      	r2, 128
-    599e:	9331      	ld.w      	r1, (r3, 0x44)
-    59a0:	424d      	lsli      	r2, r2, 13
-    59a2:	6848      	and      	r1, r2
-    59a4:	3940      	cmpnei      	r1, 0
-    59a6:	0bb1      	bt      	0x5908	// 5908 <EPWMIntHandler+0x94>
-	else if((EPWM->MISR & EPWM2_CMPADM)==EPWM2_CMPADM) 
-    59a8:	3280      	movi      	r2, 128
-    59aa:	9331      	ld.w      	r1, (r3, 0x44)
-    59ac:	424e      	lsli      	r2, r2, 14
-    59ae:	6848      	and      	r1, r2
-    59b0:	3940      	cmpnei      	r1, 0
-    59b2:	0bab      	bt      	0x5908	// 5908 <EPWMIntHandler+0x94>
-	else if((EPWM->MISR & EPWM2_CMPBUM)==EPWM2_CMPBUM) 
-    59b4:	3280      	movi      	r2, 128
-    59b6:	9331      	ld.w      	r1, (r3, 0x44)
-    59b8:	424f      	lsli      	r2, r2, 15
-    59ba:	6848      	and      	r1, r2
-    59bc:	3940      	cmpnei      	r1, 0
-    59be:	0ba5      	bt      	0x5908	// 5908 <EPWMIntHandler+0x94>
-	else if((EPWM->MISR & EPWM2_CMPBDM)==EPWM2_CMPBDM) 
-    59c0:	3280      	movi      	r2, 128
-    59c2:	9331      	ld.w      	r1, (r3, 0x44)
-    59c4:	4250      	lsli      	r2, r2, 16
-    59c6:	6848      	and      	r1, r2
-    59c8:	3940      	cmpnei      	r1, 0
-    59ca:	0b9f      	bt      	0x5908	// 5908 <EPWMIntHandler+0x94>
-	else if((EPWM->MISR & EPWM0_SLPA_OVF)==EPWM0_SLPA_OVF) 
-    59cc:	3280      	movi      	r2, 128
-    59ce:	9331      	ld.w      	r1, (r3, 0x44)
-    59d0:	4251      	lsli      	r2, r2, 17
-    59d2:	6848      	and      	r1, r2
-    59d4:	3940      	cmpnei      	r1, 0
-    59d6:	0b99      	bt      	0x5908	// 5908 <EPWMIntHandler+0x94>
-	else if((EPWM->MISR & EPWM0_SLPB_OVF)==EPWM0_SLPB_OVF) 
-    59d8:	3280      	movi      	r2, 128
-    59da:	9331      	ld.w      	r1, (r3, 0x44)
-    59dc:	4252      	lsli      	r2, r2, 18
-    59de:	6848      	and      	r1, r2
-    59e0:	3940      	cmpnei      	r1, 0
-    59e2:	0b93      	bt      	0x5908	// 5908 <EPWMIntHandler+0x94>
-	else if((EPWM->MISR & EPWM1_SLPA_OVF)==EPWM1_SLPA_OVF) 
-    59e4:	3280      	movi      	r2, 128
-    59e6:	9331      	ld.w      	r1, (r3, 0x44)
-    59e8:	4253      	lsli      	r2, r2, 19
-    59ea:	6848      	and      	r1, r2
-    59ec:	3940      	cmpnei      	r1, 0
-    59ee:	0b8d      	bt      	0x5908	// 5908 <EPWMIntHandler+0x94>
-	else if((EPWM->MISR & EPWM1_SLPB_OVF)==EPWM1_SLPB_OVF) 
-    59f0:	3280      	movi      	r2, 128
-    59f2:	9331      	ld.w      	r1, (r3, 0x44)
-    59f4:	4254      	lsli      	r2, r2, 20
-    59f6:	6848      	and      	r1, r2
-    59f8:	3940      	cmpnei      	r1, 0
-    59fa:	0b87      	bt      	0x5908	// 5908 <EPWMIntHandler+0x94>
-    59fc:	0762      	br      	0x58c0	// 58c0 <EPWMIntHandler+0x4c>
-
-000059fe <TC0_0IntHandler>:
-//TC0_0 Interrupt
-//EntryParameter:NONE
-//ReturnValue:NONE
-/*************************************************************/
-void TC0_0IntHandler(void) 
-{
-    59fe:	1460      	nie
-    5a00:	1462      	ipush
-    // ISR content ...
-	if((TC0_0->SR&TC0CHX_INT_COVFS)==TC0CHX_INT_COVFS)
-    5a02:	0266      	lrw      	r3, 0x20000060	// 5ce4 <MisalignedHandler+0x16>
-    5a04:	3101      	movi      	r1, 1
-    5a06:	9360      	ld.w      	r3, (r3, 0x0)
-    5a08:	935c      	ld.w      	r2, (r3, 0x70)
-    5a0a:	6884      	and      	r2, r1
-    5a0c:	3a40      	cmpnei      	r2, 0
-    5a0e:	0c02      	bf      	0x5a12	// 5a12 <TC0_0IntHandler+0x14>
-	{
-		TC0_0->CSR = TC0CHX_INT_COVFS;
-    5a10:	b33b      	st.w      	r1, (r3, 0x6c)
-	}
-	if((TC0_0->SR&TC0CHX_INT_LOVRS)==TC0CHX_INT_LOVRS)
-    5a12:	935c      	ld.w      	r2, (r3, 0x70)
-    5a14:	3102      	movi      	r1, 2
-    5a16:	6884      	and      	r2, r1
-    5a18:	3a40      	cmpnei      	r2, 0
-    5a1a:	0c02      	bf      	0x5a1e	// 5a1e <TC0_0IntHandler+0x20>
-	{
-		TC0_0->CSR = TC0CHX_INT_LOVRS;
-    5a1c:	b33b      	st.w      	r1, (r3, 0x6c)
-	}
-	if((TC0_0->SR&TC0CHX_INT_CPAS)==TC0CHX_INT_CPAS)
-    5a1e:	935c      	ld.w      	r2, (r3, 0x70)
-    5a20:	3104      	movi      	r1, 4
-    5a22:	6884      	and      	r2, r1
-    5a24:	3a40      	cmpnei      	r2, 0
-    5a26:	0c02      	bf      	0x5a2a	// 5a2a <TC0_0IntHandler+0x2c>
-	{
-		TC0_0->CSR = TC0CHX_INT_CPAS;
-    5a28:	b33b      	st.w      	r1, (r3, 0x6c)
-	}
-	if((TC0_0->SR&TC0CHX_INT_CPBS)==TC0CHX_INT_CPBS)
-    5a2a:	935c      	ld.w      	r2, (r3, 0x70)
-    5a2c:	3108      	movi      	r1, 8
-    5a2e:	6884      	and      	r2, r1
-    5a30:	3a40      	cmpnei      	r2, 0
-    5a32:	0c02      	bf      	0x5a36	// 5a36 <TC0_0IntHandler+0x38>
-	{
-		TC0_0->CSR = TC0CHX_INT_CPBS;
-    5a34:	b33b      	st.w      	r1, (r3, 0x6c)
-	}
-	if((TC0_0->SR&TC0CHX_INT_CPCS)==TC0CHX_INT_CPCS)
-    5a36:	935c      	ld.w      	r2, (r3, 0x70)
-    5a38:	3110      	movi      	r1, 16
-    5a3a:	6884      	and      	r2, r1
-    5a3c:	3a40      	cmpnei      	r2, 0
-    5a3e:	0c02      	bf      	0x5a42	// 5a42 <TC0_0IntHandler+0x44>
-	{
-		TC0_0->CSR = TC0CHX_INT_CPCS;
-    5a40:	b33b      	st.w      	r1, (r3, 0x6c)
-	}
-	if((TC0_0->SR&TC0CHX_INT_LDRAS)==TC0CHX_INT_LDRAS)
-    5a42:	935c      	ld.w      	r2, (r3, 0x70)
-    5a44:	3120      	movi      	r1, 32
-    5a46:	6884      	and      	r2, r1
-    5a48:	3a40      	cmpnei      	r2, 0
-    5a4a:	0c02      	bf      	0x5a4e	// 5a4e <TC0_0IntHandler+0x50>
-	{
-		TC0_0->CSR = TC0CHX_INT_LDRAS;
-    5a4c:	b33b      	st.w      	r1, (r3, 0x6c)
-		//RA_Capture=TC0_0->RA;
-	}
-	if((TC0_0->SR&TC0CHX_INT_LDRBS)==TC0CHX_INT_LDRBS)
-    5a4e:	935c      	ld.w      	r2, (r3, 0x70)
-    5a50:	3140      	movi      	r1, 64
-    5a52:	6884      	and      	r2, r1
-    5a54:	3a40      	cmpnei      	r2, 0
-    5a56:	0c02      	bf      	0x5a5a	// 5a5a <TC0_0IntHandler+0x5c>
-	{
-		TC0_0->CSR = TC0CHX_INT_LDRBS;
-    5a58:	b33b      	st.w      	r1, (r3, 0x6c)
-		//RB_Capture=TC0_0->RB;
-	}
-	if((TC0_0->SR&TC0CHX_INT_ETRGS)==TC0CHX_INT_ETRGS)
-    5a5a:	935c      	ld.w      	r2, (r3, 0x70)
-    5a5c:	3180      	movi      	r1, 128
-    5a5e:	6884      	and      	r2, r1
-    5a60:	3a40      	cmpnei      	r2, 0
-    5a62:	0c02      	bf      	0x5a66	// 5a66 <TC0_0IntHandler+0x68>
-	{
-		TC0_0->CSR = TC0CHX_INT_ETRGS;
-    5a64:	b33b      	st.w      	r1, (r3, 0x6c)
-	}
-}
-    5a66:	1463      	ipop
-    5a68:	1461      	nir
-
-00005a6a <TC0_1IntHandler>:
-//TC0_1 Interrupt
-//EntryParameter:NONE
-//ReturnValue:NONE
-/*************************************************************/
-void TC0_1IntHandler(void) 
-{
-    5a6a:	1460      	nie
-    5a6c:	1462      	ipush
-	// ISR content ...
-	if((TC0_1->SR&TC0CHX_INT_COVFS)==TC0CHX_INT_COVFS)
-    5a6e:	0360      	lrw      	r3, 0x2000005c	// 5ce8 <MisalignedHandler+0x1a>
-    5a70:	3101      	movi      	r1, 1
-    5a72:	9360      	ld.w      	r3, (r3, 0x0)
-    5a74:	935c      	ld.w      	r2, (r3, 0x70)
-    5a76:	6884      	and      	r2, r1
-    5a78:	3a40      	cmpnei      	r2, 0
-    5a7a:	0c02      	bf      	0x5a7e	// 5a7e <TC0_1IntHandler+0x14>
-	{
-		TC0_1->CSR = TC0CHX_INT_COVFS;
-    5a7c:	b33b      	st.w      	r1, (r3, 0x6c)
-	}
-	if((TC0_1->SR&TC0CHX_INT_LOVRS)==TC0CHX_INT_LOVRS)
-    5a7e:	935c      	ld.w      	r2, (r3, 0x70)
-    5a80:	3102      	movi      	r1, 2
-    5a82:	6884      	and      	r2, r1
-    5a84:	3a40      	cmpnei      	r2, 0
-    5a86:	0c02      	bf      	0x5a8a	// 5a8a <TC0_1IntHandler+0x20>
-	{
-		TC0_1->CSR = TC0CHX_INT_LOVRS;
-    5a88:	b33b      	st.w      	r1, (r3, 0x6c)
-	}
-	if((TC0_1->SR&TC0CHX_INT_CPAS)==TC0CHX_INT_CPAS)
-    5a8a:	935c      	ld.w      	r2, (r3, 0x70)
-    5a8c:	3104      	movi      	r1, 4
-    5a8e:	6884      	and      	r2, r1
-    5a90:	3a40      	cmpnei      	r2, 0
-    5a92:	0c02      	bf      	0x5a96	// 5a96 <TC0_1IntHandler+0x2c>
-	{
-		TC0_1->CSR = TC0CHX_INT_CPAS;
-    5a94:	b33b      	st.w      	r1, (r3, 0x6c)
-	}
-	if((TC0_1->SR&TC0CHX_INT_CPBS)==TC0CHX_INT_CPBS)
-    5a96:	935c      	ld.w      	r2, (r3, 0x70)
-    5a98:	3108      	movi      	r1, 8
-    5a9a:	6884      	and      	r2, r1
-    5a9c:	3a40      	cmpnei      	r2, 0
-    5a9e:	0c02      	bf      	0x5aa2	// 5aa2 <TC0_1IntHandler+0x38>
-	{
-		TC0_1->CSR = TC0CHX_INT_CPBS;
-    5aa0:	b33b      	st.w      	r1, (r3, 0x6c)
-	}
-	if((TC0_1->SR&TC0CHX_INT_CPCS)==TC0CHX_INT_CPCS)
-    5aa2:	935c      	ld.w      	r2, (r3, 0x70)
-    5aa4:	3110      	movi      	r1, 16
-    5aa6:	6884      	and      	r2, r1
-    5aa8:	3a40      	cmpnei      	r2, 0
-    5aaa:	0c02      	bf      	0x5aae	// 5aae <TC0_1IntHandler+0x44>
-	{
-		TC0_1->CSR = TC0CHX_INT_CPCS;
-    5aac:	b33b      	st.w      	r1, (r3, 0x6c)
-	}
-	if((TC0_1->SR&TC0CHX_INT_LDRAS)==TC0CHX_INT_LDRAS)
-    5aae:	935c      	ld.w      	r2, (r3, 0x70)
-    5ab0:	3120      	movi      	r1, 32
-    5ab2:	6884      	and      	r2, r1
-    5ab4:	3a40      	cmpnei      	r2, 0
-    5ab6:	0c02      	bf      	0x5aba	// 5aba <TC0_1IntHandler+0x50>
-	{
-		TC0_1->CSR = TC0CHX_INT_LDRAS;
-    5ab8:	b33b      	st.w      	r1, (r3, 0x6c)
-	}
-	if((TC0_1->SR&TC0CHX_INT_LDRBS)==TC0CHX_INT_LDRBS)
-    5aba:	935c      	ld.w      	r2, (r3, 0x70)
-    5abc:	3140      	movi      	r1, 64
-    5abe:	6884      	and      	r2, r1
-    5ac0:	3a40      	cmpnei      	r2, 0
-    5ac2:	0c02      	bf      	0x5ac6	// 5ac6 <TC0_1IntHandler+0x5c>
-	{
-		TC0_1->CSR = TC0CHX_INT_LDRBS;
-    5ac4:	b33b      	st.w      	r1, (r3, 0x6c)
-	}
-	if((TC0_1->SR&TC0CHX_INT_ETRGS)==TC0CHX_INT_ETRGS)
-    5ac6:	935c      	ld.w      	r2, (r3, 0x70)
-    5ac8:	3180      	movi      	r1, 128
-    5aca:	6884      	and      	r2, r1
-    5acc:	3a40      	cmpnei      	r2, 0
-    5ace:	0c02      	bf      	0x5ad2	// 5ad2 <TC0_1IntHandler+0x68>
-	{
-		TC0_1->CSR = TC0CHX_INT_ETRGS;
-    5ad0:	b33b      	st.w      	r1, (r3, 0x6c)
-	}
-}
-    5ad2:	1463      	ipop
-    5ad4:	1461      	nir
-
-00005ad6 <TC0_2IntHandler>:
-//TC0_2 Interrupt
-//EntryParameter:NONE
-//ReturnValue:NONE
-/*************************************************************/
-void TC0_2IntHandler(void) 
-{
-    5ad6:	1460      	nie
-    5ad8:	1462      	ipush
-    // ISR content ...
-	if((TC0_2->SR&TC0CHX_INT_COVFS)==TC0CHX_INT_COVFS)
-    5ada:	037a      	lrw      	r3, 0x20000058	// 5cec <MisalignedHandler+0x1e>
-    5adc:	3101      	movi      	r1, 1
-    5ade:	9360      	ld.w      	r3, (r3, 0x0)
-    5ae0:	935c      	ld.w      	r2, (r3, 0x70)
-    5ae2:	6884      	and      	r2, r1
-    5ae4:	3a40      	cmpnei      	r2, 0
-    5ae6:	0c02      	bf      	0x5aea	// 5aea <TC0_2IntHandler+0x14>
-	{
-		TC0_2->CSR = TC0CHX_INT_COVFS;
-    5ae8:	b33b      	st.w      	r1, (r3, 0x6c)
-	}
-	if((TC0_2->SR&TC0CHX_INT_LOVRS)==TC0CHX_INT_LOVRS)
-    5aea:	935c      	ld.w      	r2, (r3, 0x70)
-    5aec:	3102      	movi      	r1, 2
-    5aee:	6884      	and      	r2, r1
-    5af0:	3a40      	cmpnei      	r2, 0
-    5af2:	0c02      	bf      	0x5af6	// 5af6 <TC0_2IntHandler+0x20>
-	{
-		TC0_2->CSR = TC0CHX_INT_LOVRS;
-    5af4:	b33b      	st.w      	r1, (r3, 0x6c)
-	}
-	if((TC0_2->SR&TC0CHX_INT_CPAS)==TC0CHX_INT_CPAS)
-    5af6:	935c      	ld.w      	r2, (r3, 0x70)
-    5af8:	3104      	movi      	r1, 4
-    5afa:	6884      	and      	r2, r1
-    5afc:	3a40      	cmpnei      	r2, 0
-    5afe:	0c02      	bf      	0x5b02	// 5b02 <TC0_2IntHandler+0x2c>
-	{
-		TC0_2->CSR = TC0CHX_INT_CPAS;
-    5b00:	b33b      	st.w      	r1, (r3, 0x6c)
-	}
-	if((TC0_2->SR&TC0CHX_INT_CPBS)==TC0CHX_INT_CPBS)
-    5b02:	935c      	ld.w      	r2, (r3, 0x70)
-    5b04:	3108      	movi      	r1, 8
-    5b06:	6884      	and      	r2, r1
-    5b08:	3a40      	cmpnei      	r2, 0
-    5b0a:	0c02      	bf      	0x5b0e	// 5b0e <TC0_2IntHandler+0x38>
-	{
-		TC0_2->CSR = TC0CHX_INT_CPBS;
-    5b0c:	b33b      	st.w      	r1, (r3, 0x6c)
-	}
-	if((TC0_2->SR&TC0CHX_INT_CPCS)==TC0CHX_INT_CPCS)
-    5b0e:	935c      	ld.w      	r2, (r3, 0x70)
-    5b10:	3110      	movi      	r1, 16
-    5b12:	6884      	and      	r2, r1
-    5b14:	3a40      	cmpnei      	r2, 0
-    5b16:	0c02      	bf      	0x5b1a	// 5b1a <TC0_2IntHandler+0x44>
-	{
-		TC0_2->CSR = TC0CHX_INT_CPCS;
-    5b18:	b33b      	st.w      	r1, (r3, 0x6c)
-	}
-	if((TC0_2->SR&TC0CHX_INT_LDRAS)==TC0CHX_INT_LDRAS)
-    5b1a:	935c      	ld.w      	r2, (r3, 0x70)
-    5b1c:	3120      	movi      	r1, 32
-    5b1e:	6884      	and      	r2, r1
-    5b20:	3a40      	cmpnei      	r2, 0
-    5b22:	0c02      	bf      	0x5b26	// 5b26 <TC0_2IntHandler+0x50>
-	{
-		TC0_2->CSR = TC0CHX_INT_LDRAS;
-    5b24:	b33b      	st.w      	r1, (r3, 0x6c)
-	}
-	if((TC0_2->SR&TC0CHX_INT_LDRBS)==TC0CHX_INT_LDRBS)
-    5b26:	935c      	ld.w      	r2, (r3, 0x70)
-    5b28:	3140      	movi      	r1, 64
-    5b2a:	6884      	and      	r2, r1
-    5b2c:	3a40      	cmpnei      	r2, 0
-    5b2e:	0c02      	bf      	0x5b32	// 5b32 <TC0_2IntHandler+0x5c>
-	{
-		TC0_2->CSR = TC0CHX_INT_LDRBS;
-    5b30:	b33b      	st.w      	r1, (r3, 0x6c)
-	}
-	if((TC0_2->SR&TC0CHX_INT_ETRGS)==TC0CHX_INT_ETRGS)
-    5b32:	935c      	ld.w      	r2, (r3, 0x70)
-    5b34:	3180      	movi      	r1, 128
-    5b36:	6884      	and      	r2, r1
-    5b38:	3a40      	cmpnei      	r2, 0
-    5b3a:	0c02      	bf      	0x5b3e	// 5b3e <TC0_2IntHandler+0x68>
-	{
-		TC0_2->CSR = TC0CHX_INT_ETRGS;
-    5b3c:	b33b      	st.w      	r1, (r3, 0x6c)
-	}
-}
-    5b3e:	1463      	ipop
-    5b40:	1461      	nir
-
-00005b42 <TC1IntHandler>:
-//TC1 Interrupt
-//EntryParameter:NONE
-//ReturnValue:NONE
-/*************************************************************/
-void TC1IntHandler(void) 
-{
-    5b42:	1460      	nie
-    5b44:	1462      	ipush
-    // ISR content ...
-	if((TC1->MISR&TC1_PENDI)==TC1_PENDI)
-    5b46:	136b      	lrw      	r3, 0x20000054	// 5cf0 <MisalignedHandler+0x22>
-    5b48:	3108      	movi      	r1, 8
-    5b4a:	9360      	ld.w      	r3, (r3, 0x0)
-    5b4c:	9349      	ld.w      	r2, (r3, 0x24)
-    5b4e:	6884      	and      	r2, r1
-    5b50:	3a40      	cmpnei      	r2, 0
-    5b52:	0c02      	bf      	0x5b56	// 5b56 <TC1IntHandler+0x14>
-	{
-		TC1->ICR = TC1_PENDI;
-    5b54:	b32a      	st.w      	r1, (r3, 0x28)
-	} 
-	if((TC1->MISR&TC1_STOPI)==TC1_STOPI)
-    5b56:	9349      	ld.w      	r2, (r3, 0x24)
-    5b58:	3102      	movi      	r1, 2
-    5b5a:	6884      	and      	r2, r1
-    5b5c:	3a40      	cmpnei      	r2, 0
-    5b5e:	0c02      	bf      	0x5b62	// 5b62 <TC1IntHandler+0x20>
-	{
-		TC1->ICR = TC1_STOPI;
-    5b60:	b32a      	st.w      	r1, (r3, 0x28)
-	} 
-	if((TC1->MISR&TC1_OVFI)==TC1_OVFI)
-    5b62:	9349      	ld.w      	r2, (r3, 0x24)
-    5b64:	3120      	movi      	r1, 32
-    5b66:	6884      	and      	r2, r1
-    5b68:	3a40      	cmpnei      	r2, 0
-    5b6a:	0c02      	bf      	0x5b6e	// 5b6e <TC1IntHandler+0x2c>
-	{
-		TC1->ICR = TC1_OVFI;
-    5b6c:	b32a      	st.w      	r1, (r3, 0x28)
-	} 
-	if((TC1->MISR&TC1_STARTI)==TC1_STARTI)
-    5b6e:	9349      	ld.w      	r2, (r3, 0x24)
-    5b70:	3101      	movi      	r1, 1
-    5b72:	6884      	and      	r2, r1
-    5b74:	3a40      	cmpnei      	r2, 0
-    5b76:	0c02      	bf      	0x5b7a	// 5b7a <TC1IntHandler+0x38>
-	{
-		TC1->ICR = TC1_STARTI;
-    5b78:	b32a      	st.w      	r1, (r3, 0x28)
-	}
-	if((TC1->MISR&TC1_PSTARTI)==TC1_PSTARTI)
-    5b7a:	9349      	ld.w      	r2, (r3, 0x24)
-    5b7c:	3104      	movi      	r1, 4
-    5b7e:	6884      	and      	r2, r1
-    5b80:	3a40      	cmpnei      	r2, 0
-    5b82:	0c02      	bf      	0x5b86	// 5b86 <TC1IntHandler+0x44>
-	{
-		TC1->ICR = TC1_PSTARTI;
-    5b84:	b32a      	st.w      	r1, (r3, 0x28)
-	}
-	if((TC1->MISR&TC1_MATI)==TC1_MATI)
-    5b86:	9349      	ld.w      	r2, (r3, 0x24)
-    5b88:	3110      	movi      	r1, 16
-    5b8a:	6884      	and      	r2, r1
-    5b8c:	3a40      	cmpnei      	r2, 0
-    5b8e:	0c02      	bf      	0x5b92	// 5b92 <TC1IntHandler+0x50>
-	{
-		TC1->ICR = TC1_MATI;
-    5b90:	b32a      	st.w      	r1, (r3, 0x28)
-	}
-	if((TC1->MISR&TC1_CAPTI)==TC1_CAPTI)
-    5b92:	9349      	ld.w      	r2, (r3, 0x24)
-    5b94:	3140      	movi      	r1, 64
-    5b96:	6884      	and      	r2, r1
-    5b98:	3a40      	cmpnei      	r2, 0
-    5b9a:	0c02      	bf      	0x5b9e	// 5b9e <TC1IntHandler+0x5c>
-	{
-		TC1->ICR = TC1_CAPTI;
-    5b9c:	b32a      	st.w      	r1, (r3, 0x28)
-		else
-		{
-			R_Capture_buf3=R_Capture_buf2-R_Capture_buf1;
-		}*/
-	}
-}
-    5b9e:	1463      	ipop
-    5ba0:	1461      	nir
-
-00005ba2 <TC2IntHandler>:
-//TC2 Interrupt
-//EntryParameter:NONE
-//ReturnValue:NONE
-/*************************************************************/
-void TC2IntHandler(void) 
-{
-    5ba2:	1460      	nie
-    5ba4:	1462      	ipush
-    5ba6:	14c1      	push      	r4
-    // ISR content ...
-	
-	
-	if((TC2->MISR&TC2_STARTI)==TC2_STARTI)
-    5ba8:	1273      	lrw      	r3, 0x20000050	// 5cf4 <MisalignedHandler+0x26>
-    5baa:	3101      	movi      	r1, 1
-    5bac:	9360      	ld.w      	r3, (r3, 0x0)
-    5bae:	9345      	ld.w      	r2, (r3, 0x14)
-    5bb0:	6884      	and      	r2, r1
-    5bb2:	3a40      	cmpnei      	r2, 0
-    5bb4:	0c06      	bf      	0x5bc0	// 5bc0 <TC2IntHandler+0x1e>
-	{
-		TC2->ICR = TC2_STARTI;
-    5bb6:	b326      	st.w      	r1, (r3, 0x18)
-	}
-	else if((TC2->CMISR&TC2_CC1FI)==TC2_CC1FI)
-	{
-		TC2->CICR = TC2_CC1FI;
-	}
-}
-    5bb8:	9880      	ld.w      	r4, (r14, 0x0)
-    5bba:	1401      	addi      	r14, r14, 4
-    5bbc:	1463      	ipop
-    5bbe:	1461      	nir
-	else if((TC2->MISR&TC2_STOPI)==TC2_STOPI)
-    5bc0:	9305      	ld.w      	r0, (r3, 0x14)
-    5bc2:	3202      	movi      	r2, 2
-    5bc4:	6808      	and      	r0, r2
-    5bc6:	3840      	cmpnei      	r0, 0
-    5bc8:	0c03      	bf      	0x5bce	// 5bce <TC2IntHandler+0x2c>
-		TC2->ICR = TC2_STOPI;
-    5bca:	b346      	st.w      	r2, (r3, 0x18)
-    5bcc:	07f6      	br      	0x5bb8	// 5bb8 <TC2IntHandler+0x16>
-	else if((TC2->MISR&TC2_PENDI)==TC2_PENDI)
-    5bce:	9305      	ld.w      	r0, (r3, 0x14)
-    5bd0:	3404      	movi      	r4, 4
-    5bd2:	6810      	and      	r0, r4
-    5bd4:	3840      	cmpnei      	r0, 0
-    5bd6:	0c03      	bf      	0x5bdc	// 5bdc <TC2IntHandler+0x3a>
-		TC2->ICR = TC2_PENDI;
-    5bd8:	b386      	st.w      	r4, (r3, 0x18)
-    5bda:	07ef      	br      	0x5bb8	// 5bb8 <TC2IntHandler+0x16>
-	else if((TC2->CMISR&TC2_CC0RI)==TC2_CC0RI)
-    5bdc:	237f      	addi      	r3, 128
-    5bde:	9304      	ld.w      	r0, (r3, 0x10)
-    5be0:	6804      	and      	r0, r1
-    5be2:	3840      	cmpnei      	r0, 0
-    5be4:	0c03      	bf      	0x5bea	// 5bea <TC2IntHandler+0x48>
-		TC2->CICR = TC2_CC0RI;
-    5be6:	b325      	st.w      	r1, (r3, 0x14)
-    5be8:	07e8      	br      	0x5bb8	// 5bb8 <TC2IntHandler+0x16>
-	else if((TC2->CMISR&TC2_CC1RI)==TC2_CC1RI)
-    5bea:	9324      	ld.w      	r1, (r3, 0x10)
-    5bec:	6848      	and      	r1, r2
-    5bee:	3940      	cmpnei      	r1, 0
-    5bf0:	0c03      	bf      	0x5bf6	// 5bf6 <TC2IntHandler+0x54>
-		TC2->CICR = TC2_CC1FI;
-    5bf2:	b345      	st.w      	r2, (r3, 0x14)
-}
-    5bf4:	07e2      	br      	0x5bb8	// 5bb8 <TC2IntHandler+0x16>
-	else if((TC2->CMISR&TC2_CC0FI)==TC2_CC0FI)
-    5bf6:	3280      	movi      	r2, 128
-    5bf8:	9324      	ld.w      	r1, (r3, 0x10)
-    5bfa:	4241      	lsli      	r2, r2, 1
-    5bfc:	6848      	and      	r1, r2
-    5bfe:	3940      	cmpnei      	r1, 0
-    5c00:	0bf9      	bt      	0x5bf2	// 5bf2 <TC2IntHandler+0x50>
-	else if((TC2->CMISR&TC2_CC1FI)==TC2_CC1FI)
-    5c02:	3280      	movi      	r2, 128
-    5c04:	9324      	ld.w      	r1, (r3, 0x10)
-    5c06:	4242      	lsli      	r2, r2, 2
-    5c08:	6848      	and      	r1, r2
-    5c0a:	3940      	cmpnei      	r1, 0
-    5c0c:	0bf3      	bt      	0x5bf2	// 5bf2 <TC2IntHandler+0x50>
-    5c0e:	07d5      	br      	0x5bb8	// 5bb8 <TC2IntHandler+0x16>
-
-00005c10 <PendTrapHandler>:
+00004238 <PendTrapHandler>:
     // ISR content ...
 	nop;
 }
 
 void PendTrapHandler(void) 
 {
-    5c10:	1460      	nie
-    5c12:	1462      	ipush
+    4238:	1460      	nie
+    423a:	1462      	ipush
     // ISR content ...
 	nop;
-    5c14:	6c03      	mov      	r0, r0
+    423c:	6c03      	mov      	r0, r0
 }
-    5c16:	1463      	ipop
-    5c18:	1461      	nir
+    423e:	1463      	ipop
+    4240:	1461      	nir
 
-00005c1a <Trap3Handler>:
-    5c1a:	1460      	nie
-    5c1c:	1462      	ipush
-    5c1e:	14d0      	push      	r15
-    5c20:	e3fffff8 	bsr      	0x5c10	// 5c10 <PendTrapHandler>
-    5c24:	d9ee2000 	ld.w      	r15, (r14, 0x0)
-    5c28:	1401      	addi      	r14, r14, 4
-    5c2a:	1463      	ipop
-    5c2c:	1461      	nir
+00004242 <Trap3Handler>:
+    4242:	1460      	nie
+    4244:	1462      	ipush
+    4246:	14d0      	push      	r15
+    4248:	e3fffff8 	bsr      	0x4238	// 4238 <PendTrapHandler>
+    424c:	0418      	br      	0x427c	// 427c <Trap3Handler+0x3a>
+    424e:	0000      	bkpt
+    4250:	200000f8 	.long	0x200000f8
+    4254:	200000ac 	.long	0x200000ac
+    4258:	20000038 	.long	0x20000038
+    425c:	20000048 	.long	0x20000048
+    4260:	20000044 	.long	0x20000044
+    4264:	20000040 	.long	0x20000040
+    4268:	2000003c 	.long	0x2000003c
+    426c:	20000028 	.long	0x20000028
+    4270:	2000007c 	.long	0x2000007c
+    4274:	2000007d 	.long	0x2000007d
+    4278:	20000024 	.long	0x20000024
+    427c:	d9ee2000 	ld.w      	r15, (r14, 0x0)
+    4280:	1401      	addi      	r14, r14, 4
+    4282:	1463      	ipop
+    4284:	1461      	nir
 
-00005c2e <Trap2Handler>:
-    5c2e:	1460      	nie
-    5c30:	1462      	ipush
-    5c32:	14d0      	push      	r15
-    5c34:	e3ffffee 	bsr      	0x5c10	// 5c10 <PendTrapHandler>
-    5c38:	d9ee2000 	ld.w      	r15, (r14, 0x0)
-    5c3c:	1401      	addi      	r14, r14, 4
-    5c3e:	1463      	ipop
-    5c40:	1461      	nir
+00004286 <Trap2Handler>:
+    4286:	1460      	nie
+    4288:	1462      	ipush
+    428a:	14d0      	push      	r15
+    428c:	e3ffffd6 	bsr      	0x4238	// 4238 <PendTrapHandler>
+    4290:	d9ee2000 	ld.w      	r15, (r14, 0x0)
+    4294:	1401      	addi      	r14, r14, 4
+    4296:	1463      	ipop
+    4298:	1461      	nir
 
-00005c42 <Trap1Handler>:
-    5c42:	1460      	nie
-    5c44:	1462      	ipush
-    5c46:	14d0      	push      	r15
-    5c48:	e3ffffe4 	bsr      	0x5c10	// 5c10 <PendTrapHandler>
-    5c4c:	d9ee2000 	ld.w      	r15, (r14, 0x0)
-    5c50:	1401      	addi      	r14, r14, 4
-    5c52:	1463      	ipop
-    5c54:	1461      	nir
+0000429a <Trap1Handler>:
+    429a:	1460      	nie
+    429c:	1462      	ipush
+    429e:	14d0      	push      	r15
+    42a0:	e3ffffcc 	bsr      	0x4238	// 4238 <PendTrapHandler>
+    42a4:	d9ee2000 	ld.w      	r15, (r14, 0x0)
+    42a8:	1401      	addi      	r14, r14, 4
+    42aa:	1463      	ipop
+    42ac:	1461      	nir
 
-00005c56 <Trap0Handler>:
-    5c56:	1460      	nie
-    5c58:	1462      	ipush
-    5c5a:	14d0      	push      	r15
-    5c5c:	e3ffffda 	bsr      	0x5c10	// 5c10 <PendTrapHandler>
-    5c60:	d9ee2000 	ld.w      	r15, (r14, 0x0)
-    5c64:	1401      	addi      	r14, r14, 4
-    5c66:	1463      	ipop
-    5c68:	1461      	nir
+000042ae <Trap0Handler>:
+    42ae:	1460      	nie
+    42b0:	1462      	ipush
+    42b2:	14d0      	push      	r15
+    42b4:	e3ffffc2 	bsr      	0x4238	// 4238 <PendTrapHandler>
+    42b8:	d9ee2000 	ld.w      	r15, (r14, 0x0)
+    42bc:	1401      	addi      	r14, r14, 4
+    42be:	1463      	ipop
+    42c0:	1461      	nir
 
-00005c6a <PriviledgeVioHandler>:
-    5c6a:	1460      	nie
-    5c6c:	1462      	ipush
-    5c6e:	14d0      	push      	r15
-    5c70:	e3ffffd0 	bsr      	0x5c10	// 5c10 <PendTrapHandler>
-    5c74:	d9ee2000 	ld.w      	r15, (r14, 0x0)
-    5c78:	1401      	addi      	r14, r14, 4
-    5c7a:	1463      	ipop
-    5c7c:	1461      	nir
+000042c2 <PriviledgeVioHandler>:
+    42c2:	1460      	nie
+    42c4:	1462      	ipush
+    42c6:	14d0      	push      	r15
+    42c8:	e3ffffb8 	bsr      	0x4238	// 4238 <PendTrapHandler>
+    42cc:	d9ee2000 	ld.w      	r15, (r14, 0x0)
+    42d0:	1401      	addi      	r14, r14, 4
+    42d2:	1463      	ipop
+    42d4:	1461      	nir
 
-00005c7e <UnrecExecpHandler>:
-    5c7e:	1460      	nie
-    5c80:	1462      	ipush
-    5c82:	14d0      	push      	r15
-    5c84:	e3ffffc6 	bsr      	0x5c10	// 5c10 <PendTrapHandler>
-    5c88:	d9ee2000 	ld.w      	r15, (r14, 0x0)
-    5c8c:	1401      	addi      	r14, r14, 4
-    5c8e:	1463      	ipop
-    5c90:	1461      	nir
+000042d6 <UnrecExecpHandler>:
+    42d6:	1460      	nie
+    42d8:	1462      	ipush
+    42da:	14d0      	push      	r15
+    42dc:	e3ffffae 	bsr      	0x4238	// 4238 <PendTrapHandler>
+    42e0:	d9ee2000 	ld.w      	r15, (r14, 0x0)
+    42e4:	1401      	addi      	r14, r14, 4
+    42e6:	1463      	ipop
+    42e8:	1461      	nir
 
-00005c92 <BreakPointHandler>:
-    5c92:	1460      	nie
-    5c94:	1462      	ipush
-    5c96:	14d0      	push      	r15
-    5c98:	e3ffffbc 	bsr      	0x5c10	// 5c10 <PendTrapHandler>
-    5c9c:	d9ee2000 	ld.w      	r15, (r14, 0x0)
-    5ca0:	1401      	addi      	r14, r14, 4
-    5ca2:	1463      	ipop
-    5ca4:	1461      	nir
+000042ea <BreakPointHandler>:
+    42ea:	1460      	nie
+    42ec:	1462      	ipush
+    42ee:	14d0      	push      	r15
+    42f0:	e3ffffa4 	bsr      	0x4238	// 4238 <PendTrapHandler>
+    42f4:	d9ee2000 	ld.w      	r15, (r14, 0x0)
+    42f8:	1401      	addi      	r14, r14, 4
+    42fa:	1463      	ipop
+    42fc:	1461      	nir
 
-00005ca6 <AccessErrHandler>:
-    5ca6:	1460      	nie
-    5ca8:	1462      	ipush
-    5caa:	14d0      	push      	r15
-    5cac:	e3ffffb2 	bsr      	0x5c10	// 5c10 <PendTrapHandler>
-    5cb0:	d9ee2000 	ld.w      	r15, (r14, 0x0)
-    5cb4:	1401      	addi      	r14, r14, 4
-    5cb6:	1463      	ipop
-    5cb8:	1461      	nir
+000042fe <AccessErrHandler>:
+    42fe:	1460      	nie
+    4300:	1462      	ipush
+    4302:	14d0      	push      	r15
+    4304:	e3ffff9a 	bsr      	0x4238	// 4238 <PendTrapHandler>
+    4308:	d9ee2000 	ld.w      	r15, (r14, 0x0)
+    430c:	1401      	addi      	r14, r14, 4
+    430e:	1463      	ipop
+    4310:	1461      	nir
 
-00005cba <IllegalInstrHandler>:
-    5cba:	1460      	nie
-    5cbc:	1462      	ipush
-    5cbe:	14d0      	push      	r15
-    5cc0:	e3ffffa8 	bsr      	0x5c10	// 5c10 <PendTrapHandler>
-    5cc4:	d9ee2000 	ld.w      	r15, (r14, 0x0)
-    5cc8:	1401      	addi      	r14, r14, 4
-    5cca:	1463      	ipop
-    5ccc:	1461      	nir
+00004312 <IllegalInstrHandler>:
+    4312:	1460      	nie
+    4314:	1462      	ipush
+    4316:	14d0      	push      	r15
+    4318:	e3ffff90 	bsr      	0x4238	// 4238 <PendTrapHandler>
+    431c:	d9ee2000 	ld.w      	r15, (r14, 0x0)
+    4320:	1401      	addi      	r14, r14, 4
+    4322:	1463      	ipop
+    4324:	1461      	nir
 
-00005cce <MisalignedHandler>:
-    5cce:	1460      	nie
-    5cd0:	1462      	ipush
-    5cd2:	14d0      	push      	r15
-    5cd4:	e3ffff9e 	bsr      	0x5c10	// 5c10 <PendTrapHandler>
-    5cd8:	d9ee2000 	ld.w      	r15, (r14, 0x0)
-    5cdc:	1401      	addi      	r14, r14, 4
-    5cde:	1463      	ipop
-    5ce0:	1461      	nir
-    5ce2:	0000      	bkpt
-    5ce4:	20000060 	.long	0x20000060
-    5ce8:	2000005c 	.long	0x2000005c
-    5cec:	20000058 	.long	0x20000058
-    5cf0:	20000054 	.long	0x20000054
-    5cf4:	20000050 	.long	0x20000050
+00004326 <MisalignedHandler>:
+    4326:	1460      	nie
+    4328:	1462      	ipush
+    432a:	14d0      	push      	r15
+    432c:	e3ffff86 	bsr      	0x4238	// 4238 <PendTrapHandler>
+    4330:	d9ee2000 	ld.w      	r15, (r14, 0x0)
+    4334:	1401      	addi      	r14, r14, 4
+    4336:	1463      	ipop
+    4338:	1461      	nir
+	...
 
-00005cf8 <delay_nms>:
+0000433c <delay_nms>:
 //software delay
 //EntryParameter:NONE
 //ReturnValue:NONE
 /*************************************************************/	
 void delay_nms(unsigned int t)
 {
-    5cf8:	14d0      	push      	r15
-    5cfa:	1423      	subi      	r14, r14, 12
+    433c:	14d0      	push      	r15
+    433e:	1423      	subi      	r14, r14, 12
     volatile unsigned int i,j ,k=0;
     j = 50* t;
-    5cfc:	3232      	movi      	r2, 50
+    4340:	3232      	movi      	r2, 50
     volatile unsigned int i,j ,k=0;
-    5cfe:	3300      	movi      	r3, 0
+    4342:	3300      	movi      	r3, 0
     j = 50* t;
-    5d00:	7c08      	mult      	r0, r2
+    4344:	7c08      	mult      	r0, r2
     volatile unsigned int i,j ,k=0;
-    5d02:	b862      	st.w      	r3, (r14, 0x8)
+    4346:	b862      	st.w      	r3, (r14, 0x8)
     j = 50* t;
-    5d04:	b801      	st.w      	r0, (r14, 0x4)
+    4348:	b801      	st.w      	r0, (r14, 0x4)
     for ( i = 0; i < j; i++ )
-    5d06:	b860      	st.w      	r3, (r14, 0x0)
-    5d08:	9840      	ld.w      	r2, (r14, 0x0)
-    5d0a:	9861      	ld.w      	r3, (r14, 0x4)
-    5d0c:	64c8      	cmphs      	r2, r3
-    5d0e:	0c03      	bf      	0x5d14	// 5d14 <delay_nms+0x1c>
+    434a:	b860      	st.w      	r3, (r14, 0x0)
+    434c:	9840      	ld.w      	r2, (r14, 0x0)
+    434e:	9861      	ld.w      	r3, (r14, 0x4)
+    4350:	64c8      	cmphs      	r2, r3
+    4352:	0c03      	bf      	0x4358	// 4358 <delay_nms+0x1c>
     {
         k++;
 		SYSCON_IWDCNT_Reload(); 
     }
 }
-    5d10:	1403      	addi      	r14, r14, 12
-    5d12:	1490      	pop      	r15
+    4354:	1403      	addi      	r14, r14, 12
+    4356:	1490      	pop      	r15
         k++;
-    5d14:	9862      	ld.w      	r3, (r14, 0x8)
-    5d16:	2300      	addi      	r3, 1
-    5d18:	b862      	st.w      	r3, (r14, 0x8)
+    4358:	9862      	ld.w      	r3, (r14, 0x8)
+    435a:	2300      	addi      	r3, 1
+    435c:	b862      	st.w      	r3, (r14, 0x8)
 		SYSCON_IWDCNT_Reload(); 
-    5d1a:	e3ffdd49 	bsr      	0x17ac	// 17ac <SYSCON_IWDCNT_Reload>
+    435e:	e3ffea27 	bsr      	0x17ac	// 17ac <SYSCON_IWDCNT_Reload>
     for ( i = 0; i < j; i++ )
-    5d1e:	9860      	ld.w      	r3, (r14, 0x0)
-    5d20:	2300      	addi      	r3, 1
-    5d22:	07f2      	br      	0x5d06	// 5d06 <delay_nms+0xe>
+    4362:	9860      	ld.w      	r3, (r14, 0x0)
+    4364:	2300      	addi      	r3, 1
+    4366:	07f2      	br      	0x434a	// 434a <delay_nms+0xe>
 
-00005d24 <delay_nus>:
+00004368 <delay_nus>:
 void delay_nus(unsigned int t)
 {
-    5d24:	1423      	subi      	r14, r14, 12
+    4368:	1423      	subi      	r14, r14, 12
     volatile unsigned int i,j ,k=0;
-    5d26:	3300      	movi      	r3, 0
-    5d28:	b862      	st.w      	r3, (r14, 0x8)
+    436a:	3300      	movi      	r3, 0
+    436c:	b862      	st.w      	r3, (r14, 0x8)
     j = 1* t;
-    5d2a:	b801      	st.w      	r0, (r14, 0x4)
+    436e:	b801      	st.w      	r0, (r14, 0x4)
     for ( i = 0; i < j; i++ )
-    5d2c:	b860      	st.w      	r3, (r14, 0x0)
-    5d2e:	9840      	ld.w      	r2, (r14, 0x0)
-    5d30:	9861      	ld.w      	r3, (r14, 0x4)
-    5d32:	64c8      	cmphs      	r2, r3
-    5d34:	0c03      	bf      	0x5d3a	// 5d3a <delay_nus+0x16>
+    4370:	b860      	st.w      	r3, (r14, 0x0)
+    4372:	9840      	ld.w      	r2, (r14, 0x0)
+    4374:	9861      	ld.w      	r3, (r14, 0x4)
+    4376:	64c8      	cmphs      	r2, r3
+    4378:	0c03      	bf      	0x437e	// 437e <delay_nus+0x16>
     {
         k++;
     }
 }
-    5d36:	1403      	addi      	r14, r14, 12
-    5d38:	783c      	jmp      	r15
+    437a:	1403      	addi      	r14, r14, 12
+    437c:	783c      	jmp      	r15
         k++;
-    5d3a:	9862      	ld.w      	r3, (r14, 0x8)
-    5d3c:	2300      	addi      	r3, 1
-    5d3e:	b862      	st.w      	r3, (r14, 0x8)
+    437e:	9862      	ld.w      	r3, (r14, 0x8)
+    4380:	2300      	addi      	r3, 1
+    4382:	b862      	st.w      	r3, (r14, 0x8)
     for ( i = 0; i < j; i++ )
-    5d40:	9860      	ld.w      	r3, (r14, 0x0)
-    5d42:	2300      	addi      	r3, 1
-    5d44:	07f4      	br      	0x5d2c	// 5d2c <delay_nus+0x8>
+    4384:	9860      	ld.w      	r3, (r14, 0x0)
+    4386:	2300      	addi      	r3, 1
+    4388:	07f4      	br      	0x4370	// 4370 <delay_nus+0x8>
 
-00005d46 <GPIO_CONFIG>:
+0000438a <GPIO_CONFIG>:
 //GPIO Initial
 //EntryParameter:NONE
 //ReturnValue:NONE
 /*************************************************************/	
 void GPIO_CONFIG(void)
 {
-    5d46:	14d1      	push      	r4, r15
+    438a:	14d1      	push      	r4, r15
 	GPIO_DeInit();
-    5d48:	e3ffe6fc 	bsr      	0x2b40	// 2b40 <GPIO_DeInit>
-	GPIO_Init(GPIOA1,1,0);
-    5d4c:	ea830126 	lrw      	r3, 0x20000010	// 61e4 <TC0_CONFIG+0x30>
-	GPIO_Init(GPIOA0,4,0);
-    5d50:	ea840126 	lrw      	r4, 0x20000014	// 61e8 <TC0_CONFIG+0x34>
-	GPIO_Init(GPIOA1,1,0);
-    5d54:	3200      	movi      	r2, 0
-    5d56:	9300      	ld.w      	r0, (r3, 0x0)
-    5d58:	3101      	movi      	r1, 1
-    5d5a:	e3ffe751 	bsr      	0x2bfc	// 2bfc <GPIO_Init>
-	GPIO_Init(GPIOA0,4,0);
-    5d5e:	9400      	ld.w      	r0, (r4, 0x0)
-    5d60:	3200      	movi      	r2, 0
-    5d62:	3104      	movi      	r1, 4
-    5d64:	e3ffe74c 	bsr      	0x2bfc	// 2bfc <GPIO_Init>
-	GPIO_Init(GPIOA0,2,0);
-    5d68:	9400      	ld.w      	r0, (r4, 0x0)
-    5d6a:	3200      	movi      	r2, 0
-    5d6c:	3102      	movi      	r1, 2
-    5d6e:	e3ffe747 	bsr      	0x2bfc	// 2bfc <GPIO_Init>
-	GPIO_Init(GPIOA0,11,1);   //输入
-    5d72:	9400      	ld.w      	r0, (r4, 0x0)
-    5d74:	3201      	movi      	r2, 1
-    5d76:	310b      	movi      	r1, 11
-    5d78:	e3ffe742 	bsr      	0x2bfc	// 2bfc <GPIO_Init>
+	GPIO_Init(GPIOA0,0,0);
+    438c:	ea84012b 	lrw      	r4, 0x20000014	// 4838 <SYSCON_CONFIG+0x30>
+	GPIO_DeInit();
+    4390:	e3fff3d8 	bsr      	0x2b40	// 2b40 <GPIO_DeInit>
+	GPIO_Init(GPIOA0,0,0);
+    4394:	9400      	ld.w      	r0, (r4, 0x0)
+    4396:	3200      	movi      	r2, 0
+    4398:	3100      	movi      	r1, 0
+    439a:	e3fff431 	bsr      	0x2bfc	// 2bfc <GPIO_Init>
+
+	//GPIO_Write_High(GPIOA0,10);				
+	//GPIO_Write_Low(GPIOA0,10);				
+//------------  EXI FUNTION  --------------------------------/
+//EXI0_INT= EXI0/EXI16,EXI1_INT= EXI1/EXI17, EXI2_INT=EXI2~EXI3/EXI18/EXI19, EXI3_INT=EXI4~EXI9, EXI4_INT=EXI10~EXI15    
+	GPIO_IntGroup_Set(PA0,5,Selete_EXI_PIN5);					//PA0.0 set as EXI0  
+    439e:	3205      	movi      	r2, 5
+    43a0:	3105      	movi      	r1, 5
+    43a2:	3000      	movi      	r0, 0
+    43a4:	e3fff544 	bsr      	0x2e2c	// 2e2c <GPIO_IntGroup_Set>
+	GPIOA0_EXI_Init(EXI5);                                   	//PA0.0 set as input
+    43a8:	3005      	movi      	r0, 5
+    43aa:	e3fff5bb 	bsr      	0x2f20	// 2f20 <GPIOA0_EXI_Init>
+	EXTI_trigger_CMD(ENABLE,EXI_PIN5,_EXIFT);                   //ENABLE falling edge
+    43ae:	3201      	movi      	r2, 1
+    43b0:	3120      	movi      	r1, 32
+    43b2:	3001      	movi      	r0, 1
+    43b4:	e3ffea40 	bsr      	0x1834	// 1834 <EXTI_trigger_CMD>
+	//EXTI_trigger_CMD(ENABLE,EXI_PIN0,_EXIRT);                 //ENABLE rising edge
+    EXTI_interrupt_CMD(ENABLE,EXI_PIN5);                	   	//enable EXI
+    43b8:	3120      	movi      	r1, 32
+    43ba:	3001      	movi      	r0, 1
+    43bc:	e3ffea59 	bsr      	0x186e	// 186e <EXTI_interrupt_CMD>
+    GPIO_EXTI_interrupt(GPIOA0,0b0000000000100000);				//enable GPIOA0.0 as EXI
+    43c0:	9400      	ld.w      	r0, (r4, 0x0)
+    43c2:	3120      	movi      	r1, 32
+    43c4:	e3ffea6b 	bsr      	0x189a	// 189a <GPIO_EXTI_interrupt>
+	//GPIO_Init(GPIOA0,0,0);
+	
+	//EXI0_Int_Enable();                                         //EXI0 / EXI16 INT Vector
+    //EXI1_Int_Enable();                                       //EXI1 / EXI17 INT Vector
+    //EXI2_Int_Enable();                                         //EXI2~EXI3 / EXI18~19 INT Vector
+    EXI3_Int_Enable();                                       //EXI4~EXI8 INT Vector
+    43c8:	e3ffeaa4 	bsr      	0x1910	// 1910 <EXI3_Int_Enable>
+    //EXI4_Int_Enable();                                       //EXI9~EXI15 INT Vector
+	
     //EXI0_WakeUp_Enable();										//EXI0 interrupt wake up enable
 	//EXI1_WakeUp_Enable();										//EXI1 interrupt wake up enable
 	//EXI2_WakeUp_Enable();										//EXI2~EXI3 interrupt wake up enable
-	//EXI3_WakeUp_Enable();										//EXI4~EXI8 interrupt wake up enable
+	EXI3_WakeUp_Enable();										//EXI4~EXI8 interrupt wake up enable
+    43cc:	e3ffeb12 	bsr      	0x19f0	// 19f0 <EXI3_WakeUp_Enable>
 	//EXI4_WakeUp_Enable();										//EXI9~EXI15 interrupt wake up enable
 }
-    5d7c:	1491      	pop      	r4, r15
+    43d0:	1491      	pop      	r4, r15
 
-00005d7e <GPT_CONFIG>:
+000043d2 <GPT_CONFIG>:
 //GPT0 Functions
 //EntryParameter:NONE
 //ReturnValue:NONE
 /*************************************************************/ 
 void GPT_CONFIG(void)
 {
-    5d7e:	14d2      	push      	r4-r5, r15
-    5d80:	1429      	subi      	r14, r14, 36
+    43d2:	14d2      	push      	r4-r5, r15
+    43d4:	1429      	subi      	r14, r14, 36
 	GPT_IO_Init(GPT_CHA_PA03);
-    5d82:	3000      	movi      	r0, 0
-    5d84:	e3ffd71e 	bsr      	0xbc0	// bc0 <GPT_IO_Init>
+    43d6:	3000      	movi      	r0, 0
+    43d8:	e3ffe3f4 	bsr      	0xbc0	// bc0 <GPT_IO_Init>
 	GPT_IO_Init(GPT_CHA_PA13);
-    5d88:	3001      	movi      	r0, 1
+    43dc:	3001      	movi      	r0, 1
 	GPT_Configure(GPTCLK_EN,GPT_PCLK,GPT_IMMEDIATE,1);
 	GPT_WaveCtrl_Configure(GPT_INCREASE,GPT_SWSYNDIS,GPT_IDLE_LOW,GPT_PRDLD_PEND,GPT_OPM_CONTINUOUS,GPT_BURST_DIS,GPT_CKS_PCLK,GPT_CG_CHAX,GPT_CGFLT_00,GPT_PRDLD_ZERO);
-    5d8a:	3400      	movi      	r4, 0
+    43de:	3400      	movi      	r4, 0
 	GPT_IO_Init(GPT_CHA_PA13);
-    5d8c:	e3ffd71a 	bsr      	0xbc0	// bc0 <GPT_IO_Init>
+    43e0:	e3ffe3f0 	bsr      	0xbc0	// bc0 <GPT_IO_Init>
 	GPT_Configure(GPTCLK_EN,GPT_PCLK,GPT_IMMEDIATE,1);
-    5d90:	3301      	movi      	r3, 1
-    5d92:	3240      	movi      	r2, 64
-    5d94:	3100      	movi      	r1, 0
-    5d96:	3001      	movi      	r0, 1
-    5d98:	e3ffd765 	bsr      	0xc62	// c62 <GPT_Configure>
+    43e4:	3301      	movi      	r3, 1
+    43e6:	3240      	movi      	r2, 64
+    43e8:	3100      	movi      	r1, 0
+    43ea:	3001      	movi      	r0, 1
+    43ec:	e3ffe43b 	bsr      	0xc62	// c62 <GPT_Configure>
 	GPT_WaveCtrl_Configure(GPT_INCREASE,GPT_SWSYNDIS,GPT_IDLE_LOW,GPT_PRDLD_PEND,GPT_OPM_CONTINUOUS,GPT_BURST_DIS,GPT_CKS_PCLK,GPT_CG_CHAX,GPT_CGFLT_00,GPT_PRDLD_ZERO);
-    5d9c:	3300      	movi      	r3, 0
-    5d9e:	b885      	st.w      	r4, (r14, 0x14)
-    5da0:	b884      	st.w      	r4, (r14, 0x10)
-    5da2:	b883      	st.w      	r4, (r14, 0xc)
-    5da4:	b882      	st.w      	r4, (r14, 0x8)
-    5da6:	b881      	st.w      	r4, (r14, 0x4)
-    5da8:	b880      	st.w      	r4, (r14, 0x0)
-    5daa:	3208      	movi      	r2, 8
-    5dac:	3100      	movi      	r1, 0
-    5dae:	3000      	movi      	r0, 0
-    5db0:	e3ffd76b 	bsr      	0xc86	// c86 <GPT_WaveCtrl_Configure>
+    43f0:	3300      	movi      	r3, 0
+    43f2:	b885      	st.w      	r4, (r14, 0x14)
+    43f4:	b884      	st.w      	r4, (r14, 0x10)
+    43f6:	b883      	st.w      	r4, (r14, 0xc)
+    43f8:	b882      	st.w      	r4, (r14, 0x8)
+    43fa:	b881      	st.w      	r4, (r14, 0x4)
+    43fc:	b880      	st.w      	r4, (r14, 0x0)
+    43fe:	3208      	movi      	r2, 8
+    4400:	3100      	movi      	r1, 0
+    4402:	3000      	movi      	r0, 0
+    4404:	e3ffe441 	bsr      	0xc86	// c86 <GPT_WaveCtrl_Configure>
 	GPT_Period_CMP_Write(2000,1500,50);
-    5db4:	30fa      	movi      	r0, 250
-    5db6:	3232      	movi      	r2, 50
-    5db8:	ea81010d 	lrw      	r1, 0x5dc	// 61ec <TC0_CONFIG+0x38>
-    5dbc:	4003      	lsli      	r0, r0, 3
-    5dbe:	e3ffd93c 	bsr      	0x1036	// 1036 <GPT_Period_CMP_Write>
+    4408:	30fa      	movi      	r0, 250
+    440a:	3232      	movi      	r2, 50
+    440c:	ea81010c 	lrw      	r1, 0x5dc	// 483c <SYSCON_CONFIG+0x34>
+    4410:	4003      	lsli      	r0, r0, 3
+    4412:	e3ffe612 	bsr      	0x1036	// 1036 <GPT_Period_CMP_Write>
 	GPT_WaveLoad_Configure(GPT_WAVEA_IMMEDIATE,GPT_WAVEB_SHADOW,GPT_AQLDA_ZERO,GPT_AQLDB_ZERO);
 	GPT_WaveOut_Configure(GPT_CHA,GPT_CASEL_CMPA,GPT_CBSEL_CMPA,2,0,1,1,0,0,0,0,0,0);
-    5dc2:	3501      	movi      	r5, 1
+    4416:	3501      	movi      	r5, 1
 	GPT_WaveLoad_Configure(GPT_WAVEA_IMMEDIATE,GPT_WAVEB_SHADOW,GPT_AQLDA_ZERO,GPT_AQLDB_ZERO);
-    5dc4:	3320      	movi      	r3, 32
-    5dc6:	3204      	movi      	r2, 4
-    5dc8:	3100      	movi      	r1, 0
-    5dca:	3001      	movi      	r0, 1
-    5dcc:	e3ffd787 	bsr      	0xcda	// cda <GPT_WaveLoad_Configure>
+    4418:	3320      	movi      	r3, 32
+    441a:	3204      	movi      	r2, 4
+    441c:	3100      	movi      	r1, 0
+    441e:	3001      	movi      	r0, 1
+    4420:	e3ffe45d 	bsr      	0xcda	// cda <GPT_WaveLoad_Configure>
 	GPT_WaveOut_Configure(GPT_CHA,GPT_CASEL_CMPA,GPT_CBSEL_CMPA,2,0,1,1,0,0,0,0,0,0);
-    5dd0:	b888      	st.w      	r4, (r14, 0x20)
-    5dd2:	b887      	st.w      	r4, (r14, 0x1c)
-    5dd4:	b886      	st.w      	r4, (r14, 0x18)
-    5dd6:	b885      	st.w      	r4, (r14, 0x14)
-    5dd8:	b884      	st.w      	r4, (r14, 0x10)
-    5dda:	b883      	st.w      	r4, (r14, 0xc)
-    5ddc:	b8a2      	st.w      	r5, (r14, 0x8)
-    5dde:	b8a1      	st.w      	r5, (r14, 0x4)
-    5de0:	b880      	st.w      	r4, (r14, 0x0)
-    5de2:	3302      	movi      	r3, 2
-    5de4:	3200      	movi      	r2, 0
-    5de6:	3100      	movi      	r1, 0
-    5de8:	3000      	movi      	r0, 0
-    5dea:	e3ffd79a 	bsr      	0xd1e	// d1e <GPT_WaveOut_Configure>
+    4424:	b888      	st.w      	r4, (r14, 0x20)
+    4426:	b887      	st.w      	r4, (r14, 0x1c)
+    4428:	b886      	st.w      	r4, (r14, 0x18)
+    442a:	b885      	st.w      	r4, (r14, 0x14)
+    442c:	b884      	st.w      	r4, (r14, 0x10)
+    442e:	b883      	st.w      	r4, (r14, 0xc)
+    4430:	b8a2      	st.w      	r5, (r14, 0x8)
+    4432:	b8a1      	st.w      	r5, (r14, 0x4)
+    4434:	b880      	st.w      	r4, (r14, 0x0)
+    4436:	3302      	movi      	r3, 2
+    4438:	3200      	movi      	r2, 0
+    443a:	3100      	movi      	r1, 0
+    443c:	3000      	movi      	r0, 0
+    443e:	e3ffe470 	bsr      	0xd1e	// d1e <GPT_WaveOut_Configure>
 	GPT_WaveOut_Configure(GPT_CHB,GPT_CASEL_CMPA,GPT_CBSEL_CMPB,2,0,0,0,1,1,0,0,0,0);
-    5dee:	3280      	movi      	r2, 128
-    5df0:	424f      	lsli      	r2, r2, 15
-    5df2:	3302      	movi      	r3, 2
-    5df4:	3100      	movi      	r1, 0
-    5df6:	3001      	movi      	r0, 1
-    5df8:	b888      	st.w      	r4, (r14, 0x20)
-    5dfa:	b887      	st.w      	r4, (r14, 0x1c)
-    5dfc:	b886      	st.w      	r4, (r14, 0x18)
-    5dfe:	b885      	st.w      	r4, (r14, 0x14)
-    5e00:	b8a4      	st.w      	r5, (r14, 0x10)
-    5e02:	b8a3      	st.w      	r5, (r14, 0xc)
-    5e04:	b882      	st.w      	r4, (r14, 0x8)
-    5e06:	b881      	st.w      	r4, (r14, 0x4)
-    5e08:	b880      	st.w      	r4, (r14, 0x0)
-    5e0a:	e3ffd78a 	bsr      	0xd1e	// d1e <GPT_WaveOut_Configure>
+    4442:	3280      	movi      	r2, 128
+    4444:	424f      	lsli      	r2, r2, 15
+    4446:	3302      	movi      	r3, 2
+    4448:	3100      	movi      	r1, 0
+    444a:	3001      	movi      	r0, 1
+    444c:	b888      	st.w      	r4, (r14, 0x20)
+    444e:	b887      	st.w      	r4, (r14, 0x1c)
+    4450:	b886      	st.w      	r4, (r14, 0x18)
+    4452:	b885      	st.w      	r4, (r14, 0x14)
+    4454:	b8a4      	st.w      	r5, (r14, 0x10)
+    4456:	b8a3      	st.w      	r5, (r14, 0xc)
+    4458:	b882      	st.w      	r4, (r14, 0x8)
+    445a:	b881      	st.w      	r4, (r14, 0x4)
+    445c:	b880      	st.w      	r4, (r14, 0x0)
+    445e:	e3ffe460 	bsr      	0xd1e	// d1e <GPT_WaveOut_Configure>
 	//GPT_SyncSet_Configure(GPT_SYNCUSR0_EN,GPT_OSTMD5_ONCE,GPT_TXREARM_DIS,GPT_TRGO0SEL_SR0,GPT_TRG10SEL_SR0,GPT_AREARM_DIS);
 	//GPT_Trigger_Configure(GPT_SRCSEL_TRGUSR0EN,GPT_BLKINV_DIS,GPT_ALIGNMD_PRD,GPT_CROSSMD_DIS,5,5);
 	//GPT_EVTRG_Configure(GPT_TRGSRC0_PRD,GPT_TRGSRC1_PRD,GPT_ESYN0OE_EN,GPT_ESYN1OE_EN,GPT_CNT0INIT_EN,GPT_CNT1INIT_EN,3,3,3,3);
 	GPT_Start();
-    5e0e:	e3ffd8d2 	bsr      	0xfb2	// fb2 <GPT_Start>
+    4462:	e3ffe5a8 	bsr      	0xfb2	// fb2 <GPT_Start>
 	GPT_ConfigInterrupt_CMD(ENABLE,GPT_INT_PEND);
-    5e12:	3180      	movi      	r1, 128
-    5e14:	4129      	lsli      	r1, r1, 9
-    5e16:	3001      	movi      	r0, 1
-    5e18:	e3ffd93b 	bsr      	0x108e	// 108e <GPT_ConfigInterrupt_CMD>
+    4466:	3180      	movi      	r1, 128
+    4468:	4129      	lsli      	r1, r1, 9
+    446a:	3001      	movi      	r0, 1
+    446c:	e3ffe611 	bsr      	0x108e	// 108e <GPT_ConfigInterrupt_CMD>
 	GPT_INT_ENABLE();
-    5e1c:	e3ffd94a 	bsr      	0x10b0	// 10b0 <GPT_INT_ENABLE>
+    4470:	e3ffe620 	bsr      	0x10b0	// 10b0 <GPT_INT_ENABLE>
 	//INTC_ISER_WRITE(GPT_INT); 
 	//INTC_IWER_WRITE(GPT_INT); 
 }
-    5e20:	1409      	addi      	r14, r14, 36
-    5e22:	1492      	pop      	r4-r5, r15
+    4474:	1409      	addi      	r14, r14, 36
+    4476:	1492      	pop      	r4-r5, r15
 
-00005e24 <EPT_CONFIG>:
+00004478 <EPT_CONFIG>:
 //ETP0 Functions
 //EntryParameter:NONE
 //ReturnValue:NONE
 /*************************************************************/ 
 void EPT_CONFIG(void)
 {
-    5e24:	14d3      	push      	r4-r6, r15
-    5e26:	1429      	subi      	r14, r14, 36
+    4478:	14d3      	push      	r4-r6, r15
+    447a:	1429      	subi      	r14, r14, 36
 	EPT_Software_Prg();								//EPT software reset
-    5e28:	e3ffd222 	bsr      	0x26c	// 26c <EPT_Software_Prg>
+    447c:	e3ffdef8 	bsr      	0x26c	// 26c <EPT_Software_Prg>
 //------------  EPT GPIO Setting  --------------------------------/
 	EPT_IO_SET(EPT_IO_CHAX,IO_NUM_PA00);			//AX channel selection
-    5e2c:	3110      	movi      	r1, 16
-    5e2e:	3000      	movi      	r0, 0
-    5e30:	e3ffd24d 	bsr      	0x2ca	// 2ca <EPT_IO_SET>
+    4480:	3110      	movi      	r1, 16
+    4482:	3000      	movi      	r0, 0
+    4484:	e3ffdf23 	bsr      	0x2ca	// 2ca <EPT_IO_SET>
 	EPT_IO_SET(EPT_IO_CHAY,IO_NUM_PA01);			//AY channel selection
-    5e34:	3114      	movi      	r1, 20
-    5e36:	3001      	movi      	r0, 1
-    5e38:	e3ffd249 	bsr      	0x2ca	// 2ca <EPT_IO_SET>
+    4488:	3114      	movi      	r1, 20
+    448a:	3001      	movi      	r0, 1
+    448c:	e3ffdf1f 	bsr      	0x2ca	// 2ca <EPT_IO_SET>
 	EPT_IO_SET(EPT_IO_CHBX,IO_NUM_PA07);			//BX channel selection
-    5e3c:	3117      	movi      	r1, 23
-    5e3e:	3002      	movi      	r0, 2
-    5e40:	e3ffd245 	bsr      	0x2ca	// 2ca <EPT_IO_SET>
+    4490:	3117      	movi      	r1, 23
+    4492:	3002      	movi      	r0, 2
+    4494:	e3ffdf1b 	bsr      	0x2ca	// 2ca <EPT_IO_SET>
 	EPT_IO_SET(EPT_IO_CHBY,IO_NUM_PA08);			//BY channel selection
-    5e44:	3119      	movi      	r1, 25
-    5e46:	3003      	movi      	r0, 3
-    5e48:	e3ffd241 	bsr      	0x2ca	// 2ca <EPT_IO_SET>
+    4498:	3119      	movi      	r1, 25
+    449a:	3003      	movi      	r0, 3
+    449c:	e3ffdf17 	bsr      	0x2ca	// 2ca <EPT_IO_SET>
 	EPT_IO_SET(EPT_IO_CHCX,IO_NUM_PA05);			//CX channel selection
-    5e4c:	311a      	movi      	r1, 26
-    5e4e:	3004      	movi      	r0, 4
-    5e50:	e3ffd23d 	bsr      	0x2ca	// 2ca <EPT_IO_SET>
+    44a0:	311a      	movi      	r1, 26
+    44a2:	3004      	movi      	r0, 4
+    44a4:	e3ffdf13 	bsr      	0x2ca	// 2ca <EPT_IO_SET>
 	EPT_IO_SET(EPT_IO_CHCY,IO_NUM_PA06);			//CY channel selection
-    5e54:	311c      	movi      	r1, 28
-    5e56:	3005      	movi      	r0, 5
-    5e58:	e3ffd239 	bsr      	0x2ca	// 2ca <EPT_IO_SET>
+    44a8:	311c      	movi      	r1, 28
+    44aa:	3005      	movi      	r0, 5
+    44ac:	e3ffdf0f 	bsr      	0x2ca	// 2ca <EPT_IO_SET>
 	EPT_IO_SET(EPT_IO_CHD,IO_NUM_PA13);			//D channel selection
-    5e5c:	311f      	movi      	r1, 31
-    5e5e:	3006      	movi      	r0, 6
+    44b0:	311f      	movi      	r1, 31
+    44b2:	3006      	movi      	r0, 6
 //------------  EPT Control  --------------------------------/
 	EPT_PWM_Config(EPT_Selecte_PCLK,EPT_CNTMD_increase,EPT_OPM_Continue,0);//PCLK as clock，increasing mode,continuous mode,TCLK=PCLK/(0+1) 
 	//EPT_Tevent_Selecte(0x00,0x00);				//T1 source selection SYNCIN4,T2 source selectionSYNCIN5
 	//EPT_SYNCR_Config(EPT_Triggle_Continue,EPT_SYNCUSR0_REARMTrig_DIS,EPT_TRGSRC0_ExtSync_SYNCUSR0,EPT_TRGSRC1_ExtSync_SYNCUSR4,0x30);//enable SYNCUSR4 SYNCUSR5 as trigger event,continuous mode
 	EPT_PWMX_Output_Control(EPT_PWMA,EPT_CA_Selecte_CMPA,EPT_CB_Selecte_CMPA,EPT_PWM_ZRO_Event_OutHigh,EPT_PWM_PRD_Event_Nochange,EPT_PWM_CAU_Event_OutLow,EPT_PWM_CAD_Event_OutLow,
-    5e60:	3400      	movi      	r4, 0
+    44b4:	3400      	movi      	r4, 0
 	EPT_IO_SET(EPT_IO_CHD,IO_NUM_PA13);			//D channel selection
-    5e62:	e3ffd234 	bsr      	0x2ca	// 2ca <EPT_IO_SET>
+    44b6:	e3ffdf0a 	bsr      	0x2ca	// 2ca <EPT_IO_SET>
 	EPT_PWMX_Output_Control(EPT_PWMA,EPT_CA_Selecte_CMPA,EPT_CB_Selecte_CMPA,EPT_PWM_ZRO_Event_OutHigh,EPT_PWM_PRD_Event_Nochange,EPT_PWM_CAU_Event_OutLow,EPT_PWM_CAD_Event_OutLow,
-    5e66:	3640      	movi      	r6, 64
-    5e68:	3510      	movi      	r5, 16
+    44ba:	3640      	movi      	r6, 64
+    44bc:	3510      	movi      	r5, 16
 	EPT_PWM_Config(EPT_Selecte_PCLK,EPT_CNTMD_increase,EPT_OPM_Continue,0);//PCLK as clock，increasing mode,continuous mode,TCLK=PCLK/(0+1) 
-    5e6a:	3300      	movi      	r3, 0
-    5e6c:	3200      	movi      	r2, 0
-    5e6e:	3100      	movi      	r1, 0
-    5e70:	3000      	movi      	r0, 0
-    5e72:	e3ffd30b 	bsr      	0x488	// 488 <EPT_PWM_Config>
+    44be:	3300      	movi      	r3, 0
+    44c0:	3200      	movi      	r2, 0
+    44c2:	3100      	movi      	r1, 0
+    44c4:	3000      	movi      	r0, 0
+    44c6:	e3ffdfe1 	bsr      	0x488	// 488 <EPT_PWM_Config>
 	EPT_PWMX_Output_Control(EPT_PWMA,EPT_CA_Selecte_CMPA,EPT_CB_Selecte_CMPA,EPT_PWM_ZRO_Event_OutHigh,EPT_PWM_PRD_Event_Nochange,EPT_PWM_CAU_Event_OutLow,EPT_PWM_CAD_Event_OutLow,
-    5e76:	b888      	st.w      	r4, (r14, 0x20)
-    5e78:	b887      	st.w      	r4, (r14, 0x1c)
-    5e7a:	b886      	st.w      	r4, (r14, 0x18)
-    5e7c:	b885      	st.w      	r4, (r14, 0x14)
-    5e7e:	b884      	st.w      	r4, (r14, 0x10)
-    5e80:	b883      	st.w      	r4, (r14, 0xc)
-    5e82:	b8c2      	st.w      	r6, (r14, 0x8)
-    5e84:	b8a1      	st.w      	r5, (r14, 0x4)
-    5e86:	b880      	st.w      	r4, (r14, 0x0)
-    5e88:	3302      	movi      	r3, 2
-    5e8a:	3200      	movi      	r2, 0
-    5e8c:	3100      	movi      	r1, 0
-    5e8e:	3000      	movi      	r0, 0
-    5e90:	e3ffd3f7 	bsr      	0x67e	// 67e <EPT_PWMX_Output_Control>
+    44ca:	b888      	st.w      	r4, (r14, 0x20)
+    44cc:	b887      	st.w      	r4, (r14, 0x1c)
+    44ce:	b886      	st.w      	r4, (r14, 0x18)
+    44d0:	b885      	st.w      	r4, (r14, 0x14)
+    44d2:	b884      	st.w      	r4, (r14, 0x10)
+    44d4:	b883      	st.w      	r4, (r14, 0xc)
+    44d6:	b8c2      	st.w      	r6, (r14, 0x8)
+    44d8:	b8a1      	st.w      	r5, (r14, 0x4)
+    44da:	b880      	st.w      	r4, (r14, 0x0)
+    44dc:	3302      	movi      	r3, 2
+    44de:	3200      	movi      	r2, 0
+    44e0:	3100      	movi      	r1, 0
+    44e2:	3000      	movi      	r0, 0
+    44e4:	e3ffe0cd 	bsr      	0x67e	// 67e <EPT_PWMX_Output_Control>
 							EPT_PWM_CBU_Event_Nochange,EPT_PWM_CBD_Event_Nochange,EPT_PWM_T1U_Event_Nochange,EPT_PWM_T1D_Event_Nochange,EPT_PWM_T2U_Event_Nochange,EPT_PWM_T2D_Event_Nochange);
 	EPT_PWMX_Output_Control(EPT_PWMB,EPT_CA_Selecte_CMPB,EPT_CB_Selecte_CMPB,EPT_PWM_ZRO_Event_OutHigh,EPT_PWM_PRD_Event_Nochange,EPT_PWM_CAU_Event_OutLow,EPT_PWM_CAD_Event_OutLow,
-    5e94:	3280      	movi      	r2, 128
-    5e96:	3180      	movi      	r1, 128
-    5e98:	424f      	lsli      	r2, r2, 15
-    5e9a:	412d      	lsli      	r1, r1, 13
-    5e9c:	b888      	st.w      	r4, (r14, 0x20)
-    5e9e:	b887      	st.w      	r4, (r14, 0x1c)
-    5ea0:	b886      	st.w      	r4, (r14, 0x18)
-    5ea2:	b885      	st.w      	r4, (r14, 0x14)
-    5ea4:	b884      	st.w      	r4, (r14, 0x10)
-    5ea6:	b883      	st.w      	r4, (r14, 0xc)
-    5ea8:	b8c2      	st.w      	r6, (r14, 0x8)
-    5eaa:	b8a1      	st.w      	r5, (r14, 0x4)
-    5eac:	b880      	st.w      	r4, (r14, 0x0)
-    5eae:	3302      	movi      	r3, 2
-    5eb0:	3001      	movi      	r0, 1
-    5eb2:	e3ffd3e6 	bsr      	0x67e	// 67e <EPT_PWMX_Output_Control>
+    44e8:	3280      	movi      	r2, 128
+    44ea:	3180      	movi      	r1, 128
+    44ec:	424f      	lsli      	r2, r2, 15
+    44ee:	412d      	lsli      	r1, r1, 13
+    44f0:	b888      	st.w      	r4, (r14, 0x20)
+    44f2:	b887      	st.w      	r4, (r14, 0x1c)
+    44f4:	b886      	st.w      	r4, (r14, 0x18)
+    44f6:	b885      	st.w      	r4, (r14, 0x14)
+    44f8:	b884      	st.w      	r4, (r14, 0x10)
+    44fa:	b883      	st.w      	r4, (r14, 0xc)
+    44fc:	b8c2      	st.w      	r6, (r14, 0x8)
+    44fe:	b8a1      	st.w      	r5, (r14, 0x4)
+    4500:	b880      	st.w      	r4, (r14, 0x0)
+    4502:	3302      	movi      	r3, 2
+    4504:	3001      	movi      	r0, 1
+    4506:	e3ffe0bc 	bsr      	0x67e	// 67e <EPT_PWMX_Output_Control>
 							EPT_PWM_CBU_Event_Nochange,EPT_PWM_CBD_Event_Nochange,EPT_PWM_T1U_Event_Nochange,EPT_PWM_T1D_Event_Nochange,EPT_PWM_T2U_Event_Nochange,EPT_PWM_T2D_Event_Nochange);						
 	EPT_PWMX_Output_Control(EPT_PWMC,EPT_CA_Selecte_CMPC,EPT_CB_Selecte_CMPC,EPT_PWM_ZRO_Event_OutHigh,EPT_PWM_PRD_Event_Nochange,EPT_PWM_CAU_Event_OutLow,EPT_PWM_CAD_Event_OutLow,
-    5eb6:	3280      	movi      	r2, 128
-    5eb8:	3180      	movi      	r1, 128
-    5eba:	4250      	lsli      	r2, r2, 16
-    5ebc:	412e      	lsli      	r1, r1, 14
-    5ebe:	b888      	st.w      	r4, (r14, 0x20)
-    5ec0:	b887      	st.w      	r4, (r14, 0x1c)
-    5ec2:	b886      	st.w      	r4, (r14, 0x18)
-    5ec4:	b885      	st.w      	r4, (r14, 0x14)
-    5ec6:	b884      	st.w      	r4, (r14, 0x10)
-    5ec8:	b883      	st.w      	r4, (r14, 0xc)
-    5eca:	b8c2      	st.w      	r6, (r14, 0x8)
-    5ecc:	b8a1      	st.w      	r5, (r14, 0x4)
-    5ece:	b880      	st.w      	r4, (r14, 0x0)
-    5ed0:	3302      	movi      	r3, 2
-    5ed2:	3002      	movi      	r0, 2
-    5ed4:	e3ffd3d5 	bsr      	0x67e	// 67e <EPT_PWMX_Output_Control>
+    450a:	3280      	movi      	r2, 128
+    450c:	3180      	movi      	r1, 128
+    450e:	4250      	lsli      	r2, r2, 16
+    4510:	412e      	lsli      	r1, r1, 14
+    4512:	b888      	st.w      	r4, (r14, 0x20)
+    4514:	b887      	st.w      	r4, (r14, 0x1c)
+    4516:	b886      	st.w      	r4, (r14, 0x18)
+    4518:	b885      	st.w      	r4, (r14, 0x14)
+    451a:	b884      	st.w      	r4, (r14, 0x10)
+    451c:	b883      	st.w      	r4, (r14, 0xc)
+    451e:	b8c2      	st.w      	r6, (r14, 0x8)
+    4520:	b8a1      	st.w      	r5, (r14, 0x4)
+    4522:	b880      	st.w      	r4, (r14, 0x0)
+    4524:	3302      	movi      	r3, 2
+    4526:	3002      	movi      	r0, 2
+    4528:	e3ffe0ab 	bsr      	0x67e	// 67e <EPT_PWMX_Output_Control>
 							EPT_PWM_CBU_Event_Nochange,EPT_PWM_CBD_Event_Nochange,EPT_PWM_T1U_Event_Nochange,EPT_PWM_T1D_Event_Nochange,EPT_PWM_T2U_Event_Nochange,EPT_PWM_T2D_Event_Nochange);	
 	EPT_PWMX_Output_Control(EPT_PWMD,EPT_CA_Selecte_CMPD,EPT_CB_Selecte_CMPD,EPT_PWM_ZRO_Event_OutHigh,EPT_PWM_PRD_Event_Nochange,EPT_PWM_CAU_Event_OutLow,EPT_PWM_CAD_Event_OutLow,
-    5ed8:	32c0      	movi      	r2, 192
-    5eda:	31c0      	movi      	r1, 192
-    5edc:	4250      	lsli      	r2, r2, 16
-    5ede:	412e      	lsli      	r1, r1, 14
-    5ee0:	b888      	st.w      	r4, (r14, 0x20)
-    5ee2:	b887      	st.w      	r4, (r14, 0x1c)
-    5ee4:	b886      	st.w      	r4, (r14, 0x18)
-    5ee6:	b885      	st.w      	r4, (r14, 0x14)
-    5ee8:	b884      	st.w      	r4, (r14, 0x10)
-    5eea:	b883      	st.w      	r4, (r14, 0xc)
-    5eec:	b8c2      	st.w      	r6, (r14, 0x8)
-    5eee:	b8a1      	st.w      	r5, (r14, 0x4)
-    5ef0:	b880      	st.w      	r4, (r14, 0x0)
-    5ef2:	3302      	movi      	r3, 2
-    5ef4:	3003      	movi      	r0, 3
-    5ef6:	e3ffd3c4 	bsr      	0x67e	// 67e <EPT_PWMX_Output_Control>
+    452c:	32c0      	movi      	r2, 192
+    452e:	31c0      	movi      	r1, 192
+    4530:	4250      	lsli      	r2, r2, 16
+    4532:	412e      	lsli      	r1, r1, 14
+    4534:	b888      	st.w      	r4, (r14, 0x20)
+    4536:	b887      	st.w      	r4, (r14, 0x1c)
+    4538:	b886      	st.w      	r4, (r14, 0x18)
+    453a:	b885      	st.w      	r4, (r14, 0x14)
+    453c:	b884      	st.w      	r4, (r14, 0x10)
+    453e:	b883      	st.w      	r4, (r14, 0xc)
+    4540:	b8c2      	st.w      	r6, (r14, 0x8)
+    4542:	b8a1      	st.w      	r5, (r14, 0x4)
+    4544:	b880      	st.w      	r4, (r14, 0x0)
+    4546:	3302      	movi      	r3, 2
+    4548:	3003      	movi      	r0, 3
+    454a:	e3ffe09a 	bsr      	0x67e	// 67e <EPT_PWMX_Output_Control>
 							EPT_PWM_CBU_Event_Nochange,EPT_PWM_CBD_Event_Nochange,EPT_PWM_T1U_Event_Nochange,EPT_PWM_T1D_Event_Nochange,EPT_PWM_T2U_Event_Nochange,EPT_PWM_T2D_Event_Nochange);		
 	EPT_PRDR_CMPA_CMPB_CMPC_CMPD_Config(4800,2400,1200,600,0);//PRDR=2400,CMPA=1200,CMPB=600,CMPC=2400,CMPD=0	
-    5efa:	3396      	movi      	r3, 150
-    5efc:	3296      	movi      	r2, 150
-    5efe:	3196      	movi      	r1, 150
-    5f00:	3096      	movi      	r0, 150
-    5f02:	4362      	lsli      	r3, r3, 2
-    5f04:	b880      	st.w      	r4, (r14, 0x0)
-    5f06:	4243      	lsli      	r2, r2, 3
-    5f08:	4124      	lsli      	r1, r1, 4
-    5f0a:	4005      	lsli      	r0, r0, 5
-    5f0c:	e3ffd432 	bsr      	0x770	// 770 <EPT_PRDR_CMPA_CMPB_CMPC_CMPD_Config>
+    454e:	3396      	movi      	r3, 150
+    4550:	3296      	movi      	r2, 150
+    4552:	3196      	movi      	r1, 150
+    4554:	3096      	movi      	r0, 150
+    4556:	4362      	lsli      	r3, r3, 2
+    4558:	b880      	st.w      	r4, (r14, 0x0)
+    455a:	4243      	lsli      	r2, r2, 3
+    455c:	4124      	lsli      	r1, r1, 4
+    455e:	4005      	lsli      	r0, r0, 5
+    4560:	e3ffe108 	bsr      	0x770	// 770 <EPT_PRDR_CMPA_CMPB_CMPC_CMPD_Config>
 	EPT_DB_CLK_Config(0,24,24);//Fdbclk=Fhclk/(0+1)，DTR=24clk，DTF=24clk
-    5f10:	3218      	movi      	r2, 24
-    5f12:	3118      	movi      	r1, 24
-    5f14:	3000      	movi      	r0, 0
-    5f16:	e3ffd3ae 	bsr      	0x672	// 672 <EPT_DB_CLK_Config>
+    4564:	3218      	movi      	r2, 24
+    4566:	3118      	movi      	r1, 24
+    4568:	3000      	movi      	r0, 0
+    456a:	e3ffe084 	bsr      	0x672	// 672 <EPT_DB_CLK_Config>
 	EPT_DBCR_Config(EPT_CHA_Selecte,EPT_CHAINSEL_PWMA_RISE_FALL,EPT_CHA_OUTSEL_EnRise_EnFall,EPT_PB_OUT_Reverse,EPT_PAtoCHX_PBtoCHY);//PWMA Complementary,CHX rising edge,CHY falling edge		
-    5f1a:	b880      	st.w      	r4, (r14, 0x0)
-    5f1c:	3302      	movi      	r3, 2
-    5f1e:	3203      	movi      	r2, 3
-    5f20:	3100      	movi      	r1, 0
-    5f22:	3000      	movi      	r0, 0
-    5f24:	e3ffd37a 	bsr      	0x618	// 618 <EPT_DBCR_Config>
+    456e:	b880      	st.w      	r4, (r14, 0x0)
+    4570:	3302      	movi      	r3, 2
+    4572:	3203      	movi      	r2, 3
+    4574:	3100      	movi      	r1, 0
+    4576:	3000      	movi      	r0, 0
+    4578:	e3ffe050 	bsr      	0x618	// 618 <EPT_DBCR_Config>
 	EPT_DBCR_Config(EPT_CHB_Selecte,EPT_CHBINSEL_PWMB_RISE_FALL,EPT_CHB_OUTSEL_EnRise_EnFall,EPT_PB_OUT_Reverse,EPT_PAtoCHX_PBtoCHY);//PWMB Complementary,CHX rising edge,CHY falling edge		
-    5f28:	32c0      	movi      	r2, 192
-    5f2a:	b880      	st.w      	r4, (r14, 0x0)
-    5f2c:	3302      	movi      	r3, 2
-    5f2e:	4242      	lsli      	r2, r2, 2
-    5f30:	3100      	movi      	r1, 0
-    5f32:	3001      	movi      	r0, 1
-    5f34:	e3ffd372 	bsr      	0x618	// 618 <EPT_DBCR_Config>
+    457c:	32c0      	movi      	r2, 192
+    457e:	b880      	st.w      	r4, (r14, 0x0)
+    4580:	3302      	movi      	r3, 2
+    4582:	4242      	lsli      	r2, r2, 2
+    4584:	3100      	movi      	r1, 0
+    4586:	3001      	movi      	r0, 1
+    4588:	e3ffe048 	bsr      	0x618	// 618 <EPT_DBCR_Config>
 	EPT_DBCR_Config(EPT_CHC_Selecte,EPT_CHCINSEL_PWMC_RISE_FALL,EPT_CHC_OUTSEL_EnRise_EnFall,EPT_PB_OUT_Reverse,EPT_PAtoCHX_PBtoCHY);//PWMC Complementary,CHX rising edge,CHY falling edge
-    5f38:	32c0      	movi      	r2, 192
-    5f3a:	424a      	lsli      	r2, r2, 10
-    5f3c:	3302      	movi      	r3, 2
-    5f3e:	3100      	movi      	r1, 0
-    5f40:	3002      	movi      	r0, 2
-    5f42:	b880      	st.w      	r4, (r14, 0x0)
-    5f44:	e3ffd36a 	bsr      	0x618	// 618 <EPT_DBCR_Config>
+    458c:	32c0      	movi      	r2, 192
+    458e:	424a      	lsli      	r2, r2, 10
+    4590:	3302      	movi      	r3, 2
+    4592:	3100      	movi      	r1, 0
+    4594:	3002      	movi      	r0, 2
+    4596:	b880      	st.w      	r4, (r14, 0x0)
+    4598:	e3ffe040 	bsr      	0x618	// 618 <EPT_DBCR_Config>
 	//EPT_Int_Enable(EPT_CDU);//Up-Counting phase CNT = CMPD interrupt request raw status
 	//EPT_Int_Enable(EPT_CDD);//Down-Counting phase CNT = CMPD interrupt request raw status
 	//EPT_Int_Enable(EPT_PEND);//End of cycle interrupt request raw status
 	//EPT_Vector_Int_Enable();
 //------------  EPT start  --------------------------------/	
 	EPT_Start();
-    5f48:	e3ffd1a2 	bsr      	0x28c	// 28c <EPT_Start>
+    459c:	e3ffde78 	bsr      	0x28c	// 28c <EPT_Start>
 	EPT_PRDR_CMPA_CMPB_CMPC_CMPD_Config(0XFFFF,0,0,0,0);
 	EPT_Int_Enable(EPT_CAP_LD0);//Capture Load to CMPA interrupt request raw status
 	EPT_Int_Enable(EPT_CAP_LD1);//Capture Load to CMPB interrupt request raw status
 	EPT_Vector_Int_Enable();
 	EPT_Start();*/
 }
-    5f4c:	1409      	addi      	r14, r14, 36
-    5f4e:	1493      	pop      	r4-r6, r15
+    45a0:	1409      	addi      	r14, r14, 36
+    45a2:	1493      	pop      	r4-r6, r15
 
-00005f50 <BT_CONFIG>:
+000045a4 <BT_CONFIG>:
 void BT_CONFIG(void)
 {
-    5f50:	14d2      	push      	r4-r5, r15
-    5f52:	1427      	subi      	r14, r14, 28
+    45a4:	14d2      	push      	r4-r5, r15
+    45a6:	1427      	subi      	r14, r14, 28
 	BT_DeInit(BT0);
-    5f54:	02b8      	lrw      	r5, 0x20000048	// 61f0 <TC0_CONFIG+0x3c>
+    45a8:	02b9      	lrw      	r5, 0x20000048	// 4840 <SYSCON_CONFIG+0x38>
 	BT_IO_Init(BT0_PA02);
 	BT_Configure(BT0,BTCLK_EN,0,BT_IMMEDIATE,BT_CONTINUOUS,BT_PCLKDIV);//TCLK=PCLK/(0+1)
-    5f56:	3400      	movi      	r4, 0
+    45aa:	3400      	movi      	r4, 0
 	BT_DeInit(BT0);
-    5f58:	9500      	ld.w      	r0, (r5, 0x0)
-    5f5a:	e3ffd8bf 	bsr      	0x10d8	// 10d8 <BT_DeInit>
+    45ac:	9500      	ld.w      	r0, (r5, 0x0)
+    45ae:	e3ffe595 	bsr      	0x10d8	// 10d8 <BT_DeInit>
 	BT_IO_Init(BT0_PA02);
-    5f5e:	3000      	movi      	r0, 0
-    5f60:	e3ffd8ca 	bsr      	0x10f4	// 10f4 <BT_IO_Init>
+    45b2:	3000      	movi      	r0, 0
+    45b4:	e3ffe5a0 	bsr      	0x10f4	// 10f4 <BT_IO_Init>
 	BT_Configure(BT0,BTCLK_EN,0,BT_IMMEDIATE,BT_CONTINUOUS,BT_PCLKDIV);//TCLK=PCLK/(0+1)
-    5f64:	9500      	ld.w      	r0, (r5, 0x0)
-    5f66:	b881      	st.w      	r4, (r14, 0x4)
-    5f68:	b880      	st.w      	r4, (r14, 0x0)
-    5f6a:	3308      	movi      	r3, 8
-    5f6c:	3200      	movi      	r2, 0
-    5f6e:	3101      	movi      	r1, 1
-    5f70:	e3ffd935 	bsr      	0x11da	// 11da <BT_Configure>
+    45b8:	9500      	ld.w      	r0, (r5, 0x0)
+    45ba:	b881      	st.w      	r4, (r14, 0x4)
+    45bc:	b880      	st.w      	r4, (r14, 0x0)
+    45be:	3308      	movi      	r3, 8
+    45c0:	3200      	movi      	r2, 0
+    45c2:	3101      	movi      	r1, 1
+    45c4:	e3ffe60b 	bsr      	0x11da	// 11da <BT_Configure>
 	BT_ControlSet_Configure(BT0,BT_START_HIGH,BT_IDLE_LOW,BT_SYNC0_DIS,BT_SYNC1_DIS,BT_SYNC2_DIS,BT_SYNCMD_DIS,BT_OSTMD0_ONCE,BT_AREARM0_DIS,BT_AREARM1_DIS,BT_CNTRLD_EN);
-    5f74:	3380      	movi      	r3, 128
-    5f76:	4371      	lsli      	r3, r3, 17
-    5f78:	b863      	st.w      	r3, (r14, 0xc)
-    5f7a:	9500      	ld.w      	r0, (r5, 0x0)
-    5f7c:	3300      	movi      	r3, 0
-    5f7e:	b886      	st.w      	r4, (r14, 0x18)
-    5f80:	b885      	st.w      	r4, (r14, 0x14)
-    5f82:	b884      	st.w      	r4, (r14, 0x10)
-    5f84:	b882      	st.w      	r4, (r14, 0x8)
-    5f86:	b881      	st.w      	r4, (r14, 0x4)
-    5f88:	b880      	st.w      	r4, (r14, 0x0)
-    5f8a:	3200      	movi      	r2, 0
-    5f8c:	3180      	movi      	r1, 128
-    5f8e:	e3ffd932 	bsr      	0x11f2	// 11f2 <BT_ControlSet_Configure>
+    45c8:	3380      	movi      	r3, 128
+    45ca:	4371      	lsli      	r3, r3, 17
+    45cc:	b863      	st.w      	r3, (r14, 0xc)
+    45ce:	9500      	ld.w      	r0, (r5, 0x0)
+    45d0:	3300      	movi      	r3, 0
+    45d2:	b886      	st.w      	r4, (r14, 0x18)
+    45d4:	b885      	st.w      	r4, (r14, 0x14)
+    45d6:	b884      	st.w      	r4, (r14, 0x10)
+    45d8:	b882      	st.w      	r4, (r14, 0x8)
+    45da:	b881      	st.w      	r4, (r14, 0x4)
+    45dc:	b880      	st.w      	r4, (r14, 0x0)
+    45de:	3200      	movi      	r2, 0
+    45e0:	3180      	movi      	r1, 128
+    45e2:	e3ffe608 	bsr      	0x11f2	// 11f2 <BT_ControlSet_Configure>
 	//BT_ControlSet_Configure(BT0,BT_START_HIGH,BT_IDLE_LOW,BT_SYNC_DIS,BT_SYNCMD_DIS,BT_OSTMDX_ONCE,BT_AREARM_DIS,BT_CNTRLD_EN);
 	//BT_ControlSet_Configure(BT0,BT_START_HIGH,BT_IDLE_LOW,BT_SYNC_EN,BT_SYNCMD_DIS,BT_OSTMDX_ONCE,BT_AREARM_DIS,BT_CNTRLD_EN);
 	//BT_Trigger_Configure(BT0,BT_TRGSRC_PEND,BT_TRGOE_EN);
 	BT_Period_CMP_Write(BT0,2000,500);
-    5f92:	32fa      	movi      	r2, 250
-    5f94:	31fa      	movi      	r1, 250
-    5f96:	4241      	lsli      	r2, r2, 1
-    5f98:	4123      	lsli      	r1, r1, 3
-    5f9a:	9500      	ld.w      	r0, (r5, 0x0)
-    5f9c:	e3ffd957 	bsr      	0x124a	// 124a <BT_Period_CMP_Write>
+    45e6:	32fa      	movi      	r2, 250
+    45e8:	31fa      	movi      	r1, 250
+    45ea:	4241      	lsli      	r2, r2, 1
+    45ec:	4123      	lsli      	r1, r1, 3
+    45ee:	9500      	ld.w      	r0, (r5, 0x0)
+    45f0:	e3ffe62d 	bsr      	0x124a	// 124a <BT_Period_CMP_Write>
 	BT_Start(BT0);
-    5fa0:	9500      	ld.w      	r0, (r5, 0x0)
-    5fa2:	e3ffd901 	bsr      	0x11a4	// 11a4 <BT_Start>
+    45f4:	9500      	ld.w      	r0, (r5, 0x0)
+    45f6:	e3ffe5d7 	bsr      	0x11a4	// 11a4 <BT_Start>
 	BT_ConfigInterrupt_CMD(BT0,ENABLE,BT_PEND);
-    5fa6:	9500      	ld.w      	r0, (r5, 0x0)
-    5fa8:	3201      	movi      	r2, 1
-    5faa:	3101      	movi      	r1, 1
-    5fac:	e3ffd965 	bsr      	0x1276	// 1276 <BT_ConfigInterrupt_CMD>
+    45fa:	9500      	ld.w      	r0, (r5, 0x0)
+    45fc:	3201      	movi      	r2, 1
+    45fe:	3101      	movi      	r1, 1
+    4600:	e3ffe63b 	bsr      	0x1276	// 1276 <BT_ConfigInterrupt_CMD>
 	BT0_INT_ENABLE();
-    5fb0:	e3ffd96c 	bsr      	0x1288	// 1288 <BT0_INT_ENABLE>
+    4604:	e3ffe642 	bsr      	0x1288	// 1288 <BT0_INT_ENABLE>
 	BT_Trigger_Configure(BT3,BT_TRGSRC_PEND,BT_TRGOE_EN);
 	BT_Period_CMP_Write(BT3,1000,500);
 	BT_Start(BT3);
 	BT_ConfigInterrupt_CMD(BT3,ENABLE,BT_PEND);
 	BT3_INT_ENABLE();*/
 }
-    5fb4:	1407      	addi      	r14, r14, 28
-    5fb6:	1492      	pop      	r4-r5, r15
+    4608:	1407      	addi      	r14, r14, 28
+    460a:	1492      	pop      	r4-r5, r15
 
-00005fb8 <ETCB_CONFIG>:
+0000460c <ETCB_CONFIG>:
 //ET Initial
 //EntryParameter:NONE
 //ReturnValue:NONE
 /*************************************************************/	
 void ETCB_CONFIG(void)
 {
-    5fb8:	14d0      	push      	r15
+    460c:	14d0      	push      	r15
 	ET_DeInit();
-    5fba:	e3ffd9af 	bsr      	0x1318	// 1318 <ET_DeInit>
+    460e:	e3ffe685 	bsr      	0x1318	// 1318 <ET_DeInit>
 
 	ET_CH0_SRCSEL(ENABLE,TRG_HW,ET_EPT0_TRGSRC0);
-    5fbe:	3212      	movi      	r2, 18
-    5fc0:	3100      	movi      	r1, 0
-    5fc2:	3001      	movi      	r0, 1
-    5fc4:	e3ffda0f 	bsr      	0x13e2	// 13e2 <ET_CH0_SRCSEL>
+    4612:	3212      	movi      	r2, 18
+    4614:	3100      	movi      	r1, 0
+    4616:	3001      	movi      	r0, 1
+    4618:	e3ffe6e5 	bsr      	0x13e2	// 13e2 <ET_CH0_SRCSEL>
 	ET_CH0_DSTSEL(ET_DST0,ENABLE,ET_ADC_SYNC0);
-    5fc8:	3212      	movi      	r2, 18
-    5fca:	3101      	movi      	r1, 1
-    5fcc:	3000      	movi      	r0, 0
-    5fce:	e3ffd9d6 	bsr      	0x137a	// 137a <ET_CH0_DSTSEL>
+    461c:	3212      	movi      	r2, 18
+    461e:	3101      	movi      	r1, 1
+    4620:	3000      	movi      	r0, 0
+    4622:	e3ffe6ac 	bsr      	0x137a	// 137a <ET_CH0_DSTSEL>
 		
 	ET_ENABLE();
-    5fd2:	e3ffd9bd 	bsr      	0x134c	// 134c <ET_ENABLE>
+    4626:	e3ffe693 	bsr      	0x134c	// 134c <ET_ENABLE>
 }
-    5fd6:	1490      	pop      	r15
+    462a:	1490      	pop      	r15
 
-00005fd8 <ADC12_CONFIG>:
+0000462c <ADC12_CONFIG>:
 //adc config
 //EntryParameter:NONE
 //ReturnValue:NONE
 /*************************************************************/	
 void ADC12_CONFIG(void)
 {
-    5fd8:	14d0      	push      	r15
-    5fda:	1422      	subi      	r14, r14, 8
+    462c:	14d0      	push      	r15
+    462e:	1422      	subi      	r14, r14, 8
 	ADC12_Software_Reset();
-    5fdc:	e3ffea16 	bsr      	0x3408	// 3408 <ADC12_Software_Reset>
+    4630:	e3fff6ec 	bsr      	0x3408	// 3408 <ADC12_Software_Reset>
 	ADC12_CLK_CMD(ADC_CLK_CR , ENABLE);                                         //enable ADC CLK
-    5fe0:	3101      	movi      	r1, 1
-    5fe2:	3002      	movi      	r0, 2
-    5fe4:	e3ffe9fe 	bsr      	0x33e0	// 33e0 <ADC12_CLK_CMD>
+    4634:	3101      	movi      	r1, 1
+    4636:	3002      	movi      	r0, 2
+    4638:	e3fff6d4 	bsr      	0x33e0	// 33e0 <ADC12_CLK_CMD>
 	ADC12_Configure_Mode(ADC12_12BIT , Continuous_mode ,0, 6 ,2 , 1);           //12BIT ADC; Continuous mode; Conversion priority selection 0; Holding cycles=6 ;ADC_CLK=PCLK/2*2=0.2us; Number of Conversions=1
-    5fe8:	3301      	movi      	r3, 1
-    5fea:	b861      	st.w      	r3, (r14, 0x4)
-    5fec:	3302      	movi      	r3, 2
-    5fee:	b860      	st.w      	r3, (r14, 0x0)
-    5ff0:	3200      	movi      	r2, 0
-    5ff2:	3306      	movi      	r3, 6
-    5ff4:	3101      	movi      	r1, 1
-    5ff6:	3000      	movi      	r0, 0
-    5ff8:	e3ffea41 	bsr      	0x347a	// 347a <ADC12_Configure_Mode>
+    463c:	3301      	movi      	r3, 1
+    463e:	b861      	st.w      	r3, (r14, 0x4)
+    4640:	3302      	movi      	r3, 2
+    4642:	b860      	st.w      	r3, (r14, 0x0)
+    4644:	3200      	movi      	r2, 0
+    4646:	3306      	movi      	r3, 6
+    4648:	3101      	movi      	r1, 1
+    464a:	3000      	movi      	r0, 0
+    464c:	e3fff717 	bsr      	0x347a	// 347a <ADC12_Configure_Mode>
 	ADC12_Configure_VREF_Selecte(ADC12_VREFP_FVR2048_VREFN_VSS);					    //ADC VREF Positive FVR4.096V,negative VSS
-    5ffc:	3002      	movi      	r0, 2
-    5ffe:	e3ffea79 	bsr      	0x34f0	// 34f0 <ADC12_Configure_VREF_Selecte>
+    4650:	3002      	movi      	r0, 2
+    4652:	e3fff74f 	bsr      	0x34f0	// 34f0 <ADC12_Configure_VREF_Selecte>
 	ADC12_ConversionChannel_Config(ADC12_ADCIN0,ADC12_CV_RepeatNum1,ADC12_AVGDIS,0);    //SEQ0 chose ADCIN0, 6 Holding cycles, Average 1 time
-    6002:	3300      	movi      	r3, 0
-    6004:	3200      	movi      	r2, 0
-    6006:	3100      	movi      	r1, 0
-    6008:	3000      	movi      	r0, 0
-    600a:	e3ffeb41 	bsr      	0x368c	// 368c <ADC12_ConversionChannel_Config>
+    4656:	3300      	movi      	r3, 0
+    4658:	3200      	movi      	r2, 0
+    465a:	3100      	movi      	r1, 0
+    465c:	3000      	movi      	r0, 0
+    465e:	e3fff817 	bsr      	0x368c	// 368c <ADC12_ConversionChannel_Config>
 	//ADC12_ConversionChannel_Config(ADC12_ADCIN1,ADC12_CV_RepeatNum1,ADC12_AVGDIS,1);  //SEQ1 chose ADCIN1, 6 Holding cycles , Average 1 time
 	ADC12_CMD(ENABLE);                                                                  //enable ADC
-    600e:	3001      	movi      	r0, 1
-    6010:	e3ffea01 	bsr      	0x3412	// 3412 <ADC12_CMD>
+    4662:	3001      	movi      	r0, 1
+    4664:	e3fff6d7 	bsr      	0x3412	// 3412 <ADC12_CMD>
 	ADC12_ready_wait(); 																//wait ADC get ready
-    6014:	e3ffea11 	bsr      	0x3436	// 3436 <ADC12_ready_wait>
+    4668:	e3fff6e7 	bsr      	0x3436	// 3436 <ADC12_ready_wait>
 	ADC12_Control(ADC12_START);															//ADC convert start
-    6018:	3008      	movi      	r0, 8
-    601a:	e3ffe9bb 	bsr      	0x3390	// 3390 <ADC12_Control>
+    466c:	3008      	movi      	r0, 8
+    466e:	e3fff691 	bsr      	0x3390	// 3390 <ADC12_Control>
 }
-    601e:	1402      	addi      	r14, r14, 8
-    6020:	1490      	pop      	r15
+    4672:	1402      	addi      	r14, r14, 8
+    4674:	1490      	pop      	r15
 
-00006022 <CORET_CONFIG>:
+00004676 <CORET_CONFIG>:
 //CORET Functions
 //EntryParameter:NONE
 //ReturnValue:NONE
 /*************************************************************/ 
 void CORET_CONFIG(void)
 {
-    6022:	14d0      	push      	r15
+    4676:	14d0      	push      	r15
 	CORET_DeInit();									//Coret 所有寄存器复位赋值			
-    6024:	e3ffe53a 	bsr      	0x2a98	// 2a98 <CORET_DeInit>
+    4678:	e3fff210 	bsr      	0x2a98	// 2a98 <CORET_DeInit>
 	SYSCON_General_CMD(ENABLE,ENDIS_SYSTICK);		//使能 STCLK 时钟
-    6028:	3180      	movi      	r1, 128
-    602a:	4124      	lsli      	r1, r1, 4
-    602c:	3001      	movi      	r0, 1
-    602e:	e3ffdb36 	bsr      	0x169a	// 169a <SYSCON_General_CMD>
+    467c:	3180      	movi      	r1, 128
+    467e:	4124      	lsli      	r1, r1, 4
+    4680:	3001      	movi      	r0, 1
+    4682:	e3ffe80c 	bsr      	0x169a	// 169a <SYSCON_General_CMD>
 	CK802->CORET_RVR=599999;						//100ms
-    6032:	1371      	lrw      	r3, 0x20000078	// 61f4 <TC0_CONFIG+0x40>
-    6034:	1351      	lrw      	r2, 0x927bf	// 61f8 <TC0_CONFIG+0x44>
-    6036:	9360      	ld.w      	r3, (r3, 0x0)
-    6038:	b345      	st.w      	r2, (r3, 0x14)
+    4686:	1370      	lrw      	r3, 0x20000078	// 4844 <SYSCON_CONFIG+0x3c>
+    4688:	1350      	lrw      	r2, 0x927bf	// 4848 <SYSCON_CONFIG+0x40>
+    468a:	9360      	ld.w      	r3, (r3, 0x0)
+    468c:	b345      	st.w      	r2, (r3, 0x14)
 	CORET_reload();									// Coret CVR 清除						
-    603a:	e3ffe57b 	bsr      	0x2b30	// 2b30 <CORET_reload>
+    468e:	e3fff251 	bsr      	0x2b30	// 2b30 <CORET_reload>
 	CORET_CLKSOURCE_EX();							//使用时钟源为sysclk/8
-    603e:	e3ffe561 	bsr      	0x2b00	// 2b00 <CORET_CLKSOURCE_EX>
+    4692:	e3fff237 	bsr      	0x2b00	// 2b00 <CORET_CLKSOURCE_EX>
 	CORET_TICKINT_Enable();							//使能计数器清零中断
-    6042:	e3ffe56b 	bsr      	0x2b18	// 2b18 <CORET_TICKINT_Enable>
+    4696:	e3fff241 	bsr      	0x2b18	// 2b18 <CORET_TICKINT_Enable>
 	
 	CORET_start();									//Coret 计时开始				
-    6046:	e3ffe551 	bsr      	0x2ae8	// 2ae8 <CORET_start>
+    469a:	e3fff227 	bsr      	0x2ae8	// 2ae8 <CORET_start>
 	CORET_Int_Enable();								//使能计数器清零中断向量
-    604a:	e3ffe531 	bsr      	0x2aac	// 2aac <CORET_Int_Enable>
+    469e:	e3fff207 	bsr      	0x2aac	// 2aac <CORET_Int_Enable>
 	//CORET_WakeUp_Enable();							//使能计数器清零中断唤醒	
 }
-    604e:	1490      	pop      	r15
+    46a2:	1490      	pop      	r15
 
-00006050 <UART_CONFIG>:
+000046a4 <UART_CONFIG>:
 //UART0  CONFIG
 //EntryParameter:NONE
 //ReturnValue:NONE
 /*************************************************************/	
 void UART_CONFIG(void)
 {
-    6050:	14d0      	push      	r15
+    46a4:	14d0      	push      	r15
 	UART0_DeInit();                                                //clear all UART Register
-    6052:	e3ffec15 	bsr      	0x387c	// 387c <UART0_DeInit>
+    46a6:	e3fff8eb 	bsr      	0x387c	// 387c <UART0_DeInit>
     UART_IO_Init(IO_UART0,0);                                     //use PA0.10->RXD0, PA0.9->TXD0
-    6056:	3100      	movi      	r1, 0
-    6058:	3000      	movi      	r0, 0
-    605a:	e3ffec47 	bsr      	0x38e8	// 38e8 <UART_IO_Init>
+    46aa:	3100      	movi      	r1, 0
+    46ac:	3000      	movi      	r0, 0
+    46ae:	e3fff91d 	bsr      	0x38e8	// 38e8 <UART_IO_Init>
     //UARTInit(UART0,416,UART_PAR_NONE);							  //baudrate=sysclock/416=115200
 	UARTInitRxTxIntEn(UART0,416,UART_PAR_NONE);	              //baudrate=sysclock/416=115200,RX TX int enable
-    605e:	1368      	lrw      	r3, 0x20000028	// 61fc <TC0_CONFIG+0x48>
-    6060:	31d0      	movi      	r1, 208
-    6062:	9300      	ld.w      	r0, (r3, 0x0)
-    6064:	3200      	movi      	r2, 0
-    6066:	4121      	lsli      	r1, r1, 1
-    6068:	e3ffec82 	bsr      	0x396c	// 396c <UARTInitRxTxIntEn>
+    46b2:	1367      	lrw      	r3, 0x20000028	// 484c <SYSCON_CONFIG+0x44>
+    46b4:	31d0      	movi      	r1, 208
+    46b6:	9300      	ld.w      	r0, (r3, 0x0)
+    46b8:	3200      	movi      	r2, 0
+    46ba:	4121      	lsli      	r1, r1, 1
+    46bc:	e3fff958 	bsr      	0x396c	// 396c <UARTInitRxTxIntEn>
 	UART0_Int_Enable();
-    606c:	e3ffec1a 	bsr      	0x38a0	// 38a0 <UART0_Int_Enable>
+    46c0:	e3fff8f0 	bsr      	0x38a0	// 38a0 <UART0_Int_Enable>
 } 
-    6070:	1490      	pop      	r15
+    46c4:	1490      	pop      	r15
 
-00006072 <USART_CONFIG>:
+000046c6 <USART_CONFIG>:
 //USART Functions
 //EntryParameter:NONE
 //ReturnValue:NONE
 /*************************************************************/ 
 void USART_CONFIG(void)
 {
-    6072:	14d0      	push      	r15
-    6074:	1423      	subi      	r14, r14, 12
+    46c6:	14d0      	push      	r15
+    46c8:	1423      	subi      	r14, r14, 12
 	USART_DeInit();                                                              	//USART 所有寄存器复位赋值
-    6076:	e3ffded9 	bsr      	0x1e28	// 1e28 <USART_DeInit>
+    46ca:	e3ffebaf 	bsr      	0x1e28	// 1e28 <USART_DeInit>
     USART_CLK_Enable();																//USART CLK	使能
-    607a:	e3ffdf85 	bsr      	0x1f84	// 1f84 <USART_CLK_Enable>
+    46ce:	e3ffec5b 	bsr      	0x1f84	// 1f84 <USART_CLK_Enable>
 	USART_CTRL_Config(RSTRX,ENABLE);												//复位接收模块
-    607e:	3101      	movi      	r1, 1
-    6080:	3002      	movi      	r0, 2
-    6082:	e3ffdfb6 	bsr      	0x1fee	// 1fee <USART_CTRL_Config>
+    46d2:	3101      	movi      	r1, 1
+    46d4:	3002      	movi      	r0, 2
+    46d6:	e3ffec8c 	bsr      	0x1fee	// 1fee <USART_CTRL_Config>
 	USART_CTRL_Config(RSTTX,ENABLE);												//复位发射模块
-    6086:	3101      	movi      	r1, 1
-    6088:	3003      	movi      	r0, 3
-    608a:	e3ffdfb2 	bsr      	0x1fee	// 1fee <USART_CTRL_Config>
+    46da:	3101      	movi      	r1, 1
+    46dc:	3003      	movi      	r0, 3
+    46de:	e3ffec88 	bsr      	0x1fee	// 1fee <USART_CTRL_Config>
 	USART_IO_Init(IO_USART0,0);                                                  		//USART 使用PA0.2->RXD0, PB0.2->TXD0
-    608e:	3100      	movi      	r1, 0
-    6090:	3000      	movi      	r0, 0
-    6092:	e3ffdf0b 	bsr      	0x1ea8	// 1ea8 <USART_IO_Init>
+    46e2:	3100      	movi      	r1, 0
+    46e4:	3000      	movi      	r0, 0
+    46e6:	e3ffebe1 	bsr      	0x1ea8	// 1ea8 <USART_IO_Init>
 	//USART_CLKIO_Init(CLK_PB07);													//同步模式下可以选择PB0.7作为UARTCLK
     USART_MODE_Config(SENDTIME0,PCLK,CHRL8,ASYNC,PAR_EVEN,NBSTOP1,CHMODE_NORMAL);	//重发次数为0, CLKs=PCLK, 字节长度8bit, 异步模式, 偶校验位, 1个停止位, 普通模式
-    6096:	3300      	movi      	r3, 0
-    6098:	b862      	st.w      	r3, (r14, 0x8)
-    609a:	b861      	st.w      	r3, (r14, 0x4)
-    609c:	b860      	st.w      	r3, (r14, 0x0)
-    609e:	32c0      	movi      	r2, 192
-    60a0:	3100      	movi      	r1, 0
-    60a2:	3000      	movi      	r0, 0
-    60a4:	e3ffdf8c 	bsr      	0x1fbc	// 1fbc <USART_MODE_Config>
+    46ea:	3300      	movi      	r3, 0
+    46ec:	b862      	st.w      	r3, (r14, 0x8)
+    46ee:	b861      	st.w      	r3, (r14, 0x4)
+    46f0:	b860      	st.w      	r3, (r14, 0x0)
+    46f2:	32c0      	movi      	r2, 192
+    46f4:	3100      	movi      	r1, 0
+    46f6:	3000      	movi      	r0, 0
+    46f8:	e3ffec62 	bsr      	0x1fbc	// 1fbc <USART_MODE_Config>
 	//USART_CLKO_Config(ENABLE);														//同步模式下需要输出UARTCLK时,需要使能
     USART_Baudrate_Cal(38400,48000000,PCLK,ASYNC);									//波特率=38400, 主频选择48M, PCLK不分频, 异步模式							
-    60a8:	3096      	movi      	r0, 150
-    60aa:	3300      	movi      	r3, 0
-    60ac:	3200      	movi      	r2, 0
-    60ae:	1235      	lrw      	r1, 0x2dc6c00	// 6200 <TC0_CONFIG+0x4c>
-    60b0:	4008      	lsli      	r0, r0, 8
-    60b2:	e3ffdfd8 	bsr      	0x2062	// 2062 <USART_Baudrate_Cal>
+    46fc:	3096      	movi      	r0, 150
+    46fe:	3300      	movi      	r3, 0
+    4700:	3200      	movi      	r2, 0
+    4702:	1234      	lrw      	r1, 0x2dc6c00	// 4850 <SYSCON_CONFIG+0x48>
+    4704:	4008      	lsli      	r0, r0, 8
+    4706:	e3ffecae 	bsr      	0x2062	// 2062 <USART_Baudrate_Cal>
 	USART_CTRL_Config(TXEN,ENABLE);													//USART 发送使能
-    60b6:	3101      	movi      	r1, 1
-    60b8:	3006      	movi      	r0, 6
-    60ba:	e3ffdf9a 	bsr      	0x1fee	// 1fee <USART_CTRL_Config>
+    470a:	3101      	movi      	r1, 1
+    470c:	3006      	movi      	r0, 6
+    470e:	e3ffec70 	bsr      	0x1fee	// 1fee <USART_CTRL_Config>
 	USART_CTRL_Config(RXEN,ENABLE);													//USART 接收使能
-    60be:	3101      	movi      	r1, 1
-    60c0:	3004      	movi      	r0, 4
-    60c2:	e3ffdf96 	bsr      	0x1fee	// 1fee <USART_CTRL_Config>
+    4712:	3101      	movi      	r1, 1
+    4714:	3004      	movi      	r0, 4
+    4716:	e3ffec6c 	bsr      	0x1fee	// 1fee <USART_CTRL_Config>
 	USART_INT_Config(RXRDY_INT,ENABLE);												//USART 接收中断使能
-    60c6:	3101      	movi      	r1, 1
-    60c8:	3000      	movi      	r0, 0
-    60ca:	e3ffdf63 	bsr      	0x1f90	// 1f90 <USART_INT_Config>
+    471a:	3101      	movi      	r1, 1
+    471c:	3000      	movi      	r0, 0
+    471e:	e3ffec39 	bsr      	0x1f90	// 1f90 <USART_INT_Config>
 	//USART_INT_Config(TXRDY_INT,ENABLE);												//USART 发射中断使能	
 	USART_Int_Enable();																//USART 中断向量使能
-    60ce:	e3ffdec9 	bsr      	0x1e60	// 1e60 <USART_Int_Enable>
+    4722:	e3ffeb9f 	bsr      	0x1e60	// 1e60 <USART_Int_Enable>
 	//USART_WakeUp_Enable();															//USART 中断唤醒使能
 	
 }
-    60d2:	1403      	addi      	r14, r14, 12
-    60d4:	1490      	pop      	r15
+    4726:	1403      	addi      	r14, r14, 12
+    4728:	1490      	pop      	r15
 
-000060d6 <CMP_CONFIG>:
+0000472a <CMP_CONFIG>:
 //CMP Init
 //EntryParameter:NONE
 //ReturnValue:NONE
 /*************************************************************/  
 void CMP_CONFIG(void)
 {
-    60d6:	14d0      	push      	r15
-    60d8:	1423      	subi      	r14, r14, 12
+    472a:	14d0      	push      	r15
+    472c:	1423      	subi      	r14, r14, 12
 	CMP_RESET_VALUE();								//CMP 所有寄存器复位赋值
-    60da:	e3ffe03d 	bsr      	0x2154	// 2154 <CMP_RESET_VALUE>
+    472e:	e3ffed13 	bsr      	0x2154	// 2154 <CMP_RESET_VALUE>
 	CMP_software_reset();							//CMP 软件复位	
-    60de:	e3ffe05d 	bsr      	0x2198	// 2198 <CMP_software_reset>
+    4732:	e3ffed33 	bsr      	0x2198	// 2198 <CMP_software_reset>
 	
 	CMP_IO_Init(CPINP0,0);							//CPINP0 初始化
-    60e2:	3100      	movi      	r1, 0
-    60e4:	3000      	movi      	r0, 0
-    60e6:	e3ffe0a2 	bsr      	0x222a	// 222a <CMP_IO_Init>
+    4736:	3100      	movi      	r1, 0
+    4738:	3000      	movi      	r0, 0
+    473a:	e3ffed78 	bsr      	0x222a	// 222a <CMP_IO_Init>
 	//CMP_IO_Init(CPINP6,0);							//CPINP6 初始化
 	//CMP_IO_Init(CPINP7,0);							//CPINP7 初始化
 	//CMP_IO_Init(CPINP8,0);							//CPINP8 初始化
 	//CMP_IO_Init(CPINP9,0);							//CPINP9 初始化
 	
 	CMP_IO_Init(CPINN0,0);							//CPINN0 初始化	
-    60ea:	3100      	movi      	r1, 0
-    60ec:	300a      	movi      	r0, 10
-    60ee:	e3ffe09e 	bsr      	0x222a	// 222a <CMP_IO_Init>
+    473e:	3100      	movi      	r1, 0
+    4740:	300a      	movi      	r0, 10
+    4742:	e3ffed74 	bsr      	0x222a	// 222a <CMP_IO_Init>
 	//CMP_IO_Init(CPINN1,0);							//CPINN1 初始化		
 	//CMP_IO_Init(CPINN2,0);							//CPINN2 初始化	
 	//CMP_IO_Init(CPINN3,0);							//CPINN3 初始化	
 	//CMP_IO_Init(CPINN4,0);							//CPINN4 初始化	
 	
 	CMP_IO_Init(CP0_OUT,0);							//CP0_OUT 初始化	
-    60f2:	3100      	movi      	r1, 0
-    60f4:	300f      	movi      	r0, 15
-    60f6:	e3ffe09a 	bsr      	0x222a	// 222a <CMP_IO_Init>
+    4746:	3100      	movi      	r1, 0
+    4748:	300f      	movi      	r0, 15
+    474a:	e3ffed70 	bsr      	0x222a	// 222a <CMP_IO_Init>
 	//CMP_IO_Init(CP1_OUT,0);							//CP1_OUT 初始化	
 	//CMP_IO_Init(CP2_OUT,0);							//CP2_OUT 初始化	
 	//CMP_IO_Init(CP3_OUT,0);							//CP3_OUT 初始化	
 	//CMP_IO_Init(CP4_OUT,0);							//CP4_OUT 初始化	
 	
 	CMP_INPCRX_Config(CMP0_NUM,0,0);						//比较器负向:CPINN0  比较器正向:CPINP0
-    60fa:	3200      	movi      	r2, 0
-    60fc:	3100      	movi      	r1, 0
-    60fe:	3000      	movi      	r0, 0
-    6100:	e3ffe1b3 	bsr      	0x2466	// 2466 <CMP_INPCRX_Config>
+    474e:	3200      	movi      	r2, 0
+    4750:	3100      	movi      	r1, 0
+    4752:	3000      	movi      	r0, 0
+    4754:	e3ffee89 	bsr      	0x2466	// 2466 <CMP_INPCRX_Config>
 	CMP_CLK_CMD(CMP0_NUM,ENABLE);							//比较器0时钟使能
-    6104:	3101      	movi      	r1, 1
-    6106:	3000      	movi      	r0, 0
-    6108:	e3ffe04e 	bsr      	0x21a4	// 21a4 <CMP_CLK_CMD>
+    4758:	3101      	movi      	r1, 1
+    475a:	3000      	movi      	r0, 0
+    475c:	e3ffed24 	bsr      	0x21a4	// 21a4 <CMP_CLK_CMD>
 	CMP_CR_Config(CMP0_NUM,NHYST_0mv,PHYST_0mv,POLARITY_0,EVE_SEL_fall_rise,EN_FLTEN,CPOS_1);
-    610c:	3380      	movi      	r3, 128
-    610e:	4368      	lsli      	r3, r3, 8
-    6110:	b862      	st.w      	r3, (r14, 0x8)
-    6112:	3380      	movi      	r3, 128
-    6114:	4363      	lsli      	r3, r3, 3
-    6116:	b861      	st.w      	r3, (r14, 0x4)
-    6118:	3380      	movi      	r3, 128
-    611a:	4362      	lsli      	r3, r3, 2
-    611c:	b860      	st.w      	r3, (r14, 0x0)
-    611e:	3200      	movi      	r2, 0
-    6120:	3300      	movi      	r3, 0
-    6122:	3100      	movi      	r1, 0
-    6124:	3000      	movi      	r0, 0
-    6126:	e3ffe21d 	bsr      	0x2560	// 2560 <CMP_CR_Config>
+    4760:	3380      	movi      	r3, 128
+    4762:	4368      	lsli      	r3, r3, 8
+    4764:	b862      	st.w      	r3, (r14, 0x8)
+    4766:	3380      	movi      	r3, 128
+    4768:	4363      	lsli      	r3, r3, 3
+    476a:	b861      	st.w      	r3, (r14, 0x4)
+    476c:	3380      	movi      	r3, 128
+    476e:	4362      	lsli      	r3, r3, 2
+    4770:	b860      	st.w      	r3, (r14, 0x0)
+    4772:	3200      	movi      	r2, 0
+    4774:	3300      	movi      	r3, 0
+    4776:	3100      	movi      	r1, 0
+    4778:	3000      	movi      	r0, 0
+    477a:	e3ffeef3 	bsr      	0x2560	// 2560 <CMP_CR_Config>
 	//使能CMP0比较器，比较器正向和负向迟滞电压为0mV，比较器输出不反向，事件触发为上升沿和下降沿，滤波器使能，选择经过滤波器后输出
 	CMPX_FLTCR_Config(CMP0_NUM,CMPX_CLK_PCLK,4,199);		//FLT_CK = 20M/(199+1)/2^4=160us; 滤波次数固定为3次 160us*3=480us
-    612a:	33c7      	movi      	r3, 199
-    612c:	3204      	movi      	r2, 4
-    612e:	3100      	movi      	r1, 0
-    6130:	3000      	movi      	r0, 0
-    6132:	e3ffe2ea 	bsr      	0x2706	// 2706 <CMPX_FLTCR_Config>
+    477e:	33c7      	movi      	r3, 199
+    4780:	3204      	movi      	r2, 4
+    4782:	3100      	movi      	r1, 0
+    4784:	3000      	movi      	r0, 0
+    4786:	e3ffefc0 	bsr      	0x2706	// 2706 <CMPX_FLTCR_Config>
 	CMP_Open(CMP0_NUM);										//比较器0打开
-    6136:	3000      	movi      	r0, 0
-    6138:	e3ffe287 	bsr      	0x2646	// 2646 <CMP_Open>
+    478a:	3000      	movi      	r0, 0
+    478c:	e3ffef5d 	bsr      	0x2646	// 2646 <CMP_Open>
 	CMP->ICR =	EDGEDET0;									//清除CMP0中断标志位
-    613c:	1172      	lrw      	r3, 0x20000024	// 6204 <TC0_CONFIG+0x50>
-    613e:	3201      	movi      	r2, 1
-    6140:	9360      	ld.w      	r3, (r3, 0x0)
-    6142:	b35a      	st.w      	r2, (r3, 0x68)
+    4790:	1171      	lrw      	r3, 0x20000024	// 4854 <SYSCON_CONFIG+0x4c>
+    4792:	3201      	movi      	r2, 1
+    4794:	9360      	ld.w      	r3, (r3, 0x0)
+    4796:	b35a      	st.w      	r2, (r3, 0x68)
 	CMP_ConfigInterrupt_CMD(EDGEDET0,ENABLE);				//CMP0 中断使能
-    6144:	3101      	movi      	r1, 1
-    6146:	3001      	movi      	r0, 1
-    6148:	e3ffe3d8 	bsr      	0x28f8	// 28f8 <CMP_ConfigInterrupt_CMD>
+    4798:	3101      	movi      	r1, 1
+    479a:	3001      	movi      	r0, 1
+    479c:	e3fff0ae 	bsr      	0x28f8	// 28f8 <CMP_ConfigInterrupt_CMD>
 	//CMPX_FLTCR_Config(CMP5_NUM,CMPX_CLK_PCLK,4,199);			//FLT_CK = 20M/(199+1)/2^4=160ms; 滤波次数固定为3次
 	//CMP_Open(CMP5_NUM);										//比较器5打开
 	//CMP->ICR = EDGEDET5;										//清除CMP4中断标志位
 	//CMP_ConfigInterrupt_CMD(EDGEDET5,ENABLE);					//CMP5 中断使能
 	
 	CMP0_Int_Enable();										//CMP0~CMP1 中断向量使能
-    614c:	e3ffe3e1 	bsr      	0x290e	// 290e <CMP0_Int_Enable>
+    47a0:	e3fff0b7 	bsr      	0x290e	// 290e <CMP0_Int_Enable>
 	//CMP1_Int_Enable();										//CMP2~CMP3 中断向量使能
 	
 }
-    6150:	1403      	addi      	r14, r14, 12
-    6152:	1490      	pop      	r15
+    47a4:	1403      	addi      	r14, r14, 12
+    47a6:	1490      	pop      	r15
 
-00006154 <OPAMP_CONFIG>:
+000047a8 <OPAMP_CONFIG>:
 //OPAMP Init
 //EntryParameter:NONE
 //ReturnValue:NONE
 /*************************************************************/ 
 void OPAMP_CONFIG(void)
 {
-    6154:	14d0      	push      	r15
-    6156:	1421      	subi      	r14, r14, 4
+    47a8:	14d0      	push      	r15
+    47aa:	1421      	subi      	r14, r14, 4
 	OPA0_RESET_VALUE();										//OPAx 所有寄存器复位赋值
-    6158:	e3ffe836 	bsr      	0x31c4	// 31c4 <OPA0_RESET_VALUE>
+    47ac:	e3fff50c 	bsr      	0x31c4	// 31c4 <OPA0_RESET_VALUE>
 	OPA1_RESET_VALUE();	
-    615c:	e3ffe83c 	bsr      	0x31d4	// 31d4 <OPA1_RESET_VALUE>
+    47b0:	e3fff512 	bsr      	0x31d4	// 31d4 <OPA1_RESET_VALUE>
 	
 	OPA_IO_Init(OPA0P,0);									//OPA0P 初始化				
-    6160:	3100      	movi      	r1, 0
-    6162:	3001      	movi      	r0, 1
-    6164:	e3ffe83d 	bsr      	0x31de	// 31de <OPA_IO_Init>
+    47b4:	3100      	movi      	r1, 0
+    47b6:	3001      	movi      	r0, 1
+    47b8:	e3fff513 	bsr      	0x31de	// 31de <OPA_IO_Init>
 	//OPA_IO_Init(OPA0N,0);									//OPA0N 初始化				
 	OPA_IO_Init(OPA0X,0);									//OPA0X 初始化				
-    6168:	3100      	movi      	r1, 0
-    616a:	3003      	movi      	r0, 3
-    616c:	e3ffe839 	bsr      	0x31de	// 31de <OPA_IO_Init>
+    47bc:	3100      	movi      	r1, 0
+    47be:	3003      	movi      	r0, 3
+    47c0:	e3fff50f 	bsr      	0x31de	// 31de <OPA_IO_Init>
 	
 	OPA_IO_Init(OPA1P,0);									//OPA1P 初始化		
-    6170:	3100      	movi      	r1, 0
-    6172:	3004      	movi      	r0, 4
-    6174:	e3ffe835 	bsr      	0x31de	// 31de <OPA_IO_Init>
+    47c4:	3100      	movi      	r1, 0
+    47c6:	3004      	movi      	r0, 4
+    47c8:	e3fff50b 	bsr      	0x31de	// 31de <OPA_IO_Init>
 	//OPA_IO_Init(OPA1N,0);									//OPA1N 初始化		
 	OPA_IO_Init(OPA1X,0);									//OPA1X 初始化		
-    6178:	3100      	movi      	r1, 0
-    617a:	3006      	movi      	r0, 6
-    617c:	e3ffe831 	bsr      	0x31de	// 31de <OPA_IO_Init>
+    47cc:	3100      	movi      	r1, 0
+    47ce:	3006      	movi      	r0, 6
+    47d0:	e3fff507 	bsr      	0x31de	// 31de <OPA_IO_Init>
 	
 	OPA_EN_CMD(OPA0_NUM,ENABLE);							//OPA0  ENABLE
-    6180:	3101      	movi      	r1, 1
-    6182:	3000      	movi      	r0, 0
-    6184:	e3ffe87b 	bsr      	0x327a	// 327a <OPA_EN_CMD>
+    47d4:	3101      	movi      	r1, 1
+    47d6:	3000      	movi      	r0, 0
+    47d8:	e3fff551 	bsr      	0x327a	// 327a <OPA_EN_CMD>
 	OPA_EN_CMD(OPA1_NUM,ENABLE);							//OPA1  ENABLE
-    6188:	3101      	movi      	r1, 1
-    618a:	3001      	movi      	r0, 1
-    618c:	e3ffe877 	bsr      	0x327a	// 327a <OPA_EN_CMD>
+    47dc:	3101      	movi      	r1, 1
+    47de:	3001      	movi      	r0, 1
+    47e0:	e3fff54d 	bsr      	0x327a	// 327a <OPA_EN_CMD>
 	
 	OPA_Config_Prg(OPA0_NUM,PGAEN_ENABLE,Op_ExtPinConnect_DIS,BUFFER_DISABLE,4);			//OPA0,使能内部增益控制,负向输入口与PIN脚连通禁止,正向输入口为OPA0P,增益x5,微调增益0
-    6190:	3304      	movi      	r3, 4
-    6192:	b860      	st.w      	r3, (r14, 0x0)
-    6194:	3200      	movi      	r2, 0
-    6196:	3300      	movi      	r3, 0
-    6198:	3101      	movi      	r1, 1
-    619a:	3000      	movi      	r0, 0
-    619c:	e3ffe885 	bsr      	0x32a6	// 32a6 <OPA_Config_Prg>
+    47e4:	3304      	movi      	r3, 4
+    47e6:	b860      	st.w      	r3, (r14, 0x0)
+    47e8:	3200      	movi      	r2, 0
+    47ea:	3300      	movi      	r3, 0
+    47ec:	3101      	movi      	r1, 1
+    47ee:	3000      	movi      	r0, 0
+    47f0:	e3fff55b 	bsr      	0x32a6	// 32a6 <OPA_Config_Prg>
 	OPA_Config_Prg(OPA1_NUM,PGAEN_ENABLE,Op_ExtPinConnect_DIS,BUFFER_DISABLE,1);			//OPA1,使能内部增益控制,负向输入口与PIN脚连通禁止,正向输入口为OPA1P,增益x10,微调增益0	
-    61a0:	3301      	movi      	r3, 1
-    61a2:	b860      	st.w      	r3, (r14, 0x0)
-    61a4:	3200      	movi      	r2, 0
-    61a6:	3300      	movi      	r3, 0
-    61a8:	3101      	movi      	r1, 1
-    61aa:	3001      	movi      	r0, 1
-    61ac:	e3ffe87d 	bsr      	0x32a6	// 32a6 <OPA_Config_Prg>
+    47f4:	3301      	movi      	r3, 1
+    47f6:	b860      	st.w      	r3, (r14, 0x0)
+    47f8:	3200      	movi      	r2, 0
+    47fa:	3300      	movi      	r3, 0
+    47fc:	3101      	movi      	r1, 1
+    47fe:	3001      	movi      	r0, 1
+    4800:	e3fff553 	bsr      	0x32a6	// 32a6 <OPA_Config_Prg>
 }
-    61b0:	1401      	addi      	r14, r14, 4
-    61b2:	1490      	pop      	r15
+    4804:	1401      	addi      	r14, r14, 4
+    4806:	1490      	pop      	r15
 
-000061b4 <TC0_CONFIG>:
-//GPT Functions
-//EntryParameter:NONE
-//ReturnValue:NONE
-/*************************************************************/ 
-void TC0_CONFIG(void)
-{
-    61b4:	14d4      	push      	r4-r7, r15
-    61b6:	1421      	subi      	r14, r14, 4
-	TC0_RESET_VALUE(TC0_0);												//TC0_0 所有寄存器复位赋值
-    61b8:	10d4      	lrw      	r6, 0x20000060	// 6208 <TC0_CONFIG+0x54>
-	TC0_RESET_VALUE(TC0_1);												//TC0_1 所有寄存器复位赋值
-    61ba:	10b5      	lrw      	r5, 0x2000005c	// 620c <TC0_CONFIG+0x58>
-	TC0_RESET_VALUE(TC0_2);												//TC0_2 所有寄存器复位赋值
-    61bc:	1095      	lrw      	r4, 0x20000058	// 6210 <TC0_CONFIG+0x5c>
-	//-------------外部时钟XC0~XC2源输入口选择-------------------
-	//TC0CHX_XCn_Configure(XC0_Configure,XC0_Selecte_TCLK0);					//XC0 选择 TCLK0
-	//TC0CHX_XCn_Configure(XC1_Configure,XC1_Selecte_TCLK1);					//XC1 选择 TCLK1
-	//TC0CHX_XCn_Configure(XC2_Configure,XC2_Selecte_TCLK2);					//XC2 选择 TCLK2
-	
-	TC0CHX_CLK_Configure(TC0_0,TC0_Mclk_Selecte_Pclk,TC0Clks_MCLK_DIV1,TC0CHX_CLKI_0,TC0CHX_BURST_SET_None);	//TC0_0 选择 PCLK 作为 MCLK;CLKS=MCLK/1;CLK上升沿计数;关闭群脉冲模式
-    61be:	3700      	movi      	r7, 0
-	TC0_RESET_VALUE(TC0_0);												//TC0_0 所有寄存器复位赋值
-    61c0:	9600      	ld.w      	r0, (r6, 0x0)
-    61c2:	e3fff2e7 	bsr      	0x4790	// 4790 <TC0_RESET_VALUE>
-	TC0_RESET_VALUE(TC0_1);												//TC0_1 所有寄存器复位赋值
-    61c6:	9500      	ld.w      	r0, (r5, 0x0)
-    61c8:	e3fff2e4 	bsr      	0x4790	// 4790 <TC0_RESET_VALUE>
-	TC0_RESET_VALUE(TC0_2);												//TC0_2 所有寄存器复位赋值
-    61cc:	9400      	ld.w      	r0, (r4, 0x0)
-    61ce:	e3fff2e1 	bsr      	0x4790	// 4790 <TC0_RESET_VALUE>
-	TC0CHX_Clk_CMD(TC0_0,ENABLE);											//TC0_0 时钟使能	
-    61d2:	9600      	ld.w      	r0, (r6, 0x0)
-    61d4:	3101      	movi      	r1, 1
-    61d6:	e3fff405 	bsr      	0x49e0	// 49e0 <TC0CHX_Clk_CMD>
-	TC0CHX_Clk_CMD(TC0_1,ENABLE);											//TC0_1 时钟使能
-    61da:	9500      	ld.w      	r0, (r5, 0x0)
-    61dc:	3101      	movi      	r1, 1
-    61de:	e3fff401 	bsr      	0x49e0	// 49e0 <TC0CHX_Clk_CMD>
-    61e2:	0419      	br      	0x6214	// 6214 <TC0_CONFIG+0x60>
-    61e4:	20000010 	.long	0x20000010
-    61e8:	20000014 	.long	0x20000014
-    61ec:	000005dc 	.long	0x000005dc
-    61f0:	20000048 	.long	0x20000048
-    61f4:	20000078 	.long	0x20000078
-    61f8:	000927bf 	.long	0x000927bf
-    61fc:	20000028 	.long	0x20000028
-    6200:	02dc6c00 	.long	0x02dc6c00
-    6204:	20000024 	.long	0x20000024
-    6208:	20000060 	.long	0x20000060
-    620c:	2000005c 	.long	0x2000005c
-    6210:	20000058 	.long	0x20000058
-	TC0CHX_Clk_CMD(TC0_2,ENABLE);											//TC0_2 时钟使能
-    6214:	3101      	movi      	r1, 1
-    6216:	9400      	ld.w      	r0, (r4, 0x0)
-    6218:	e3fff3e4 	bsr      	0x49e0	// 49e0 <TC0CHX_Clk_CMD>
-	TC0CHX_SoftwareReset(TC0_0);											//TC0_0 软件复位
-    621c:	9600      	ld.w      	r0, (r6, 0x0)
-    621e:	e3fff3d7 	bsr      	0x49cc	// 49cc <TC0CHX_SoftwareReset>
-	TC0CHX_SoftwareReset(TC0_1);											//TC0_1 软件复位
-    6222:	9500      	ld.w      	r0, (r5, 0x0)
-    6224:	e3fff3d4 	bsr      	0x49cc	// 49cc <TC0CHX_SoftwareReset>
-	TC0CHX_SoftwareReset(TC0_2);											//TC0_2 软件复位
-    6228:	9400      	ld.w      	r0, (r4, 0x0)
-    622a:	e3fff3d1 	bsr      	0x49cc	// 49cc <TC0CHX_SoftwareReset>
-	TC0CHX_CLK_Configure(TC0_0,TC0_Mclk_Selecte_Pclk,TC0Clks_MCLK_DIV1,TC0CHX_CLKI_0,TC0CHX_BURST_SET_None);	//TC0_0 选择 PCLK 作为 MCLK;CLKS=MCLK/1;CLK上升沿计数;关闭群脉冲模式
-    622e:	9600      	ld.w      	r0, (r6, 0x0)
-    6230:	b8e0      	st.w      	r7, (r14, 0x0)
-    6232:	3300      	movi      	r3, 0
-    6234:	3200      	movi      	r2, 0
-    6236:	3100      	movi      	r1, 0
-    6238:	e3fff3ea 	bsr      	0x4a0c	// 4a0c <TC0CHX_CLK_Configure>
-	TC0CHX_CLK_Configure(TC0_1,TC0_Mclk_Selecte_Pclk,TC0Clks_MCLK_DIV1,TC0CHX_CLKI_0,TC0CHX_BURST_SET_None);	//TC0_1 选择 PCLK 作为 MCLK;CLKS=MCLK/1;CLK上升沿计数;关闭群脉冲模式
-    623c:	9500      	ld.w      	r0, (r5, 0x0)
-    623e:	b8e0      	st.w      	r7, (r14, 0x0)
-    6240:	3300      	movi      	r3, 0
-    6242:	3200      	movi      	r2, 0
-    6244:	3100      	movi      	r1, 0
-    6246:	e3fff3e3 	bsr      	0x4a0c	// 4a0c <TC0CHX_CLK_Configure>
-	TC0CHX_CLK_Configure(TC0_2,TC0_Mclk_Selecte_Pclk,TC0Clks_MCLK_DIV1,TC0CHX_CLKI_0,TC0CHX_BURST_SET_None);	//TC0_2 选择 PCLK 作为 MCLK;CLKS=MCLK/1;CLK上升沿计数;关闭群脉冲模式
-    624a:	3300      	movi      	r3, 0
-    624c:	3200      	movi      	r2, 0
-    624e:	9400      	ld.w      	r0, (r4, 0x0)
-    6250:	b8e0      	st.w      	r7, (r14, 0x0)
-    6252:	3100      	movi      	r1, 0
-    6254:	e3fff3dc 	bsr      	0x4a0c	// 4a0c <TC0CHX_CLK_Configure>
-	
-	//------------RC匹配定时模块-------------------------
-	TC0CHX_COUNT_Configure(TC0_0,CPC_Reload_ENABLE);						//TC0_0 RC匹配重新计数
-    6258:	3180      	movi      	r1, 128
-    625a:	9600      	ld.w      	r0, (r6, 0x0)
-    625c:	4127      	lsli      	r1, r1, 7
-    625e:	e3fff424 	bsr      	0x4aa6	// 4aa6 <TC0CHX_COUNT_Configure>
-	TC0CHX_COUNT_Configure(TC0_1,CPC_Reload_ENABLE);						//TC0_1 RC匹配重新计数
-    6262:	3180      	movi      	r1, 128
-    6264:	9500      	ld.w      	r0, (r5, 0x0)
-    6266:	4127      	lsli      	r1, r1, 7
-    6268:	e3fff41f 	bsr      	0x4aa6	// 4aa6 <TC0CHX_COUNT_Configure>
-	TC0CHX_COUNT_Configure(TC0_2,CPC_Reload_ENABLE);						//TC0_2 RC匹配重新计数
-    626c:	3180      	movi      	r1, 128
-    626e:	9400      	ld.w      	r0, (r4, 0x0)
-    6270:	4127      	lsli      	r1, r1, 7
-    6272:	e3fff41a 	bsr      	0x4aa6	// 4aa6 <TC0CHX_COUNT_Configure>
-	//					TIOA_SWTRG_OutPut_High,TIOA_EEVT_OutPut_NoChange,TIOA_CPA_OutPut_Low,TIOA_CPC_OutPut_High,TIOB_SWTRG_OutPut_High,TIOB_EEVT_OutPut_NoChange,TIOB_CPB_OutPut_Low,TIOB_CPC_OutPut_High);
-	//TC0_1,RC匹配停止计数禁止;RC匹配停止计数时钟禁止;RC匹配重新计数禁止;外部事件触发重新计数禁止;外部事件XC0选择禁止;软件触发TIOA为高电平;外部事件触发TIOA不改变;RA匹配TIOA输出低电平;RC匹配TIOA输出高;软件触发TIOB为高电平;外部事件触发TIOB不改变;RB匹配TIOB输出低电平;RC匹配TIOB输出高
-	//TC0CHX_PWM_Configure(TC0_2,CPC_TC2OP_DISABLE,CPC_DisCountClk_DISABLE,CPC_Reload_ENABLE,EEVT_Reload_DISABLE,EEVT_XC0_NONE,
-	//					TIOA_SWTRG_OutPut_High,TIOA_EEVT_OutPut_NoChange,TIOA_CPA_OutPut_Low,TIOA_CPC_OutPut_High,TIOB_SWTRG_OutPut_High,TIOB_EEVT_OutPut_NoChange,TIOB_CPB_OutPut_Low,TIOB_CPC_OutPut_High);
-	//TC0_2,RC匹配停止计数禁止;RC匹配停止计数时钟禁止;RC匹配重新计数禁止;外部事件触发重新计数禁止;外部事件XC0选择禁止;软件触发TIOA为高电平;外部事件间触发TIOA不改变;RA匹配TIOA输出低电平;RC匹配TIOA输出高;软件触发TIOB为高电平;外部事件触发TIOB不改变;RB匹配TIOB输出低电平;RC匹配TIOB输出高
-	TC0CHX_Set_RA_RB_RC(TC0_0,0,0,1000);				//GPT0 RA=0,RB=0,RC=1000
-    6276:	33fa      	movi      	r3, 250
-    6278:	9600      	ld.w      	r0, (r6, 0x0)
-    627a:	4362      	lsli      	r3, r3, 2
-    627c:	3200      	movi      	r2, 0
-    627e:	3100      	movi      	r1, 0
-    6280:	e3fff3c1 	bsr      	0x4a02	// 4a02 <TC0CHX_Set_RA_RB_RC>
-	TC0CHX_Set_RA_RB_RC(TC0_1,0,0,1000);				//GPT1 RA=0,RB=0,RC=1000
-    6284:	33fa      	movi      	r3, 250
-    6286:	9500      	ld.w      	r0, (r5, 0x0)
-    6288:	4362      	lsli      	r3, r3, 2
-    628a:	3200      	movi      	r2, 0
-    628c:	3100      	movi      	r1, 0
-    628e:	e3fff3ba 	bsr      	0x4a02	// 4a02 <TC0CHX_Set_RA_RB_RC>
-	TC0CHX_Set_RA_RB_RC(TC0_2,0,0,1000);				//GPT2 RA=0,RB=0,RC=1000
-    6292:	33fa      	movi      	r3, 250
-    6294:	4362      	lsli      	r3, r3, 2
-    6296:	9400      	ld.w      	r0, (r4, 0x0)
-    6298:	3200      	movi      	r2, 0
-    629a:	3100      	movi      	r1, 0
-    629c:	e3fff3b3 	bsr      	0x4a02	// 4a02 <TC0CHX_Set_RA_RB_RC>
-	
-	//TC0CHX_ConfigInterrupt_CMD(TC0_0,TC0CHX_INT_COVFS,ENABLE);			//使能 TC0_0计数溢出中断
-	//TC0CHX_ConfigInterrupt_CMD(TC0_0,TC0CHX_INT_LOVRS,ENABLE);			//使能 TC0_0载入溢出中断
-	//TC0CHX_ConfigInterrupt_CMD(TC0_0,TC0CHX_INT_CPAS,ENABLE);			//使能 TC0_0比较寄存器A匹配中断
-	//TC0CHX_ConfigInterrupt_CMD(TC0_0,TC0CHX_INT_CPBS,ENABLE);			//使能 TC0_0比较寄存器B匹配中断
-	TC0CHX_ConfigInterrupt_CMD(TC0_0,TC0CHX_INT_CPCS,ENABLE);			//使能 TC0_0比较寄存器C匹配中断
-    62a0:	9600      	ld.w      	r0, (r6, 0x0)
-    62a2:	3201      	movi      	r2, 1
-    62a4:	3110      	movi      	r1, 16
-    62a6:	e3fff4e3 	bsr      	0x4c6c	// 4c6c <TC0CHX_ConfigInterrupt_CMD>
-	
-	//TC0CHX_ConfigInterrupt_CMD(TC0_1,TC0CHX_INT_COVFS,ENABLE);			//使能 TC0_1计数溢出中断
-	//TC0CHX_ConfigInterrupt_CMD(TC0_1,TC0CHX_INT_LOVRS,ENABLE);			//使能 TC0_1载入溢出中断
-	//TC0CHX_ConfigInterrupt_CMD(TC0_1,TC0CHX_INT_CPAS,ENABLE);			//使能 TC0_1比较寄存器A匹配中断
-	//TC0CHX_ConfigInterrupt_CMD(TC0_1,TC0CHX_INT_CPBS,ENABLE);			//使能 TC0_1比较寄存器B匹配中断
-	TC0CHX_ConfigInterrupt_CMD(TC0_1,TC0CHX_INT_CPCS,ENABLE);			//使能 TC0_1比较寄存器C匹配中断
-    62aa:	9500      	ld.w      	r0, (r5, 0x0)
-    62ac:	3201      	movi      	r2, 1
-    62ae:	3110      	movi      	r1, 16
-    62b0:	e3fff4de 	bsr      	0x4c6c	// 4c6c <TC0CHX_ConfigInterrupt_CMD>
-	
-	//TC0CHX_ConfigInterrupt_CMD(TC0_2,TC0CHX_INT_COVFS,ENABLE);			//使能 TC0_2计数溢出中断	
-	//TC0CHX_ConfigInterrupt_CMD(TC0_2,TC0CHX_INT_LOVRS,ENABLE);			//使能 TC0_2载入溢出中断
-	//TC0CHX_ConfigInterrupt_CMD(TC0_2,TC0CHX_INT_CPAS,ENABLE);			//使能 TC0_2比较寄存器A匹配中断
-	//TC0CHX_ConfigInterrupt_CMD(TC0_2,TC0CHX_INT_CPBS,ENABLE);			//使能 TC0_2比较寄存器B匹配中断
-	TC0CHX_ConfigInterrupt_CMD(TC0_2,TC0CHX_INT_CPCS,ENABLE);			//使能 TC0_2比较寄存器C匹配中断
-    62b4:	3201      	movi      	r2, 1
-    62b6:	9400      	ld.w      	r0, (r4, 0x0)
-    62b8:	3110      	movi      	r1, 16
-    62ba:	e3fff4d9 	bsr      	0x4c6c	// 4c6c <TC0CHX_ConfigInterrupt_CMD>
-	//TC0CHX_ConfigInterrupt_CMD(TC0_2,TC0CHX_INT_LDRAS,ENABLE);			//使能 TC0_2载入寄存器A中断
-	//TC0CHX_ConfigInterrupt_CMD(TC0_2,TC0CHX_INT_LDRBS,ENABLE);			//使能 TC0_2载入寄存器B中断
-	//TC0CHX_ConfigInterrupt_CMD(TC0_2,TC0CHX_INT_ETRGS,ENABLE);			//使能 TC0_2外部触发中断
-	
-	//---------------------GPT 开启-----------------------
-	TC0CHX_CountClk_CMD(TC0_0,ENABLE);									//使能 TC0_0 计数时钟
-    62be:	9600      	ld.w      	r0, (r6, 0x0)
-    62c0:	3101      	movi      	r1, 1
-    62c2:	e3fff388 	bsr      	0x49d2	// 49d2 <TC0CHX_CountClk_CMD>
-	TC0CHX_CountClk_CMD(TC0_1,ENABLE);									//使能 TC0_1 计数时钟
-    62c6:	9500      	ld.w      	r0, (r5, 0x0)
-    62c8:	3101      	movi      	r1, 1
-    62ca:	e3fff384 	bsr      	0x49d2	// 49d2 <TC0CHX_CountClk_CMD>
-	TC0CHX_CountClk_CMD(TC0_2,ENABLE);									//使能 TC0_2 计数时钟
-    62ce:	3101      	movi      	r1, 1
-    62d0:	9400      	ld.w      	r0, (r4, 0x0)
-    62d2:	e3fff380 	bsr      	0x49d2	// 49d2 <TC0CHX_CountClk_CMD>
-	//All_GPT_SWTRG();													//TC0_0、TC0_1、TC0_2同时触发
-	TC0CHX_SWTRG(TC0_0);												//软件触发TC00  
-    62d6:	9600      	ld.w      	r0, (r6, 0x0)
-    62d8:	e3fff377 	bsr      	0x49c6	// 49c6 <TC0CHX_SWTRG>
-	TC0CHX_SWTRG(TC0_1);												//软件触发TC01  
-    62dc:	9500      	ld.w      	r0, (r5, 0x0)
-    62de:	e3fff374 	bsr      	0x49c6	// 49c6 <TC0CHX_SWTRG>
-	TC0CHX_SWTRG(TC0_2);												//软件触发TC02  
-    62e2:	9400      	ld.w      	r0, (r4, 0x0)
-    62e4:	e3fff371 	bsr      	0x49c6	// 49c6 <TC0CHX_SWTRG>
-	
-	TC0CH0_Int_Enable();												//使能 TC00 中断向量
-    62e8:	e3fff4d0 	bsr      	0x4c88	// 4c88 <TC0CH0_Int_Enable>
-	TC0CH1_Int_Enable();												//使能 TC01 中断向量
-    62ec:	e3fff4d4 	bsr      	0x4c94	// 4c94 <TC0CH1_Int_Enable>
-	TC0CH2_Int_Enable();												//使能 TC02 中断向量
-    62f0:	e3fff4d8 	bsr      	0x4ca0	// 4ca0 <TC0CH2_Int_Enable>
-	
-}
-    62f4:	1401      	addi      	r14, r14, 4
-    62f6:	1494      	pop      	r4-r7, r15
-
-000062f8 <TC1_CONFIG>:
-//TC1 Functions
-//EntryParameter:NONE
-//ReturnValue:NONE
-/*************************************************************/ 
-void TC1_CONFIG(void)
-{
-    62f8:	14d0      	push      	r15
-    62fa:	1422      	subi      	r14, r14, 8
-    TC1_RESET_VALUE();                                                        	//TC1 所有寄存器复位赋值
-    62fc:	e3fff52a 	bsr      	0x4d50	// 4d50 <TC1_RESET_VALUE>
-	TC1_SoftwareReset();														//TC1 软件复位
-    6300:	e3fff56d 	bsr      	0x4dda	// 4dda <TC1_SoftwareReset>
-    //TC1_IO_Init(TC1_IO_TXOUT , 0 );                                           //PWM输出初始化
-    TC1_Configure(TC1_FIN_PCLK , 1 , 9 , Counter_Size_32BIT  , 100000 , 0);  		//TCCLK=sysclock/2^1/10，TC1_Clk-->1us
-    6304:	3300      	movi      	r3, 0
-    6306:	b861      	st.w      	r3, (r14, 0x4)
-    6308:	1360      	lrw      	r3, 0x186a0	// 6488 <APT32F171_init+0x22>
-    630a:	3209      	movi      	r2, 9
-    630c:	b860      	st.w      	r3, (r14, 0x0)
-    630e:	3101      	movi      	r1, 1
-    6310:	331f      	movi      	r3, 31
-    6312:	3000      	movi      	r0, 0
-    6314:	e3fff537 	bsr      	0x4d82	// 4d82 <TC1_Configure>
-    TC1_ControlSet_Configure(TC1_ControlSet_REPEAT,ENABLE);                  	//使能循环重复模式
-    6318:	3080      	movi      	r0, 128
-    631a:	3101      	movi      	r1, 1
-    631c:	4006      	lsli      	r0, r0, 6
-    631e:	e3fff543 	bsr      	0x4da4	// 4da4 <TC1_ControlSet_Configure>
-	//TC1_ControlSet_Configure(TC1_ControlSet_OUTTC2,ENABLE);                   		//计数开始时输出高电平
-    //TC1_ControlSet_Configure(TC1_ControlSet_CAPT_F,ENABLE);                		//下降沿捕捉使能
-    //TC1_ControlSet_Configure(TC1_ControlSet_CAPT_TCAP,ENABLE);            		//捕捉输入使能
-    //TC1_ConfigInterrupt_CMD(TC1_STARTI, ENABLE);                         			//Start中断使能
-    //TC1_ConfigInterrupt_CMD(TC1_STOPI, ENABLE);                          			//Stop中断使能
-    TC1_ConfigInterrupt_CMD(TC1_PSTARTI, ENABLE);                          		//周期tart中断使能
-    6322:	3101      	movi      	r1, 1
-    6324:	3004      	movi      	r0, 4
-    6326:	e3fff54f 	bsr      	0x4dc4	// 4dc4 <TC1_ConfigInterrupt_CMD>
-    //TC1_ConfigInterrupt_CMD(TC1_PENDI, ENABLE);                          			//周期Stop中断使能
-    //TC1_ConfigInterrupt_CMD(TC1_MATI, ENABLE);                           			//脉冲匹配中断使能
-    //TC1_ConfigInterrupt_CMD(TC1_OVFI, ENABLE);                           			//溢出中断使能
-    //TC1_ConfigInterrupt_CMD(TC1_CAPTI, ENABLE);                          			//捕捉中断使能
-    TC1_Start();                                                              	//Start TC1
-    632a:	e3fff55d 	bsr      	0x4de4	// 4de4 <TC1_Start>
-    TC1_Int_Enable();                                                           //使能TC1中断向量	
-    632e:	e3fff578 	bsr      	0x4e1e	// 4e1e <TC1_Int_Enable>
-}
-    6332:	1402      	addi      	r14, r14, 8
-    6334:	1490      	pop      	r15
-
-00006336 <TC2_CONFIG>:
-//TC2 Functions
-//EntryParameter:NONE
-//ReturnValue:NONE
-/*************************************************************/ 
-void TC2_CONFIG(void)
-{
-    6336:	14d0      	push      	r15
-    6338:	1422      	subi      	r14, r14, 8
-	TC2_RESET_VALUE();														//TC2 所有寄存器复位赋值
-    633a:	e3fff5ed 	bsr      	0x4f14	// 4f14 <TC2_RESET_VALUE>
-	TC2_Softreset();															//TC2 软件复位
-    633e:	e3fff638 	bsr      	0x4fae	// 4fae <TC2_Softreset>
-	
-	//TC2_IO_Init(TC2_IO_CAP0,0);												//TC2 CAP0 初始化
-	//TC2_IO_Init(TC2_IO_CAP1,0);												//TC2 CAP1 初始化
-	
-	TC2_Clk_CMD(ENABLE);														//TC2 时钟使能
-    6342:	3001      	movi      	r0, 1
-    6344:	e3fff62b 	bsr      	0x4f9a	// 4f9a <TC2_Clk_CMD>
-	
-	//TC2_Channel0_CMD(ENABLE);													//TC2 通道0使能
-	//TC2_Channel1_CMD(ENABLE);													//TC2 通道1使能
-	
-	TC2_Configure(TC2_Count_mode_Continue,TC2_Count_STOPTYPE_StopConmand,TC2_CM0_Mode_Capture,TC2_CM1_Mode_Match,19,0);
-    6348:	3300      	movi      	r3, 0
-    634a:	b861      	st.w      	r3, (r14, 0x4)
-    634c:	3180      	movi      	r1, 128
-    634e:	3313      	movi      	r3, 19
-    6350:	b860      	st.w      	r3, (r14, 0x0)
-    6352:	3201      	movi      	r2, 1
-    6354:	3300      	movi      	r3, 0
-    6356:	4122      	lsli      	r1, r1, 2
-    6358:	3000      	movi      	r0, 0
-    635a:	e3fff66f 	bsr      	0x5038	// 5038 <TC2_Configure>
-	//TC2 Configure;设置为连续计数模式;单次计数模式下,选择立即停止模式;通道0作为捕捉模式;通道1作为匹配模式;TC2_timeclk=pclk/(19+1)/2^0=1us
-	//TC2_Channel0_Capture_LoadMode_set(TC2_C0SR_CaptureFall);					//TC2 Channel0下降沿捕捉
-	TC2_CNR_CC0_CC1_Load(10000,0,0);												//TC2 CNTR=50,CC0R=0,CC1R=0
-    635e:	3200      	movi      	r2, 0
-    6360:	3100      	movi      	r1, 0
-    6362:	120b      	lrw      	r0, 0x2710	// 648c <APT32F171_init+0x26>
-    6364:	e3fff6b2 	bsr      	0x50c8	// 50c8 <TC2_CNR_CC0_CC1_Load>
-	
-	
-	//TC2_MINT_CMD(TC2_STARTI,ENABLE);											//TC2 STARTI中断使能
-	//TC2_MINT_CMD(TC2_STOPI,ENABLE);											//TC2 STOP中断使能
-	TC2_MINT_CMD(TC2_PENDI,ENABLE);											//TC2 周期结束中断使能	
-    6368:	3101      	movi      	r1, 1
-    636a:	3004      	movi      	r0, 4
-    636c:	e3fff64f 	bsr      	0x500a	// 500a <TC2_MINT_CMD>
-	//TC2_CINT_CMD(TC2_CC1RI,ENABLE);											//TC2 通道1上升沿中断使能
-	//TC2_CINT_CMD(TC2_CC1FI,ENABLE);											//TC2 通道1下降沿中断使能
-	//TC2_CINT_CMD(TC2_Match0,ENABLE);												//TC2 通道0匹配中断
-	//TC2_CINT_CMD(TC2_Match1,ENABLE);												//TC2 通道1匹配中断
-	
-	TC2_Start();																//Start TC2
-    6370:	e3fff625 	bsr      	0x4fba	// 4fba <TC2_Start>
-	TC2_Int_Enable();															//ENABLE TC2 中断向量
-    6374:	e3fff6b1 	bsr      	0x50d6	// 50d6 <TC2_Int_Enable>
-}
-    6378:	1402      	addi      	r14, r14, 8
-    637a:	1490      	pop      	r15
-
-0000637c <EPWM_CONFIG>:
-/*                   - PX ---                           -- PWM_X        */
-/*      PWM Engine --         ---PWM output Control ---                 */
-/*                   -PY ---                            --PWM_Y         */
-/*************************************************************************/ 
-void EPWM_CONFIG(void)
-{
-    637c:	14d2      	push      	r4-r5, r15
-    637e:	1425      	subi      	r14, r14, 20
-	EPWM_RESET_VALUE();									//EPWM 所有寄存器复位赋值
-    6380:	e3ffebb6 	bsr      	0x3aec	// 3aec <EPWM_RESET_VALUE>
-	EPWM_software_reset();								//EPWM 软件复位	
-    6384:	e3ffee47 	bsr      	0x4012	// 4012 <EPWM_software_reset>
-	
-	//EPWM_IO_Init(PWM_X0,0);							//PWM_X0 初始化
-	EPWM_IO_Init(PWM_Y0,1);							//PWM_Y0 初始化
-    6388:	3101      	movi      	r1, 1
-    638a:	3001      	movi      	r0, 1
-    638c:	e3ffebee 	bsr      	0x3b68	// 3b68 <EPWM_IO_Init>
-	//EPWM_IO_Init(PWM_EP1,0);							//PWM_EP1 初始化
-	//EPWM_IO_Init(PWM_EP2,0);							//PWM_EP2 初始化
-	//EPWM_IO_Init(PWM_EP3,0);							//PWM_EP3 初始化
-	//EPWM_IO_Init(PWM_EP4,0);							//PWM_EP4 初始化
-		
-	EPWM_CONTER_Configure(EPWM_ContMode_decrease,EPWM_Conter_three,EMP_Overflow_Mode_Continue,0,1);		//递减计数, EPMW_CLK=PCLK/(2^DIVN)/(DINM+1)=20M/2/(9+1)=1M=1US, 单次触发
-    6390:	3301      	movi      	r3, 1
-    6392:	b860      	st.w      	r3, (r14, 0x0)
-    6394:	3200      	movi      	r2, 0
-    6396:	3300      	movi      	r3, 0
-    6398:	3100      	movi      	r1, 0
-    639a:	3008      	movi      	r0, 8
-    639c:	e3ffece4 	bsr      	0x3d64	// 3d64 <EPWM_CONTER_Configure>
-	
-	//EPWM_PX_PY_Configure(EPWM_P0X,EPWM_StartStopEvent_OutHigh,EPWM_PendEvent_OutHigh,EPWM_CentralEvent_NoChange,EPWM_EqCMPAEvent_OutLow,EPWM_EqCMPBEvent_NoChange,1000,500,0);	//P0X CNTR=1000,CMPAR=500,CMPBR=0
-	EPWM_PX_PY_Configure(EPWM_P0Y,EPWM_StartStopEvent_OutLow,EPWM_PendEvent_OutLow,EPWM_CentralEvent_NoChange,EPWM_EqCMPAEvent_OutHigh,EPWM_EqCMPBEvent_NoChange,1000,500,0);		//P0Y CNTR=1000,CMPAR=500,CMPBR=0
-    63a0:	33fa      	movi      	r3, 250
-    63a2:	4361      	lsli      	r3, r3, 1
-    63a4:	b863      	st.w      	r3, (r14, 0xc)
-    63a6:	33fa      	movi      	r3, 250
-    63a8:	4362      	lsli      	r3, r3, 2
-    63aa:	3500      	movi      	r5, 0
-    63ac:	b862      	st.w      	r3, (r14, 0x8)
-    63ae:	3302      	movi      	r3, 2
-	//EPWM_PX_PY_Configure(EPWM_P1X,EPWM_StartStopEvent_OutHigh,EPWM_PendEvent_OutHigh,EPWM_CentralEvent_NoChange,EPWM_EqCMPAEvent_OutLow,EPWM_EqCMPBEvent_NoChange,1000,500,0);	//P1X CNTR=1000,CMPAR=500,CMPBR=0
-	//EPWM_PX_PY_Configure(EPWM_P1Y,EPWM_StartStopEvent_OutLow,EPWM_PendEvent_OutLow,EPWM_CentralEvent_NoChange,EPWM_EqCMPAEvent_OutHigh,EPWM_EqCMPBEvent_NoChange,1000,500,0);		//P1Y CNTR=1000,CMPAR=500,CMPBR=0
-	//EPWM_PX_PY_Configure(EPWM_P2X,EPWM_StartStopEvent_OutHigh,EPWM_PendEvent_OutHigh,EPWM_CentralEvent_NoChange,EPWM_EqCMPAEvent_OutLow,EPWM_EqCMPBEvent_NoChange,1000,500,0);	//P2X CNTR=1000,CMPAR=500,CMPBR=0
-	//EPWM_PX_PY_Configure(EPWM_P2Y,EPWM_StartStopEvent_OutLow,EPWM_PendEvent_OutLow,EPWM_CentralEvent_NoChange,EPWM_EqCMPAEvent_OutHigh,EPWM_EqCMPBEvent_NoChange,1000,500,0);		//P2Y CNTR=1000,CMPAR=500,CMPBR=0
-	
-	EPWM_OUTPUT_Configure(EPWM_PWM_X0OrPWM_Y0,EPWM_OUTSE_PXPYOutputDirect,EPWM_X_POLARITY_NoChange,EPWM_Y_POLARITY_NoChange,EPWM_SRCSEL_PX,0x10,0x10);		//PWM_X PWM_Y 直接输出模式,输出端电平保持不变,RED=EPMW_CLK*16=16us,FED=EPMW_CLK*16=16us								
-    63b0:	3410      	movi      	r4, 16
-	EPWM_PX_PY_Configure(EPWM_P0Y,EPWM_StartStopEvent_OutLow,EPWM_PendEvent_OutLow,EPWM_CentralEvent_NoChange,EPWM_EqCMPAEvent_OutHigh,EPWM_EqCMPBEvent_NoChange,1000,500,0);		//P0Y CNTR=1000,CMPAR=500,CMPBR=0
-    63b2:	b860      	st.w      	r3, (r14, 0x0)
-    63b4:	b8a4      	st.w      	r5, (r14, 0x10)
-    63b6:	b8a1      	st.w      	r5, (r14, 0x4)
-    63b8:	3300      	movi      	r3, 0
-    63ba:	3201      	movi      	r2, 1
-    63bc:	3101      	movi      	r1, 1
-    63be:	3001      	movi      	r0, 1
-    63c0:	e3ffece3 	bsr      	0x3d86	// 3d86 <EPWM_PX_PY_Configure>
-	EPWM_OUTPUT_Configure(EPWM_PWM_X0OrPWM_Y0,EPWM_OUTSE_PXPYOutputDirect,EPWM_X_POLARITY_NoChange,EPWM_Y_POLARITY_NoChange,EPWM_SRCSEL_PX,0x10,0x10);		//PWM_X PWM_Y 直接输出模式,输出端电平保持不变,RED=EPMW_CLK*16=16us,FED=EPMW_CLK*16=16us								
-    63c4:	b882      	st.w      	r4, (r14, 0x8)
-    63c6:	b881      	st.w      	r4, (r14, 0x4)
-    63c8:	b8a0      	st.w      	r5, (r14, 0x0)
-    63ca:	3300      	movi      	r3, 0
-    63cc:	3200      	movi      	r2, 0
-    63ce:	3100      	movi      	r1, 0
-    63d0:	3000      	movi      	r0, 0
-    63d2:	e3ffedad 	bsr      	0x3f2c	// 3f2c <EPWM_OUTPUT_Configure>
-	EPWM_OUTPUT_Configure(EPWM_PWM_X1OrPWM_Y1,EPWM_OUTSE_PXPYOutputDirect,EPWM_X_POLARITY_NoChange,EPWM_Y_POLARITY_NoChange,EPWM_SRCSEL_PX,0x10,0x10);		//PWM_X PWM_Y 直接输出模式,输出端电平保持不变,RED=EPMW_CLK*16=16us,FED=EPMW_CLK*16=16us						
-    63d6:	b882      	st.w      	r4, (r14, 0x8)
-    63d8:	b881      	st.w      	r4, (r14, 0x4)
-    63da:	b8a0      	st.w      	r5, (r14, 0x0)
-    63dc:	3300      	movi      	r3, 0
-    63de:	3200      	movi      	r2, 0
-    63e0:	3100      	movi      	r1, 0
-    63e2:	3001      	movi      	r0, 1
-    63e4:	e3ffeda4 	bsr      	0x3f2c	// 3f2c <EPWM_OUTPUT_Configure>
-	EPWM_OUTPUT_Configure(EPWM_PWM_X2OrPWM_Y2,EPWM_OUTSE_PXPYOutputDirect,EPWM_X_POLARITY_NoChange,EPWM_Y_POLARITY_NoChange,EPWM_SRCSEL_PX,0x10,0x10);		//PWM_X PWM_Y 直接输出模式,输出端电平保持不变,RED=EPMW_CLK*16=16us,FED=EPMW_CLK*16=16us	
-    63e8:	3300      	movi      	r3, 0
-    63ea:	3200      	movi      	r2, 0
-    63ec:	3100      	movi      	r1, 0
-    63ee:	3002      	movi      	r0, 2
-    63f0:	b882      	st.w      	r4, (r14, 0x8)
-    63f2:	b881      	st.w      	r4, (r14, 0x4)
-    63f4:	b8a0      	st.w      	r5, (r14, 0x0)
-    63f6:	e3ffed9b 	bsr      	0x3f2c	// 3f2c <EPWM_OUTPUT_Configure>
-	//EPWM_ConfigInterrupt_CMD(EPWM2_CMPADM,ENABLE);			//使能 Count2递减CMPA匹配中断
-	//EPWM_ConfigInterrupt_CMD(EPWM2_CMPBUM,ENABLE);			//使能 Count2递增CMPB匹配中断
-	//EPWM_ConfigInterrupt_CMD(EPWM2_CMPBDM,ENABLE);			//使能 Count2递减CMPB配置中断
-	
-	//EPWM_AllConter_START();					//Count0~Count3 同时开启
-	EPWM_Conter0_START();						//Count0 开启	
-    63fa:	e3ffee18 	bsr      	0x402a	// 402a <EPWM_Conter0_START>
-	//EPWM_Conter1_START();						//Count1 开启
-	//EPWM_Conter2_START();						//Count2 开启
-	
-	//EPWM_Int_Enable();						//使能 EPWM 中断向量
-}
-    63fe:	1405      	addi      	r14, r14, 20
-    6400:	1492      	pop      	r4-r5, r15
-
-00006402 <SYSCON_CONFIG>:
+00004808 <SYSCON_CONFIG>:
 //syscon Functions
 //EntryParameter:NONE
 //ReturnValue:NONE
 /*************************************************************/
 void SYSCON_CONFIG(void)
 {
-    6402:	14d0      	push      	r15
-    6404:	1421      	subi      	r14, r14, 4
+    4808:	14d0      	push      	r15
+    480a:	1421      	subi      	r14, r14, 4
 //------SYSTEM CLK AND PCLK FUNTION---------------------------/
 	SYSCON_RST_VALUE();                                                         //SYSCON all register clr
-    6406:	e3ffd91f 	bsr      	0x1644	// 1644 <SYSCON_RST_VALUE>
+    480c:	e3ffe71c 	bsr      	0x1644	// 1644 <SYSCON_RST_VALUE>
 	SYSCON_General_CMD(ENABLE,ENDIS_ISOSC);										//SYSCON enable/disable clock source
-    640a:	3101      	movi      	r1, 1
-    640c:	3001      	movi      	r0, 1
-    640e:	e3ffd946 	bsr      	0x169a	// 169a <SYSCON_General_CMD>
+    4810:	3101      	movi      	r1, 1
+    4812:	3001      	movi      	r0, 1
+    4814:	e3ffe743 	bsr      	0x169a	// 169a <SYSCON_General_CMD>
 	//EMOSC_OSTR_Config(0XAD,0X1f,EM_LFSEL_EN,EM_FLEN_EN,EM_FLSEL_10ns);		//EM_CNT=0X3FF,0xAD(36K),EM_GM=0,Low F modedisable,EM filter disable,if enable,cont set 5ns
 	//SYSCON_General_CMD(ENABLE,ENDIS_EMOSC);
 	SYSCON_HFOSC_SELECTE(HFOSC_SELECTE_48M);									//HFOSC selected 48MHz
-    6412:	3000      	movi      	r0, 0
-    6414:	e3ffd9a4 	bsr      	0x175c	// 175c <SYSCON_HFOSC_SELECTE>
+    4818:	3000      	movi      	r0, 0
+    481a:	e3ffe7a1 	bsr      	0x175c	// 175c <SYSCON_HFOSC_SELECTE>
 	SystemCLK_HCLKDIV_PCLKDIV_Config(SYSCLK_HFOSC,HCLK_DIV_1,PCLK_DIV_1,HFOSC_48M);//system clock set, Hclk div ,Pclk div  set system clock=SystemCLK/Hclk div/Pclk div
-    6418:	3180      	movi      	r1, 128
-    641a:	3308      	movi      	r3, 8
-    641c:	3200      	movi      	r2, 0
-    641e:	4121      	lsli      	r1, r1, 1
-    6420:	3002      	movi      	r0, 2
-    6422:	e3ffd951 	bsr      	0x16c4	// 16c4 <SystemCLK_HCLKDIV_PCLKDIV_Config>
+    481e:	3180      	movi      	r1, 128
+    4820:	3308      	movi      	r3, 8
+    4822:	3200      	movi      	r2, 0
+    4824:	4121      	lsli      	r1, r1, 1
+    4826:	3002      	movi      	r0, 2
+    4828:	e3ffe74e 	bsr      	0x16c4	// 16c4 <SystemCLK_HCLKDIV_PCLKDIV_Config>
 //------------  WDT FUNTION  --------------------------------/
     SYSCON_IWDCNT_Config(IWDT_TIME_2S,IWDT_INTW_DIV_7);      					//WDT TIME 1s,WDT alarm interrupt time=1s-1s*1/8=0.875S
-    6426:	3080      	movi      	r0, 128
-    6428:	3118      	movi      	r1, 24
-    642a:	4003      	lsli      	r0, r0, 3
-    642c:	e3ffd9c7 	bsr      	0x17ba	// 17ba <SYSCON_IWDCNT_Config>
+    482c:	3080      	movi      	r0, 128
+    482e:	3118      	movi      	r1, 24
+    4830:	4003      	lsli      	r0, r0, 3
+    4832:	e3ffe7c4 	bsr      	0x17ba	// 17ba <SYSCON_IWDCNT_Config>
+    4836:	0411      	br      	0x4858	// 4858 <SYSCON_CONFIG+0x50>
+    4838:	20000014 	.long	0x20000014
+    483c:	000005dc 	.long	0x000005dc
+    4840:	20000048 	.long	0x20000048
+    4844:	20000078 	.long	0x20000078
+    4848:	000927bf 	.long	0x000927bf
+    484c:	20000028 	.long	0x20000028
+    4850:	02dc6c00 	.long	0x02dc6c00
+    4854:	20000024 	.long	0x20000024
     SYSCON_WDT_CMD(DISABLE);                                                  	//enable/disable WDT		
-    6430:	3000      	movi      	r0, 0
-    6432:	e3ffd9a6 	bsr      	0x177e	// 177e <SYSCON_WDT_CMD>
+    4858:	3000      	movi      	r0, 0
+    485a:	e3ffe792 	bsr      	0x177e	// 177e <SYSCON_WDT_CMD>
     SYSCON_IWDCNT_Reload();                                                   	//reload WDT
-    6436:	e3ffd9bb 	bsr      	0x17ac	// 17ac <SYSCON_IWDCNT_Reload>
+    485e:	e3ffe7a7 	bsr      	0x17ac	// 17ac <SYSCON_IWDCNT_Reload>
 	//IWDT_Int_Enable();
 //------------  WWDT FUNTION  --------------------------------/
 	WWDT_CNT_Load(0xFF);
-    643a:	30ff      	movi      	r0, 255
-    643c:	e3ffd8a7 	bsr      	0x158a	// 158a <WWDT_CNT_Load>
+    4862:	30ff      	movi      	r0, 255
+    4864:	e3ffe693 	bsr      	0x158a	// 158a <WWDT_CNT_Load>
 	WWDT_CONFIG(PCLK_4096_DIV0,0xFF,WWDT_DBGDIS);
-    6440:	3200      	movi      	r2, 0
-    6442:	31ff      	movi      	r1, 255
-    6444:	3000      	movi      	r0, 0
-    6446:	e3ffd88f 	bsr      	0x1564	// 1564 <WWDT_CONFIG>
+    4868:	3200      	movi      	r2, 0
+    486a:	31ff      	movi      	r1, 255
+    486c:	3000      	movi      	r0, 0
+    486e:	e3ffe67b 	bsr      	0x1564	// 1564 <WWDT_CONFIG>
 	WWDT_Int_Config(DISABLE);													
-    644a:	3000      	movi      	r0, 0
-    644c:	e3ffd8a5 	bsr      	0x1596	// 1596 <WWDT_Int_Config>
+    4872:	3000      	movi      	r0, 0
+    4874:	e3ffe691 	bsr      	0x1596	// 1596 <WWDT_Int_Config>
 	//WWDT_CMD(ENABLE);															//enable wwdt
 //------------  CLO Output --------------------------------/	
 	//SYSCON_CLO_CONFIG(CLO_PA08);												//CLO output setting
 	//SYSCON_CLO_SRC_SET(CLO_PCLK,CLO_DIV16);									//CLO output clock and div
 //------------  LVD FUNTION  --------------------------------/ 
     SYSCON_LVD_Config(DISABLE_LVDEN,INTDET_LVL_3_3V,RSTDET_LVL_1_9V,DISABLE_LVD_INT,INTDET_POL_fall);   //LVD LVR Enable/Disable
-    6450:	3340      	movi      	r3, 64
-    6452:	3180      	movi      	r1, 128
-    6454:	b860      	st.w      	r3, (r14, 0x0)
-    6456:	3200      	movi      	r2, 0
-    6458:	3300      	movi      	r3, 0
-    645a:	4123      	lsli      	r1, r1, 3
-    645c:	300a      	movi      	r0, 10
-    645e:	e3ffd9b6 	bsr      	0x17ca	// 17ca <SYSCON_LVD_Config>
+    4878:	3340      	movi      	r3, 64
+    487a:	3180      	movi      	r1, 128
+    487c:	b860      	st.w      	r3, (r14, 0x0)
+    487e:	3200      	movi      	r2, 0
+    4880:	3300      	movi      	r3, 0
+    4882:	4123      	lsli      	r1, r1, 3
+    4884:	300a      	movi      	r0, 10
+    4886:	e3ffe7a2 	bsr      	0x17ca	// 17ca <SYSCON_LVD_Config>
 	//SYSCON->EVPS=0X00;
 	//SYSCON->IMER =EM_EVTRG0_ST;
 //------------  SYSCON Vector  --------------------------------/ 	
 	//SYSCON_Int_Enable();    														//SYSCON VECTOR
 	//SYSCON_WakeUp_Enable();  
 }
-    6462:	1401      	addi      	r14, r14, 4
-    6464:	1490      	pop      	r15
+    488a:	1401      	addi      	r14, r14, 4
+    488c:	1490      	pop      	r15
 
-00006466 <APT32F171_init>:
+0000488e <APT32F171_init>:
 //APT32F171_init                                                                  /
 //EntryParameter:NONE                                                             /
 //ReturnValue:NONE                                                                /
 /*********************************************************************************/
 void APT32F171_init(void) 
 {
-    6466:	14d0      	push      	r15
+    488e:	14d0      	push      	r15
 //------------------------------------------------------------/
 //Peripheral clock enable and disable
 //EntryParameter:NONE
 //ReturnValue:NONE
 //------------------------------------------------------------/
     SYSCON->PCER0=0xFFFFFFF;                                        //PCLK Enable  0x00410071
-    6468:	106a      	lrw      	r3, 0x20000070	// 6490 <APT32F171_init+0x2a>
+    4890:	1068      	lrw      	r3, 0x20000070	// 48b0 <APT32F171_init+0x22>
     SYSCON->PCER1=0xFFFFFFF;                                        //PCLK Enable
     while(!(SYSCON->PCSR0&0x1));                                    //Wait PCLK enabled	
-    646a:	3101      	movi      	r1, 1
+    4892:	3101      	movi      	r1, 1
     SYSCON->PCER0=0xFFFFFFF;                                        //PCLK Enable  0x00410071
-    646c:	9340      	ld.w      	r2, (r3, 0x0)
-    646e:	106a      	lrw      	r3, 0xfffffff	// 6494 <APT32F171_init+0x2e>
-    6470:	b26a      	st.w      	r3, (r2, 0x28)
+    4894:	9340      	ld.w      	r2, (r3, 0x0)
+    4896:	1068      	lrw      	r3, 0xfffffff	// 48b4 <APT32F171_init+0x26>
+    4898:	b26a      	st.w      	r3, (r2, 0x28)
     SYSCON->PCER1=0xFFFFFFF;                                        //PCLK Enable
-    6472:	b26d      	st.w      	r3, (r2, 0x34)
+    489a:	b26d      	st.w      	r3, (r2, 0x34)
     while(!(SYSCON->PCSR0&0x1));                                    //Wait PCLK enabled	
-    6474:	926c      	ld.w      	r3, (r2, 0x30)
-    6476:	68c4      	and      	r3, r1
-    6478:	3b40      	cmpnei      	r3, 0
-    647a:	0ffd      	bf      	0x6474	// 6474 <APT32F171_init+0xe>
+    489c:	926c      	ld.w      	r3, (r2, 0x30)
+    489e:	68c4      	and      	r3, r1
+    48a0:	3b40      	cmpnei      	r3, 0
+    48a2:	0ffd      	bf      	0x489c	// 489c <APT32F171_init+0xe>
 //------------------------------------------------------------/
 //ISOSC/IMOSC/EMOSC/SYSCLK/IWDT/LVD/EM_CMFAIL/EM_CMRCV/CMD_ERR OSC stable interrupt
 //EntryParameter:NONE
 //ReturnValue:NONE
 //------------------------------------------------------------/
     SYSCON_CONFIG();                                                 //syscon  initial
-    647c:	e3ffffc3 	bsr      	0x6402	// 6402 <SYSCON_CONFIG>
+    48a4:	e3ffffb2 	bsr      	0x4808	// 4808 <SYSCON_CONFIG>
 	CK_CPU_EnAllNormalIrq();                                         //enable all IRQ
-    6480:	e3ffceed 	bsr      	0x25a	// 25a <CK_CPU_EnAllNormalIrq>
+    48a8:	e3ffdcd9 	bsr      	0x25a	// 25a <CK_CPU_EnAllNormalIrq>
+	//UART_CONFIG();                                               //UART initial
 	//USART_CONFIG();                                               //USART initial
 	//CMP_CONFIG();                                                 //CMP initial
 	//OPAMP_CONFIG();                                               //OPA initial
-	//EPWM_CONFIG();                                                //EPWM initial
 	//SYSCON_INT_Priority();
 }		
-    6484:	1490      	pop      	r15
-    6486:	0000      	bkpt
-    6488:	000186a0 	.long	0x000186a0
-    648c:	00002710 	.long	0x00002710
-    6490:	20000070 	.long	0x20000070
-    6494:	0fffffff 	.long	0x0fffffff
+    48ac:	1490      	pop      	r15
+    48ae:	0000      	bkpt
+    48b0:	20000070 	.long	0x20000070
+    48b4:	0fffffff 	.long	0x0fffffff
 
-00006498 <__udiv32>:
-    6498:	3940      	cmpnei      	r1, 0
-    649a:	0803      	bt      	0x64a0	// 64a0 <__udiv32+0x8>
-    649c:	c0002c20 	trap      	3
-    64a0:	3840      	cmpnei      	r0, 0
-    64a2:	0802      	bt      	0x64a6	// 64a6 <__udiv32+0xe>
-    64a4:	783c      	jmp      	r15
-    64a6:	14c1      	push      	r4
-    64a8:	3201      	movi      	r2, 1
-    64aa:	6cc3      	mov      	r3, r0
-    64ac:	3420      	movi      	r4, 32
-    64ae:	3b00      	cmphsi      	r3, 1
-    64b0:	0c04      	bf      	0x64b8	// 64b8 <__udiv32+0x20>
-    64b2:	2c00      	subi      	r4, 1
-    64b4:	4b61      	lsri      	r3, r3, 1
-    64b6:	07fc      	br      	0x64ae	// 64ae <__udiv32+0x16>
-    64b8:	7090      	lsl      	r2, r4
-    64ba:	7010      	lsl      	r0, r4
-    64bc:	6cc7      	mov      	r3, r1
-    64be:	3420      	movi      	r4, 32
-    64c0:	3b00      	cmphsi      	r3, 1
-    64c2:	0c04      	bf      	0x64ca	// 64ca <__udiv32+0x32>
-    64c4:	2c00      	subi      	r4, 1
-    64c6:	4b61      	lsri      	r3, r3, 1
-    64c8:	07fc      	br      	0x64c0	// 64c0 <__udiv32+0x28>
-    64ca:	2400      	addi      	r4, 1
-    64cc:	6cc3      	mov      	r3, r0
-    64ce:	70d1      	lsr      	r3, r4
-    64d0:	6d12      	nor      	r4, r4
-    64d2:	2420      	addi      	r4, 33
-    64d4:	7090      	lsl      	r2, r4
-    64d6:	7010      	lsl      	r0, r4
-    64d8:	3a40      	cmpnei      	r2, 0
-    64da:	0c09      	bf      	0x64ec	// 64ec <__udiv32+0x54>
-    64dc:	6402      	cmpne      	r0, r0
-    64de:	6001      	addc      	r0, r0
-    64e0:	60cd      	addc      	r3, r3
-    64e2:	644c      	cmphs      	r3, r1
-    64e4:	0c02      	bf      	0x64e8	// 64e8 <__udiv32+0x50>
-    64e6:	60c6      	subu      	r3, r1
-    64e8:	6089      	addc      	r2, r2
-    64ea:	0ff9      	bf      	0x64dc	// 64dc <__udiv32+0x44>
-    64ec:	6c0b      	mov      	r0, r2
-    64ee:	6c4f      	mov      	r1, r3
-    64f0:	1481      	pop      	r4
+000048b8 <__udiv32>:
+    48b8:	3940      	cmpnei      	r1, 0
+    48ba:	0803      	bt      	0x48c0	// 48c0 <__udiv32+0x8>
+    48bc:	c0002c20 	trap      	3
+    48c0:	3840      	cmpnei      	r0, 0
+    48c2:	0802      	bt      	0x48c6	// 48c6 <__udiv32+0xe>
+    48c4:	783c      	jmp      	r15
+    48c6:	14c1      	push      	r4
+    48c8:	3201      	movi      	r2, 1
+    48ca:	6cc3      	mov      	r3, r0
+    48cc:	3420      	movi      	r4, 32
+    48ce:	3b00      	cmphsi      	r3, 1
+    48d0:	0c04      	bf      	0x48d8	// 48d8 <__udiv32+0x20>
+    48d2:	2c00      	subi      	r4, 1
+    48d4:	4b61      	lsri      	r3, r3, 1
+    48d6:	07fc      	br      	0x48ce	// 48ce <__udiv32+0x16>
+    48d8:	7090      	lsl      	r2, r4
+    48da:	7010      	lsl      	r0, r4
+    48dc:	6cc7      	mov      	r3, r1
+    48de:	3420      	movi      	r4, 32
+    48e0:	3b00      	cmphsi      	r3, 1
+    48e2:	0c04      	bf      	0x48ea	// 48ea <__udiv32+0x32>
+    48e4:	2c00      	subi      	r4, 1
+    48e6:	4b61      	lsri      	r3, r3, 1
+    48e8:	07fc      	br      	0x48e0	// 48e0 <__udiv32+0x28>
+    48ea:	2400      	addi      	r4, 1
+    48ec:	6cc3      	mov      	r3, r0
+    48ee:	70d1      	lsr      	r3, r4
+    48f0:	6d12      	nor      	r4, r4
+    48f2:	2420      	addi      	r4, 33
+    48f4:	7090      	lsl      	r2, r4
+    48f6:	7010      	lsl      	r0, r4
+    48f8:	3a40      	cmpnei      	r2, 0
+    48fa:	0c09      	bf      	0x490c	// 490c <__udiv32+0x54>
+    48fc:	6402      	cmpne      	r0, r0
+    48fe:	6001      	addc      	r0, r0
+    4900:	60cd      	addc      	r3, r3
+    4902:	644c      	cmphs      	r3, r1
+    4904:	0c02      	bf      	0x4908	// 4908 <__udiv32+0x50>
+    4906:	60c6      	subu      	r3, r1
+    4908:	6089      	addc      	r2, r2
+    490a:	0ff9      	bf      	0x48fc	// 48fc <__udiv32+0x44>
+    490c:	6c0b      	mov      	r0, r2
+    490e:	6c4f      	mov      	r1, r3
+    4910:	1481      	pop      	r4
 	...
 
-000064f4 <___gnu_csky_case_uqi>:
-    64f4:	1421      	subi      	r14, r14, 4
-    64f6:	b820      	st.w      	r1, (r14, 0x0)
-    64f8:	6c7f      	mov      	r1, r15
-    64fa:	6040      	addu      	r1, r0
-    64fc:	8120      	ld.b      	r1, (r1, 0x0)
-    64fe:	4121      	lsli      	r1, r1, 1
-    6500:	63c4      	addu      	r15, r1
-    6502:	9820      	ld.w      	r1, (r14, 0x0)
-    6504:	1401      	addi      	r14, r14, 4
-    6506:	783c      	jmp      	r15
+00004914 <___gnu_csky_case_uqi>:
+    4914:	1421      	subi      	r14, r14, 4
+    4916:	b820      	st.w      	r1, (r14, 0x0)
+    4918:	6c7f      	mov      	r1, r15
+    491a:	6040      	addu      	r1, r0
+    491c:	8120      	ld.b      	r1, (r1, 0x0)
+    491e:	4121      	lsli      	r1, r1, 1
+    4920:	63c4      	addu      	r15, r1
+    4922:	9820      	ld.w      	r1, (r14, 0x0)
+    4924:	1401      	addi      	r14, r14, 4
+    4926:	783c      	jmp      	r15
 
-00006508 <__memset_fast>:
-    6508:	14c3      	push      	r4-r6
-    650a:	7444      	zextb      	r1, r1
-    650c:	3a40      	cmpnei      	r2, 0
-    650e:	0c1f      	bf      	0x654c	// 654c <__memset_fast+0x44>
-    6510:	6d43      	mov      	r5, r0
-    6512:	6d03      	mov      	r4, r0
-    6514:	3603      	movi      	r6, 3
-    6516:	6918      	and      	r4, r6
-    6518:	3c40      	cmpnei      	r4, 0
-    651a:	0c1a      	bf      	0x654e	// 654e <__memset_fast+0x46>
-    651c:	a520      	st.b      	r1, (r5, 0x0)
-    651e:	2a00      	subi      	r2, 1
-    6520:	3a40      	cmpnei      	r2, 0
-    6522:	0c15      	bf      	0x654c	// 654c <__memset_fast+0x44>
-    6524:	2500      	addi      	r5, 1
-    6526:	6d17      	mov      	r4, r5
-    6528:	3603      	movi      	r6, 3
-    652a:	6918      	and      	r4, r6
-    652c:	3c40      	cmpnei      	r4, 0
-    652e:	0c10      	bf      	0x654e	// 654e <__memset_fast+0x46>
-    6530:	a520      	st.b      	r1, (r5, 0x0)
-    6532:	2a00      	subi      	r2, 1
-    6534:	3a40      	cmpnei      	r2, 0
-    6536:	0c0b      	bf      	0x654c	// 654c <__memset_fast+0x44>
-    6538:	2500      	addi      	r5, 1
-    653a:	6d17      	mov      	r4, r5
-    653c:	3603      	movi      	r6, 3
-    653e:	6918      	and      	r4, r6
-    6540:	3c40      	cmpnei      	r4, 0
-    6542:	0c06      	bf      	0x654e	// 654e <__memset_fast+0x46>
-    6544:	a520      	st.b      	r1, (r5, 0x0)
-    6546:	2a00      	subi      	r2, 1
-    6548:	2500      	addi      	r5, 1
-    654a:	0402      	br      	0x654e	// 654e <__memset_fast+0x46>
-    654c:	1483      	pop      	r4-r6
-    654e:	4168      	lsli      	r3, r1, 8
-    6550:	6c4c      	or      	r1, r3
-    6552:	4170      	lsli      	r3, r1, 16
-    6554:	6c4c      	or      	r1, r3
-    6556:	3a2f      	cmplti      	r2, 16
-    6558:	0809      	bt      	0x656a	// 656a <__memset_fast+0x62>
-    655a:	b520      	st.w      	r1, (r5, 0x0)
-    655c:	b521      	st.w      	r1, (r5, 0x4)
-    655e:	b522      	st.w      	r1, (r5, 0x8)
-    6560:	b523      	st.w      	r1, (r5, 0xc)
-    6562:	2a0f      	subi      	r2, 16
-    6564:	250f      	addi      	r5, 16
-    6566:	3a2f      	cmplti      	r2, 16
-    6568:	0ff9      	bf      	0x655a	// 655a <__memset_fast+0x52>
-    656a:	3a23      	cmplti      	r2, 4
-    656c:	0806      	bt      	0x6578	// 6578 <__memset_fast+0x70>
-    656e:	2a03      	subi      	r2, 4
-    6570:	b520      	st.w      	r1, (r5, 0x0)
-    6572:	2503      	addi      	r5, 4
-    6574:	3a23      	cmplti      	r2, 4
-    6576:	0ffc      	bf      	0x656e	// 656e <__memset_fast+0x66>
-    6578:	3a40      	cmpnei      	r2, 0
-    657a:	0fe9      	bf      	0x654c	// 654c <__memset_fast+0x44>
-    657c:	2a00      	subi      	r2, 1
-    657e:	a520      	st.b      	r1, (r5, 0x0)
-    6580:	3a40      	cmpnei      	r2, 0
-    6582:	0fe5      	bf      	0x654c	// 654c <__memset_fast+0x44>
-    6584:	2a00      	subi      	r2, 1
-    6586:	a521      	st.b      	r1, (r5, 0x1)
-    6588:	3a40      	cmpnei      	r2, 0
-    658a:	0fe1      	bf      	0x654c	// 654c <__memset_fast+0x44>
-    658c:	a522      	st.b      	r1, (r5, 0x2)
-    658e:	1483      	pop      	r4-r6
+00004928 <__memset_fast>:
+    4928:	14c3      	push      	r4-r6
+    492a:	7444      	zextb      	r1, r1
+    492c:	3a40      	cmpnei      	r2, 0
+    492e:	0c1f      	bf      	0x496c	// 496c <__memset_fast+0x44>
+    4930:	6d43      	mov      	r5, r0
+    4932:	6d03      	mov      	r4, r0
+    4934:	3603      	movi      	r6, 3
+    4936:	6918      	and      	r4, r6
+    4938:	3c40      	cmpnei      	r4, 0
+    493a:	0c1a      	bf      	0x496e	// 496e <__memset_fast+0x46>
+    493c:	a520      	st.b      	r1, (r5, 0x0)
+    493e:	2a00      	subi      	r2, 1
+    4940:	3a40      	cmpnei      	r2, 0
+    4942:	0c15      	bf      	0x496c	// 496c <__memset_fast+0x44>
+    4944:	2500      	addi      	r5, 1
+    4946:	6d17      	mov      	r4, r5
+    4948:	3603      	movi      	r6, 3
+    494a:	6918      	and      	r4, r6
+    494c:	3c40      	cmpnei      	r4, 0
+    494e:	0c10      	bf      	0x496e	// 496e <__memset_fast+0x46>
+    4950:	a520      	st.b      	r1, (r5, 0x0)
+    4952:	2a00      	subi      	r2, 1
+    4954:	3a40      	cmpnei      	r2, 0
+    4956:	0c0b      	bf      	0x496c	// 496c <__memset_fast+0x44>
+    4958:	2500      	addi      	r5, 1
+    495a:	6d17      	mov      	r4, r5
+    495c:	3603      	movi      	r6, 3
+    495e:	6918      	and      	r4, r6
+    4960:	3c40      	cmpnei      	r4, 0
+    4962:	0c06      	bf      	0x496e	// 496e <__memset_fast+0x46>
+    4964:	a520      	st.b      	r1, (r5, 0x0)
+    4966:	2a00      	subi      	r2, 1
+    4968:	2500      	addi      	r5, 1
+    496a:	0402      	br      	0x496e	// 496e <__memset_fast+0x46>
+    496c:	1483      	pop      	r4-r6
+    496e:	4168      	lsli      	r3, r1, 8
+    4970:	6c4c      	or      	r1, r3
+    4972:	4170      	lsli      	r3, r1, 16
+    4974:	6c4c      	or      	r1, r3
+    4976:	3a2f      	cmplti      	r2, 16
+    4978:	0809      	bt      	0x498a	// 498a <__memset_fast+0x62>
+    497a:	b520      	st.w      	r1, (r5, 0x0)
+    497c:	b521      	st.w      	r1, (r5, 0x4)
+    497e:	b522      	st.w      	r1, (r5, 0x8)
+    4980:	b523      	st.w      	r1, (r5, 0xc)
+    4982:	2a0f      	subi      	r2, 16
+    4984:	250f      	addi      	r5, 16
+    4986:	3a2f      	cmplti      	r2, 16
+    4988:	0ff9      	bf      	0x497a	// 497a <__memset_fast+0x52>
+    498a:	3a23      	cmplti      	r2, 4
+    498c:	0806      	bt      	0x4998	// 4998 <__memset_fast+0x70>
+    498e:	2a03      	subi      	r2, 4
+    4990:	b520      	st.w      	r1, (r5, 0x0)
+    4992:	2503      	addi      	r5, 4
+    4994:	3a23      	cmplti      	r2, 4
+    4996:	0ffc      	bf      	0x498e	// 498e <__memset_fast+0x66>
+    4998:	3a40      	cmpnei      	r2, 0
+    499a:	0fe9      	bf      	0x496c	// 496c <__memset_fast+0x44>
+    499c:	2a00      	subi      	r2, 1
+    499e:	a520      	st.b      	r1, (r5, 0x0)
+    49a0:	3a40      	cmpnei      	r2, 0
+    49a2:	0fe5      	bf      	0x496c	// 496c <__memset_fast+0x44>
+    49a4:	2a00      	subi      	r2, 1
+    49a6:	a521      	st.b      	r1, (r5, 0x1)
+    49a8:	3a40      	cmpnei      	r2, 0
+    49aa:	0fe1      	bf      	0x496c	// 496c <__memset_fast+0x44>
+    49ac:	a522      	st.b      	r1, (r5, 0x2)
+    49ae:	1483      	pop      	r4-r6
 
-00006590 <__memcpy_fast>:
-    6590:	14c3      	push      	r4-r6
-    6592:	6d83      	mov      	r6, r0
-    6594:	6d07      	mov      	r4, r1
-    6596:	6d18      	or      	r4, r6
-    6598:	3303      	movi      	r3, 3
-    659a:	690c      	and      	r4, r3
-    659c:	3c40      	cmpnei      	r4, 0
-    659e:	0c0b      	bf      	0x65b4	// 65b4 <__memcpy_fast+0x24>
-    65a0:	3a40      	cmpnei      	r2, 0
-    65a2:	0c08      	bf      	0x65b2	// 65b2 <__memcpy_fast+0x22>
-    65a4:	8160      	ld.b      	r3, (r1, 0x0)
-    65a6:	2100      	addi      	r1, 1
-    65a8:	2a00      	subi      	r2, 1
-    65aa:	a660      	st.b      	r3, (r6, 0x0)
-    65ac:	2600      	addi      	r6, 1
-    65ae:	3a40      	cmpnei      	r2, 0
-    65b0:	0bfa      	bt      	0x65a4	// 65a4 <__memcpy_fast+0x14>
-    65b2:	1483      	pop      	r4-r6
-    65b4:	3a2f      	cmplti      	r2, 16
-    65b6:	080e      	bt      	0x65d2	// 65d2 <__memcpy_fast+0x42>
-    65b8:	91a0      	ld.w      	r5, (r1, 0x0)
-    65ba:	9161      	ld.w      	r3, (r1, 0x4)
-    65bc:	9182      	ld.w      	r4, (r1, 0x8)
-    65be:	b6a0      	st.w      	r5, (r6, 0x0)
-    65c0:	91a3      	ld.w      	r5, (r1, 0xc)
-    65c2:	b661      	st.w      	r3, (r6, 0x4)
-    65c4:	b682      	st.w      	r4, (r6, 0x8)
-    65c6:	b6a3      	st.w      	r5, (r6, 0xc)
-    65c8:	2a0f      	subi      	r2, 16
-    65ca:	210f      	addi      	r1, 16
-    65cc:	260f      	addi      	r6, 16
-    65ce:	3a2f      	cmplti      	r2, 16
-    65d0:	0ff4      	bf      	0x65b8	// 65b8 <__memcpy_fast+0x28>
-    65d2:	3a23      	cmplti      	r2, 4
-    65d4:	0808      	bt      	0x65e4	// 65e4 <__memcpy_fast+0x54>
-    65d6:	9160      	ld.w      	r3, (r1, 0x0)
-    65d8:	2a03      	subi      	r2, 4
-    65da:	2103      	addi      	r1, 4
-    65dc:	b660      	st.w      	r3, (r6, 0x0)
-    65de:	2603      	addi      	r6, 4
-    65e0:	3a23      	cmplti      	r2, 4
-    65e2:	0ffa      	bf      	0x65d6	// 65d6 <__memcpy_fast+0x46>
-    65e4:	3a40      	cmpnei      	r2, 0
-    65e6:	0fe6      	bf      	0x65b2	// 65b2 <__memcpy_fast+0x22>
-    65e8:	8160      	ld.b      	r3, (r1, 0x0)
-    65ea:	2100      	addi      	r1, 1
-    65ec:	2a00      	subi      	r2, 1
-    65ee:	a660      	st.b      	r3, (r6, 0x0)
-    65f0:	2600      	addi      	r6, 1
-    65f2:	07f9      	br      	0x65e4	// 65e4 <__memcpy_fast+0x54>
+000049b0 <__memcpy_fast>:
+    49b0:	14c3      	push      	r4-r6
+    49b2:	6d83      	mov      	r6, r0
+    49b4:	6d07      	mov      	r4, r1
+    49b6:	6d18      	or      	r4, r6
+    49b8:	3303      	movi      	r3, 3
+    49ba:	690c      	and      	r4, r3
+    49bc:	3c40      	cmpnei      	r4, 0
+    49be:	0c0b      	bf      	0x49d4	// 49d4 <__memcpy_fast+0x24>
+    49c0:	3a40      	cmpnei      	r2, 0
+    49c2:	0c08      	bf      	0x49d2	// 49d2 <__memcpy_fast+0x22>
+    49c4:	8160      	ld.b      	r3, (r1, 0x0)
+    49c6:	2100      	addi      	r1, 1
+    49c8:	2a00      	subi      	r2, 1
+    49ca:	a660      	st.b      	r3, (r6, 0x0)
+    49cc:	2600      	addi      	r6, 1
+    49ce:	3a40      	cmpnei      	r2, 0
+    49d0:	0bfa      	bt      	0x49c4	// 49c4 <__memcpy_fast+0x14>
+    49d2:	1483      	pop      	r4-r6
+    49d4:	3a2f      	cmplti      	r2, 16
+    49d6:	080e      	bt      	0x49f2	// 49f2 <__memcpy_fast+0x42>
+    49d8:	91a0      	ld.w      	r5, (r1, 0x0)
+    49da:	9161      	ld.w      	r3, (r1, 0x4)
+    49dc:	9182      	ld.w      	r4, (r1, 0x8)
+    49de:	b6a0      	st.w      	r5, (r6, 0x0)
+    49e0:	91a3      	ld.w      	r5, (r1, 0xc)
+    49e2:	b661      	st.w      	r3, (r6, 0x4)
+    49e4:	b682      	st.w      	r4, (r6, 0x8)
+    49e6:	b6a3      	st.w      	r5, (r6, 0xc)
+    49e8:	2a0f      	subi      	r2, 16
+    49ea:	210f      	addi      	r1, 16
+    49ec:	260f      	addi      	r6, 16
+    49ee:	3a2f      	cmplti      	r2, 16
+    49f0:	0ff4      	bf      	0x49d8	// 49d8 <__memcpy_fast+0x28>
+    49f2:	3a23      	cmplti      	r2, 4
+    49f4:	0808      	bt      	0x4a04	// 4a04 <__memcpy_fast+0x54>
+    49f6:	9160      	ld.w      	r3, (r1, 0x0)
+    49f8:	2a03      	subi      	r2, 4
+    49fa:	2103      	addi      	r1, 4
+    49fc:	b660      	st.w      	r3, (r6, 0x0)
+    49fe:	2603      	addi      	r6, 4
+    4a00:	3a23      	cmplti      	r2, 4
+    4a02:	0ffa      	bf      	0x49f6	// 49f6 <__memcpy_fast+0x46>
+    4a04:	3a40      	cmpnei      	r2, 0
+    4a06:	0fe6      	bf      	0x49d2	// 49d2 <__memcpy_fast+0x22>
+    4a08:	8160      	ld.b      	r3, (r1, 0x0)
+    4a0a:	2100      	addi      	r1, 1
+    4a0c:	2a00      	subi      	r2, 1
+    4a0e:	a660      	st.b      	r3, (r6, 0x0)
+    4a10:	2600      	addi      	r6, 1
+    4a12:	07f9      	br      	0x4a04	// 4a04 <__memcpy_fast+0x54>
 
 Disassembly of section .text.startup:
 
-000065f4 <main>:
+00004a14 <main>:
 
 /*************************************************************/
 //main
 /*************************************************************/
 int main(void) 
 {
-    65f4:	14d0      	push      	r15
+    4a14:	14d1      	push      	r4, r15
 	delay_nms(2000);
-    65f6:	30fa      	movi      	r0, 250
-    65f8:	4003      	lsli      	r0, r0, 3
-    65fa:	e3fffb7f 	bsr      	0x5cf8	// 5cf8 <delay_nms>
+    4a16:	30fa      	movi      	r0, 250
+    4a18:	4003      	lsli      	r0, r0, 3
+    4a1a:	e3fffc91 	bsr      	0x433c	// 433c <delay_nms>
 	APT32F171_init();		
-    65fe:	e3ffff34 	bsr      	0x6466	// 6466 <APT32F171_init>
+    4a1e:	e3ffff38 	bsr      	0x488e	// 488e <APT32F171_init>
     while(1)
 	{
 		SYSCON_IWDCNT_Reload();                 	//清狗
-    6602:	e3ffd8d5 	bsr      	0x17ac	// 17ac <SYSCON_IWDCNT_Reload>
-    6606:	07fe      	br      	0x6602	// 6602 <main+0xe>
+		//...
+		//my_printf("hello apt32f171!\r\n");
+		GPIO_Set_Value(GPIOA0,0,1);
+    4a22:	108c      	lrw      	r4, 0x20000014	// 4a50 <main+0x3c>
+		SYSCON_IWDCNT_Reload();                 	//清狗
+    4a24:	e3ffe6c4 	bsr      	0x17ac	// 17ac <SYSCON_IWDCNT_Reload>
+		GPIO_Set_Value(GPIOA0,0,1);
+    4a28:	3201      	movi      	r2, 1
+    4a2a:	3100      	movi      	r1, 0
+    4a2c:	9400      	ld.w      	r0, (r4, 0x0)
+    4a2e:	e3fff39c 	bsr      	0x3166	// 3166 <GPIO_Set_Value>
+		delay_nms(500);
+    4a32:	30fa      	movi      	r0, 250
+    4a34:	4001      	lsli      	r0, r0, 1
+    4a36:	e3fffc83 	bsr      	0x433c	// 433c <delay_nms>
+		PCLK_goto_deepsleep_mode();
+    4a3a:	e3ffe735 	bsr      	0x18a4	// 18a4 <PCLK_goto_deepsleep_mode>
+		GPIO_Set_Value(GPIOA0,0,0);
+    4a3e:	9400      	ld.w      	r0, (r4, 0x0)
+    4a40:	3200      	movi      	r2, 0
+    4a42:	3100      	movi      	r1, 0
+    4a44:	e3fff391 	bsr      	0x3166	// 3166 <GPIO_Set_Value>
+		delay_nms(10000);   			//唤醒≈800ms后PA0.0输出高
+    4a48:	1003      	lrw      	r0, 0x2710	// 4a54 <main+0x40>
+    4a4a:	e3fffc79 	bsr      	0x433c	// 433c <delay_nms>
+    4a4e:	07eb      	br      	0x4a24	// 4a24 <main+0x10>
+    4a50:	20000014 	.long	0x20000014
+    4a54:	00002710 	.long	0x00002710

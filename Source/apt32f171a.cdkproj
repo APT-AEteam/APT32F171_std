@@ -70,18 +70,6 @@
     <File Name="FWlib/apt32f171_uart.c">
       <FileOption/>
     </File>
-    <File Name="FWlib/apt32f171_epwm.c">
-      <FileOption/>
-    </File>
-    <File Name="FWlib/apt32f171_tc0.c">
-      <FileOption/>
-    </File>
-    <File Name="FWlib/apt32f171_tc1.c">
-      <FileOption/>
-    </File>
-    <File Name="FWlib/apt32f171_tc2.c">
-      <FileOption/>
-    </File>
   </VirtualDirectory>
   <VirtualDirectory Name="source">
     <File Name="main.c">
@@ -152,42 +140,22 @@
     <File Name="include/apt32f171_uart.h">
       <FileOption/>
     </File>
-    <File Name="include/apt32f171_epwm.h">
-      <FileOption/>
-    </File>
-    <File Name="include/apt32f171_tc0.h">
-      <FileOption/>
-    </File>
-    <File Name="include/apt32f171_tc1.h">
-      <FileOption/>
-    </File>
-    <File Name="include/apt32f171_tc2.h">
-      <FileOption/>
-    </File>
     <File Name="include/apt32f171_iostring.h">
       <FileOption/>
     </File>
   </VirtualDirectory>
   <Dependencies Name="BuildSet"/>
   <MonitorProgress>
-    <DebugLaunch>47</DebugLaunch>
+    <DebugLaunch>101</DebugLaunch>
     <FlashOperate>92</FlashOperate>
   </MonitorProgress>
-  <DebugSessions>
-    <watchExpressions>CONLR:0</watchExpressions>
-    <memoryExpressions>0x40010000;;;</memoryExpressions>
-    <statistics>E0011100;10;32;E0011104;MHZ;</statistics>
-    <peripheralTabs/>
-    <WatchDisplayFormat>0</WatchDisplayFormat>
-    <LocalDisplayFormat>0</LocalDisplayFormat>
-    <debugLayout>layout2|name=Project View;caption=Project View;state=31459324;dir=4;layer=1;row=0;pos=0;prop=68571;bestw=456;besth=277;minw=10;minh=5;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Debugger;caption=Debugger;state=14682108;dir=3;layer=1;row=0;pos=0;prop=92874;bestw=341;besth=315;minw=10;minh=5;maxw=-1;maxh=-1;floatx=60;floaty=707;floatw=418;floath=340|name=Frame Info;caption=Frame Info;state=14698492;dir=2;layer=2;row=0;pos=0;prop=100000;bestw=400;besth=300;minw=10;minh=5;maxw=-1;maxh=-1;floatx=1793;floaty=193;floatw=400;floath=250|name=Peripherals;caption=Peripherals;state=31459326;dir=3;layer=1;row=0;pos=1;prop=100000;bestw=11;besth=43;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Serial Pane;caption=Serial Pane;state=14682110;dir=3;layer=1;row=0;pos=1;prop=100000;bestw=400;besth=300;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Editor;caption=;state=256;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=20;besth=20;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Output View;caption=Output View;state=31459326;dir=3;layer=1;row=0;pos=1;prop=100000;bestw=958;besth=244;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Disassemble;caption=Disassemble;state=2099198;dir=3;layer=1;row=0;pos=2;prop=158373;bestw=200;besth=200;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=1746;floaty=812;floatw=216;floath=236|name=Outline;caption=Outline;state=2099198;dir=2;layer=0;row=2;pos=0;prop=100000;bestw=200;besth=200;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=1823;floaty=285;floatw=216;floath=236|dock_size(4,1,0)=273|dock_size(5,0,0)=20|dock_size(3,1,0)=182|dock_size(2,2,0)=367|</debugLayout>
-    <memoryTabColSizeExpressions>100:8;100:8;100:8;100:8;</memoryTabColSizeExpressions>
-  </DebugSessions>
   <VendorInfo>
     <VendorName>NULL</VendorName>
   </VendorInfo>
   <VirtualDirectory Name="doc">
-    <File Name="doc/APT32F171_Lib_Fix_Log.md"/>
+    <File Name="doc/APT32F171_Lib_Fix_Log.md">
+      <FileOption/>
+    </File>
   </VirtualDirectory>
   <BuildConfigs>
     <BuildConfig Name="BuildSet">
@@ -397,4 +365,14 @@
       </Flash>
     </BuildConfig>
   </BuildConfigs>
+  <DebugSessions>
+    <watchExpressions>CONLR:0</watchExpressions>
+    <memoryExpressions>0x40010000;;;</memoryExpressions>
+    <statistics>E0011100;10;32;E0011104;MHZ;</statistics>
+    <peripheralTabs/>
+    <WatchDisplayFormat>0</WatchDisplayFormat>
+    <LocalDisplayFormat>0</LocalDisplayFormat>
+    <debugLayout>layout2|name=Project View;caption=Project View;state=31459324;dir=4;layer=1;row=0;pos=0;prop=68571;bestw=456;besth=277;minw=10;minh=5;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Debugger;caption=Debugger;state=14682108;dir=3;layer=1;row=0;pos=0;prop=92874;bestw=341;besth=315;minw=10;minh=5;maxw=-1;maxh=-1;floatx=60;floaty=707;floatw=418;floath=340|name=Frame Info;caption=Frame Info;state=14698492;dir=2;layer=2;row=0;pos=0;prop=100000;bestw=400;besth=300;minw=10;minh=5;maxw=-1;maxh=-1;floatx=1793;floaty=193;floatw=400;floath=250|name=Peripherals;caption=Peripherals;state=31459326;dir=3;layer=1;row=0;pos=1;prop=100000;bestw=11;besth=43;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Serial Pane;caption=Serial Pane;state=14682110;dir=3;layer=1;row=0;pos=1;prop=100000;bestw=400;besth=300;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Editor;caption=;state=256;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=20;besth=20;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Output View;caption=Output View;state=31459326;dir=3;layer=1;row=0;pos=1;prop=100000;bestw=958;besth=244;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Disassemble;caption=Disassemble;state=2099198;dir=3;layer=1;row=0;pos=2;prop=158373;bestw=200;besth=200;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=1746;floaty=812;floatw=216;floath=236|name=Outline;caption=Outline;state=2099198;dir=2;layer=0;row=2;pos=0;prop=100000;bestw=200;besth=200;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=1823;floaty=285;floatw=216;floath=236|dock_size(4,1,0)=273|dock_size(5,0,0)=20|dock_size(3,1,0)=182|dock_size(2,2,0)=367|</debugLayout>
+    <memoryTabColSizeExpressions>100:8;100:8;100:8;100:8;</memoryTabColSizeExpressions>
+  </DebugSessions>
 </Project>
