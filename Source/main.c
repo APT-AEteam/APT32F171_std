@@ -55,11 +55,6 @@ int main(void)
 		SYSCON_IWDCNT_Reload();                 	//清狗
 		//...
 		//my_printf("hello apt32f171!\r\n");
-		GPIO_Set_Value(GPIOA0,0,1);
-		delay_nms(500);
-		PCLK_goto_deepsleep_mode();
-		GPIO_Set_Value(GPIOA0,0,0);
-		delay_nms(10000);   			//唤醒≈800ms后PA0.0输出高
     }
 }
 /******************* (C) COPYRIGHT 2018 APT Chip *****END OF FILE****/
